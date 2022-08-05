@@ -2,6 +2,24 @@
 
 Do you want to use DDragon for an another game from _Riot Games_? Check the [_Data Dragon_ repository for _League of Legends_](https://github.com/InFinity54/LoL_DDragon), [for _Teamfight Tactics_](https://github.com/InFinity54/TFT_DDragon) or the [_Valorant_ one](https://github.com/InFinity54/Valorant_DDragon).
 
+## Cloning the repository
+
+The `git clone` command is a bit different for LoR_DDragon, because of the use of Git's submodules. In order to clone the repository, you will need to add an `--recursive` option in the command.
+
+```bash
+git clone --recursive https://github.com/InFinity54/LoR_DDragon LoR_DDragon
+```
+
+Note that it is recommanded to clone the main repository, and not the childs one. If you just need a part of the _Legends of Runeterra_'s Data Dragon repository, and if you know what you are doing, you can clone one of the sets dedicated repository:
+* Set 1: https://github.com/InFinity54/LoR_DDragon_Set1
+* Set 2: https://github.com/InFinity54/LoR_DDragon_Set2
+* Set 3: https://github.com/InFinity54/LoR_DDragon_Set3
+* Set 4: https://github.com/InFinity54/LoR_DDragon_Set4
+* Set 5: https://github.com/InFinity54/LoR_DDragon_Set5
+* Set 6: https://github.com/InFinity54/LoR_DDragon_Set6
+
+Warning : Cloning the entire repository can result in an error from Git because of the size of the repository. In that case, you'll need to clone the repository commit after commit until you're up-to-date.
+
 ## Introduction
 _Data Dragon_ is a package of files you can use for your projects about [_Legends of Runeterra_](https://playruneterra.com), distributed by Riot Games. A new version of Data Dragon is released some days after each new set release. This repository allows you to update automatically all files more easily.
 
