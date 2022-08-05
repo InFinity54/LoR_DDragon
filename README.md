@@ -31,7 +31,7 @@ There is currently no additional content in this repository.
 ## Unused contents in this repository
 There is currently no unused content in this repository.
 
-## Sets added to this repository
+## Patchs added to this repository
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs of current seasons included in this repository :
 
 - (August 6th, 2022) 1.0.0
