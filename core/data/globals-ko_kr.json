@@ -1,0 +1,381 @@
+{
+  "vocabTerms": [
+    {
+      "description": "이 효과를 지닌 유닛을 소환하면 덱의 맨 위에 있는 카드와 지역이 같을 경우<br>연대 보너스가 적용됩니다.",
+      "name": "연대",
+      "nameRef": "Allegiance"
+    },
+    {
+      "description": "지원 유닛으로 공격 시<br>그 오른쪽에 있는 유닛이<br>이로운 효과를 받습니다.",
+      "name": "지원",
+      "nameRef": "Support"
+    },
+    {
+      "description": "공격력이 가장 높은 유닛이며 공격력이 같으면 체력, 비용 순서로 비교해서 결정됩니다.",
+      "name": "최강",
+      "nameRef": "Strongest"
+    },
+    {
+      "description": "덱의 맨 아래에서 챔피언이 아닌 카드 X장을 소멸시킵니다.",
+      "name": "폐기",
+      "nameRef": "Toss"
+    },
+    {
+      "description": "라운드 종료 시<br>이 효과를 얻습니다.",
+      "name": "라운드 종료",
+      "nameRef": "RoundEnd"
+    },
+    {
+      "description": "이 유닛이 공격할 때<br>효과가 적용됩니다.",
+      "name": "공격",
+      "nameRef": "Attack"
+    },
+    {
+      "description": "전투 단계의 마무리 또는 주문 시전을 통해 유닛이 공격력으로 피해를 입히는 시도를 하면 이 효과를 얻습니다. 공격력이 0인 유닛은 타격할 수 없습니다.",
+      "name": "타격",
+      "nameRef": "Strike"
+    },
+    {
+      "description": "유닛이 적 넥서스를 타격할 때 발동되는 효과입니다.",
+      "name": "넥서스 타격",
+      "nameRef": "NexusStrike"
+    },
+    {
+      "description": "라운드 시작 시<br>이 효과를 얻습니다.",
+      "name": "라운드 시작",
+      "nameRef": "RoundStart"
+    },
+    {
+      "description": "이 유닛을 손에서 낼 때<br>효과가 적용됩니다.",
+      "name": "사용",
+      "nameRef": "Play"
+    },
+    {
+      "description": "전장, 손, 덱에 있거나 버려진 카드 및 나중에 생성 또는 소환될 카드를 포함합니다.",
+      "name": "어디에 있든",
+      "nameRef": "Everywhere"
+    },
+    {
+      "description": "공격 토큰이 없으면<br>공격 토큰을 획득합니다.<br>(이 라운드에 공격할 수 있습니다.)",
+      "name": "결집",
+      "nameRef": "Rally"
+    },
+    {
+      "description": "모든 키워드, 스킬, 활성화된 효과를 제거합니다.<br>피해량이나 카드 종류에<br>영향을 미치지 않습니다.",
+      "name": "침묵",
+      "nameRef": "Silence"
+    },
+    {
+      "description": "이 라운드에 적 넥서스에 피해를 입히면 카드를 사용할 때 약탈 스킬이 발동합니다.",
+      "name": "약탈",
+      "nameRef": "Plunder"
+    }
+  ],
+  "keywords": [
+    {
+      "description": "게임에서 완전히 제거됩니다. 최후의 숨결 효과가 발동되지 않으며<br>부활할 수 없습니다.",
+      "name": "소멸",
+      "nameRef": "Obliterate"
+    },
+    {
+      "description": "유닛이 가지고 있는<br>주문 같은 효과로,<br>적이 대응할 수 있습니다.",
+      "name": "스킬",
+      "nameRef": "Skill"
+    },
+    {
+      "description": "공격 시 방어 유닛이 타격하기 전에 한 번, 방어 유닛과 동시에 한 번 타격합니다.",
+      "name": "추가 공격",
+      "nameRef": "DoubleStrike"
+    },
+    {
+      "description": "공격력이 가장 낮은 유닛이며 공격력이 같으면 체력, 비용 순서로 비교해서 결정됩니다.",
+      "name": "최약",
+      "nameRef": "Weakest"
+    },
+    {
+      "description": "적의 도전을 받아 강제로<br>방어하게 됩니다.",
+      "name": "약점 노출",
+      "nameRef": "Vulnerable"
+    },
+    {
+      "description": "이 유닛이 공격할 때<br>효과가 적용됩니다.",
+      "name": "공격",
+      "nameRef": "AttackSkillMark"
+    },
+    {
+      "description": "포착 불가 유닛으로만<br>방어할 수 있습니다.",
+      "name": "포착 불가",
+      "nameRef": "Elusive"
+    },
+    {
+      "description": "입힌 피해량만큼 내 넥서스의 체력이 회복됩니다.",
+      "name": "흡수",
+      "nameRef": "Drain"
+    },
+    {
+      "description": "유닛이 전투에서 제외됩니다. 라운드 종료까지 공격과 방어가 불가능합니다.",
+      "name": "기절",
+      "nameRef": "Stun"
+    },
+    {
+      "description": "다른 카드에 붙어 함정을 설치합니다. 해당 카드가 뽑히면 효과를 발휘합니다.",
+      "name": "함정",
+      "nameRef": "Autoplay"
+    },
+    {
+      "description": "",
+      "name": "필트오버 & 자운",
+      "nameRef": "PiltoverZaun"
+    },
+    {
+      "description": "",
+      "name": "데마시아",
+      "nameRef": "Demacia"
+    },
+    {
+      "description": "",
+      "name": "그림자 군도",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "피해량이 대상의 체력보다 높으면 그 차이만큼 적 넥서스에 피해를 입힙니다.",
+      "name": "압도",
+      "nameRef": "SpellOverwhelm"
+    },
+    {
+      "description": "소환 시 주문 마나를 1 회복합니다.",
+      "name": "조율",
+      "nameRef": "Attune"
+    },
+    {
+      "description": "유닛이 입는 다음 피해를 무효로 합니다. 한 라운드 동안 지속됩니다.",
+      "name": "보호막",
+      "nameRef": "Barrier"
+    },
+    {
+      "description": "공격 또는 방어할 수 없습니다.",
+      "name": "행동불가",
+      "nameRef": "Immobile"
+    },
+    {
+      "description": "구속된 카드는 게임에서 제거되며 구속하는 유닛이 사라지면 다시 돌아옵니다.",
+      "name": "구속",
+      "nameRef": "Capture"
+    },
+    {
+      "description": "이 라운드에 유닛 하나의 공격력을 0으로 만듭니다.<br>추후 변경 가능합니다.",
+      "name": "동상",
+      "nameRef": "Frostbite"
+    },
+    {
+      "description": "즉발 주문은 즉시 발동합니다. 적은 해당 주문에<br>대응할 수 없습니다.",
+      "name": "즉발",
+      "nameRef": "Burst"
+    },
+    {
+      "description": "일회용 카드는 라운드 종료 시 손에서 버려집니다.",
+      "name": "일회용",
+      "nameRef": "Fleeting"
+    },
+    {
+      "description": "신속 주문은 언제든지<br>사용할 수 있지만,<br>적이 대응할 수 있습니다.",
+      "name": "신속",
+      "nameRef": "Fast"
+    },
+    {
+      "description": "이 유닛의 공격력이 방어 유닛의 체력보다 높은 만큼<br>적 넥서스에 피해를 입힙니다.",
+      "name": "압도",
+      "nameRef": "Overwhelm"
+    },
+    {
+      "description": "이 유닛을 손에서 낼 때<br>효과가 적용됩니다.",
+      "name": "사용",
+      "nameRef": "PlaySkillMark"
+    },
+    {
+      "description": "공격 시 방어 유닛보다<br>먼저 타격합니다.",
+      "name": "선제공격",
+      "nameRef": "QuickStrike"
+    },
+    {
+      "description": "입는 피해가 모두<br>1 감소합니다.",
+      "name": "강인함",
+      "nameRef": "Tough"
+    },
+    {
+      "description": "유닛에게 적용된 효과를 모두 제거하고 손으로 돌려보냅니다.",
+      "name": "귀환",
+      "nameRef": "Recall"
+    },
+    {
+      "description": "",
+      "name": "아이오니아",
+      "nameRef": "Ionia"
+    },
+    {
+      "description": "라운드가 시작할 때마다<br>체력을 전부 회복합니다.",
+      "name": "재생",
+      "nameRef": "Regeneration"
+    },
+    {
+      "description": "유닛 하나의 모든 설명과 키워드가 제거됩니다.",
+      "name": "침묵",
+      "nameRef": "Silenced"
+    },
+    {
+      "description": "이 유닛이 피해를 입히는 만큼 넥서스의 체력이 회복됩니다.",
+      "name": "체력 흡수",
+      "nameRef": "Lifesteal"
+    },
+    {
+      "description": "최대 마나가 10이 되면 각성합니다.",
+      "name": "각성",
+      "nameRef": "Enlightened"
+    },
+    {
+      "description": "이 조건이 충족되면 챔피언이 손이나 덱에 있더라도<br>레벨 업합니다.",
+      "name": "레벨 업",
+      "nameRef": "LevelUp"
+    },
+    {
+      "description": "집중 주문은 전투 중이 아닐 때 시전할 수 있습니다.<br>적은 집중 주문에<br>대응할 수 있습니다.",
+      "name": "집중",
+      "nameRef": "Slow"
+    },
+    {
+      "description": "",
+      "name": "녹서스",
+      "nameRef": "Noxus"
+    },
+    {
+      "description": "라운드마다 처음으로<br>정찰 유닛만 공격한 경우<br>다시 공격 토큰을 획득합니다.",
+      "name": "정찰",
+      "nameRef": "Scout"
+    },
+    {
+      "description": "이 유닛은 타격 또는<br>라운드 종료 시 사망합니다.",
+      "name": "하루살이",
+      "nameRef": "Ephemeral"
+    },
+    {
+      "description": "",
+      "name": "프렐요드",
+      "nameRef": "Freljord"
+    },
+    {
+      "description": "유닛이 사망하면 발동됩니다.",
+      "name": "최후의 숨결",
+      "nameRef": "LastBreath"
+    },
+    {
+      "description": " ",
+      "name": "빌지워터",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "description": "방어할 적 유닛을<br>선택할 수 있습니다.",
+      "name": "도전자",
+      "nameRef": "Challenger"
+    },
+    {
+      "description": "주문이 발동되면 활성화됩니다.",
+      "name": "주문 부여",
+      "nameRef": "Imbue"
+    },
+    {
+      "description": "공격력이 3 이상인 적만<br>이 유닛을 방어할 수 있습니다.",
+      "name": "공포",
+      "nameRef": "Fearsome"
+    },
+    {
+      "description": "",
+      "name": "공격 전용",
+      "nameRef": "CantBlock"
+    },
+    {
+      "description": "",
+      "name": "침몰",
+      "nameRef": "Deep"
+    }
+  ],
+  "regions": [
+    {
+      "abbreviation": "NX",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/ko_kr/img/regions/icon-noxus.png",
+      "name": "녹서스",
+      "nameRef": "Noxus"
+    },
+    {
+      "abbreviation": "DE",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/ko_kr/img/regions/icon-demacia.png",
+      "name": "데마시아",
+      "nameRef": "Demacia"
+    },
+    {
+      "abbreviation": "FR",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/ko_kr/img/regions/icon-freljord.png",
+      "name": "프렐요드",
+      "nameRef": "Freljord"
+    },
+    {
+      "abbreviation": "SI",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/ko_kr/img/regions/icon-shadowisles.png",
+      "name": "그림자 군도",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "abbreviation": "IO",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/ko_kr/img/regions/icon-ionia.png",
+      "name": "아이오니아",
+      "nameRef": "Ionia"
+    },
+    {
+      "abbreviation": "BW",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/ko_kr/img/regions/icon-bilgewater.png",
+      "name": "빌지워터",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "abbreviation": "PZ",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/ko_kr/img/regions/icon-piltoverzaun.png",
+      "name": "필트오버 & 자운",
+      "nameRef": "PiltoverZaun"
+    }
+  ],
+  "spellSpeeds": [
+    {
+      "name": "집중",
+      "nameRef": "Slow"
+    },
+    {
+      "name": "즉발",
+      "nameRef": "Burst"
+    },
+    {
+      "name": "신속",
+      "nameRef": "Fast"
+    }
+  ],
+  "rarities": [
+    {
+      "name": "일반급",
+      "nameRef": "Common"
+    },
+    {
+      "name": "희귀급",
+      "nameRef": "Rare"
+    },
+    {
+      "name": "서사급",
+      "nameRef": "Epic"
+    },
+    {
+      "name": "챔피언",
+      "nameRef": "Champion"
+    },
+    {
+      "name": "없음",
+      "nameRef": "None"
+    }
+  ]
+}

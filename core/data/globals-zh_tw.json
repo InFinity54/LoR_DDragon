@@ -1,0 +1,381 @@
+{
+  "vocabTerms": [
+    {
+      "description": "召喚此卡牌時，若你牌組頂的卡牌與其來自同一區域，即可觸發效忠的效果。",
+      "name": "效忠",
+      "nameRef": "Allegiance"
+    },
+    {
+      "description": "使用支援單位進行攻擊時，其右邊的單位會獲得增益效果。",
+      "name": "支援",
+      "nameRef": "Support"
+    },
+    {
+      "description": "指力量值最高的單位。若出現平手狀況，則按生命值，接著是魔耗值決定。",
+      "name": "最強",
+      "nameRef": "Strongest"
+    },
+    {
+      "description": "從我方牌組底部泯滅指定張數的非英雄卡牌。",
+      "name": "亂擲",
+      "nameRef": "Toss"
+    },
+    {
+      "description": "回合結束時將觸發此效果。",
+      "name": "回合結束",
+      "nameRef": "RoundEnd"
+    },
+    {
+      "description": "此單位攻擊時將觸發此效果。",
+      "name": "攻擊",
+      "nameRef": "Attack"
+    },
+    {
+      "description": "單位以力量值對敵軍造成傷害時，觸發此效果，戰鬥結算後或使用法術皆可；力量值0的單位無法打擊。",
+      "name": "打擊",
+      "nameRef": "Strike"
+    },
+    {
+      "description": "此單位打擊敵方主堡時觸發效果。",
+      "name": "打擊主堡",
+      "nameRef": "NexusStrike"
+    },
+    {
+      "description": "回合開始時將觸發此效果。",
+      "name": "回合開始",
+      "nameRef": "RoundStart"
+    },
+    {
+      "description": "從手牌中打出此單位將觸發此效果。",
+      "name": "出牌",
+      "nameRef": "Play"
+    },
+    {
+      "description": "包含在場上、在手牌中、在牌組裡、以及已經棄置的卡牌，之後才生成/召喚的也算在內。",
+      "name": "各處",
+      "nameRef": "Everywhere"
+    },
+    {
+      "description": "獲得攻擊主動權。（此回合我方可攻擊）",
+      "name": "備戰",
+      "nameRef": "Rally"
+    },
+    {
+      "description": "除卡牌種類及所受傷害外，移除所有的特性、能力、以及持續性效果。",
+      "name": "沉默",
+      "nameRef": "Silence"
+    },
+    {
+      "description": "若本回合敵方主堡受到我方傷害，打出的卡牌可觸發其洗劫效果。",
+      "name": "洗劫",
+      "nameRef": "Plunder"
+    }
+  ],
+  "keywords": [
+    {
+      "description": "將單位完全從牌局移除。不會觸發遺願，且無法復甦。",
+      "name": "泯滅",
+      "nameRef": "Obliterate"
+    },
+    {
+      "description": "可產生類似法術的效果，由卡牌單位生成，對手可以進行對應。",
+      "name": "技能",
+      "nameRef": "Skill"
+    },
+    {
+      "description": "此牌攻擊時，會先打擊格擋卡牌一次，然後再與它同時打擊。",
+      "name": "雙重攻擊",
+      "nameRef": "DoubleStrike"
+    },
+    {
+      "description": "指力量值最低的單位。若出現平手狀況，則按生命值，接著是魔耗值決定。",
+      "name": "最弱",
+      "nameRef": "Weakest"
+    },
+    {
+      "description": "敵方單位可以挑戰此單位，指定其進行格擋。",
+      "name": "弱勢",
+      "nameRef": "Vulnerable"
+    },
+    {
+      "description": "此單位攻擊時將觸發此效果。",
+      "name": "攻擊",
+      "nameRef": "AttackSkillMark"
+    },
+    {
+      "description": "只能由隱密單位格檔。",
+      "name": "隱密",
+      "nameRef": "Elusive"
+    },
+    {
+      "description": "造成傷害時，我方主堡恢復等同傷害量的生命值。",
+      "name": "汲取",
+      "nameRef": "Drain"
+    },
+    {
+      "description": "從戰鬥中移除單位，該單位無法進行攻擊或格擋，直到回合結束。",
+      "name": "擊暈",
+      "nameRef": "Stun"
+    },
+    {
+      "description": "附在另一張卡牌上並設置陷阱。抽到附有陷阱的卡牌時執行效果。",
+      "name": "陷阱",
+      "nameRef": "Autoplay"
+    },
+    {
+      "description": "",
+      "name": "皮爾托福 & 佐恩",
+      "nameRef": "PiltoverZaun"
+    },
+    {
+      "description": "",
+      "name": "蒂瑪西亞",
+      "nameRef": "Demacia"
+    },
+    {
+      "description": "",
+      "name": "闇影島",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "若有高於敵方格擋卡牌生命值的超額傷害，則加諸敵方主堡。",
+      "name": "勢不可擋",
+      "nameRef": "SpellOverwhelm"
+    },
+    {
+      "description": "召喚此牌時，恢復1點法術魔力。",
+      "name": "調節",
+      "nameRef": "Attune"
+    },
+    {
+      "description": "此單位下次所受之傷害無效，持續一回合。",
+      "name": "光盾",
+      "nameRef": "Barrier"
+    },
+    {
+      "description": "無法攻擊或格擋。",
+      "name": "定身",
+      "nameRef": "Immobile"
+    },
+    {
+      "description": "遭到俘虜的卡牌將被從牌局移除，並在俘虜其的單位離場後返回。",
+      "name": "俘虜",
+      "nameRef": "Capture"
+    },
+    {
+      "description": "使一個單位力量值本回合歸零，但可受其他效果影響而變動。",
+      "name": "凍傷",
+      "nameRef": "Frostbite"
+    },
+    {
+      "description": "疾速法術會立即結算，效果結束後，敵方才可行動。",
+      "name": "疾速",
+      "nameRef": "Burst"
+    },
+    {
+      "description": "回合結束時，飛逝卡牌將從手牌中消失。",
+      "name": "飛逝",
+      "nameRef": "Fleeting"
+    },
+    {
+      "description": "快速法術可以隨時施放，但對手將有機會對應。",
+      "name": "快速",
+      "nameRef": "Fast"
+    },
+    {
+      "description": "若有高於敵方格擋卡牌生命值的超額傷害，則加諸敵方主堡。",
+      "name": "勢不可擋",
+      "nameRef": "Overwhelm"
+    },
+    {
+      "description": "從手牌中打出此單位將觸發此效果。",
+      "name": "出牌",
+      "nameRef": "PlaySkillMark"
+    },
+    {
+      "description": "攻擊時可搶先格檔卡牌進行打擊。",
+      "name": "快速攻擊",
+      "nameRef": "QuickStrike"
+    },
+    {
+      "description": "所有來源的傷害-1。",
+      "name": "堅忍",
+      "nameRef": "Tough"
+    },
+    {
+      "description": "讓一名單位重返手牌，並移除其身上所有效果。",
+      "name": "召回",
+      "nameRef": "Recall"
+    },
+    {
+      "description": "",
+      "name": "愛歐尼亞",
+      "nameRef": "Ionia"
+    },
+    {
+      "description": "回合開始時，生命值完全恢復。",
+      "name": "再生",
+      "nameRef": "Regeneration"
+    },
+    {
+      "description": "移除一名單位的所有說明文字和特性。",
+      "name": "遭到沉默",
+      "nameRef": "Silenced"
+    },
+    {
+      "description": "此單位造成傷害時，其主堡恢復同等於傷害值的生命值。",
+      "name": "吸血",
+      "nameRef": "Lifesteal"
+    },
+    {
+      "description": "達到10點魔力上限時，即可進入「開悟」狀態。",
+      "name": "開悟",
+      "nameRef": "Enlightened"
+    },
+    {
+      "description": "無論在手牌或牌組中，達成條件時英雄便會升級。",
+      "name": "升級",
+      "nameRef": "LevelUp"
+    },
+    {
+      "description": "慢速法術可在戰鬥外以及未有其他法術時施放，敵方可以對應。",
+      "name": "慢速",
+      "nameRef": "Slow"
+    },
+    {
+      "description": "",
+      "name": "諾克薩斯",
+      "nameRef": "Noxus"
+    },
+    {
+      "description": "只指派先遣單位上場攻擊，且為當回合首次時，獲得攻擊主動權。",
+      "name": "先遣",
+      "nameRef": "Scout"
+    },
+    {
+      "description": "此單位打擊或回合結束時便會陣亡。",
+      "name": "閃靈",
+      "nameRef": "Ephemeral"
+    },
+    {
+      "description": "",
+      "name": "弗雷爾卓德",
+      "nameRef": "Freljord"
+    },
+    {
+      "description": "此單位陣亡時能力便會生效。",
+      "name": "遺願",
+      "nameRef": "LastBreath"
+    },
+    {
+      "description": "",
+      "name": "比爾吉沃特",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "description": "可選擇敵方的格檔單位。",
+      "name": "挑戰者",
+      "nameRef": "Challenger"
+    },
+    {
+      "description": "結算法術時觸發此能力。",
+      "name": "灌輸",
+      "nameRef": "Imbue"
+    },
+    {
+      "description": "只能由力量值3點或以上的敵軍格檔。",
+      "name": "威嚇",
+      "nameRef": "Fearsome"
+    },
+    {
+      "description": "",
+      "name": "無法進行格檔",
+      "nameRef": "CantBlock"
+    },
+    {
+      "description": "",
+      "name": "探底",
+      "nameRef": "Deep"
+    }
+  ],
+  "regions": [
+    {
+      "abbreviation": "NX",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/zh_tw/img/regions/icon-noxus.png",
+      "name": "諾克薩斯",
+      "nameRef": "Noxus"
+    },
+    {
+      "abbreviation": "DE",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/zh_tw/img/regions/icon-demacia.png",
+      "name": "蒂瑪西亞",
+      "nameRef": "Demacia"
+    },
+    {
+      "abbreviation": "FR",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/zh_tw/img/regions/icon-freljord.png",
+      "name": "弗雷爾卓德",
+      "nameRef": "Freljord"
+    },
+    {
+      "abbreviation": "SI",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/zh_tw/img/regions/icon-shadowisles.png",
+      "name": "闇影島",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "abbreviation": "IO",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/zh_tw/img/regions/icon-ionia.png",
+      "name": "愛歐尼亞",
+      "nameRef": "Ionia"
+    },
+    {
+      "abbreviation": "BW",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/zh_tw/img/regions/icon-bilgewater.png",
+      "name": "比爾吉沃特",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "abbreviation": "PZ",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/zh_tw/img/regions/icon-piltoverzaun.png",
+      "name": "皮爾托福 & 佐恩",
+      "nameRef": "PiltoverZaun"
+    }
+  ],
+  "spellSpeeds": [
+    {
+      "name": "慢速",
+      "nameRef": "Slow"
+    },
+    {
+      "name": "疾速",
+      "nameRef": "Burst"
+    },
+    {
+      "name": "快速",
+      "nameRef": "Fast"
+    }
+  ],
+  "rarities": [
+    {
+      "name": "普通",
+      "nameRef": "Common"
+    },
+    {
+      "name": "稀有",
+      "nameRef": "Rare"
+    },
+    {
+      "name": "史詩",
+      "nameRef": "Epic"
+    },
+    {
+      "name": "英雄",
+      "nameRef": "Champion"
+    },
+    {
+      "name": "無",
+      "nameRef": "None"
+    }
+  ]
+}

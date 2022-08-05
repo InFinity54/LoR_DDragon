@@ -1,0 +1,381 @@
+{
+  "vocabTerms": [
+    {
+      "description": "Quando evochi questa carta, ottiene il suo bonus fedeltà se la carta in cima al tuo mazzo corrisponde alla sua regione.",
+      "name": "Fedeltà",
+      "nameRef": "Allegiance"
+    },
+    {
+      "description": "L'attacco con un'unità di supporto conferisce un buff all'unità alla sua destra.",
+      "name": "Supporto",
+      "nameRef": "Support"
+    },
+    {
+      "description": "Potere più alto, spareggio con la Salute più alta e poi con il Costo più alto.",
+      "name": "Più forte",
+      "nameRef": "Strongest"
+    },
+    {
+      "description": "Annienta X carte non campioni dal fondo del tuo mazzo.",
+      "name": "Gettare",
+      "nameRef": "Toss"
+    },
+    {
+      "description": "Ottieni questo effetto quando termina il turno.",
+      "name": "Fine del turno",
+      "nameRef": "RoundEnd"
+    },
+    {
+      "description": "Ottieni l'effetto quando questa unità attacca.",
+      "name": "Attacca",
+      "nameRef": "Attack"
+    },
+    {
+      "description": "Ottieni questo effetto quando un'unità tenta di infliggere danni utilizzando il suo Potere, sia alla fine del combattimento che tramite incantesimi. Le unità con 0 Potere non possono colpire.",
+      "name": "Colpo",
+      "nameRef": "Strike"
+    },
+    {
+      "description": "L'effetto si attiva quando l'unità colpisce il Nexus nemico.",
+      "name": "Colpo al Nexus",
+      "nameRef": "NexusStrike"
+    },
+    {
+      "description": "Ottieni questo effetto quando inizia il turno.",
+      "name": "Inizio del turno",
+      "nameRef": "RoundStart"
+    },
+    {
+      "description": "Ottieni questo effetto quando giochi questa unità dalla tua mano.",
+      "name": "Gioca",
+      "nameRef": "Play"
+    },
+    {
+      "description": "In gioco, nella mano, nel mazzo, tra gli scarti e anche se creato/evocato in seguito.",
+      "name": "Ovunque",
+      "nameRef": "Everywhere"
+    },
+    {
+      "description": "Se non ne hai uno, ottieni il gettone d'attacco. (Puoi attaccare in questo turno).",
+      "name": "Preparazione dell'assalto",
+      "nameRef": "Rally"
+    },
+    {
+      "description": "Rimuove tutte le parole chiave, le abilità e gli effetti in corso. Non influisce su danni e sottotipi.",
+      "name": "Silenzio",
+      "nameRef": "Silence"
+    },
+    {
+      "description": "Una carta attiva la sua abilità Saccheggio quando viene giocata se hai danneggiato il Nexus nemico durante il turno.",
+      "name": "Saccheggio",
+      "nameRef": "Plunder"
+    }
+  ],
+  "keywords": [
+    {
+      "description": "Rimossa completamente dal gioco. Non provoca Ultimo respiro e non può essere rianimata.",
+      "name": "Annientare",
+      "nameRef": "Obliterate"
+    },
+    {
+      "description": "Un effetto simile a un incantesimo che permette al nemico di reagire.",
+      "name": "Abilità",
+      "nameRef": "Skill"
+    },
+    {
+      "description": "Quando attacca, colpisce prima E contemporaneamente alla sua unità bloccante.",
+      "name": "Attacco doppio",
+      "nameRef": "DoubleStrike"
+    },
+    {
+      "description": "Potere più basso, spareggio con la Salute più bassa e poi con il Costo più basso.",
+      "name": "Più debole",
+      "nameRef": "Weakest"
+    },
+    {
+      "description": "Il nemico può sfidare questa unità, obbligandola a bloccare.",
+      "name": "Vulnerabile",
+      "nameRef": "Vulnerable"
+    },
+    {
+      "description": "Ottieni l'effetto quando questa unità attacca.",
+      "name": "Attacca",
+      "nameRef": "AttackSkillMark"
+    },
+    {
+      "description": "Può essere bloccata solo da un'altra unità Elusiva.",
+      "name": "Elusione",
+      "nameRef": "Elusive"
+    },
+    {
+      "description": "Cura il Nexus per la quantità di danni inflitti",
+      "name": "Assorbimento",
+      "nameRef": "Drain"
+    },
+    {
+      "description": "Rimuovi un'unità dal combattimento. Non può attaccare o bloccare per il resto del turno.",
+      "name": "Stordimento",
+      "nameRef": "Stun"
+    },
+    {
+      "description": "Si lega a un'altra carta, piazzando una trappola. Quando la carta con la trappola viene pescata, esegui l'effetto.",
+      "name": "Trappola",
+      "nameRef": "Autoplay"
+    },
+    {
+      "description": "",
+      "name": "Piltover e Zaun",
+      "nameRef": "PiltoverZaun"
+    },
+    {
+      "description": "",
+      "name": "Demacia",
+      "nameRef": "Demacia"
+    },
+    {
+      "description": "",
+      "name": "Isole Ombra",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "Infliggi al Nexus nemico i danni in eccesso all'uccisione del bersaglio o dei bersagli.",
+      "name": "Sopraffare",
+      "nameRef": "SpellOverwhelm"
+    },
+    {
+      "description": "Quando vengo evocato, ripristina 1 mana incantesimo.",
+      "name": "Armonia",
+      "nameRef": "Attune"
+    },
+    {
+      "description": "Nega i danni successivi che l'unità subirebbe. Dura un turno.",
+      "name": "Barriera",
+      "nameRef": "Barrier"
+    },
+    {
+      "description": "Non può attaccare o bloccare.",
+      "name": "Immobile",
+      "nameRef": "Immobile"
+    },
+    {
+      "description": "Una carta catturata viene rimossa dal gioco. Torna quando l'unità che sequestra lascia il gioco.",
+      "name": "Catturare",
+      "nameRef": "Capture"
+    },
+    {
+      "description": "Imposta il Potere di un'unità a 0 per questo turno. Può essere cambiato in seguito.",
+      "name": "Congelamento",
+      "nameRef": "Frostbite"
+    },
+    {
+      "description": "Gli incantesimi con Raffica si risolvono all'istante. Il nemico non può agire prima della loro fine.",
+      "name": "Raffica",
+      "nameRef": "Burst"
+    },
+    {
+      "description": "Le carte Fugaci vengono scartate quando il turno finisce.",
+      "name": "Fugace",
+      "nameRef": "Fleeting"
+    },
+    {
+      "description": "Gli incantesimi Veloci possono essere giocati in qualunque momento, ma danno all'avversario la possibilità di rispondere.",
+      "name": "Veloce",
+      "nameRef": "Fast"
+    },
+    {
+      "description": "I danni in eccesso inflitti al mio bloccante vengono inflitti al Nexus nemico.",
+      "name": "Sopraffare",
+      "nameRef": "Overwhelm"
+    },
+    {
+      "description": "Ottieni questo effetto quando giochi questa unità dalla tua mano.",
+      "name": "Gioca",
+      "nameRef": "PlaySkillMark"
+    },
+    {
+      "description": "Durante gli attacchi, colpisce prima del suo bloccante.",
+      "name": "Attacco rapido",
+      "nameRef": "QuickStrike"
+    },
+    {
+      "description": "Subisce un danno in meno da tutte le fonti.",
+      "name": "Tenacia",
+      "nameRef": "Tough"
+    },
+    {
+      "description": "Riporta in mano un'unità e rimuove gli effetti applicati ad essa.",
+      "name": "Richiamo",
+      "nameRef": "Recall"
+    },
+    {
+      "description": "",
+      "name": "Ionia",
+      "nameRef": "Ionia"
+    },
+    {
+      "description": "Guarisce completamente all'inizio di ogni turno.",
+      "name": "Rigenerazione",
+      "nameRef": "Regeneration"
+    },
+    {
+      "description": "Rimuovi il testo e le parole chiave da un'unità.",
+      "name": "Silenziato",
+      "nameRef": "Silenced"
+    },
+    {
+      "description": "I danni inflitti da questa unità curano il suo Nexus di quella quantità.",
+      "name": "Rubavita",
+      "nameRef": "Lifesteal"
+    },
+    {
+      "description": "Sei Illuminato quando possiedi 10 di mana massimo.",
+      "name": "Illuminato",
+      "nameRef": "Enlightened"
+    },
+    {
+      "description": "Un campione sale di livello quando vengono soddisfatti i requisiti, anche se è in mano o nel mazzo.",
+      "name": "Aumento di livello",
+      "nameRef": "LevelUp"
+    },
+    {
+      "description": "Gli incantesimi Lenti possono essere lanciati fuori dai combattimenti e dagli altri lanci. Il nemico può rispondere.",
+      "name": "Lento",
+      "nameRef": "Slow"
+    },
+    {
+      "description": "",
+      "name": "Noxus",
+      "nameRef": "Noxus"
+    },
+    {
+      "description": "La prima volta che le unità Esploratore attaccano in ogni turno, prepara il tuo attacco.",
+      "name": "Esploratore",
+      "nameRef": "Scout"
+    },
+    {
+      "description": "Questa unità muore quando colpisce o alla fine del turno.",
+      "name": "Effimero",
+      "nameRef": "Ephemeral"
+    },
+    {
+      "description": "",
+      "name": "Freljord",
+      "nameRef": "Freljord"
+    },
+    {
+      "description": "Queste abilità hanno effetto quando l'unità muore.",
+      "name": "Ultimo respiro",
+      "nameRef": "LastBreath"
+    },
+    {
+      "description": "",
+      "name": "Bilgewater",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "description": "Puoi scegliere quale unità nemica bloccherà.",
+      "name": "Sfidante",
+      "nameRef": "Challenger"
+    },
+    {
+      "description": "Queste abilità si attivano quando risolvi un incantesimo.",
+      "name": "Ispirazione",
+      "nameRef": "Imbue"
+    },
+    {
+      "description": "Può essere bloccata solo dai nemici con 3 o più Potere.",
+      "name": "Temibile",
+      "nameRef": "Fearsome"
+    },
+    {
+      "description": "",
+      "name": "Non può bloccare",
+      "nameRef": "CantBlock"
+    },
+    {
+      "description": "",
+      "name": "Profondità",
+      "nameRef": "Deep"
+    }
+  ],
+  "regions": [
+    {
+      "abbreviation": "NX",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/it_it/img/regions/icon-noxus.png",
+      "name": "Noxus",
+      "nameRef": "Noxus"
+    },
+    {
+      "abbreviation": "DE",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/it_it/img/regions/icon-demacia.png",
+      "name": "Demacia",
+      "nameRef": "Demacia"
+    },
+    {
+      "abbreviation": "FR",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/it_it/img/regions/icon-freljord.png",
+      "name": "Freljord",
+      "nameRef": "Freljord"
+    },
+    {
+      "abbreviation": "SI",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/it_it/img/regions/icon-shadowisles.png",
+      "name": "Isole Ombra",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "abbreviation": "IO",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/it_it/img/regions/icon-ionia.png",
+      "name": "Ionia",
+      "nameRef": "Ionia"
+    },
+    {
+      "abbreviation": "BW",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/it_it/img/regions/icon-bilgewater.png",
+      "name": "Bilgewater",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "abbreviation": "PZ",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/it_it/img/regions/icon-piltoverzaun.png",
+      "name": "Piltover e Zaun",
+      "nameRef": "PiltoverZaun"
+    }
+  ],
+  "spellSpeeds": [
+    {
+      "name": "Lento",
+      "nameRef": "Slow"
+    },
+    {
+      "name": "Raffica",
+      "nameRef": "Burst"
+    },
+    {
+      "name": "Veloce",
+      "nameRef": "Fast"
+    }
+  ],
+  "rarities": [
+    {
+      "name": "COMUNE",
+      "nameRef": "Common"
+    },
+    {
+      "name": "RARA",
+      "nameRef": "Rare"
+    },
+    {
+      "name": "EPICO",
+      "nameRef": "Epic"
+    },
+    {
+      "name": "Campione",
+      "nameRef": "Champion"
+    },
+    {
+      "name": "Nessuno",
+      "nameRef": "None"
+    }
+  ]
+}

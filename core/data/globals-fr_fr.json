@@ -1,0 +1,381 @@
+{
+  "vocabTerms": [
+    {
+      "description": "Lorsque vous invoquez cette carte, elle obtient un bonus d'allégeance si la première carte de votre deck correspond à sa région.",
+      "name": "Allégeance",
+      "nameRef": "Allegiance"
+    },
+    {
+      "description": "En attaquant avec une unité de support, l'unité à sa droite reçoit un buff.",
+      "name": "Support",
+      "nameRef": "Support"
+    },
+    {
+      "description": "Puissance la plus élevée, départagée par les PV les plus élevés, puis par le coût le plus élevé.",
+      "name": "Plus fort",
+      "nameRef": "Strongest"
+    },
+    {
+      "description": "Oblitérez X non-champions du dessous de votre deck.",
+      "name": "Jeter",
+      "nameRef": "Toss"
+    },
+    {
+      "description": "L'effet se déclenche à la fin du round.",
+      "name": "Fin du round",
+      "nameRef": "RoundEnd"
+    },
+    {
+      "description": "L'effet se déclenche lorsque l'unité attaque.",
+      "name": "Attaque",
+      "nameRef": "Attack"
+    },
+    {
+      "description": "Obtenez cet effet quand une unité tente d'infliger des dégâts avec sa puissance, à la fin du combat ou grâce aux sorts. Les unités avec une puissance de 0 ne peuvent pas frapper.",
+      "name": "Frappe",
+      "nameRef": "Strike"
+    },
+    {
+      "description": "Effet déclenché lorsque l'unité frappe le Nexus ennemi.",
+      "name": "Frappe du Nexus",
+      "nameRef": "NexusStrike"
+    },
+    {
+      "description": "L'effet se déclenche au début du round.",
+      "name": "Début du round",
+      "nameRef": "RoundStart"
+    },
+    {
+      "description": "Vous activez cet effet lorsque vous jouez cette unité depuis votre main.",
+      "name": "Immédiat",
+      "nameRef": "Play"
+    },
+    {
+      "description": "En jeu, dans la main, dans le deck, dans la défausse et même si la carte est créée/invoquée plus tard.",
+      "name": "Où qu'ils soient",
+      "nameRef": "Everywhere"
+    },
+    {
+      "description": "Si vous n'en avez pas, recevez un jeton d'attaque. Vous pouvez attaquer pendant ce round.",
+      "name": "Ralliement",
+      "nameRef": "Rally"
+    },
+    {
+      "description": "Supprimez tous les mots-clés, compétences et effets en cours. N'affecte pas les dégâts ou le sous-type.",
+      "name": "Silence",
+      "nameRef": "Silence"
+    },
+    {
+      "description": "Une carte déclenche sa compétence de Pillage quand elle est jouée, si vous avez endommagé le Nexus ennemi pendant ce round.",
+      "name": "Pillage",
+      "nameRef": "Plunder"
+    }
+  ],
+  "keywords": [
+    {
+      "description": "L'unité est complètement retirée de la partie. Dernier souffle n'est pas activé et elle ne peut pas être ranimée.",
+      "name": "Oblitération",
+      "nameRef": "Obliterate"
+    },
+    {
+      "description": "Effet d'une unité similaire à un sort. L'ennemi peut réagir aux compétences.",
+      "name": "Compétence",
+      "nameRef": "Skill"
+    },
+    {
+      "description": "Lorsque cette unité attaque, elle frappe avant ET en même temps que son bloqueur.",
+      "name": "Double frappe",
+      "nameRef": "DoubleStrike"
+    },
+    {
+      "description": "Plus faible puissance, départagée par les plus faibles PV, puis par le plus faible coût.",
+      "name": "Plus faible",
+      "nameRef": "Weakest"
+    },
+    {
+      "description": "L'ennemi peut défier cette unité et la forcer à bloquer.",
+      "name": "Vulnérable",
+      "nameRef": "Vulnerable"
+    },
+    {
+      "description": "L'effet se déclenche lorsque l'unité attaque.",
+      "name": "Attaque",
+      "nameRef": "AttackSkillMark"
+    },
+    {
+      "description": "Peut uniquement être bloquée par une unité insaisissable.",
+      "name": "Insaisissable",
+      "nameRef": "Elusive"
+    },
+    {
+      "description": "Soigne notre Nexus de la quantité de dégâts infligés.",
+      "name": "Drain",
+      "nameRef": "Drain"
+    },
+    {
+      "description": "Retire une unité du combat. Elle ne peut plus attaquer ou bloquer pendant le reste du round.",
+      "name": "Étourdissement",
+      "nameRef": "Stun"
+    },
+    {
+      "description": "Parasite une autre carte. Lorsque la carte piégée est tirée, l'effet est lancé.",
+      "name": "Piège",
+      "nameRef": "Autoplay"
+    },
+    {
+      "description": "",
+      "name": "Piltover & Zaun",
+      "nameRef": "PiltoverZaun"
+    },
+    {
+      "description": "",
+      "name": "Demacia",
+      "nameRef": "Demacia"
+    },
+    {
+      "description": "",
+      "name": "Îles obscures",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "Lorsque l'attaque dépasse les PV de son bloqueur, le surplus de dégâts est infligé au Nexus ennemi.",
+      "name": "Surpuissance",
+      "nameRef": "SpellOverwhelm"
+    },
+    {
+      "description": "Quand je suis invoqué, regagnez 1 gemme.",
+      "name": "Unisson",
+      "nameRef": "Attune"
+    },
+    {
+      "description": "Annule les prochains dégâts que l'unité devrait subir. Dure un round.",
+      "name": "Barrière",
+      "nameRef": "Barrier"
+    },
+    {
+      "description": "Attaque et blocage impossibles.",
+      "name": "Immobile",
+      "nameRef": "Immobile"
+    },
+    {
+      "description": "Une carte capturée est retirée de la partie. Elle revient quand l'unité qui l'a capturée quitte le jeu.",
+      "name": "Capture",
+      "nameRef": "Capture"
+    },
+    {
+      "description": "Réduit la puissance d'une unité à 0 pour le reste du round. Peut être modifiée après.",
+      "name": "Gel",
+      "nameRef": "Frostbite"
+    },
+    {
+      "description": "Les sorts instantanés sont joués immédiatement. L'ennemi ne peut pas agir avant la fin de l'efffet.",
+      "name": "Instantané",
+      "nameRef": "Burst"
+    },
+    {
+      "description": "Les cartes fugaces disparaissent de la main à la fin du round.",
+      "name": "Fugace",
+      "nameRef": "Fleeting"
+    },
+    {
+      "description": "Les sorts rapides peuvent être joués à tout moment, mais l'adversaire peut riposter.",
+      "name": "Rapide",
+      "nameRef": "Fast"
+    },
+    {
+      "description": "Le surplus des dégâts infligés à mon bloqueur est redirigé vers le Nexus ennemi.",
+      "name": "Surpuissance",
+      "nameRef": "Overwhelm"
+    },
+    {
+      "description": "Vous activez cet effet lorsque vous jouez cette unité depuis votre main.",
+      "name": "Immédiat",
+      "nameRef": "PlaySkillMark"
+    },
+    {
+      "description": "Lorsque l'unité attaque, elle frappe avant son bloqueur.",
+      "name": "Frappe rapide",
+      "nameRef": "QuickStrike"
+    },
+    {
+      "description": "Subit 1 point de dégâts de moins de toutes les sources.",
+      "name": "Robuste",
+      "nameRef": "Tough"
+    },
+    {
+      "description": "Renvoie une unité dans la main et supprime tous les effets qui lui étaient appliqués.",
+      "name": "Rappel",
+      "nameRef": "Recall"
+    },
+    {
+      "description": "",
+      "name": "Ionia",
+      "nameRef": "Ionia"
+    },
+    {
+      "description": "L'unité récupère tous ses PV au début de chaque round.",
+      "name": "Régénération",
+      "nameRef": "Regeneration"
+    },
+    {
+      "description": "Supprime l'intégralité du texte et des mots-clés d'une unité.",
+      "name": "Réduit au silence",
+      "nameRef": "Silenced"
+    },
+    {
+      "description": "Lorsque cette unité inflige des dégâts, elle soigne son Nexus d'autant de points.",
+      "name": "Vol de vie",
+      "nameRef": "Lifesteal"
+    },
+    {
+      "description": "Lorsque vous atteignez 10 de mana max, vous atteignez l'Illumination.",
+      "name": "Illumination",
+      "nameRef": "Enlightened"
+    },
+    {
+      "description": "Un champion gagne un niveau une fois que cette condition est remplie, même en main ou dans le deck.",
+      "name": "Niveau supérieur",
+      "nameRef": "LevelUp"
+    },
+    {
+      "description": "Les sorts lents peuvent être lancés en dehors du combat et des autres sorts. L'ennemi peut riposter.",
+      "name": "Lent",
+      "nameRef": "Slow"
+    },
+    {
+      "description": "",
+      "name": "Noxus",
+      "nameRef": "Noxus"
+    },
+    {
+      "description": "La première fois que les éclaireurs attaquent seuls à chaque round, préparez votre attaque.",
+      "name": "Éclaireur",
+      "nameRef": "Scout"
+    },
+    {
+      "description": "Cette unité meurt lorsqu'elle frappe ou à la fin du round.",
+      "name": "Éphémère",
+      "nameRef": "Ephemeral"
+    },
+    {
+      "description": "",
+      "name": "Freljord",
+      "nameRef": "Freljord"
+    },
+    {
+      "description": "Ces compétences prennent effet lorsque l'unité meurt.",
+      "name": "Dernier souffle",
+      "nameRef": "LastBreath"
+    },
+    {
+      "description": "",
+      "name": "Bilgewater",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "description": "Peut choisir l'unité ennemie qui va la bloquer.",
+      "name": "Challenger",
+      "nameRef": "Challenger"
+    },
+    {
+      "description": "Ces compétences se déclenchent quand vous résolvez un sort.",
+      "name": "Inspiration",
+      "nameRef": "Imbue"
+    },
+    {
+      "description": "Peut uniquement être bloquée par des ennemis ayant une puissance de 3 ou plus.",
+      "name": "Redoutable",
+      "nameRef": "Fearsome"
+    },
+    {
+      "description": "",
+      "name": "Blocage impossible",
+      "nameRef": "CantBlock"
+    },
+    {
+      "description": "",
+      "name": "Profondeurs",
+      "nameRef": "Deep"
+    }
+  ],
+  "regions": [
+    {
+      "abbreviation": "NX",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/fr_fr/img/regions/icon-noxus.png",
+      "name": "Noxus",
+      "nameRef": "Noxus"
+    },
+    {
+      "abbreviation": "DE",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/fr_fr/img/regions/icon-demacia.png",
+      "name": "Demacia",
+      "nameRef": "Demacia"
+    },
+    {
+      "abbreviation": "FR",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/fr_fr/img/regions/icon-freljord.png",
+      "name": "Freljord",
+      "nameRef": "Freljord"
+    },
+    {
+      "abbreviation": "SI",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/fr_fr/img/regions/icon-shadowisles.png",
+      "name": "Îles obscures",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "abbreviation": "IO",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/fr_fr/img/regions/icon-ionia.png",
+      "name": "Ionia",
+      "nameRef": "Ionia"
+    },
+    {
+      "abbreviation": "BW",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/fr_fr/img/regions/icon-bilgewater.png",
+      "name": "Bilgewater",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "abbreviation": "PZ",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/fr_fr/img/regions/icon-piltoverzaun.png",
+      "name": "Piltover & Zaun",
+      "nameRef": "PiltoverZaun"
+    }
+  ],
+  "spellSpeeds": [
+    {
+      "name": "Lent",
+      "nameRef": "Slow"
+    },
+    {
+      "name": "Instantané",
+      "nameRef": "Burst"
+    },
+    {
+      "name": "Rapide",
+      "nameRef": "Fast"
+    }
+  ],
+  "rarities": [
+    {
+      "name": "COMMUN",
+      "nameRef": "Common"
+    },
+    {
+      "name": "RARE",
+      "nameRef": "Rare"
+    },
+    {
+      "name": "ÉPIQUE",
+      "nameRef": "Epic"
+    },
+    {
+      "name": "Champion",
+      "nameRef": "Champion"
+    },
+    {
+      "name": "Aucune",
+      "nameRef": "None"
+    }
+  ]
+}

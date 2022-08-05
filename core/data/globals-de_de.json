@@ -1,0 +1,381 @@
+{
+  "vocabTerms": [
+    {
+      "description": "Wenn du diese Einheit beschwörst, aktiviert sie einen Loyalitätsbonus, falls die oberste Karte deines Decks zu ihrer Region passt.",
+      "name": "Loyalität",
+      "nameRef": "Allegiance"
+    },
+    {
+      "description": "Greift eine Unterstützungseinheit an, wird die Einheit rechts von ihr verstärkt.",
+      "name": "Unterstützung",
+      "nameRef": "Support"
+    },
+    {
+      "description": "Höchster Angriffswert, bei gleichen Werten entscheidet das höchste Leben, dann die höchsten Kosten.",
+      "name": "Stärkste",
+      "nameRef": "Strongest"
+    },
+    {
+      "description": "Vernichte X Karten, die keine Champions sind, vom Ende deines Decks.",
+      "name": "Entsorgen",
+      "nameRef": "Toss"
+    },
+    {
+      "description": "Der Effekt wird aktiviert, wenn die Runde endet.",
+      "name": "Rundenende",
+      "nameRef": "RoundEnd"
+    },
+    {
+      "description": "Der Effekt wird aktiviert, wenn diese Einheit angreift.",
+      "name": "Angriff",
+      "nameRef": "Attack"
+    },
+    {
+      "description": "Der Effekt wird aktiviert, wenn eine Einheit versucht, mit ihrer Stärke Schaden zu verursachen. Geschieht entweder am Ende des Kampfs oder durch Zauber. Einheiten mit 0 Stärke können nicht zuschlagen.",
+      "name": "Schlag",
+      "nameRef": "Strike"
+    },
+    {
+      "description": "Wird wirksam, wenn die Einheit einen Schlag gegen den gegnerischen Nexus ausführt.",
+      "name": "Nexusschlag",
+      "nameRef": "NexusStrike"
+    },
+    {
+      "description": "Der Effekt wird aktiviert, wenn die Runde beginnt.",
+      "name": "Rundenbeginn",
+      "nameRef": "RoundStart"
+    },
+    {
+      "description": "Der Effekt wird aktiviert, wenn diese Einheit von der Hand ausgespielt wird.",
+      "name": "Ausspielen",
+      "nameRef": "Play"
+    },
+    {
+      "description": "Auf dem Spielfeld, auf der Hand, im Deck, abgeworfen und sogar bei späterer Erschaffung/Beschwörung.",
+      "name": "Überall",
+      "nameRef": "Everywhere"
+    },
+    {
+      "description": "Du erhältst die Angriffsmarke, wenn du keine hast. (Du kannst in dieser Runde angreifen.)",
+      "name": "Mobilisieren",
+      "nameRef": "Rally"
+    },
+    {
+      "description": "Entfernt alle Schlüsselwörter, Fähigkeiten und aktive Effekte. Hat keinen Einfluss auf Schaden oder Kartenart.",
+      "name": "Verstummen",
+      "nameRef": "Silence"
+    },
+    {
+      "description": "Eine Karte aktiviert ihre Plündern-Fähigkeit beim Ausspielen, wenn du in dieser Runde Schaden am gegnerischen Nexus verursacht hast.",
+      "name": "Plündern",
+      "nameRef": "Plunder"
+    }
+  ],
+  "keywords": [
+    {
+      "description": "Wird vollständig aus dem Spiel entfernt. Löst nicht Letzter Wunsch aus und kann nicht wiederbelebt werden.",
+      "name": "Vernichten",
+      "nameRef": "Obliterate"
+    },
+    {
+      "description": "Ein zauberähnlicher Effekt einer Einheit, auf den der Gegner reagieren kann.",
+      "name": "Fertigkeit",
+      "nameRef": "Skill"
+    },
+    {
+      "description": "Beim Angriff wird der erste Schlag VOR der Abwehr und der zweite ZEITGLEICH mit ihr ausgeführt.",
+      "name": "Doppelangriff",
+      "nameRef": "DoubleStrike"
+    },
+    {
+      "description": "Niedrigster Angriffswert, bei gleichen Werten entscheidet das niedrigste Leben, dann die niedrigsten Kosten.",
+      "name": "Schwächste",
+      "nameRef": "Weakest"
+    },
+    {
+      "description": "Diese Einheit kann herausgefordert und zum Blocken gezwungen werden.",
+      "name": "Verletzlich",
+      "nameRef": "Vulnerable"
+    },
+    {
+      "description": "Der Effekt wird aktiviert, wenn diese Einheit angreift.",
+      "name": "Angriff",
+      "nameRef": "AttackSkillMark"
+    },
+    {
+      "description": "Kann nur von einer ungreifbaren Einheit abgewehrt werden.",
+      "name": "Ungreifbar",
+      "nameRef": "Elusive"
+    },
+    {
+      "description": "Heilt unseren Nexus um den verursachten Schaden.",
+      "name": "Entziehen",
+      "nameRef": "Drain"
+    },
+    {
+      "description": "Entferne eine Einheit aus dem Kampf. Sie kann für den Rest der Runde nicht angreifen oder abwehren.",
+      "name": "Betäuben",
+      "nameRef": "Stun"
+    },
+    {
+      "description": "Hängt sich an eine andere Karte. Wenn die betroffene Karte gezogen wird, wird der Effekt ausgelöst.",
+      "name": "Falle",
+      "nameRef": "Autoplay"
+    },
+    {
+      "description": " ",
+      "name": "Piltover & Zhaun",
+      "nameRef": "PiltoverZaun"
+    },
+    {
+      "description": " ",
+      "name": "Demacia",
+      "nameRef": "Demacia"
+    },
+    {
+      "description": " ",
+      "name": "Schatteninseln",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "Schaden, der nicht zur Tötung des Ziels/der Ziele benötigt wurde, wird am gegnerischen Nexus verursacht.",
+      "name": "Überwältigen",
+      "nameRef": "SpellOverwhelm"
+    },
+    {
+      "description": "Wenn ich beschworen werde, fülle 1 Zaubermana wieder auf.",
+      "name": "Einstimmen",
+      "nameRef": "Attune"
+    },
+    {
+      "description": "Verhindert den nächsten Schaden, den die Einheit erleiden würde. Hält eine Runde an.",
+      "name": "Barriere",
+      "nameRef": "Barrier"
+    },
+    {
+      "description": "Ist angriffsunfähig und abwehrunfähig.",
+      "name": "Unbeweglich",
+      "nameRef": "Immobile"
+    },
+    {
+      "description": "Eine festgehaltene Karte wird aus dem Spiel entfernt. Sie kehrt zurück, wenn die festhaltende Einheit das Spielfeld verlässt.",
+      "name": "Festhalten",
+      "nameRef": "Capture"
+    },
+    {
+      "description": "Setzt die Stärke einer Einheit in dieser Runde auf 0. Danach kann sie geändert werden.",
+      "name": "Einfrieren",
+      "nameRef": "Frostbite"
+    },
+    {
+      "description": "Sofortzauber werden sofort ausgeführt. Erst wenn sie enden, kann der Gegner eine Aktion ausführen.",
+      "name": "Sofort",
+      "nameRef": "Burst"
+    },
+    {
+      "description": "Flüchtige Karten werden am Ende der Runde von der Hand abgeworfen.",
+      "name": "Flüchtig",
+      "nameRef": "Fleeting"
+    },
+    {
+      "description": "Schnellzauber können jederzeit gespielt werden, aber dein Gegner kann auf sie reagieren.",
+      "name": "Schnell",
+      "nameRef": "Fast"
+    },
+    {
+      "description": "Überschüssiger Schaden an der abwehrenden Einheit wird direkt am gegnerischen Nexus verursacht.",
+      "name": "Überwältigen",
+      "nameRef": "Overwhelm"
+    },
+    {
+      "description": "Der Effekt wird aktiviert, wenn diese Einheit von der Hand ausgespielt wird.",
+      "name": "Ausspielen",
+      "nameRef": "PlaySkillMark"
+    },
+    {
+      "description": "Schlägt beim Angriff vor der Abwehr zu.",
+      "name": "Direktangriff",
+      "nameRef": "QuickStrike"
+    },
+    {
+      "description": "Erleidet 1 weniger Schaden aus allen Quellen.",
+      "name": "Robust",
+      "nameRef": "Tough"
+    },
+    {
+      "description": "Eine Karte kehrt auf die Hand zurück und wird von allen auf sie gewirkten Effekten befreit.",
+      "name": "Zurückrufen",
+      "nameRef": "Recall"
+    },
+    {
+      "description": " ",
+      "name": "Ionia",
+      "nameRef": "Ionia"
+    },
+    {
+      "description": "Erhält zu Beginn jeder Runde das gesamte fehlende Leben zurück.",
+      "name": "Erholung",
+      "nameRef": "Regeneration"
+    },
+    {
+      "description": "Entfernt jeglichen Text und die Schlüsselwörter einer Einheit.",
+      "name": "Verstummt",
+      "nameRef": "Silenced"
+    },
+    {
+      "description": "Der verursachte Schaden dieser Einheit heilt den Nexus um die entsprechende Menge.",
+      "name": "Lebensraub",
+      "nameRef": "Lifesteal"
+    },
+    {
+      "description": "Du bist erleuchtet, wenn du 10 maximale Manasteine erreichst.",
+      "name": "Erleuchtet",
+      "nameRef": "Enlightened"
+    },
+    {
+      "description": "Ein Champion steigt auf, sobald diese Bedingung erfüllt ist, sogar auf der Hand oder im Deck.",
+      "name": "Stufenaufstieg",
+      "nameRef": "LevelUp"
+    },
+    {
+      "description": "Langsame Zauber können außerhalb von Kämpfen und anderen Zaubern gewirkt werden. Der Gegner kann reagieren.",
+      "name": "Langsam",
+      "nameRef": "Slow"
+    },
+    {
+      "description": " ",
+      "name": "Noxus",
+      "nameRef": "Noxus"
+    },
+    {
+      "description": "Wenn zum ersten Mal in einer Runde nur Späher-Einheiten angreifen, bereite deinen Angriff vor.",
+      "name": "Späher",
+      "nameRef": "Scout"
+    },
+    {
+      "description": "Diese Einheit stirbt, wenn sie zuschlägt oder die Runde endet.",
+      "name": "Vergänglich",
+      "nameRef": "Ephemeral"
+    },
+    {
+      "description": " ",
+      "name": "Freljord",
+      "nameRef": "Freljord"
+    },
+    {
+      "description": "Diese Fähigkeiten werden wirksam, wenn die Einheit stirbt.",
+      "name": "Letzter Wunsch",
+      "nameRef": "LastBreath"
+    },
+    {
+      "description": "EMPTY STRING",
+      "name": "Bilgewasser",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "description": "Kann wählen, welche gegnerische Einheit abwehrt.",
+      "name": "Herausforderer",
+      "nameRef": "Challenger"
+    },
+    {
+      "description": "Diese Fähigkeiten werden aktiviert, wenn du einen Zauber ausführst.",
+      "name": "Erfüllung",
+      "nameRef": "Imbue"
+    },
+    {
+      "description": "Kann nur von Gegnern mit mindestens Stärke 3 abgewehrt werden.",
+      "name": "Bedrohlich",
+      "nameRef": "Fearsome"
+    },
+    {
+      "description": " ",
+      "name": "Abwehrunfähig",
+      "nameRef": "CantBlock"
+    },
+    {
+      "description": "",
+      "name": "Tiefe",
+      "nameRef": "Deep"
+    }
+  ],
+  "regions": [
+    {
+      "abbreviation": "NX",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/de_de/img/regions/icon-noxus.png",
+      "name": "Noxus",
+      "nameRef": "Noxus"
+    },
+    {
+      "abbreviation": "DE",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/de_de/img/regions/icon-demacia.png",
+      "name": "Demacia",
+      "nameRef": "Demacia"
+    },
+    {
+      "abbreviation": "FR",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/de_de/img/regions/icon-freljord.png",
+      "name": "Freljord",
+      "nameRef": "Freljord"
+    },
+    {
+      "abbreviation": "SI",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/de_de/img/regions/icon-shadowisles.png",
+      "name": "Schatteninseln",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "abbreviation": "IO",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/de_de/img/regions/icon-ionia.png",
+      "name": "Ionia",
+      "nameRef": "Ionia"
+    },
+    {
+      "abbreviation": "BW",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/de_de/img/regions/icon-bilgewater.png",
+      "name": "Bilgewasser",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "abbreviation": "PZ",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/de_de/img/regions/icon-piltoverzaun.png",
+      "name": "Piltover & Zhaun",
+      "nameRef": "PiltoverZaun"
+    }
+  ],
+  "spellSpeeds": [
+    {
+      "name": "Langsam",
+      "nameRef": "Slow"
+    },
+    {
+      "name": "Sofort",
+      "nameRef": "Burst"
+    },
+    {
+      "name": "Schnell",
+      "nameRef": "Fast"
+    }
+  ],
+  "rarities": [
+    {
+      "name": "GEWÖHNLICH",
+      "nameRef": "Common"
+    },
+    {
+      "name": "SELTEN",
+      "nameRef": "Rare"
+    },
+    {
+      "name": "EPISCH",
+      "nameRef": "Epic"
+    },
+    {
+      "name": "Champion",
+      "nameRef": "Champion"
+    },
+    {
+      "name": "Keine",
+      "nameRef": "None"
+    }
+  ]
+}

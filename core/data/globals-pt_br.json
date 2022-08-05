@@ -1,0 +1,381 @@
+{
+  "vocabTerms": [
+    {
+      "description": "Ao invocar esta carta, ela ganha bônus de Lealdade se a carta do topo do seu deck for da mesma Região.",
+      "name": "Lealdade",
+      "nameRef": "Allegiance"
+    },
+    {
+      "description": "Atacar com uma unidade com Auxiliar fortalece a unidade à direita dela.",
+      "name": "Auxiliar",
+      "nameRef": "Support"
+    },
+    {
+      "description": "Maior Poder, com critério de desempate de maior Vida e depois maior Custo.",
+      "name": "Mais Forte",
+      "nameRef": "Strongest"
+    },
+    {
+      "description": "Oblitere X cartas de não Campeões no fim do seu deck.",
+      "name": "Abdicar",
+      "nameRef": "Toss"
+    },
+    {
+      "description": "Este efeito é ativado quando a rodada terminar.",
+      "name": "Fim da rodada",
+      "nameRef": "RoundEnd"
+    },
+    {
+      "description": "Este efeito é ativado quando esta unidade atacar.",
+      "name": "Atacar",
+      "nameRef": "Attack"
+    },
+    {
+      "description": "Este efeito é ativado quando uma unidade tentar causar dano usando o Poder dela no fim da rodada ou com feitiços. Unidades com 0 de Poder não podem golpear.",
+      "name": "Golpear",
+      "nameRef": "Strike"
+    },
+    {
+      "description": "Faz efeito quando a unidade Golpeia o Nexus inimigo.",
+      "name": "Golpe ao Nexus",
+      "nameRef": "NexusStrike"
+    },
+    {
+      "description": "Este efeito é ativado quando a rodada começar.",
+      "name": "Início da rodada",
+      "nameRef": "RoundStart"
+    },
+    {
+      "description": "Este efeito é ativado ao jogar esta unidade da sua mão.",
+      "name": "Jogar",
+      "nameRef": "Play"
+    },
+    {
+      "description": "Afeta cartas em jogo, na mão, no deck, no descarte e até as criadas/invocadas mais tarde.",
+      "name": "Globalmente",
+      "nameRef": "Everywhere"
+    },
+    {
+      "description": "Caso não tenha, ganhe o Símbolo de Ataque. (Você pode atacar nesta rodada.)",
+      "name": "Mobilizar",
+      "nameRef": "Rally"
+    },
+    {
+      "description": "Todas as palavras-chave, habilidades e efeitos ativos são removidos. Não afeta o dano nem o subtipo.",
+      "name": "Silenciar",
+      "nameRef": "Silence"
+    },
+    {
+      "description": "Uma carta aciona sua habilidade de Saquear ao ser jogada se você tiver causado dano ao Nexus inimigo nesta rodada.",
+      "name": "Saquear",
+      "nameRef": "Plunder"
+    }
+  ],
+  "keywords": [
+    {
+      "description": "A unidade é completamente removida do jogo. Não ativa Suspiro Final e não pode ser ressuscitada.",
+      "name": "Obliterar",
+      "nameRef": "Obliterate"
+    },
+    {
+      "description": "Efeito parecido com o feitiço de uma unidade. Permite reações dos inimigos.",
+      "name": "Habilidade",
+      "nameRef": "Skill"
+    },
+    {
+      "description": "Ao atacar, golpeia antes E ao mesmo tempo que o bloqueador.",
+      "name": "Ataque Duplo",
+      "nameRef": "DoubleStrike"
+    },
+    {
+      "description": "Menor Poder, com critério de desempate de menor Vida e depois menor Custo.",
+      "name": "Mais Fraco",
+      "nameRef": "Weakest"
+    },
+    {
+      "description": "O inimigo pode desafiar esta unidade, forçando-a a bloquear.",
+      "name": "Vulnerável",
+      "nameRef": "Vulnerable"
+    },
+    {
+      "description": "Este efeito é ativado quando esta unidade atacar.",
+      "name": "Atacar",
+      "nameRef": "AttackSkillMark"
+    },
+    {
+      "description": "Só pode ser bloqueada por uma unidade Elusiva.",
+      "name": "Elusivo",
+      "nameRef": "Elusive"
+    },
+    {
+      "description": "Cura nosso Nexus de acordo com o dano causado.",
+      "name": "Drenar",
+      "nameRef": "Drain"
+    },
+    {
+      "description": "Remova uma unidade do combate. Ela não pode atacar nem bloquear pelo restante da rodada.",
+      "name": "Atordoar",
+      "nameRef": "Stun"
+    },
+    {
+      "description": "Prende-se a outra carta que, quando comprada, ativa um efeito de armadilha.",
+      "name": "Armadilha",
+      "nameRef": "Autoplay"
+    },
+    {
+      "description": "",
+      "name": "Piltover e Zaun",
+      "nameRef": "PiltoverZaun"
+    },
+    {
+      "description": "",
+      "name": "Demacia",
+      "nameRef": "Demacia"
+    },
+    {
+      "description": "",
+      "name": "Ilhas das Sombras",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "O dano que exceder o necessário para abater o(s) alvo(s) é causado ao Nexus inimigo.",
+      "name": "Sobrepujar",
+      "nameRef": "SpellOverwhelm"
+    },
+    {
+      "description": "Ao me invocar, recarregue 1 de Mana de Feitiço.",
+      "name": "Sintonia",
+      "nameRef": "Attune"
+    },
+    {
+      "description": "Invalida o próximo dano que a unidade sofreria. Dura uma rodada.",
+      "name": "Barreira",
+      "nameRef": "Barrier"
+    },
+    {
+      "description": "Não pode atacar nem bloquear.",
+      "name": "Imóvel",
+      "nameRef": "Immobile"
+    },
+    {
+      "description": "Uma carta Capturada é removida da partida e volta quando a unidade que a capturou deixa a partida.",
+      "name": "Capturar",
+      "nameRef": "Capture"
+    },
+    {
+      "description": "Deixa o Poder de uma unidade em 0 nesta rodada. Pode ser alterado depois.",
+      "name": "Congelar",
+      "nameRef": "Frostbite"
+    },
+    {
+      "description": "Feitiços Súbitos são lançados instantaneamente. O inimigo não pode agir até que eles terminem.",
+      "name": "Súbito",
+      "nameRef": "Burst"
+    },
+    {
+      "description": "Cartas Fugazes são descartadas da mão quando a rodada termina.",
+      "name": "Fugaz",
+      "nameRef": "Fleeting"
+    },
+    {
+      "description": "Feitiços Rápidos podem ser lançados a qualquer momento, mas o oponente pode reagir.",
+      "name": "Rápido",
+      "nameRef": "Fast"
+    },
+    {
+      "description": "O dano excedente que eu causo ao meu bloqueador é repassado ao Nexus inimigo.",
+      "name": "Sobrepujar",
+      "nameRef": "Overwhelm"
+    },
+    {
+      "description": "Este efeito é ativado ao jogar esta unidade da sua mão.",
+      "name": "Jogar",
+      "nameRef": "PlaySkillMark"
+    },
+    {
+      "description": "Ao atacar, golpeia antes do bloqueador.",
+      "name": "Ataque Rápido",
+      "nameRef": "QuickStrike"
+    },
+    {
+      "description": "Sofre menos 1 de dano de todas as origens.",
+      "name": "Robusto",
+      "nameRef": "Tough"
+    },
+    {
+      "description": "Devolva a unidade para a mão e remova os efeitos aplicados a ela.",
+      "name": "Retornar",
+      "nameRef": "Recall"
+    },
+    {
+      "description": "",
+      "name": "Ionia",
+      "nameRef": "Ionia"
+    },
+    {
+      "description": "Cura-se completamente no início de cada rodada.",
+      "name": "Regeneração",
+      "nameRef": "Regeneration"
+    },
+    {
+      "description": "Remove o texto e as palavras-chave de uma unidade.",
+      "name": "Silenciado",
+      "nameRef": "Silenced"
+    },
+    {
+      "description": "Ao causar dano, essa unidade cura seu Nexus na mesma quantidade.",
+      "name": "Roubo de Vida",
+      "nameRef": "Lifesteal"
+    },
+    {
+      "description": "Você fica Iluminado quando tem 10 de Mana máximo.",
+      "name": "Iluminado",
+      "nameRef": "Enlightened"
+    },
+    {
+      "description": "O Campeão sobe de nível quando essa condição é cumprida, esteja ele na mão ou no deck.",
+      "name": "Subir de Nível",
+      "nameRef": "LevelUp"
+    },
+    {
+      "description": "Feitiços Lentos podem ser conjurados fora de combate e de outras conjurações. O inimigo pode reagir.",
+      "name": "Lento",
+      "nameRef": "Slow"
+    },
+    {
+      "description": "",
+      "name": "Noxus",
+      "nameRef": "Noxus"
+    },
+    {
+      "description": "A cada rodada, na primeira vez que apenas unidades Patrulheiras atacarem, prepare seu ataque.",
+      "name": "Patrulheiro",
+      "nameRef": "Scout"
+    },
+    {
+      "description": "Esta unidade morre quando golpeia ou quando a rodada termina.",
+      "name": "Efêmero",
+      "nameRef": "Ephemeral"
+    },
+    {
+      "description": "",
+      "name": "Freljord",
+      "nameRef": "Freljord"
+    },
+    {
+      "description": "Essas habilidades fazem efeito quando a unidade morre.",
+      "name": "Suspiro Final",
+      "nameRef": "LastBreath"
+    },
+    {
+      "description": "",
+      "name": "Águas de Sentina",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "description": "Pode escolher a unidade inimiga que vai bloquear.",
+      "name": "Desafiador",
+      "nameRef": "Challenger"
+    },
+    {
+      "description": "Essas habilidades são acionadas quando você resolve um feitiço.",
+      "name": "Imbuir",
+      "nameRef": "Imbue"
+    },
+    {
+      "description": "Só pode ser bloqueada por inimigos com 3 ou mais de Poder.",
+      "name": "Assustador",
+      "nameRef": "Fearsome"
+    },
+    {
+      "description": "",
+      "name": "Não Bloqueia",
+      "nameRef": "CantBlock"
+    },
+    {
+      "description": "",
+      "name": "Profundezas",
+      "nameRef": "Deep"
+    }
+  ],
+  "regions": [
+    {
+      "abbreviation": "NX",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/pt_br/img/regions/icon-noxus.png",
+      "name": "Noxus",
+      "nameRef": "Noxus"
+    },
+    {
+      "abbreviation": "DE",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/pt_br/img/regions/icon-demacia.png",
+      "name": "Demacia",
+      "nameRef": "Demacia"
+    },
+    {
+      "abbreviation": "FR",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/pt_br/img/regions/icon-freljord.png",
+      "name": "Freljord",
+      "nameRef": "Freljord"
+    },
+    {
+      "abbreviation": "SI",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/pt_br/img/regions/icon-shadowisles.png",
+      "name": "Ilhas das Sombras",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "abbreviation": "IO",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/pt_br/img/regions/icon-ionia.png",
+      "name": "Ionia",
+      "nameRef": "Ionia"
+    },
+    {
+      "abbreviation": "BW",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/pt_br/img/regions/icon-bilgewater.png",
+      "name": "Águas de Sentina",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "abbreviation": "PZ",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_0_0/core/pt_br/img/regions/icon-piltoverzaun.png",
+      "name": "Piltover e Zaun",
+      "nameRef": "PiltoverZaun"
+    }
+  ],
+  "spellSpeeds": [
+    {
+      "name": "Lento",
+      "nameRef": "Slow"
+    },
+    {
+      "name": "Súbito",
+      "nameRef": "Burst"
+    },
+    {
+      "name": "Rápido",
+      "nameRef": "Fast"
+    }
+  ],
+  "rarities": [
+    {
+      "name": "COMUM",
+      "nameRef": "Common"
+    },
+    {
+      "name": "RARA",
+      "nameRef": "Rare"
+    },
+    {
+      "name": "ÉPICA",
+      "nameRef": "Epic"
+    },
+    {
+      "name": "Campeão",
+      "nameRef": "Champion"
+    },
+    {
+      "name": "Nenhuma",
+      "nameRef": "None"
+    }
+  ]
+}
