@@ -21,6 +21,11 @@
       "nameRef": "Toss"
     },
     {
+      "description": "我方場上或手牌中有該張卡牌即算掌控。",
+      "name": "掌控",
+      "nameRef": "Behold"
+    },
+    {
       "description": "回合結束時將觸發此效果。",
       "name": "回合結束",
       "nameRef": "RoundEnd"
@@ -29,6 +34,11 @@
       "description": "此單位攻擊時將觸發此效果。",
       "name": "攻擊",
       "nameRef": "Attack"
+    },
+    {
+      "description": "當1個單位的力量值或生命值增加，或是被賦予全新特性，代表該單位獲得增益。",
+      "name": "獲得增益",
+      "nameRef": "Buffed"
     },
     {
       "description": "單位以力量值對敵軍造成傷害時，觸發此效果，戰鬥結算後或使用法術皆可；力量值0的單位無法打擊。",
@@ -56,7 +66,7 @@
       "nameRef": "Everywhere"
     },
     {
-      "description": "獲得攻擊主動權。（此回合我方可攻擊）",
+      "description": "獲得攻擊主動權（此回合我方可攻擊）。",
       "name": "備戰",
       "nameRef": "Rally"
     },
@@ -78,6 +88,11 @@
       "nameRef": "Obliterate"
     },
     {
+      "description": "",
+      "name": "巨石峰",
+      "nameRef": "MtTargon"
+    },
+    {
       "description": "可產生類似法術的效果，由卡牌單位生成，對手可以進行對應。",
       "name": "技能",
       "nameRef": "Skill"
@@ -86,6 +101,11 @@
       "description": "此牌攻擊時，會先打擊格擋卡牌一次，然後再與它同時打擊。",
       "name": "雙重攻擊",
       "nameRef": "DoubleStrike"
+    },
+    {
+      "description": "若此牌是我方在回合中打出的「第一張」卡牌，即可觸發此效果。",
+      "name": "破曉",
+      "nameRef": "Daybreak"
     },
     {
       "description": "指力量值最低的單位。若出現平手狀況，則按生命值，接著是魔耗值決定。",
@@ -136,6 +156,11 @@
       "description": "",
       "name": "闇影島",
       "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "此牌每擊殺1個單位，便可獲得+1|+1。",
+      "name": "血怒",
+      "nameRef": "Fury"
     },
     {
       "description": "若有高於敵方格擋卡牌生命值的超額傷害，則加諸敵方主堡。",
@@ -223,9 +248,19 @@
       "nameRef": "Silenced"
     },
     {
+      "description": "抵擋一次會對此牌造成影響的敵方法術/技能。",
+      "name": "法盾",
+      "nameRef": "SpellShield"
+    },
+    {
       "description": "此單位造成傷害時，其主堡恢復同等於傷害值的生命值。",
       "name": "吸血",
       "nameRef": "Lifesteal"
+    },
+    {
+      "description": "若此牌「不是」我方在一回合中打出的第一張卡牌，即可觸發效果。",
+      "name": "夜臨",
+      "nameRef": "Nightfall"
     },
     {
       "description": "達到10點魔力上限時，即可進入「開悟」狀態。",
@@ -246,6 +281,11 @@
       "description": "",
       "name": "諾克薩斯",
       "nameRef": "Noxus"
+    },
+    {
+      "description": "從3張天界卡牌中挑選1張在手牌生成。",
+      "name": "祈願",
+      "nameRef": "Invoke"
     },
     {
       "description": "只指派先遣單位上場攻擊，且為當回合首次時，獲得攻擊主動權。",
@@ -305,44 +345,50 @@
   ],
   "regions": [
     {
+      "abbreviation": "MT",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/zh_tw/img/regions/icon-targon.png",
+      "name": "巨石峰",
+      "nameRef": "Targon"
+    },
+    {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/zh_tw/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/zh_tw/img/regions/icon-noxus.png",
       "name": "諾克薩斯",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/zh_tw/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/zh_tw/img/regions/icon-demacia.png",
       "name": "蒂瑪西亞",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/zh_tw/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/zh_tw/img/regions/icon-freljord.png",
       "name": "弗雷爾卓德",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/zh_tw/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/zh_tw/img/regions/icon-shadowisles.png",
       "name": "闇影島",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/zh_tw/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/zh_tw/img/regions/icon-ionia.png",
       "name": "愛歐尼亞",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/zh_tw/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/zh_tw/img/regions/icon-bilgewater.png",
       "name": "比爾吉沃特",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/zh_tw/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/zh_tw/img/regions/icon-piltoverzaun.png",
       "name": "皮爾托福 & 佐恩",
       "nameRef": "PiltoverZaun"
     }
@@ -381,6 +427,23 @@
     {
       "name": "無",
       "nameRef": "None"
+    }
+  ],
+  "sets": [
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/zh_tw/img/sets/set3.png",
+      "name": "巨石峰之喚",
+      "nameRef": "Set3"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/zh_tw/img/sets/set2.png",
+      "name": "洶湧怒濤",
+      "nameRef": "Set2"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/zh_tw/img/sets/set1.png",
+      "name": "基礎",
+      "nameRef": "Set1"
     }
   ]
 }

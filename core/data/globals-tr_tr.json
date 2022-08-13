@@ -21,6 +21,11 @@
       "nameRef": "Toss"
     },
     {
+      "description": "Bir kart elinde ya da oyundaysa ona Tanıklık edersin.",
+      "name": "Tanıklık",
+      "nameRef": "Behold"
+    },
+    {
       "description": "Bu etki tur bittiğinde devreye girer.",
       "name": "Tur Sonu",
       "nameRef": "RoundEnd"
@@ -29,6 +34,11 @@
       "description": "Bu birim saldırdığında bu etkiyi alırsın.",
       "name": "Saldır",
       "nameRef": "Attack"
+    },
+    {
+      "description": "Bir birimin Güç ya da Can değeri arttığında veya birim yeni bir tesir kazandığında Güçlendirilmiş olur.",
+      "name": "Güçlendirildi",
+      "nameRef": "Buffed"
     },
     {
       "description": "Bir birim ya savaşın sonunda ya da büyülerle Güç niteliğini kullanarak hasar vermeye çalıştığında bu etki devreye girer. Güç değeri 0 olan birimler vuruş yapamaz.",
@@ -56,7 +66,7 @@
       "nameRef": "Everywhere"
     },
     {
-      "description": "Saldırı hakkın yoksa saldırı hakkı kazan (bu tur saldırabilirsin).",
+      "description": "Saldırı hakkın yoksa saldırı hakkı kazanırsın. Bu tur saldırabilirsin.",
       "name": "Silahlan!",
       "nameRef": "Rally"
     },
@@ -78,6 +88,11 @@
       "nameRef": "Obliterate"
     },
     {
+      "description": "",
+      "name": "Targon",
+      "nameRef": "MtTargon"
+    },
+    {
       "description": "Bir birimin, düşmanların karşılık verebileceği büyü benzeri etkisi.",
       "name": "Yetenek",
       "nameRef": "Skill"
@@ -88,12 +103,17 @@
       "nameRef": "DoubleStrike"
     },
     {
+      "description": "Bir turda oynadığın İLK kart buysa bonus alırsın.",
+      "name": "Şafak",
+      "nameRef": "Daybreak"
+    },
+    {
       "description": "En düşük Güç değeri (Berabere kalındığında önce en düşük Can, sonra en düşük Bedel değerine bakılır).",
       "name": "En Güçsüz",
       "nameRef": "Weakest"
     },
     {
-      "description": " Düşmanlar bu birimi çekerek karşılamaya zorlayabilir.",
+      "description": "Düşmanlar bu birimi çekerek karşılamaya zorlayabilir.",
       "name": "Kırılgan",
       "nameRef": "Vulnerable"
     },
@@ -136,6 +156,11 @@
       "description": " ",
       "name": "Gölge Adalar",
       "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "Bir birim öldürdüğümde +1|+1 kazanırım.",
+      "name": "Hiddet",
+      "nameRef": "Fury"
     },
     {
       "description": "Düşmanı/düşmanları öldürdükten sonra kalan hasarı Nexus'a verir.",
@@ -223,9 +248,19 @@
       "nameRef": "Silenced"
     },
     {
+      "description": "Düşmanın beni etkileyecek bir sonraki büyüsünü ya da yeteneğini ortadan kaldırır.",
+      "name": "Büyü Kalkanı",
+      "nameRef": "SpellShield"
+    },
+    {
       "description": "Bu birimin verdiği hasar, Nexus'u verilen hasar kadar iyileştirir.",
       "name": "Can Çalma",
       "nameRef": "Lifesteal"
+    },
+    {
+      "description": "O tur oynadığın ilk kart bu DEĞİLSE bonus alırsın.",
+      "name": "Akşam",
+      "nameRef": "Nightfall"
     },
     {
       "description": "10 azami manaya ulaştığında Aydınlanmış olursun.",
@@ -246,6 +281,11 @@
       "description": " ",
       "name": "Noxus",
       "nameRef": "Noxus"
+    },
+    {
+      "description": "3 Semavi kart arasından birini seçersin, bu kart elinde oluşur.",
+      "name": "Yakar",
+      "nameRef": "Invoke"
     },
     {
       "description": "Her tur sadece Öncü birimlerin saldırdığı ilk seferde saldırın hazır hale gelir.",
@@ -305,44 +345,50 @@
   ],
   "regions": [
     {
+      "abbreviation": "MT",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/tr_tr/img/regions/icon-targon.png",
+      "name": "Targon",
+      "nameRef": "Targon"
+    },
+    {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/tr_tr/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/tr_tr/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/tr_tr/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/tr_tr/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/tr_tr/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/tr_tr/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/tr_tr/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/tr_tr/img/regions/icon-shadowisles.png",
       "name": "Gölge Adalar",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/tr_tr/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/tr_tr/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/tr_tr/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/tr_tr/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/tr_tr/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/tr_tr/img/regions/icon-piltoverzaun.png",
       "name": "Piltover ve Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -381,6 +427,23 @@
     {
       "name": "Yok",
       "nameRef": "None"
+    }
+  ],
+  "sets": [
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/tr_tr/img/sets/set3.png",
+      "name": "Dağın Çağrısı",
+      "nameRef": "Set3"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/tr_tr/img/sets/set2.png",
+      "name": "Yükselen Dalgalar",
+      "nameRef": "Set2"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/tr_tr/img/sets/set1.png",
+      "name": "Temeller",
+      "nameRef": "Set1"
     }
   ]
 }

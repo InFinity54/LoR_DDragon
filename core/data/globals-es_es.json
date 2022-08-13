@@ -21,6 +21,11 @@
       "nameRef": "Toss"
     },
     {
+      "description": "Una carta es visible para ti si la tienes en juego o en la mano.",
+      "name": "Visible",
+      "nameRef": "Behold"
+    },
+    {
       "description": "Consigue este efecto cuando termina la ronda.",
       "name": "Final de ronda",
       "nameRef": "RoundEnd"
@@ -29,6 +34,11 @@
       "description": "Consigue este efecto cuando esta unidad ataca.",
       "name": "Atacar",
       "nameRef": "Attack"
+    },
+    {
+      "description": "Una unidad cuenta con una mejora cuando se ha aumentado su vida o su poder, o se le ha otorgado una palabra clave nueva.",
+      "name": "Mejorada",
+      "nameRef": "Buffed"
     },
     {
       "description": "Consigue este efecto cuando una unidad intenta infligir daño con su poder, ya sea al final del combate o con hechizos. Las unidades con 0 de poder no pueden golpear.",
@@ -56,7 +66,7 @@
       "nameRef": "Everywhere"
     },
     {
-      "description": "Si no la tienes, ¡obtienes la ficha de ataque! (Puedes atacar esta ronda).",
+      "description": "Si no la tienes, ¡obtienes la ficha de ataque! Puedes atacar esta ronda.",
       "name": "Al ataque",
       "nameRef": "Rally"
     },
@@ -78,6 +88,11 @@
       "nameRef": "Obliterate"
     },
     {
+      "description": "",
+      "name": "Targon",
+      "nameRef": "MtTargon"
+    },
+    {
       "description": "Un efecto parecido a un hechizo de una unidad que permite reaccionar al enemigo.",
       "name": "Habilidad",
       "nameRef": "Skill"
@@ -86,6 +101,11 @@
       "description": "Al atacar, golpea antes y al mismo tiempo que la unidad que bloquea.",
       "name": "Ataque doble",
       "nameRef": "DoubleStrike"
+    },
+    {
+      "description": "Efecto adicional si es la PRIMERA carta que juegas en toda la ronda.",
+      "name": "Amanecer",
+      "nameRef": "Daybreak"
     },
     {
       "description": "La unidad con menos poder; si el nivel de poder es el mismo, se tendrá en cuenta la vida más baja y, si no, el coste más bajo.",
@@ -136,6 +156,11 @@
       "description": "",
       "name": "Islas de la Sombra",
       "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "Cuando mato una unidad, consigo +1|+1.",
+      "name": "Furia",
+      "nameRef": "Fury"
     },
     {
       "description": "Inflige al nexo enemigo más daño del que mataría a los objetivos.",
@@ -223,9 +248,19 @@
       "nameRef": "Silenced"
     },
     {
+      "description": "Anula el próximo hechizo o la próxima habilidad enemiga que debería afectarme.",
+      "name": "Escudo de hechizos",
+      "nameRef": "SpellShield"
+    },
+    {
       "description": "Cura al nexo aliado la misma cantidad de daño que inflige.",
       "name": "Robo de vida",
       "nameRef": "Lifesteal"
+    },
+    {
+      "description": "Efecto adicional si NO es la primera carta que juegas en toda la ronda.",
+      "name": "Anochecer",
+      "nameRef": "Nightfall"
     },
     {
       "description": "Cuando tienes 10 de maná máximo, cuentas con Iluminación.",
@@ -246,6 +281,11 @@
       "description": "",
       "name": "Noxus",
       "nameRef": "Noxus"
+    },
+    {
+      "description": "Elige una carta celestial de entre 3 para crearla en la mano.",
+      "name": "Convocar",
+      "nameRef": "Invoke"
     },
     {
       "description": "La primera vez que solo atacan unidades Vigía en cada ronda, prepara el ataque.",
@@ -305,44 +345,50 @@
   ],
   "regions": [
     {
+      "abbreviation": "MT",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/es_es/img/regions/icon-targon.png",
+      "name": "Targon",
+      "nameRef": "Targon"
+    },
+    {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/es_es/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/es_es/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/es_es/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/es_es/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/es_es/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/es_es/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/es_es/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/es_es/img/regions/icon-shadowisles.png",
       "name": "Islas de la Sombra",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/es_es/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/es_es/img/regions/icon-ionia.png",
       "name": "Jonia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/es_es/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/es_es/img/regions/icon-bilgewater.png",
       "name": "Aguas Estancadas",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/es_es/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/es_es/img/regions/icon-piltoverzaun.png",
       "name": "Piltover y Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -381,6 +427,23 @@
     {
       "name": "Ninguna",
       "nameRef": "None"
+    }
+  ],
+  "sets": [
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/es_es/img/sets/set3.png",
+      "name": "La llamada de la montaña",
+      "nameRef": "Set3"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/es_es/img/sets/set2.png",
+      "name": "Pleamar",
+      "nameRef": "Set2"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/es_es/img/sets/set1.png",
+      "name": "Cimientos",
+      "nameRef": "Set1"
     }
   ]
 }

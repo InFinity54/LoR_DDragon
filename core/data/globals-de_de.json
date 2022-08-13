@@ -21,6 +21,11 @@
       "nameRef": "Toss"
     },
     {
+      "description": "Eine Karte ist sichtbar, wenn du sie auf dem Spielfeld oder der Hand hast.",
+      "name": "Sichtbar",
+      "nameRef": "Behold"
+    },
+    {
       "description": "Der Effekt wird aktiviert, wenn die Runde endet.",
       "name": "Rundenende",
       "nameRef": "RoundEnd"
@@ -29,6 +34,11 @@
       "description": "Der Effekt wird aktiviert, wenn diese Einheit angreift.",
       "name": "Angriff",
       "nameRef": "Attack"
+    },
+    {
+      "description": "Eine Einheit ist gestärkt, wenn ihre Stärke oder ihr Leben erhöht ist oder sie ein neues Schlüsselwort erhält.",
+      "name": "Gestärkt",
+      "nameRef": "Buffed"
     },
     {
       "description": "Der Effekt wird aktiviert, wenn eine Einheit versucht, mit ihrer Stärke Schaden zu verursachen. Geschieht entweder am Ende des Kampfes oder durch Zauber. Einheiten mit 0 Stärke können nicht zuschlagen.",
@@ -56,7 +66,7 @@
       "nameRef": "Everywhere"
     },
     {
-      "description": "Du erhältst die Angriffsmarke, wenn du keine hast. (Du kannst in dieser Runde angreifen.)",
+      "description": "Du erhältst die Angriffsmarke, wenn du keine hast. Du kannst in dieser Runde angreifen.",
       "name": "Mobilisieren",
       "nameRef": "Rally"
     },
@@ -78,6 +88,11 @@
       "nameRef": "Obliterate"
     },
     {
+      "description": "",
+      "name": "Targon",
+      "nameRef": "MtTargon"
+    },
+    {
       "description": "Ein zauberähnlicher Effekt einer Einheit, auf den der Gegner reagieren kann.",
       "name": "Fertigkeit",
       "nameRef": "Skill"
@@ -86,6 +101,11 @@
       "description": "Beim Angriff wird der erste Schlag VOR der Abwehr und der zweite ZEITGLEICH mit ihr ausgeführt.",
       "name": "Doppelangriff",
       "nameRef": "DoubleStrike"
+    },
+    {
+      "description": "Bonus, wenn es die ERSTE Karte ist, die du in einer Runde ausspielst.",
+      "name": "Tagesanbruch",
+      "nameRef": "Daybreak"
     },
     {
       "description": "Niedrigster Angriffswert, bei gleichen Werten entscheidet das niedrigste Leben, dann die niedrigsten Kosten.",
@@ -136,6 +156,11 @@
       "description": " ",
       "name": "Schatteninseln",
       "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "Wenn ich eine Einheit töte, gewähre mir +1|+1.",
+      "name": "Zorn",
+      "nameRef": "Fury"
     },
     {
       "description": "Schaden, der nicht zur Tötung des Ziels/der Ziele benötigt wurde, wird am gegnerischen Nexus verursacht.",
@@ -223,9 +248,19 @@
       "nameRef": "Silenced"
     },
     {
+      "description": "Negiert den nächsten gegnerischen Zauber oder die nächste gegnerische Fertigkeit auf mich.",
+      "name": "Zauberschild",
+      "nameRef": "SpellShield"
+    },
+    {
       "description": "Der verursachte Schaden dieser Einheit heilt den Nexus um die entsprechende Menge.",
       "name": "Lebensraub",
       "nameRef": "Lifesteal"
+    },
+    {
+      "description": "Bonus, wenn es NICHT die erste Karte ist, die du in einer Runde ausspielst.",
+      "name": "Nachteinbruch",
+      "nameRef": "Nightfall"
     },
     {
       "description": "Du bist erleuchtet, wenn du 10 maximale Manasteine erreichst.",
@@ -246,6 +281,11 @@
       "description": " ",
       "name": "Noxus",
       "nameRef": "Noxus"
+    },
+    {
+      "description": "Wähle 1 von 3 himmlischen Karten, die auf der Hand erschaffen werden soll.",
+      "name": "Ersuchen",
+      "nameRef": "Invoke"
     },
     {
       "description": "Wenn zum ersten Mal in einer Runde nur Spähereinheiten angreifen, mobilisiere dich.",
@@ -305,44 +345,50 @@
   ],
   "regions": [
     {
+      "abbreviation": "MT",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/de_de/img/regions/icon-targon.png",
+      "name": "Targon",
+      "nameRef": "Targon"
+    },
+    {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/de_de/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/de_de/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/de_de/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/de_de/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/de_de/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/de_de/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/de_de/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/de_de/img/regions/icon-shadowisles.png",
       "name": "Schatteninseln",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/de_de/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/de_de/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/de_de/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/de_de/img/regions/icon-bilgewater.png",
       "name": "Bilgewasser",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/de_de/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/de_de/img/regions/icon-piltoverzaun.png",
       "name": "Piltover & Zhaun",
       "nameRef": "PiltoverZaun"
     }
@@ -381,6 +427,23 @@
     {
       "name": "Keine",
       "nameRef": "None"
+    }
+  ],
+  "sets": [
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/de_de/img/sets/set3.png",
+      "name": "Ruf des Berges",
+      "nameRef": "Set3"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/de_de/img/sets/set2.png",
+      "name": "Steigende Flut",
+      "nameRef": "Set2"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/de_de/img/sets/set1.png",
+      "name": "Anfänge",
+      "nameRef": "Set1"
     }
   ]
 }

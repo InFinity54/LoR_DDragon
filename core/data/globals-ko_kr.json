@@ -21,6 +21,11 @@
       "nameRef": "Toss"
     },
     {
+      "description": "전장이나 손에 카드가 있으면 해당 카드는 등장 상태입니다.",
+      "name": "등장",
+      "nameRef": "Behold"
+    },
+    {
       "description": "라운드 종료 시<br>이 효과를 얻습니다.",
       "name": "라운드 종료",
       "nameRef": "RoundEnd"
@@ -29,6 +34,11 @@
       "description": "이 유닛이 공격할 때<br>효과가 적용됩니다.",
       "name": "공격",
       "nameRef": "Attack"
+    },
+    {
+      "description": "공격력이나 체력이 증가하거나 새로운 키워드를 얻었을 경우 이로운 효과를 받은 상태가 됩니다.",
+      "name": "이로운 효과를 받음",
+      "nameRef": "Buffed"
     },
     {
       "description": "전투 단계의 마무리 또는 주문 시전을 통해 유닛이 공격력으로 피해를 입히는 시도를 하면 이 효과를 얻습니다. 공격력이 0인 유닛은 타격할 수 없습니다.",
@@ -78,6 +88,11 @@
       "nameRef": "Obliterate"
     },
     {
+      "description": "\n ",
+      "name": "타곤",
+      "nameRef": "MtTargon"
+    },
+    {
       "description": "유닛이 가지고 있는<br>주문 같은 효과로,<br>적이 대응할 수 있습니다.",
       "name": "스킬",
       "nameRef": "Skill"
@@ -86,6 +101,11 @@
       "description": "공격 시 방어 유닛이 타격하기 전에 한 번, 방어 유닛과 동시에 한 번 타격합니다. (방어 유닛이 없을 시 넥서스를 두 번 타격합니다.)",
       "name": "추가 공격",
       "nameRef": "DoubleStrike"
+    },
+    {
+      "description": "라운드에서 처음 낼 경우<br>추가 효과를 얻습니다.",
+      "name": "해오름",
+      "nameRef": "Daybreak"
     },
     {
       "description": "공격력이 가장 낮은 유닛이며 공격력이 같으면 체력, 비용 순서로 비교해서 결정됩니다.",
@@ -136,6 +156,11 @@
       "description": "",
       "name": "그림자 군도",
       "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "유닛을 처치하면<br>+1|+1을 얻습니다.",
+      "name": "분노",
+      "nameRef": "Fury"
     },
     {
       "description": "피해량이 대상의 체력보다 높으면 그 차이만큼 적 넥서스에 피해를 입힙니다.",
@@ -223,9 +248,19 @@
       "nameRef": "Silenced"
     },
     {
+      "description": "적이 이 유닛에게 사용하는 다음 주문이나 스킬을 무효화합니다.",
+      "name": "주문 방어막",
+      "nameRef": "SpellShield"
+    },
+    {
       "description": "이 유닛이 피해를 입히는 만큼 넥서스의 체력이 회복됩니다.",
       "name": "체력 흡수",
       "nameRef": "Lifesteal"
+    },
+    {
+      "description": "라운드에서 처음 낸 카드가 아닐 경우 추가 효과를 얻습니다.",
+      "name": "어스름",
+      "nameRef": "Nightfall"
     },
     {
       "description": "최대 마나가 10이 되면 각성합니다.",
@@ -246,6 +281,11 @@
       "description": "",
       "name": "녹서스",
       "nameRef": "Noxus"
+    },
+    {
+      "description": "세 가지 천상 카드 중<br>1장을 선택해<br>손에 생성합니다.",
+      "name": "기원",
+      "nameRef": "Invoke"
     },
     {
       "description": "라운드마다 처음으로<br>정찰 유닛만 공격한 경우<br>다시 공격 토큰을 획득합니다.",
@@ -305,44 +345,50 @@
   ],
   "regions": [
     {
+      "abbreviation": "MT",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ko_kr/img/regions/icon-targon.png",
+      "name": "타곤",
+      "nameRef": "Targon"
+    },
+    {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ko_kr/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ko_kr/img/regions/icon-noxus.png",
       "name": "녹서스",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ko_kr/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ko_kr/img/regions/icon-demacia.png",
       "name": "데마시아",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ko_kr/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ko_kr/img/regions/icon-freljord.png",
       "name": "프렐요드",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ko_kr/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ko_kr/img/regions/icon-shadowisles.png",
       "name": "그림자 군도",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ko_kr/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ko_kr/img/regions/icon-ionia.png",
       "name": "아이오니아",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ko_kr/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ko_kr/img/regions/icon-bilgewater.png",
       "name": "빌지워터",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ko_kr/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ko_kr/img/regions/icon-piltoverzaun.png",
       "name": "필트오버 & 자운",
       "nameRef": "PiltoverZaun"
     }
@@ -381,6 +427,23 @@
     {
       "name": "없음",
       "nameRef": "None"
+    }
+  ],
+  "sets": [
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ko_kr/img/sets/set3.png",
+      "name": "산의 부름",
+      "nameRef": "Set3"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ko_kr/img/sets/set2.png",
+      "name": "밀려오는 파도",
+      "nameRef": "Set2"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ko_kr/img/sets/set1.png",
+      "name": "기본",
+      "nameRef": "Set1"
     }
   ]
 }

@@ -21,6 +21,11 @@
       "nameRef": "Toss"
     },
     {
+      "description": "Une carte est visible quand vous l'avez en jeu ou dans votre main.",
+      "name": "Visible",
+      "nameRef": "Behold"
+    },
+    {
       "description": "L'effet se déclenche à la fin du round.",
       "name": "Fin du round",
       "nameRef": "RoundEnd"
@@ -29,6 +34,11 @@
       "description": "L'effet se déclenche lorsque l'unité attaque.",
       "name": "Attaque",
       "nameRef": "Attack"
+    },
+    {
+      "description": "Une unité est renforcée quand sa puissance ou ses PV ont été augmentés ou si elle gagne un nouveau mot-clé.",
+      "name": "Renforcé",
+      "nameRef": "Buffed"
     },
     {
       "description": "Obtenez cet effet quand une unité tente d'infliger des dégâts avec sa puissance, à la fin du combat ou grâce aux sorts. Les unités avec une puissance de 0 ne peuvent pas frapper.",
@@ -56,7 +66,7 @@
       "nameRef": "Everywhere"
     },
     {
-      "description": "Si vous n'en avez pas, recevez un jeton d'attaque. Vous pouvez attaquer pendant ce round.",
+      "description": "Si vous n'en avez pas, recevez un jeton d'attaque. Vous pouvez attaquer à ce round.",
       "name": "Ralliement",
       "nameRef": "Rally"
     },
@@ -78,6 +88,11 @@
       "nameRef": "Obliterate"
     },
     {
+      "description": "",
+      "name": "Targon",
+      "nameRef": "MtTargon"
+    },
+    {
       "description": "Effet d'une unité similaire à un sort. L'ennemi peut réagir aux compétences.",
       "name": "Compétence",
       "nameRef": "Skill"
@@ -86,6 +101,11 @@
       "description": "Lorsque cette unité attaque, elle frappe avant ET en même temps que son bloqueur.",
       "name": "Double frappe",
       "nameRef": "DoubleStrike"
+    },
+    {
+      "description": "Bonus si cette carte est la PREMIÈRE que vous jouez pendant un round.",
+      "name": "Aurore",
+      "nameRef": "Daybreak"
     },
     {
       "description": "Plus faible puissance, départagée par les plus faibles PV, puis par le plus faible coût.",
@@ -136,6 +156,11 @@
       "description": "",
       "name": "Îles obscures",
       "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "Lorsque j'élimine une unité, octroyez-moi +1|+1.",
+      "name": "Fureur",
+      "nameRef": "Fury"
     },
     {
       "description": "Lorsque l'attaque dépasse les PV de son bloqueur, le surplus de dégâts est infligé au Nexus ennemi.",
@@ -223,9 +248,19 @@
       "nameRef": "Silenced"
     },
     {
+      "description": "Annule le prochain sort ou la prochaine compétence ennemis qui m'affectent.",
+      "name": "Bouclier antisorts",
+      "nameRef": "SpellShield"
+    },
+    {
       "description": "Lorsque cette unité inflige des dégâts, elle soigne son Nexus d'autant de points.",
       "name": "Vol de vie",
       "nameRef": "Lifesteal"
+    },
+    {
+      "description": "Bonus si cette carte n'est PAS la première que vous jouez pendant un round.",
+      "name": "Crépuscule",
+      "nameRef": "Nightfall"
     },
     {
       "description": "Lorsque vous atteignez 10 de mana max, vous atteignez l'Illumination.",
@@ -246,6 +281,11 @@
       "description": "",
       "name": "Noxus",
       "nameRef": "Noxus"
+    },
+    {
+      "description": "Choisissez une carte céleste parmi 3 pour la créer dans votre main.",
+      "name": "Conjuration",
+      "nameRef": "Invoke"
     },
     {
       "description": "La première fois que les éclaireurs attaquent seuls à chaque round, préparez votre attaque.",
@@ -305,44 +345,50 @@
   ],
   "regions": [
     {
+      "abbreviation": "MT",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/fr_fr/img/regions/icon-targon.png",
+      "name": "Targon",
+      "nameRef": "Targon"
+    },
+    {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/fr_fr/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/fr_fr/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/fr_fr/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/fr_fr/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/fr_fr/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/fr_fr/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/fr_fr/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/fr_fr/img/regions/icon-shadowisles.png",
       "name": "Îles obscures",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/fr_fr/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/fr_fr/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/fr_fr/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/fr_fr/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/fr_fr/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/fr_fr/img/regions/icon-piltoverzaun.png",
       "name": "Piltover & Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -381,6 +427,23 @@
     {
       "name": "Aucune",
       "nameRef": "None"
+    }
+  ],
+  "sets": [
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/fr_fr/img/sets/set3.png",
+      "name": "Appel de la montagne",
+      "nameRef": "Set3"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/fr_fr/img/sets/set2.png",
+      "name": "Marée montante",
+      "nameRef": "Set2"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/fr_fr/img/sets/set1.png",
+      "name": "Fondations",
+      "nameRef": "Set1"
     }
   ]
 }

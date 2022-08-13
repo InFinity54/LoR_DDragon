@@ -21,6 +21,11 @@
       "nameRef": "Toss"
     },
     {
+      "description": "Widzisz kartę, jeśli masz ją w grze lub w ręce.",
+      "name": "Patrz",
+      "nameRef": "Behold"
+    },
+    {
       "description": "Uzyskuje efekt, gdy runda się kończy.",
       "name": "Koniec rundy",
       "nameRef": "RoundEnd"
@@ -29,6 +34,11 @@
       "description": "Uzyskuje efekt, gdy ta jednostka atakuje.",
       "name": "Atak",
       "nameRef": "Attack"
+    },
+    {
+      "description": "Jednostka jest wzmocniona, kiedy zwiększono jej Siłę lub Zdrowie albo gdy zyskuje nowe słowo kluczowe.",
+      "name": "Wzmocnienie",
+      "nameRef": "Buffed"
     },
     {
       "description": "Zadaje obrażenia wrogowi przy użyciu Siły jednostki. Jednostki o Sile 0 nie mogą uderzać.",
@@ -56,7 +66,7 @@
       "nameRef": "Everywhere"
     },
     {
-      "description": "Jeśli jeszcze go nie masz, zyskaj Token ataku. (W tej rundzie możesz atakować).",
+      "description": "Jeśli jeszcze go nie masz, zyskaj Token ataku. W tej rundzie możesz atakować.",
       "name": "Zjednocz Siły",
       "nameRef": "Rally"
     },
@@ -78,6 +88,11 @@
       "nameRef": "Obliterate"
     },
     {
+      "description": "",
+      "name": "Targon",
+      "nameRef": "MtTargon"
+    },
+    {
       "description": "Przypominający zaklęcie efekt jednostki, który pozwala wrogom zareagować.",
       "name": "Umiejętność",
       "nameRef": "Skill"
@@ -86,6 +101,11 @@
       "description": "Gdy atakuje, uderza zarówno przed, jak i w tym samym czasie, co blokujący.",
       "name": "Podwójny Atak",
       "nameRef": "DoubleStrike"
+    },
+    {
+      "description": "Premia, jeśli to PIERWSZA karta zagrana przez ciebie w rundzie.",
+      "name": "Brzask",
+      "nameRef": "Daybreak"
     },
     {
       "description": "Najniższa Siła, z remisami rozstrzyganymi przez najniższe Zdrowie, a następnie najniższy Koszt.",
@@ -136,6 +156,11 @@
       "description": "",
       "name": "Wyspy Cienia",
       "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "Gdy zabiję jednostkę, przyznaj mi +1|+1.",
+      "name": "Furia",
+      "nameRef": "Fury"
     },
     {
       "description": "Obrażenia ponad te potrzebne do zabicia celu(-ów) są zadawane wrogiemu Nexusowi.",
@@ -223,9 +248,19 @@
       "nameRef": "Silenced"
     },
     {
+      "description": "Neguje następne wrogie zaklęcie lub umiejętność, która miałaby na mnie wpływ.",
+      "name": "Tarcza Magii",
+      "nameRef": "SpellShield"
+    },
+    {
       "description": "Obrażenia, które zadaje ta jednostka, leczą jej Nexus o tę samą wartość.",
       "name": "Kradzież życia",
       "nameRef": "Lifesteal"
+    },
+    {
+      "description": "Premia, jeśli to NIE jest pierwsza karta zagrana przez ciebie w rundzie.",
+      "name": "Zmrok",
+      "nameRef": "Nightfall"
     },
     {
       "description": "Oświecenie zyskujesz, kiedy masz 10 maksymalnej many.",
@@ -246,6 +281,11 @@
       "description": "",
       "name": "Noxus",
       "nameRef": "Noxus"
+    },
+    {
+      "description": "Wybierz jedną Astralną kartę spośród trzech, by stworzyć ją w ręce.",
+      "name": "Wezwanie",
+      "nameRef": "Invoke"
     },
     {
       "description": "Za pierwszym razem w rundzie, gdy zaatakują tylko jednostki Zwiadu, przygotuj się do ataku.",
@@ -305,44 +345,50 @@
   ],
   "regions": [
     {
+      "abbreviation": "MT",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pl_pl/img/regions/icon-targon.png",
+      "name": "Targon",
+      "nameRef": "Targon"
+    },
+    {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/pl_pl/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pl_pl/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/pl_pl/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pl_pl/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/pl_pl/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pl_pl/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/pl_pl/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pl_pl/img/regions/icon-shadowisles.png",
       "name": "Wyspy Cienia",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/pl_pl/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pl_pl/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/pl_pl/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pl_pl/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/pl_pl/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pl_pl/img/regions/icon-piltoverzaun.png",
       "name": "Piltover i Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -381,6 +427,23 @@
     {
       "name": "Brak",
       "nameRef": "None"
+    }
+  ],
+  "sets": [
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pl_pl/img/sets/set3.png",
+      "name": "Zew Góry",
+      "nameRef": "Set3"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pl_pl/img/sets/set2.png",
+      "name": "Wzbierający Przypływ",
+      "nameRef": "Set2"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pl_pl/img/sets/set1.png",
+      "name": "Fundamenty",
+      "nameRef": "Set1"
     }
   ]
 }

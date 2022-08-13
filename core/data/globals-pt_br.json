@@ -21,6 +21,11 @@
       "nameRef": "Toss"
     },
     {
+      "description": "Você contempla algo se você tiver a carta necessária em jogo ou na mão.",
+      "name": "Contemplar",
+      "nameRef": "Behold"
+    },
+    {
       "description": "Este efeito é ativado quando a rodada terminar.",
       "name": "Fim da rodada",
       "nameRef": "RoundEnd"
@@ -29,6 +34,11 @@
       "description": "Este efeito é ativado quando esta unidade atacar.",
       "name": "Atacar",
       "nameRef": "Attack"
+    },
+    {
+      "description": "Uma unidade é fortalecida quando seu Poder ou Vida aumentam ou ela ganha uma nova palavra-chave.",
+      "name": "Fortalecida",
+      "nameRef": "Buffed"
     },
     {
       "description": "Este efeito é ativado quando uma unidade tentar causar dano usando o Poder dela no fim da rodada ou com feitiços. Unidades com 0 de Poder não podem golpear.",
@@ -56,7 +66,7 @@
       "nameRef": "Everywhere"
     },
     {
-      "description": "Caso não tenha, ganhe o Símbolo de Ataque. (Você pode atacar nesta rodada.)",
+      "description": "Caso não tenha, ganhe o Símbolo de Ataque. Você pode atacar nesta rodada.",
       "name": "Mobilizar",
       "nameRef": "Rally"
     },
@@ -78,6 +88,11 @@
       "nameRef": "Obliterate"
     },
     {
+      "description": "",
+      "name": "Targon",
+      "nameRef": "MtTargon"
+    },
+    {
       "description": "Efeito parecido com o feitiço de uma unidade. Permite reações dos inimigos.",
       "name": "Habilidade",
       "nameRef": "Skill"
@@ -86,6 +101,11 @@
       "description": "Ao atacar, golpeia antes E ao mesmo tempo que o bloqueador.",
       "name": "Ataque Duplo",
       "nameRef": "DoubleStrike"
+    },
+    {
+      "description": "Bônus se esta for a PRIMEIRA carta que você joga na rodada.",
+      "name": "Amanhecer",
+      "nameRef": "Daybreak"
     },
     {
       "description": "Menor Poder, com critério de desempate de menor Vida e depois menor Custo.",
@@ -136,6 +156,11 @@
       "description": "",
       "name": "Ilhas das Sombras",
       "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "Quando eu abater uma unidade, eu ganho +1|+1.",
+      "name": "Fúria",
+      "nameRef": "Fury"
     },
     {
       "description": "O dano que exceder o necessário para abater o(s) alvo(s) é causado ao Nexus inimigo.",
@@ -213,7 +238,7 @@
       "nameRef": "Ionia"
     },
     {
-      "description": "Se cura completamente no fim de cada rodada.",
+      "description": "Cura-se completamente no fim de cada rodada.",
       "name": "Regeneração",
       "nameRef": "Regeneration"
     },
@@ -223,9 +248,19 @@
       "nameRef": "Silenced"
     },
     {
+      "description": "Nega o próximo feitiço ou habilidade do inimigo que me afetaria.",
+      "name": "Escudo de Feitiço",
+      "nameRef": "SpellShield"
+    },
+    {
       "description": "Ao causar dano, essa unidade cura seu Nexus na mesma quantidade.",
       "name": "Roubo de Vida",
       "nameRef": "Lifesteal"
+    },
+    {
+      "description": "Bônus se esta NÃO for a primeira carta que você joga na rodada.",
+      "name": "Anoitecer",
+      "nameRef": "Nightfall"
     },
     {
       "description": "Você fica Iluminado quando tem 10 de Mana máximo.",
@@ -246,6 +281,11 @@
       "description": "",
       "name": "Noxus",
       "nameRef": "Noxus"
+    },
+    {
+      "description": "Escolha uma carta Celestial entre 3 para criá-la na mão.",
+      "name": "Evocar",
+      "nameRef": "Invoke"
     },
     {
       "description": "A cada rodada, na primeira vez que apenas unidades Patrulheiras atacarem, prepare seu ataque.",
@@ -305,44 +345,50 @@
   ],
   "regions": [
     {
+      "abbreviation": "MT",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pt_br/img/regions/icon-targon.png",
+      "name": "Targon",
+      "nameRef": "Targon"
+    },
+    {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/pt_br/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pt_br/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/pt_br/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pt_br/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/pt_br/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pt_br/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/pt_br/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pt_br/img/regions/icon-shadowisles.png",
       "name": "Ilhas das Sombras",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/pt_br/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pt_br/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/pt_br/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pt_br/img/regions/icon-bilgewater.png",
       "name": "Águas de Sentina",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/pt_br/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pt_br/img/regions/icon-piltoverzaun.png",
       "name": "Piltover e Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -381,6 +427,23 @@
     {
       "name": "Nenhuma",
       "nameRef": "None"
+    }
+  ],
+  "sets": [
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pt_br/img/sets/set3.png",
+      "name": "Chamado da Montanha",
+      "nameRef": "Set3"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pt_br/img/sets/set2.png",
+      "name": "Marés Crescentes",
+      "nameRef": "Set2"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pt_br/img/sets/set1.png",
+      "name": "Primordiais",
+      "nameRef": "Set1"
     }
   ]
 }

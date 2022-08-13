@@ -21,6 +21,11 @@
       "nameRef": "Toss"
     },
     {
+      "description": "自分の場に出ている、または手札に持っている状態を指す。",
+      "name": "保持している",
+      "nameRef": "Behold"
+    },
+    {
       "description": "ラウンド終了時に<br>効果が発動する。",
       "name": "ラウンド終了時",
       "nameRef": "RoundEnd"
@@ -29,6 +34,11 @@
       "description": "このユニットが<br>アタックする時<br>効果を発動する。",
       "name": "アタック",
       "nameRef": "Attack"
+    },
+    {
+      "description": "攻撃力か体力が上昇した、または新しいキーワードを獲得したユニットは「バフを受けた」状態となる。",
+      "name": "バフを受けた",
+      "nameRef": "Buffed"
     },
     {
       "description": "戦闘またはスペルの<br>効果によって、ユニットが<br>自身の攻撃力でダメージを<br>与えようとした際に<br>効果が発動する。<br>攻撃力が0のユニットは<br>ストライクできない。",
@@ -78,6 +88,11 @@
       "nameRef": "Obliterate"
     },
     {
+      "description": " ",
+      "name": "ターゴン",
+      "nameRef": "MtTargon"
+    },
+    {
       "description": "ユニットの持つ能力で<br>スペルと同じように発動<br>する。敵はこれに対して<br>アクションを実行可能。",
       "name": "スキル",
       "nameRef": "Skill"
@@ -86,6 +101,11 @@
       "description": "アタック時にブロッカーよりも<br>先にストライクし、その後<br>ブロッカーと同じタイミングで<br>再びストライクする。",
       "name": "ダブルアタック",
       "nameRef": "DoubleStrike"
+    },
+    {
+      "description": "このカードが、ラウンド中にあなたが初めてプレイしたカードである場合に発動する。",
+      "name": "デイブレイク",
+      "nameRef": "Daybreak"
     },
     {
       "description": "最も攻撃力が低い<br>ユニットを指す。攻撃力が<br>同じ場合は体力<br>次にコストの低さで<br>決定される。",
@@ -136,6 +156,11 @@
       "description": " ",
       "name": "シャドウアイル",
       "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "このユニットがユニットをキルした時、+1|+1を付与する。",
+      "name": "フューリー",
+      "nameRef": "Fury"
     },
     {
       "description": "対象の体力を上回る<br>ダメージを与えると<br>超過分のダメージを<br>相手のネクサスに与える。",
@@ -223,9 +248,19 @@
       "nameRef": "Silenced"
     },
     {
+      "description": "このユニットが次に受ける敵からのスキルまたはスペルの効果を無効化する。",
+      "name": "スペルシールド",
+      "nameRef": "SpellShield"
+    },
+    {
       "description": "このユニットが与えた<br>ダメージと同じ分だけ<br>ネクサスの体力を回復する。",
       "name": "ライフスティール",
       "nameRef": "Lifesteal"
+    },
+    {
+      "description": "このカードが、ラウンド中にあなたが初めてプレイしたカード「ではない」場合に発動する。",
+      "name": "ナイトフォール",
+      "nameRef": "Nightfall"
     },
     {
       "description": "マナが上限の10まで<br>溜まっている時<br>プレイヤーは<br>エンライト状態である。",
@@ -246,6 +281,11 @@
       "description": " ",
       "name": "ノクサス",
       "nameRef": "Noxus"
+    },
+    {
+      "description": "3枚の「天空」カードの中から1枚を選択し、手札に生成する。",
+      "name": "招来",
+      "nameRef": "Invoke"
     },
     {
       "description": "各ラウンドで初めて<br>「スカウト」を持つユニット<br>のみでアタックする時<br>アタックトークンを得る。",
@@ -305,44 +345,50 @@
   ],
   "regions": [
     {
+      "abbreviation": "MT",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ja_jp/img/regions/icon-targon.png",
+      "name": "ターゴン",
+      "nameRef": "Targon"
+    },
+    {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ja_jp/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ja_jp/img/regions/icon-noxus.png",
       "name": "ノクサス",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ja_jp/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ja_jp/img/regions/icon-demacia.png",
       "name": "デマーシア",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ja_jp/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ja_jp/img/regions/icon-freljord.png",
       "name": "フレヨルド",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ja_jp/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ja_jp/img/regions/icon-shadowisles.png",
       "name": "シャドウアイル",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ja_jp/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ja_jp/img/regions/icon-ionia.png",
       "name": "アイオニア",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ja_jp/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ja_jp/img/regions/icon-bilgewater.png",
       "name": "ビルジウォーター",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ja_jp/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ja_jp/img/regions/icon-piltoverzaun.png",
       "name": "ピルトーヴァー<nbsp>&<nbsp>ゾウン",
       "nameRef": "PiltoverZaun"
     }
@@ -381,6 +427,23 @@
     {
       "name": "なし",
       "nameRef": "None"
+    }
+  ],
+  "sets": [
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ja_jp/img/sets/set3.png",
+      "name": "霊峰の呼び声",
+      "nameRef": "Set3"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ja_jp/img/sets/set2.png",
+      "name": "迫り来る波濤",
+      "nameRef": "Set2"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ja_jp/img/sets/set1.png",
+      "name": "スターター",
+      "nameRef": "Set1"
     }
   ]
 }
