@@ -83,7 +83,7 @@
       "nameRef": "Skill"
     },
     {
-      "description": "공격 시 방어 유닛이 타격하기 전에 한 번, 방어 유닛과 동시에 한 번 타격합니다.",
+      "description": "공격 시 방어 유닛이 타격하기 전에 한 번, 방어 유닛과 동시에 한 번 타격합니다. (방어 유닛이 없을 시 넥서스를 두 번 타격합니다.)",
       "name": "추가 공격",
       "nameRef": "DoubleStrike"
     },
@@ -306,43 +306,43 @@
   "regions": [
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_5_0/core/ko_kr/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_6_0/core/ko_kr/img/regions/icon-noxus.png",
       "name": "녹서스",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_5_0/core/ko_kr/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_6_0/core/ko_kr/img/regions/icon-demacia.png",
       "name": "데마시아",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_5_0/core/ko_kr/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_6_0/core/ko_kr/img/regions/icon-freljord.png",
       "name": "프렐요드",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_5_0/core/ko_kr/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_6_0/core/ko_kr/img/regions/icon-shadowisles.png",
       "name": "그림자 군도",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_5_0/core/ko_kr/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_6_0/core/ko_kr/img/regions/icon-ionia.png",
       "name": "아이오니아",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_5_0/core/ko_kr/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_6_0/core/ko_kr/img/regions/icon-bilgewater.png",
       "name": "빌지워터",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_5_0/core/ko_kr/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_6_0/core/ko_kr/img/regions/icon-piltoverzaun.png",
       "name": "필트오버 & 자운",
       "nameRef": "PiltoverZaun"
     }
