@@ -56,7 +56,7 @@
       "nameRef": "Everywhere"
     },
     {
-      "description": "あなたがアタックトークンを<br>持っていない場合<br>アタックトークンを獲得して<br>このラウンド中にアタックが<br>行えるようになる。",
+      "description": "あなたがアタックトークンを持っていない場合、アタックトークンを獲得して、このラウンド中にアタックが行えるようになる。",
       "name": "奮起",
       "nameRef": "Rally"
     },
@@ -93,7 +93,7 @@
       "nameRef": "Weakest"
     },
     {
-      "description": "敵はこのユニットを選んで<br>ブロックさせることができる。",
+      "description": "敵はこのユニットを選んでブロックさせることができる。",
       "name": "無防備",
       "nameRef": "Vulnerable"
     },
@@ -213,7 +213,7 @@
       "nameRef": "Ionia"
     },
     {
-      "description": "各ラウンドの開始時に<br>体力を全回復する。",
+      "description": "各ラウンドの終了時に体力を全回復する。",
       "name": "リジェネレーション",
       "nameRef": "Regeneration"
     },
@@ -306,43 +306,43 @@
   "regions": [
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_6_0/core/ja_jp/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ja_jp/img/regions/icon-noxus.png",
       "name": "ノクサス",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_6_0/core/ja_jp/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ja_jp/img/regions/icon-demacia.png",
       "name": "デマーシア",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_6_0/core/ja_jp/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ja_jp/img/regions/icon-freljord.png",
       "name": "フレヨルド",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_6_0/core/ja_jp/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ja_jp/img/regions/icon-shadowisles.png",
       "name": "シャドウアイル",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_6_0/core/ja_jp/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ja_jp/img/regions/icon-ionia.png",
       "name": "アイオニア",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_6_0/core/ja_jp/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ja_jp/img/regions/icon-bilgewater.png",
       "name": "ビルジウォーター",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_6_0/core/ja_jp/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ja_jp/img/regions/icon-piltoverzaun.png",
       "name": "ピルトーヴァー<nbsp>&<nbsp>ゾウン",
       "nameRef": "PiltoverZaun"
     }

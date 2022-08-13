@@ -213,7 +213,7 @@
       "nameRef": "Ionia"
     },
     {
-      "description": "Восстанавливает все недостающее здоровье в начале каждого раунда.",
+      "description": "Восстанавливает все недостающее здоровье в конце каждого раунда.",
       "name": "Восстановление",
       "nameRef": "Regeneration"
     },
@@ -306,43 +306,43 @@
   "regions": [
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_6_0/core/ru_ru/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ru_ru/img/regions/icon-noxus.png",
       "name": "Ноксус",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_6_0/core/ru_ru/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ru_ru/img/regions/icon-demacia.png",
       "name": "Демасия",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_6_0/core/ru_ru/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ru_ru/img/regions/icon-freljord.png",
       "name": "Фрельйорд",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_6_0/core/ru_ru/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ru_ru/img/regions/icon-shadowisles.png",
       "name": "Сумрачные острова",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_6_0/core/ru_ru/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ru_ru/img/regions/icon-ionia.png",
       "name": "Иония",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_6_0/core/ru_ru/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ru_ru/img/regions/icon-bilgewater.png",
       "name": "Билджвотер",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_6_0/core/ru_ru/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_7_0/core/ru_ru/img/regions/icon-piltoverzaun.png",
       "name": "Пилтовер и Заун",
       "nameRef": "PiltoverZaun"
     }
