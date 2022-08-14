@@ -153,6 +153,11 @@
       "nameRef": "Demacia"
     },
     {
+      "description": "Missing Translation",
+      "name": "Peut bloquer les unités insaisissables",
+      "nameRef": "BlockElusive"
+    },
+    {
       "description": "",
       "name": "Îles obscures",
       "nameRef": "ShadowIsles"
@@ -171,6 +176,11 @@
       "description": "Quand je suis invoqué, regagnez 1 gemme.",
       "name": "Unisson",
       "nameRef": "Attune"
+    },
+    {
+      "description": "Les sites prennent une place sur le plateau. Ils ne peuvent pas attaquer, bloquer ou subir de dégâts.",
+      "name": "Site",
+      "nameRef": "LandmarkVisualOnly"
     },
     {
       "description": "Annule les prochains dégâts que l'unité devrait subir. Dure un round.",
@@ -346,49 +356,49 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/fr_fr/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/fr_fr/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/fr_fr/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/fr_fr/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/fr_fr/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/fr_fr/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/fr_fr/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/fr_fr/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/fr_fr/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/fr_fr/img/regions/icon-shadowisles.png",
       "name": "Îles obscures",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/fr_fr/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/fr_fr/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/fr_fr/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/fr_fr/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/fr_fr/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/fr_fr/img/regions/icon-piltoverzaun.png",
       "name": "Piltover & Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -431,17 +441,17 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/fr_fr/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/fr_fr/img/sets/set1.png",
       "name": "Fondations",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/fr_fr/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/fr_fr/img/sets/set2.png",
       "name": "Marée montante",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/fr_fr/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/fr_fr/img/sets/set3.png",
       "name": "Appel de la montagne",
       "nameRef": "Set3"
     }

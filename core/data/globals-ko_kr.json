@@ -153,6 +153,11 @@
       "nameRef": "Demacia"
     },
     {
+      "description": "Missing Translation",
+      "name": "포착 불가 유닛 방어 가능",
+      "nameRef": "BlockElusive"
+    },
+    {
       "description": "",
       "name": "그림자 군도",
       "nameRef": "ShadowIsles"
@@ -171,6 +176,11 @@
       "description": "소환 시 주문 마나를 1 회복합니다.",
       "name": "조율",
       "nameRef": "Attune"
+    },
+    {
+      "description": "명소는 전장에서 공간을 차지합니다. 공격 및 방어를<br>할 수 없으며 피해를<br>입지 않습니다.",
+      "name": "명소",
+      "nameRef": "LandmarkVisualOnly"
     },
     {
       "description": "유닛이 입는 다음 피해를 무효로 합니다. 한 라운드 동안 지속됩니다.",
@@ -346,49 +356,49 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/ko_kr/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/ko_kr/img/regions/icon-targon.png",
       "name": "타곤",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/ko_kr/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/ko_kr/img/regions/icon-noxus.png",
       "name": "녹서스",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/ko_kr/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/ko_kr/img/regions/icon-demacia.png",
       "name": "데마시아",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/ko_kr/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/ko_kr/img/regions/icon-freljord.png",
       "name": "프렐요드",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/ko_kr/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/ko_kr/img/regions/icon-shadowisles.png",
       "name": "그림자 군도",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/ko_kr/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/ko_kr/img/regions/icon-ionia.png",
       "name": "아이오니아",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/ko_kr/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/ko_kr/img/regions/icon-bilgewater.png",
       "name": "빌지워터",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/ko_kr/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/ko_kr/img/regions/icon-piltoverzaun.png",
       "name": "필트오버 & 자운",
       "nameRef": "PiltoverZaun"
     }
@@ -431,17 +441,17 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/ko_kr/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/ko_kr/img/sets/set1.png",
       "name": "기본",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/ko_kr/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/ko_kr/img/sets/set2.png",
       "name": "밀려오는 파도",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/ko_kr/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/ko_kr/img/sets/set3.png",
       "name": "산의 부름",
       "nameRef": "Set3"
     }
