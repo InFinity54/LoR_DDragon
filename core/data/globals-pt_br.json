@@ -248,7 +248,7 @@
       "nameRef": "Silenced"
     },
     {
-      "description": "Nega o próximo feitiço ou habilidade do inimigo que me afetaria.",
+      "description": "Nega o próximo feitiço ou habilidade inimiga que me afetaria.",
       "name": "Escudo de Feitiço",
       "nameRef": "SpellShield"
     },
@@ -346,49 +346,49 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pt_br/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/pt_br/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pt_br/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/pt_br/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pt_br/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/pt_br/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pt_br/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/pt_br/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pt_br/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/pt_br/img/regions/icon-shadowisles.png",
       "name": "Ilhas das Sombras",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pt_br/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/pt_br/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pt_br/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/pt_br/img/regions/icon-bilgewater.png",
       "name": "Águas de Sentina",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pt_br/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/pt_br/img/regions/icon-piltoverzaun.png",
       "name": "Piltover e Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -413,11 +413,11 @@
       "nameRef": "Common"
     },
     {
-      "name": "RARA",
+      "name": "RARO (A)",
       "nameRef": "Rare"
     },
     {
-      "name": "ÉPICA",
+      "name": "ÉPICO (A)",
       "nameRef": "Epic"
     },
     {
@@ -431,17 +431,17 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pt_br/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/pt_br/img/sets/set3.png",
       "name": "Chamado da Montanha",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pt_br/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/pt_br/img/sets/set2.png",
       "name": "Marés Crescentes",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/pt_br/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/pt_br/img/sets/set1.png",
       "name": "Primordiais",
       "nameRef": "Set1"
     }

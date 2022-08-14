@@ -22,7 +22,7 @@
     },
     {
       "description": "自分の場に出ている、または手札に持っている状態を指す。",
-      "name": "保持している",
+      "name": "保持",
       "nameRef": "Behold"
     },
     {
@@ -248,7 +248,7 @@
       "nameRef": "Silenced"
     },
     {
-      "description": "このユニットが次に受ける敵からのスキルまたはスペルの効果を無効化する。",
+      "description": "このユニットが次に受ける敵からのスペルまたはスキルの効果を無効化する。",
       "name": "スペルシールド",
       "nameRef": "SpellShield"
     },
@@ -346,50 +346,50 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ja_jp/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/ja_jp/img/regions/icon-targon.png",
       "name": "ターゴン",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ja_jp/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/ja_jp/img/regions/icon-noxus.png",
       "name": "ノクサス",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ja_jp/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/ja_jp/img/regions/icon-demacia.png",
       "name": "デマーシア",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ja_jp/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/ja_jp/img/regions/icon-freljord.png",
       "name": "フレヨルド",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ja_jp/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/ja_jp/img/regions/icon-shadowisles.png",
       "name": "シャドウアイル",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ja_jp/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/ja_jp/img/regions/icon-ionia.png",
       "name": "アイオニア",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ja_jp/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/ja_jp/img/regions/icon-bilgewater.png",
       "name": "ビルジウォーター",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ja_jp/img/regions/icon-piltoverzaun.png",
-      "name": "ピルトーヴァー<nbsp>&<nbsp>ゾウン",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/ja_jp/img/regions/icon-piltoverzaun.png",
+      "name": "ピルトーヴァー<nobr> & ゾウン</nobr>",
       "nameRef": "PiltoverZaun"
     }
   ],
@@ -431,17 +431,17 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ja_jp/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/ja_jp/img/sets/set3.png",
       "name": "霊峰の呼び声",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ja_jp/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/ja_jp/img/sets/set2.png",
       "name": "迫り来る波濤",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ja_jp/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/ja_jp/img/sets/set1.png",
       "name": "スターター",
       "nameRef": "Set1"
     }

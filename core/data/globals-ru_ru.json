@@ -103,7 +103,7 @@
       "nameRef": "DoubleStrike"
     },
     {
-      "description": "Вы получите бонус, если сыграете эту карту первой в раунде.",
+      "description": "Вы получите бонус, если это первая карта, которую вы сыграли в раунде.",
       "name": "День",
       "nameRef": "Daybreak"
     },
@@ -258,7 +258,7 @@
       "nameRef": "Lifesteal"
     },
     {
-      "description": "Вы получите бонус, если сыграете эту карту НЕ первой в раунде.",
+      "description": "Вы получите бонус, если это НЕ первая карта, которую вы сыграли в раунде.",
       "name": "Ночь",
       "nameRef": "Nightfall"
     },
@@ -346,49 +346,49 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ru_ru/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/ru_ru/img/regions/icon-targon.png",
       "name": "Таргон",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ru_ru/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/ru_ru/img/regions/icon-noxus.png",
       "name": "Ноксус",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ru_ru/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/ru_ru/img/regions/icon-demacia.png",
       "name": "Демасия",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ru_ru/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/ru_ru/img/regions/icon-freljord.png",
       "name": "Фрельйорд",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ru_ru/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/ru_ru/img/regions/icon-shadowisles.png",
       "name": "Сумрачные острова",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ru_ru/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/ru_ru/img/regions/icon-ionia.png",
       "name": "Иония",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ru_ru/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/ru_ru/img/regions/icon-bilgewater.png",
       "name": "Билджвотер",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ru_ru/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/ru_ru/img/regions/icon-piltoverzaun.png",
       "name": "Пилтовер и Заун",
       "nameRef": "PiltoverZaun"
     }
@@ -431,17 +431,17 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ru_ru/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/ru_ru/img/sets/set3.png",
       "name": "Зов Горы",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ru_ru/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/ru_ru/img/sets/set2.png",
       "name": "Прилив",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_8_0/core/ru_ru/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_10_0/core/ru_ru/img/sets/set1.png",
       "name": "Основы",
       "nameRef": "Set1"
     }
