@@ -1,0 +1,449 @@
+{
+  "vocabTerms": [
+    {
+      "description": "เมื่อคุณอัญเชิญการ์ดใบนี้ มันจะได้รับโบนัสภักดีหากการ์ด<br>ใบบนสุดในเด็คของคุณมาจาก<br>ภูมิภาคเดียวกัน",
+      "name": "ภักดี",
+      "nameRef": "Allegiance"
+    },
+    {
+      "description": "การโจมตีด้วยยูนิตสนับสนุนจะมอบ<br>ความสามารถให้ยูนิตที่อยู่ขวามือ",
+      "name": "สนับสนุน",
+      "nameRef": "Support"
+    },
+    {
+      "description": "ยูนิตที่มีพลังโจมตีสูงสุด หากมีการเสมอกัน ให้ดูพลังชีวิตสูงสุด แล้วตามด้วยค่าร่ายสูงสุด",
+      "name": "แข็งแกร่งที่สุด",
+      "nameRef": "Strongest"
+    },
+    {
+      "description": "ทำลายล้างการ์ดที่ไม่ใช่<br>แชมเปี้ยน X ใบ จากด้านล่างสุดของเด็ค<br>ของคุณ",
+      "name": "หย่อนทิ้ง",
+      "nameRef": "Toss"
+    },
+    {
+      "description": "คุณจะประจักษ์อะไรบางอย่างหากมีการ์ดดังกล่าวอยู่ในการเล่น<br>หรือในมือ",
+      "name": "ประจักษ์",
+      "nameRef": "Behold"
+    },
+    {
+      "description": "ความสามารถนี้มีผลเมื่อจบรอบ",
+      "name": "จบรอบ",
+      "nameRef": "RoundEnd"
+    },
+    {
+      "description": "ความสามารถนี้มีผล<br>เมื่อยูนิตโจมตี",
+      "name": "สั่งโจมตี",
+      "nameRef": "Attack"
+    },
+    {
+      "description": "บัฟยูนิตเมื่อพลังโจมตีหรือพลังชีวิตเพิ่มขึ้น หรือได้รับคีย์เวิร์ดใหม่",
+      "name": "บัฟ",
+      "nameRef": "Buffed"
+    },
+    {
+      "description": "ได้รับความสามารถนี้เมื่อยูนิต<br>พยายามสร้างความเสียหาย<br>โดยใช้พลังโจมตีของตน <br>ไม่ว่าจะเป็นตอนจบการต่อสู้<br>หรือการใช้เวทมนตร์ก็ตาม<br>ยูนิตที่มีพลังโจมตี<br>0 หน่วยไม่สามารถจู่โจมได้",
+      "name": "จู่โจม",
+      "nameRef": "Strike"
+    },
+    {
+      "description": "มีผลเมื่อยูนิตจู่โจมเน็กซัส<br>ของศัตรู",
+      "name": "จู่โจมเน็กซัส",
+      "nameRef": "NexusStrike"
+    },
+    {
+      "description": "ความสามารถนี้มีผลเมื่อเริ่มรอบ",
+      "name": "เริ่มรอบ",
+      "nameRef": "RoundStart"
+    },
+    {
+      "description": "ความสามารถนี้มีผลเมื่อ<br>คุณเล่นยูนิตนี้จากมือ",
+      "name": "เล่น",
+      "nameRef": "Play"
+    },
+    {
+      "description": "บนกระดาน ในมือ ในเด็ค ในกองทิ้งการ์ด หรือแม้แต่เมื่อถูก<br>สร้าง/อัญเชิญในภายหลัง",
+      "name": "ในทุกที่",
+      "nameRef": "Everywhere"
+    },
+    {
+      "description": "รับโทเคนโจมตีหากยังไม่มี คุณสามารถโจมตีได้ในรอบนี้",
+      "name": "ปลุกระดม",
+      "nameRef": "Rally"
+    },
+    {
+      "description": "ลบล้างคีย์เวิร์ด ความสามารถ และผลจากการ์ดอื่นก่อนหน้านี้ทั้งหมด ไม่ส่งผลต่อความเสียหายหรือประเภทย่อย",
+      "name": "ลบล้างพลัง",
+      "nameRef": "Silence"
+    },
+    {
+      "description": "ความสามารถปล้นของการ์ดจะ<br>ทำงานเมื่อคุณเล่นหลังจาก<br>ที่คุณสร้างความเสียหายแก่<br>เน็กซัสของศัตรูในรอบนี้",
+      "name": "ปล้น",
+      "nameRef": "Plunder"
+    }
+  ],
+  "keywords": [
+    {
+      "description": "การ์ดที่ถูกนำออกจากเกมโดย<br>สมบูรณ์ สิ้นลม จะไม่ทำงาน และไม่สามารถคืนชีพได้",
+      "name": "ทำลายล้าง",
+      "nameRef": "Obliterate"
+    },
+    {
+      "description": "",
+      "name": "Targon",
+      "nameRef": "MtTargon"
+    },
+    {
+      "description": "ความสามารถคล้ายเวทจาก<br>ยูนิต ศัตรูสามารถโต้ตอบได้",
+      "name": "สกิล",
+      "nameRef": "Skill"
+    },
+    {
+      "description": "เมื่อโจมตี มันจะจู่โจมก่อน แล้วจู่โจมพร้อมกับผู้ป้องกันอีกครั้ง",
+      "name": "โจมตีสองครั้ง",
+      "nameRef": "DoubleStrike"
+    },
+    {
+      "description": "ได้โบนัสถ้าการ์ดใบนี้เป็นใบแรกที่คุณเล่นในรอบนี้",
+      "name": "รุ่งอรุณ",
+      "nameRef": "Daybreak"
+    },
+    {
+      "description": "ยูนิตที่มีพลังโจมตีต่ำสุด หากมีการเสมอกัน ให้ดูพลังชีวิตต่ำสุด แล้วตามด้วยค่าร่ายต่ำสุด",
+      "name": "อ่อนแอที่สุด",
+      "nameRef": "Weakest"
+    },
+    {
+      "description": "ศัตรูสามารถท้าชิงยูนิตนี้ได้และ<br>บังคับให้ต้องบล็อก",
+      "name": "เปราะบาง",
+      "nameRef": "Vulnerable"
+    },
+    {
+      "description": "ความสามารถนี้มีผล<br>เมื่อยูนิตโจมตี",
+      "name": "สั่งโจมตี",
+      "nameRef": "AttackSkillMark"
+    },
+    {
+      "description": "ยูนิตว่องไวเท่านั้นที่สามารถ<br>บล็อกยูนิตนี้ได้",
+      "name": "ว่องไว",
+      "nameRef": "Elusive"
+    },
+    {
+      "description": "ฟื้นพลังเน็กซัสของเราตาม<br>ปริมาณความเสียหายที่สร้างได้",
+      "name": "ดูดพลัง",
+      "nameRef": "Drain"
+    },
+    {
+      "description": "นำยูนิตหนึ่งตัวออกจากการ<br>ต่อสู้ ยูนิตนั้นจะไม่สามารถ<br>โจมตีหรือบล็อกได้จนจบรอบนั้น",
+      "name": "สตั้น",
+      "nameRef": "Stun"
+    },
+    {
+      "description": "ติดการ์ดนี้ไปกับการ์ดอื่นเป็นกับดัก เมื่อจั่วการ์ดที่ติดกับดัก ความสามารถจะเกิดผล",
+      "name": "กับดัก",
+      "nameRef": "Autoplay"
+    },
+    {
+      "description": "",
+      "name": "Piltover & Zaun",
+      "nameRef": "PiltoverZaun"
+    },
+    {
+      "description": "",
+      "name": "Demacia",
+      "nameRef": "Demacia"
+    },
+    {
+      "description": "",
+      "name": "Shadow Isles",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "เมื่อการ์ดใบนี้สังหารยูนิตได้ มอบ +1|+1 ให้มัน",
+      "name": "โทสะ",
+      "nameRef": "Fury"
+    },
+    {
+      "description": "ความเสียหายที่เกินจากพลังชีวิตของเป้าหมายจะถูกส่งต่อไปที่เน็กซัสของศัตรู",
+      "name": "ทะลวง",
+      "nameRef": "SpellOverwhelm"
+    },
+    {
+      "description": "เมื่อการ์ดใบนี้ถูกอัญเชิญ ฟื้นฟูมานาเวท 1 หน่วย",
+      "name": "ชำนาญเวท",
+      "nameRef": "Attune"
+    },
+    {
+      "description": "ลบล้างความเสียหายต่อไปที่<br>ยูนิตจะได้รับ มีผลหนึ่งรอบ",
+      "name": "บาเรีย",
+      "nameRef": "Barrier"
+    },
+    {
+      "description": "ไม่สามารถสั่งโจมตีหรือสั่งบล็อกได้",
+      "name": "เคลื่อนไหวไม่ได้",
+      "nameRef": "Immobile"
+    },
+    {
+      "description": "การ์ดที่ถูกจับกุมจะถูกนำ<br>ออกจากเกมจนกว่ายูนิต<br>ผู้จับกุมจะออกจากกระดาน",
+      "name": "จับกุม",
+      "nameRef": "Capture"
+    },
+    {
+      "description": "เปลี่ยนให้พลังโจมตีของยูนิต<br>หนึ่งตัวเป็น 0 ในรอบนี้ สามารถเปลี่ยนต่อได้หลังจากนี้",
+      "name": "แช่แข็ง",
+      "nameRef": "Frostbite"
+    },
+    {
+      "description": "เวทฉับพลันจะร่ายเสร็จในทันที ศัตรูจะไม่สามารถทำอะไรได้<br>จนกว่าร่ายเสร็จ",
+      "name": "ฉับพลัน",
+      "nameRef": "Burst"
+    },
+    {
+      "description": "การ์ดชั่วคราวจะหายไปจากมือ<br>เมื่อจบรอบ",
+      "name": "ชั่วคราว",
+      "nameRef": "Fleeting"
+    },
+    {
+      "description": "คุณสามารถเล่นเวทเร็วตอน<br>ไหนก็ได้ แต่ศัตรูสามารถโต้ตอบได้",
+      "name": "เร็ว",
+      "nameRef": "Fast"
+    },
+    {
+      "description": "ความเสียหายส่วนที่เกินจาก<br>พลังชีวิตของผู้ป้องกันจะนำไป<br>สร้างความเสียหายแก่เน็กซัส<zwsp>ของศัตรู",
+      "name": "ทะลวง",
+      "nameRef": "Overwhelm"
+    },
+    {
+      "description": "ความสามารถนี้มีผลเมื่อ<br>คุณเล่นยูนิตนี้จากมือ",
+      "name": "เล่น",
+      "nameRef": "PlaySkillMark"
+    },
+    {
+      "description": "เมื่อโจมตี มันจะจู่โจมก่อนผู้ป้องกัน",
+      "name": "โจมตีก่อน",
+      "nameRef": "QuickStrike"
+    },
+    {
+      "description": "ได้รับความเสียหายทุกอย่าง<br>น้อยลง 1 หน่วย",
+      "name": "ทนทาน",
+      "nameRef": "Tough"
+    },
+    {
+      "description": "เรียกยูนิตหนึ่งตัวกลับขึ้นมือ และลบผลทุกอย่างที่มีผล<br>กับยูนิตนั้น",
+      "name": "เรียกกลับ",
+      "nameRef": "Recall"
+    },
+    {
+      "description": "",
+      "name": "Ionia",
+      "nameRef": "Ionia"
+    },
+    {
+      "description": "ฮีลจนเต็มเมื่อแต่ละรอบสิ้นสุด",
+      "name": "ฟื้นฟู",
+      "nameRef": "Regeneration"
+    },
+    {
+      "description": "ลบข้อความและคีย์เวิร์ดทั้งหมดออกจากยูนิต",
+      "name": "ลบล้างพลัง",
+      "nameRef": "Silenced"
+    },
+    {
+      "description": "ลบล้างเวทหรือสกิลถัดไป<br>ของศัตรูที่อาจจะส่งผลกับ<br>การ์ดใบนี้",
+      "name": "โล่เวท",
+      "nameRef": "SpellShield"
+    },
+    {
+      "description": "ฟื้นพลังแก่เน็กซัสตามปริมาณ<br>ความเสียหายที่ยูนิตนี้ทำได้",
+      "name": "ดูดเลือด",
+      "nameRef": "Lifesteal"
+    },
+    {
+      "description": "ได้โบนัสถ้าการ์ดใบนี้ไม่ใช่ใบแรกที่คุณเล่นในรอบนี้",
+      "name": "พลบค่ำ",
+      "nameRef": "Nightfall"
+    },
+    {
+      "description": "คุณรู้แจ้งเมื่อคุณมีมานาเต็ม 10 หน่วย",
+      "name": "รู้แจ้ง",
+      "nameRef": "Enlightened"
+    },
+    {
+      "description": "แชมเปี้ยนจะเลเวลอัปเมื่อทำตาม<br>เงื่อนไขที่กำหนด แม้แชมเปี้ยนจะอยู่ในมือหรือ<br>ในเด็คก็ตาม",
+      "name": "เลเวลอัป",
+      "nameRef": "LevelUp"
+    },
+    {
+      "description": "เวทช้าสามารถร่ายได้นอกการ<br>ต่อสู้และนอกการร่ายเวทอื่น ศัตรูสามารถโต้ตอบได้",
+      "name": "ช้า",
+      "nameRef": "Slow"
+    },
+    {
+      "description": "",
+      "name": "Noxus",
+      "nameRef": "Noxus"
+    },
+    {
+      "description": "เลือกการ์ดสรวงสวรรค์หนึ่งใบจากที่มีให้เลือก 3 ใบเพื่อสร้างการ์ดนั้นในมือ",
+      "name": "อ้อนวอน",
+      "nameRef": "Invoke"
+    },
+    {
+      "description": "หากการโจมตีครั้งแรกในแต่ละ<br>รอบมีแต่ยูนิตสอดแนมอย่าง<br>เดียว คุณจะสามารถเตรียมพร้อม<br>การโจมตีครั้งที่สองได้",
+      "name": "สอดแนม",
+      "nameRef": "Scout"
+    },
+    {
+      "description": "ยูนิตนี้ตายเมื่อมันจู่โจมหรือ<br>เมื่อจบรอบ",
+      "name": "ไร้ตัวตน",
+      "nameRef": "Ephemeral"
+    },
+    {
+      "description": "",
+      "name": "Freljord",
+      "nameRef": "Freljord"
+    },
+    {
+      "description": "ความสามารถเหล่านี้มีผลเมื่อ<br>ยูนิตตาย",
+      "name": "สิ้นลม",
+      "nameRef": "LastBreath"
+    },
+    {
+      "description": "",
+      "name": "Bilgewater",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "description": "จั่วการ์ดที่ไม่ใช่แชมเปี้ยนจาก<br>ด้านล่างเด็คของศัตรู",
+      "name": "ฉกฉวย",
+      "nameRef": "Nab"
+    },
+    {
+      "description": "สามารถเลือกได้ว่าจะให้ยูนิตศัตรู<br>ตัวใดบล็อกตัวนี้",
+      "name": "ผู้ท้าชิง",
+      "nameRef": "Challenger"
+    },
+    {
+      "description": "ความสามารถเหล่านี้มีผลเมื่อคุณร่ายเวทสำเร็จ",
+      "name": "กระตุ้น",
+      "nameRef": "Imbue"
+    },
+    {
+      "description": "ศัตรูที่มีพลังโจมตี 3 หน่วยขึ้นไปเท่านั้นที่สามารถ<br>บล็อกยูนิตนี้ได้",
+      "name": "น่าสะพรึง",
+      "nameRef": "Fearsome"
+    },
+    {
+      "description": "",
+      "name": "สั่งบล็อกไม่ได้",
+      "nameRef": "CantBlock"
+    },
+    {
+      "description": "",
+      "name": "ดำดิ่ง",
+      "nameRef": "Deep"
+    }
+  ],
+  "regions": [
+    {
+      "abbreviation": "MT",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/th_th/img/regions/icon-targon.png",
+      "name": "Targon",
+      "nameRef": "Targon"
+    },
+    {
+      "abbreviation": "NX",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/th_th/img/regions/icon-noxus.png",
+      "name": "Noxus",
+      "nameRef": "Noxus"
+    },
+    {
+      "abbreviation": "DE",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/th_th/img/regions/icon-demacia.png",
+      "name": "Demacia",
+      "nameRef": "Demacia"
+    },
+    {
+      "abbreviation": "FR",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/th_th/img/regions/icon-freljord.png",
+      "name": "Freljord",
+      "nameRef": "Freljord"
+    },
+    {
+      "abbreviation": "SI",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/th_th/img/regions/icon-shadowisles.png",
+      "name": "Shadow Isles",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "abbreviation": "IO",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/th_th/img/regions/icon-ionia.png",
+      "name": "Ionia",
+      "nameRef": "Ionia"
+    },
+    {
+      "abbreviation": "BW",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/th_th/img/regions/icon-bilgewater.png",
+      "name": "Bilgewater",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "abbreviation": "PZ",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/th_th/img/regions/icon-piltoverzaun.png",
+      "name": "Piltover & Zaun",
+      "nameRef": "PiltoverZaun"
+    }
+  ],
+  "spellSpeeds": [
+    {
+      "name": "ช้า",
+      "nameRef": "Slow"
+    },
+    {
+      "name": "ฉับพลัน",
+      "nameRef": "Burst"
+    },
+    {
+      "name": "เร็ว",
+      "nameRef": "Fast"
+    }
+  ],
+  "rarities": [
+    {
+      "name": "คอมมอน",
+      "nameRef": "Common"
+    },
+    {
+      "name": "แรร์",
+      "nameRef": "Rare"
+    },
+    {
+      "name": "อีปิค",
+      "nameRef": "Epic"
+    },
+    {
+      "name": "แชมเปี้ยน",
+      "nameRef": "Champion"
+    },
+    {
+      "name": "ไม่มี",
+      "nameRef": "None"
+    }
+  ],
+  "sets": [
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/th_th/img/sets/set1.png",
+      "name": "Foundations",
+      "nameRef": "Set1"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/th_th/img/sets/set2.png",
+      "name": "Rising Tides",
+      "nameRef": "Set2"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_11_0/core/th_th/img/sets/set3.png",
+      "name": "Call of the Mountain",
+      "nameRef": "Set3"
+    }
+  ]
+}
