@@ -51,7 +51,7 @@
       "nameRef": "NexusStrike"
     },
     {
-      "description": "ความสามารถนี้มีผลเมื่อเริ่มรอบ",
+      "description": "ความสามารถนี้มีผลเมื่อ<br>เริ่มรอบ",
       "name": "เริ่มรอบ",
       "nameRef": "RoundStart"
     },
@@ -133,7 +133,7 @@
       "nameRef": "Drain"
     },
     {
-      "description": "นำยูนิตหนึ่งตัวออกจากการ<br>ต่อสู้ ยูนิตนั้นจะไม่สามารถ<br>โจมตีหรือบล็อกได้จนจบรอบนั้น",
+      "description": "นำยูนิตหนึ่งใบออกจากการ<br>ต่อสู้ ยูนิตนั้นจะไม่สามารถ<br>โจมตีหรือบล็อกได้จนจบรอบนั้น",
       "name": "สตั้น",
       "nameRef": "Stun"
     },
@@ -198,7 +198,7 @@
       "nameRef": "Capture"
     },
     {
-      "description": "เปลี่ยนให้พลังโจมตีของยูนิต<br>หนึ่งตัวเป็น 0 ในรอบนี้ สามารถเปลี่ยนต่อได้หลังจากนี้",
+      "description": "เปลี่ยนให้พลังโจมตีของยูนิต<br>หนึ่งใบเป็น 0 ในรอบนี้ สามารถเปลี่ยนต่อได้หลังจากนี้",
       "name": "แช่แข็ง",
       "nameRef": "Frostbite"
     },
@@ -238,7 +238,7 @@
       "nameRef": "Tough"
     },
     {
-      "description": "เรียกยูนิตหนึ่งตัวกลับขึ้นมือ และลบผลทุกอย่างที่มีผล<br>กับยูนิตนั้น",
+      "description": "เรียกยูนิตหนึ่งใบกลับขึ้นมือ และลบผลทุกอย่างที่มีผล<br>กับยูนิตนั้น",
       "name": "เรียกกลับ",
       "nameRef": "Recall"
     },
@@ -246,6 +246,11 @@
       "description": "",
       "name": "Ionia",
       "nameRef": "Ionia"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "Upgrade"
     },
     {
       "description": "ฮีลจนเต็มเมื่อแต่ละรอบสิ้นสุด",
@@ -278,7 +283,7 @@
       "nameRef": "Enlightened"
     },
     {
-      "description": "แชมเปี้ยนจะเลเวลอัปเมื่อทำตาม<br>เงื่อนไขที่กำหนด แม้แชมเปี้ยนจะอยู่ในมือหรือ<br>ในเด็คก็ตาม",
+      "description": "แชมเปี้ยนจะเลเวลอัปเมื่อ<br>ทำตามเงื่อนไขที่กำหนด แม้แชมเปี้ยนจะอยู่ในมือหรือ<br>ในเด็คก็ตาม",
       "name": "เลเวลอัป",
       "nameRef": "LevelUp"
     },
@@ -356,49 +361,49 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/th_th/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/th_th/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/th_th/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/th_th/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/th_th/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/th_th/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/th_th/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/th_th/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/th_th/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/th_th/img/regions/icon-shadowisles.png",
       "name": "Shadow Isles",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/th_th/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/th_th/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/th_th/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/th_th/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/th_th/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/th_th/img/regions/icon-piltoverzaun.png",
       "name": "Piltover & Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -441,17 +446,17 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/th_th/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/th_th/img/sets/set1.png",
       "name": "Foundations",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/th_th/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/th_th/img/sets/set2.png",
       "name": "Rising Tides",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/th_th/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/th_th/img/sets/set3.png",
       "name": "Call of the Mountain",
       "nameRef": "Set3"
     }

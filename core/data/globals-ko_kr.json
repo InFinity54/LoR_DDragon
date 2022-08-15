@@ -248,6 +248,11 @@
       "nameRef": "Ionia"
     },
     {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "Upgrade"
+    },
+    {
       "description": "라운드가 끝날 때마다 체력을 전부 회복합니다.",
       "name": "재생",
       "nameRef": "Regeneration"
@@ -356,49 +361,49 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/ko_kr/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/ko_kr/img/regions/icon-targon.png",
       "name": "타곤",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/ko_kr/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/ko_kr/img/regions/icon-noxus.png",
       "name": "녹서스",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/ko_kr/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/ko_kr/img/regions/icon-demacia.png",
       "name": "데마시아",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/ko_kr/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/ko_kr/img/regions/icon-freljord.png",
       "name": "프렐요드",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/ko_kr/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/ko_kr/img/regions/icon-shadowisles.png",
       "name": "그림자 군도",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/ko_kr/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/ko_kr/img/regions/icon-ionia.png",
       "name": "아이오니아",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/ko_kr/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/ko_kr/img/regions/icon-bilgewater.png",
       "name": "빌지워터",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/ko_kr/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/ko_kr/img/regions/icon-piltoverzaun.png",
       "name": "필트오버 & 자운",
       "nameRef": "PiltoverZaun"
     }
@@ -441,17 +446,17 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/ko_kr/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/ko_kr/img/sets/set1.png",
       "name": "기본",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/ko_kr/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/ko_kr/img/sets/set2.png",
       "name": "밀려오는 파도",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/ko_kr/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/ko_kr/img/sets/set3.png",
       "name": "산의 부름",
       "nameRef": "Set3"
     }

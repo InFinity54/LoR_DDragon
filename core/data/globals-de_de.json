@@ -248,6 +248,11 @@
       "nameRef": "Ionia"
     },
     {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "Upgrade"
+    },
+    {
       "description": "Erhält am Ende jeder Runde das gesamte fehlende Leben zurück.",
       "name": "Erholung",
       "nameRef": "Regeneration"
@@ -356,49 +361,49 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/de_de/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/de_de/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/de_de/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/de_de/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/de_de/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/de_de/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/de_de/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/de_de/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/de_de/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/de_de/img/regions/icon-shadowisles.png",
       "name": "Schatteninseln",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/de_de/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/de_de/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/de_de/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/de_de/img/regions/icon-bilgewater.png",
       "name": "Bilgewasser",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/de_de/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/de_de/img/regions/icon-piltoverzaun.png",
       "name": "Piltover & Zhaun",
       "nameRef": "PiltoverZaun"
     }
@@ -441,17 +446,17 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/de_de/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/de_de/img/sets/set1.png",
       "name": "Anfänge",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/de_de/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/de_de/img/sets/set2.png",
       "name": "Steigende Flut",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_12_0/core/de_de/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_13_0/core/de_de/img/sets/set3.png",
       "name": "Ruf des Berges",
       "nameRef": "Set3"
     }
