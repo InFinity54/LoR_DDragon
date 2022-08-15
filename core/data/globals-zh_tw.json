@@ -26,12 +26,12 @@
       "nameRef": "Behold"
     },
     {
-      "description": "回合結束時將觸發此效果。",
+      "description": "回合結束時將觸發此<br>效果。",
       "name": "回合結束",
       "nameRef": "RoundEnd"
     },
     {
-      "description": "此單位攻擊時將觸發此效果。",
+      "description": "此單位攻擊時將觸發此<br>效果。",
       "name": "攻擊",
       "nameRef": "Attack"
     },
@@ -41,7 +41,7 @@
       "nameRef": "Buffed"
     },
     {
-      "description": "單位以力量值對敵軍造成傷害時，觸發此效果，戰鬥結算後或使用法術皆可；力量值0的單位無法打擊。",
+      "description": "單位以力量值對敵軍造成傷害時，觸發此效果，戰鬥結算後或使用法術皆可；力量值0的單位無法<br>打擊。",
       "name": "打擊",
       "nameRef": "Strike"
     },
@@ -51,7 +51,7 @@
       "nameRef": "NexusStrike"
     },
     {
-      "description": "回合開始時將觸發此效果。",
+      "description": "回合開始時將觸發此<br>效果。",
       "name": "回合開始",
       "nameRef": "RoundStart"
     },
@@ -118,7 +118,7 @@
       "nameRef": "Vulnerable"
     },
     {
-      "description": "此單位攻擊時將觸發此效果。",
+      "description": "此單位攻擊時將觸發此<br>效果。",
       "name": "攻擊",
       "nameRef": "AttackSkillMark"
     },
@@ -356,49 +356,49 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_14_0/core/zh_tw/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/zh_tw/img/regions/icon-targon.png",
       "name": "巨石峰",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_14_0/core/zh_tw/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/zh_tw/img/regions/icon-noxus.png",
       "name": "諾克薩斯",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_14_0/core/zh_tw/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/zh_tw/img/regions/icon-demacia.png",
       "name": "蒂瑪西亞",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_14_0/core/zh_tw/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/zh_tw/img/regions/icon-freljord.png",
       "name": "弗雷爾卓德",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_14_0/core/zh_tw/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/zh_tw/img/regions/icon-shadowisles.png",
       "name": "闇影島",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_14_0/core/zh_tw/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/zh_tw/img/regions/icon-ionia.png",
       "name": "愛歐尼亞",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_14_0/core/zh_tw/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/zh_tw/img/regions/icon-bilgewater.png",
       "name": "比爾吉沃特",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_14_0/core/zh_tw/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/zh_tw/img/regions/icon-piltoverzaun.png",
       "name": "皮爾托福&佐恩",
       "nameRef": "PiltoverZaun"
     }
@@ -441,17 +441,17 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_14_0/core/zh_tw/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/zh_tw/img/sets/set1.png",
       "name": "基礎",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_14_0/core/zh_tw/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/zh_tw/img/sets/set2.png",
       "name": "洶湧怒濤",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_14_0/core/zh_tw/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/zh_tw/img/sets/set3.png",
       "name": "巨石峰之喚",
       "nameRef": "Set3"
     }
