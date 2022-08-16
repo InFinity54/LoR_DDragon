@@ -6,6 +6,11 @@
       "nameRef": "Allegiance"
     },
     {
+      "description": "Wybierz następną księżycową broń dla Apheliosa.",
+      "name": "Faza",
+      "nameRef": "Phase"
+    },
+    {
       "description": "Stwórz losowy Fragment Ostrza potrzebny do przywrócenia Ostrza. Po rzuceniu wszystkich 3 stwórz Ostrze Wygnańca.",
       "name": "Przekucie",
       "nameRef": "Reforge"
@@ -366,49 +371,49 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_0_0/core/pl_pl/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_1_0/core/pl_pl/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_0_0/core/pl_pl/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_1_0/core/pl_pl/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_0_0/core/pl_pl/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_1_0/core/pl_pl/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_0_0/core/pl_pl/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_1_0/core/pl_pl/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_0_0/core/pl_pl/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_1_0/core/pl_pl/img/regions/icon-shadowisles.png",
       "name": "Wyspy Cienia",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_0_0/core/pl_pl/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_1_0/core/pl_pl/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_0_0/core/pl_pl/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_1_0/core/pl_pl/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_0_0/core/pl_pl/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_1_0/core/pl_pl/img/regions/icon-piltoverzaun.png",
       "name": "Piltover i Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -451,17 +456,17 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_0_0/core/pl_pl/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_1_0/core/pl_pl/img/sets/set3.png",
       "name": "Zew Góry",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_0_0/core/pl_pl/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_1_0/core/pl_pl/img/sets/set1.png",
       "name": "Fundamenty",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_0_0/core/pl_pl/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_1_0/core/pl_pl/img/sets/set2.png",
       "name": "Wzbierający Przypływ",
       "nameRef": "Set2"
     }

@@ -6,7 +6,12 @@
       "nameRef": "Allegiance"
     },
     {
-      "description": "Creo un fragmento de espada aleatorio necesario para restaurar la espada. Cuando hayas lanzado los 3, creo la Espada del Exilio.",
+      "description": "Elige la siguiente Arma Lunar para Aphelios.",
+      "name": "Fase",
+      "nameRef": "Phase"
+    },
+    {
+      "description": "Esta unidad crea un fragmento de espada aleatorio necesario para restaurar la espada. Cuando hayas lanzado los 3, crea la Espada del Exilio.",
       "name": "Reforjar",
       "nameRef": "Reforge"
     },
@@ -41,8 +46,8 @@
       "nameRef": "Attack"
     },
     {
-      "description": "Una unidad obtiene una mejora cuando su poder o vida aumenta u obtiene una nueva palabra clave.",
-      "name": "Mejoradas",
+      "description": "Una unidad obtiene una mejora cuando su poder o vida aumentan u obtiene una nueva palabra clave.",
+      "name": "Mejorada",
       "nameRef": "Buffed"
     },
     {
@@ -77,7 +82,7 @@
     },
     {
       "description": "Elimina todas las palabras clave, habilidades y efectos activos. No afecta el daño ni el subtipo.",
-      "name": "Silencio",
+      "name": "Silenciar",
       "nameRef": "Silence"
     },
     {
@@ -108,7 +113,7 @@
       "nameRef": "DoubleStrike"
     },
     {
-      "description": "Obtengo un efecto adicional si esta es la PRIMERA carta que usas en una ronda.",
+      "description": "Obtiene un efecto adicional si esta es la PRIMERA carta que usas en una ronda.",
       "name": "Amanecer",
       "nameRef": "Daybreak"
     },
@@ -159,7 +164,7 @@
     },
     {
       "description": "Missing Translation",
-      "name": "Puedes bloquear cartas con Evasión.",
+      "name": "Bloquea cartas con Evasión",
       "nameRef": "BlockElusive"
     },
     {
@@ -168,7 +173,7 @@
       "nameRef": "ShadowIsles"
     },
     {
-      "description": "Cuando mato a una unidad, recibo +1|+1.",
+      "description": "Cuando mata a una unidad, recibe +1|+1.",
       "name": "Furia",
       "nameRef": "Fury"
     },
@@ -183,7 +188,7 @@
       "nameRef": "Attune"
     },
     {
-      "description": "Los Hitos ocupan un lugar en el tablero. No pueden atacar, bloquear, o recibir daño.",
+      "description": "Los Hitos ocupan un lugar en el tablero. No pueden atacar, bloquear, ni recibir daño.",
       "name": "Hito",
       "nameRef": "LandmarkVisualOnly"
     },
@@ -208,22 +213,22 @@
       "nameRef": "Frostbite"
     },
     {
-      "description": "Los hechizos de ráfaga se resuelven al instante. El enemigo no puede actuar antes de que finalicen.",
+      "description": "Los hechizos de Ráfaga se resuelven al instante. El enemigo no puede actuar antes de que finalicen.",
       "name": "Ráfaga",
       "nameRef": "Burst"
     },
     {
-      "description": "Las cartas fugaces se descartan de la mano al final de la ronda.",
+      "description": "Las cartas con Fugaz se descartan de la mano al final de la ronda.",
       "name": "Fugaz",
       "nameRef": "Fleeting"
     },
     {
-      "description": "Los hechizos rápidos se pueden usar en cualquier momento, pero permiten al enemigo responder.",
+      "description": "Los hechizos Rápidos se pueden usar en cualquier momento, pero permiten al enemigo responder.",
       "name": "Rápido",
       "nameRef": "Fast"
     },
     {
-      "description": "El exceso de daño que le inflijo a la unidad que defiende se inflige al nexo enemigo.",
+      "description": "El exceso de daño que inflige esta unidad a la que defiende se inflige al nexo enemigo.",
       "name": "Arrollar",
       "nameRef": "Overwhelm"
     },
@@ -263,7 +268,7 @@
       "nameRef": "Silenced"
     },
     {
-      "description": "Anula el siguiente hechizo o habilidad del enemigo que me afectaría.",
+      "description": "Anula el siguiente hechizo o habilidad del enemigo que afectaría a esta unidad.",
       "name": "Escudo Antihechizos",
       "nameRef": "SpellShield"
     },
@@ -273,7 +278,7 @@
       "nameRef": "Lifesteal"
     },
     {
-      "description": "Obtengo un efecto adicional si esta NO es la primera carta que usas en una ronda.",
+      "description": "Obtiene un efecto adicional si esta NO es la primera carta que usas en una ronda.",
       "name": "Anochecer",
       "nameRef": "Nightfall"
     },
@@ -303,7 +308,7 @@
       "nameRef": "Invoke"
     },
     {
-      "description": "Cuando juegas una carta creada, recibo +1|+0.",
+      "description": "Cuando juegas una carta creada, esta unidad recibe +1|+0.",
       "name": "Aumento",
       "nameRef": "Augment"
     },
@@ -366,49 +371,49 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_0_0/core/es_mx/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_1_0/core/es_mx/img/regions/icon-targon.png",
       "name": "Targón",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_0_0/core/es_mx/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_1_0/core/es_mx/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_0_0/core/es_mx/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_1_0/core/es_mx/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_0_0/core/es_mx/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_1_0/core/es_mx/img/regions/icon-freljord.png",
       "name": "El Fréljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_0_0/core/es_mx/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_1_0/core/es_mx/img/regions/icon-shadowisles.png",
       "name": "Islas de la Sombra",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_0_0/core/es_mx/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_1_0/core/es_mx/img/regions/icon-ionia.png",
       "name": "Jonia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_0_0/core/es_mx/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_1_0/core/es_mx/img/regions/icon-bilgewater.png",
       "name": "Aguasturbias",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_0_0/core/es_mx/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_1_0/core/es_mx/img/regions/icon-piltoverzaun.png",
       "name": "Piltóver y Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -451,17 +456,17 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_0_0/core/es_mx/img/sets/set3.png",
-      "name": "Llamado de la Montaña",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_1_0/core/es_mx/img/sets/set3.png",
+      "name": "El Llamado de la Montaña",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_0_0/core/es_mx/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_1_0/core/es_mx/img/sets/set1.png",
       "name": "Fundamentos",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_0_0/core/es_mx/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_1_0/core/es_mx/img/sets/set2.png",
       "name": "Marea Creciente",
       "nameRef": "Set2"
     }
