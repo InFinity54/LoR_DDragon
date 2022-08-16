@@ -16,6 +16,16 @@
       "nameRef": "Reforge"
     },
     {
+      "description": "Roba 1 de cada aliado Ascendido de inmediato. Durante el resto de la partida, tus Ascendidos de nivel 2 serán de nivel 3.",
+      "name": "Restaurar el Disco Solar",
+      "nameRef": "SunDiscRestore"
+    },
+    {
+      "description": "Elige una carta de entre 3 en tu mazo. Revuelvo el mazo y coloco esa carta en la parte superior.",
+      "name": "Predecir",
+      "nameRef": "Forecast"
+    },
+    {
       "description": "Atacar con una unidad de apoyo mejorará la unidad a su derecha.",
       "name": "Apoyo",
       "nameRef": "Support"
@@ -44,6 +54,11 @@
       "description": "Obtén este efecto cuando esta unidad ataque.",
       "name": "Atacar",
       "nameRef": "Attack"
+    },
+    {
+      "description": "Se activa si los aliados al golpear infligen 5+ de daño al menos 4 veces en esta partida.",
+      "name": "Reputación",
+      "nameRef": "Aftermath"
     },
     {
       "description": "Una unidad obtiene una mejora cuando su poder o vida aumentan u obtiene una nueva palabra clave.",
@@ -76,9 +91,24 @@
       "nameRef": "Everywhere"
     },
     {
+      "description": "Un Hito con Cuenta regresiva reduce su conteo en dicha cantidad de veces.",
+      "name": "Avanzar",
+      "nameRef": "Advance"
+    },
+    {
+      "description": "Inicio de la ronda: Tengo Cuenta regresiva 1. Al llegar a 0, me destruyo y activo el efecto de Cuenta regresiva.",
+      "name": "Cuenta regresiva",
+      "nameRef": "Buried"
+    },
+    {
       "description": "Si no la tienes, obtén la ficha de ataque; puedes atacar en esta ronda.",
       "name": "Preparar",
       "nameRef": "Rally"
+    },
+    {
+      "description": "Cuando mates a una unidad mediante daño, efecto letal o la ataques con un aliado. Recuerda que no cuenta morir por tu propia mano (como al usar Endeble).",
+      "name": "Matar",
+      "nameRef": "Slay"
     },
     {
       "description": "Elimina todas las palabras clave, habilidades y efectos activos. No afecta el daño ni el subtipo.",
@@ -263,6 +293,11 @@
       "nameRef": "Regeneration"
     },
     {
+      "description": "No se puede lanzar en pleno combate ni como respuesta a otro hechizo. Se resuelve de inmediato.",
+      "name": "Enfoque",
+      "nameRef": "Focus"
+    },
+    {
       "description": "Anula todo el texto y palabras clave de una unidad.",
       "name": "Silenciado",
       "nameRef": "Silenced"
@@ -281,6 +316,11 @@
       "description": "Obtiene un efecto adicional si esta NO es la primera carta que usas en una ronda.",
       "name": "Anochecer",
       "nameRef": "Nightfall"
+    },
+    {
+      "description": "",
+      "name": "Shurima",
+      "nameRef": "Shurima"
     },
     {
       "description": "Activarás Iluminación cuando tengas 10 de maná máximo.",
@@ -371,49 +411,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/es_mx/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/es_mx/img/regions/icon-targon.png",
       "name": "Targón",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/es_mx/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/es_mx/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/es_mx/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/es_mx/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/es_mx/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/es_mx/img/regions/icon-freljord.png",
       "name": "El Fréljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/es_mx/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/es_mx/img/regions/icon-shadowisles.png",
       "name": "Islas de la Sombra",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/es_mx/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/es_mx/img/regions/icon-ionia.png",
       "name": "Jonia",
       "nameRef": "Ionia"
     },
     {
+      "abbreviation": "SH",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/es_mx/img/regions/icon-shurima.png",
+      "name": "Shurima",
+      "nameRef": "Shurima"
+    },
+    {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/es_mx/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/es_mx/img/regions/icon-bilgewater.png",
       "name": "Aguasturbias",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/es_mx/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/es_mx/img/regions/icon-piltoverzaun.png",
       "name": "Piltóver y Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -456,19 +502,24 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/es_mx/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/es_mx/img/sets/set3.png",
       "name": "El Llamado de la Montaña",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/es_mx/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/es_mx/img/sets/set1.png",
       "name": "Fundamentos",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/es_mx/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/es_mx/img/sets/set2.png",
       "name": "Marea Creciente",
       "nameRef": "Set2"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/es_mx/img/sets/set4.png",
+      "name": "Imperios de los Ascendidos",
+      "nameRef": "Set4"
     }
   ]
 }

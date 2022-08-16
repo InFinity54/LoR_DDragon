@@ -16,6 +16,16 @@
       "nameRef": "Reforge"
     },
     {
+      "description": "Pesca immediatamente 1 di ogni Asceso alleato che hai nel mazzo. Per il resto della partita, i tuoi Ascesi di livello 2 sono di livello 3.",
+      "name": "Restaura il Disco solare",
+      "nameRef": "SunDiscRestore"
+    },
+    {
+      "description": "Scegli una tra 3 carte del tuo mazzo. Mescola il mazzo e metti quella carta in cima.",
+      "name": "Prevedi",
+      "nameRef": "Forecast"
+    },
+    {
       "description": "L'attacco con un'unità di supporto conferisce un buff all'unità alla sua destra.",
       "name": "Supporto",
       "nameRef": "Support"
@@ -44,6 +54,11 @@
       "description": "Ottieni l'effetto quando questa unità attacca.",
       "name": "Attacca",
       "nameRef": "Attack"
+    },
+    {
+      "description": "Si attiva se gli alleati hanno colpito per 5+ danni almeno 4 volte in questa partita.",
+      "name": "Reputazione",
+      "nameRef": "Aftermath"
     },
     {
       "description": "Un'unità riceve un buff quando aumenta il suo Potere, la sua Salute o riceve una nuova parola chiave.",
@@ -76,9 +91,24 @@
       "nameRef": "Everywhere"
     },
     {
+      "description": "Modifica il Conto alla rovescia di un Monumento del numero di scatti corrispondente",
+      "name": "Avanzamento",
+      "nameRef": "Advance"
+    },
+    {
+      "description": "Inizio del turno: comincio il Conto alla rovescia di 1 ogni volta. Arrivato a 0, distruggimi e attiva l'effetto del Conto alla rovescia.",
+      "name": "Conto alla rovescia",
+      "nameRef": "Buried"
+    },
+    {
       "description": "Se non ne hai uno, ottieni il gettone d'attacco. Puoi attaccare in questo turno.",
       "name": "Preparazione dell'assalto",
       "nameRef": "Rally"
+    },
+    {
+      "description": "Quando uccidi un'unità con danni, effetti di uccisione o se muore dopo essere stata colpita da un tuo alleato. (Non conta se un'unità si uccide da sola, come nel caso delle unità Effimere.)",
+      "name": "Abbatti",
+      "nameRef": "Slay"
     },
     {
       "description": "Rimuove tutte le parole chiave, le abilità e gli effetti in corso. Non influisce su danni e sottotipi.",
@@ -263,6 +293,11 @@
       "nameRef": "Regeneration"
     },
     {
+      "description": "Non si può lanciare in combattimento o in risposta a un incantesimo. Si risolve immediatamente.",
+      "name": "Concentrazione",
+      "nameRef": "Focus"
+    },
+    {
       "description": "Rimuovi il testo e le parole chiave da un'unità.",
       "name": "Silenziato",
       "nameRef": "Silenced"
@@ -281,6 +316,11 @@
       "description": "Bonus se questa NON è la prima carta che giochi in un round.",
       "name": "Crepuscolo",
       "nameRef": "Nightfall"
+    },
+    {
+      "description": "",
+      "name": "Shurima",
+      "nameRef": "Shurima"
     },
     {
       "description": "Sei Illuminato quando possiedi 10 di mana massimo.",
@@ -371,49 +411,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/it_it/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/it_it/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/it_it/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/it_it/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/it_it/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/it_it/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/it_it/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/it_it/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/it_it/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/it_it/img/regions/icon-shadowisles.png",
       "name": "Isole Ombra",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/it_it/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/it_it/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
+      "abbreviation": "SH",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/it_it/img/regions/icon-shurima.png",
+      "name": "Shurima",
+      "nameRef": "Shurima"
+    },
+    {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/it_it/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/it_it/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/it_it/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/it_it/img/regions/icon-piltoverzaun.png",
       "name": "Piltover e Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -456,19 +502,24 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/it_it/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/it_it/img/sets/set3.png",
       "name": "La chiamata della montagna",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/it_it/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/it_it/img/sets/set1.png",
       "name": "Fondamenta",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/it_it/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/it_it/img/sets/set2.png",
       "name": "Alte maree",
       "nameRef": "Set2"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/it_it/img/sets/set4.png",
+      "name": "Gli imperi degli Ascesi",
+      "nameRef": "Set4"
     }
   ]
 }

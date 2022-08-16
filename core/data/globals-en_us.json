@@ -16,6 +16,16 @@
       "nameRef": "Reforge"
     },
     {
+      "description": "Immediately draw 1 of each Ascended ally. For the rest of the game, level 2 Ascended allies are level 3.",
+      "name": "Restore the Sun Disc",
+      "nameRef": "SunDiscRestore"
+    },
+    {
+      "description": "Pick a card from among 3 in your deck. Shuffle the deck and put that card on top.",
+      "name": "Predict",
+      "nameRef": "Forecast"
+    },
+    {
       "description": "Attacking with a support unit will buff the unit to its right.",
       "name": "Support",
       "nameRef": "Support"
@@ -44,6 +54,11 @@
       "description": "Get this effect when this unit attacks.",
       "name": "Attack",
       "nameRef": "Attack"
+    },
+    {
+      "description": "Activates if allies have struck for 5+ damage at least 4 times this game.",
+      "name": "Reputation",
+      "nameRef": "Aftermath"
     },
     {
       "description": "A unit is buffed when its Power or Health is increased or it gains a new keyword.",
@@ -76,9 +91,24 @@
       "nameRef": "Everywhere"
     },
     {
+      "description": "Makes a Countdown landmark count down that many times",
+      "name": "Advance",
+      "nameRef": "Advance"
+    },
+    {
+      "description": "Round Start: I count down 1. At 0, destroy me and activate the Countdown effect.",
+      "name": "Countdown",
+      "nameRef": "Buried"
+    },
+    {
       "description": "If you don't have one, gain the attack token. You can attack this round.",
       "name": "Rally",
       "nameRef": "Rally"
+    },
+    {
+      "description": "When you kill a unit via damage, kill effect, or striking it with an ally. (Self-killing, like from Ephemeral, doesn't count.)",
+      "name": "Slay",
+      "nameRef": "Slay"
     },
     {
       "description": "Remove all keywords, abilities, and ongoing effects. Doesn't affect damage or subtype.",
@@ -213,7 +243,7 @@
       "nameRef": "Frostbite"
     },
     {
-      "description": "Burst spells resolve instantly. The enemy can't act before it finishes.",
+      "description": "Burst spells are cast instantaneously. The enemy can't act before it finishes.",
       "name": "Burst",
       "nameRef": "Burst"
     },
@@ -263,6 +293,11 @@
       "nameRef": "Regeneration"
     },
     {
+      "description": "Cannot be cast in combat or while other spells are pending. Cast instantaneously.",
+      "name": "Focus",
+      "nameRef": "Focus"
+    },
+    {
       "description": "Removes all text and keywords from a unit.",
       "name": "Silenced",
       "nameRef": "Silenced"
@@ -281,6 +316,11 @@
       "description": "Bonus if this is NOT the first card you play in a round.",
       "name": "Nightfall",
       "nameRef": "Nightfall"
+    },
+    {
+      "description": " ",
+      "name": "Shurima",
+      "nameRef": "Shurima"
     },
     {
       "description": "You're Enlightened when you have 10 max mana.",
@@ -371,49 +411,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/en_us/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/en_us/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/en_us/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/en_us/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/en_us/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/en_us/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/en_us/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/en_us/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/en_us/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/en_us/img/regions/icon-shadowisles.png",
       "name": "Shadow Isles",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/en_us/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/en_us/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
+      "abbreviation": "SH",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/en_us/img/regions/icon-shurima.png",
+      "name": "Shurima",
+      "nameRef": "Shurima"
+    },
+    {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/en_us/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/en_us/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/en_us/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/en_us/img/regions/icon-piltoverzaun.png",
       "name": "Piltover & Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -456,19 +502,24 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/en_us/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/en_us/img/sets/set3.png",
       "name": "Call of the Mountain",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/en_us/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/en_us/img/sets/set1.png",
       "name": "Foundations",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/en_us/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/en_us/img/sets/set2.png",
       "name": "Rising Tides",
       "nameRef": "Set2"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/en_us/img/sets/set4.png",
+      "name": "Empires of the Ascended",
+      "nameRef": "Set4"
     }
   ]
 }

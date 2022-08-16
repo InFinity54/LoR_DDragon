@@ -16,6 +16,16 @@
       "nameRef": "Reforge"
     },
     {
+      "description": "「超越者」を1枚ずつ引く。このゲームが終了するまで、味方のレベル2の「超越者」はレベル3になる。",
+      "name": "太陽の円盤を復元",
+      "nameRef": "SunDiscRestore"
+    },
+    {
+      "description": "デッキのカード3枚の中から1枚を指定する。その後デッキを混ぜ、指定したカードを一番上に置く。",
+      "name": "先見",
+      "nameRef": "Forecast"
+    },
+    {
       "description": "アタック時、右隣の<br>ユニットにバフを与える。",
       "name": "サポート",
       "nameRef": "Support"
@@ -44,6 +54,11 @@
       "description": "このユニットが<br>アタックする時<br>効果を発動する。",
       "name": "アタック",
       "nameRef": "Attack"
+    },
+    {
+      "description": "このゲーム中に味方が5ダメージ以上のストライクを4回以上行っている場合に効果を発動する。",
+      "name": "名声",
+      "nameRef": "Aftermath"
     },
     {
       "description": "攻撃力か体力が上昇した、または新しいキーワードを獲得したユニットは「バフを受けた」状態となる。",
@@ -76,9 +91,24 @@
       "nameRef": "Everywhere"
     },
     {
+      "description": "指定された分だけランドマークのカウントダウンを進める。",
+      "name": "進行",
+      "nameRef": "Advance"
+    },
+    {
+      "description": "ラウンド開始時にカウントが1進む。カウントが0になった時、このカードを破壊して効果を発動する。",
+      "name": "カウントダウン",
+      "nameRef": "Buried"
+    },
+    {
       "description": "あなたがアタックトークンを持っていない場合、アタックトークンを獲得して、このラウンド中にアタックが行えるようになる。",
       "name": "奮起",
       "nameRef": "Rally"
+    },
+    {
+      "description": "あなたが与えたダメージ、キル効果、または味方のストライクによってユニットをキルすること。ただし「エフェメラル」などのユニット自身の効果によって力尽きた場合はカウントされない。",
+      "name": "撃破",
+      "nameRef": "Slay"
     },
     {
       "description": "キーワードとアビリティ<br>および適用中の効果を<br>すべて取り除く。<br>ただし、ダメージと<br>サブタイプはそのまま残る。",
@@ -263,6 +293,11 @@
       "nameRef": "Regeneration"
     },
     {
+      "description": "詠唱後すぐに解決されるが、戦闘中あるいは他のスペルに対抗して詠唱することはできない。",
+      "name": "フォーカス",
+      "nameRef": "Focus"
+    },
+    {
       "description": "ユニットからすべての<br>テキストとキーワードを<br>取り除く。",
       "name": "沈黙",
       "nameRef": "Silenced"
@@ -281,6 +316,11 @@
       "description": "このカードが、ラウンド中にあなたが初めてプレイしたカード「ではない」場合に発動する。",
       "name": "ナイトフォール",
       "nameRef": "Nightfall"
+    },
+    {
+      "description": " ",
+      "name": "シュリーマ",
+      "nameRef": "Shurima"
     },
     {
       "description": "マナが上限の10まで<br>溜まっている時<br>プレイヤーは<br>エンライト状態である。",
@@ -371,49 +411,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/ja_jp/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ja_jp/img/regions/icon-targon.png",
       "name": "ターゴン",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/ja_jp/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ja_jp/img/regions/icon-noxus.png",
       "name": "ノクサス",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/ja_jp/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ja_jp/img/regions/icon-demacia.png",
       "name": "デマーシア",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/ja_jp/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ja_jp/img/regions/icon-freljord.png",
       "name": "フレヨルド",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/ja_jp/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ja_jp/img/regions/icon-shadowisles.png",
       "name": "シャドウアイル",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/ja_jp/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ja_jp/img/regions/icon-ionia.png",
       "name": "アイオニア",
       "nameRef": "Ionia"
     },
     {
+      "abbreviation": "SH",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ja_jp/img/regions/icon-shurima.png",
+      "name": "シュリーマ",
+      "nameRef": "Shurima"
+    },
+    {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/ja_jp/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ja_jp/img/regions/icon-bilgewater.png",
       "name": "ビルジウォーター",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/ja_jp/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ja_jp/img/regions/icon-piltoverzaun.png",
       "name": "ピルトーヴァー<nobr> & ゾウン</nobr>",
       "nameRef": "PiltoverZaun"
     }
@@ -456,19 +502,24 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/ja_jp/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ja_jp/img/sets/set3.png",
       "name": "霊峰の呼び声",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/ja_jp/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ja_jp/img/sets/set1.png",
       "name": "スターター",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/ja_jp/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ja_jp/img/sets/set2.png",
       "name": "迫り来る波濤",
       "nameRef": "Set2"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ja_jp/img/sets/set4.png",
+      "name": "超越者の帝国",
+      "nameRef": "Set4"
     }
   ]
 }

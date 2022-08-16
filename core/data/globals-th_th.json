@@ -16,6 +16,16 @@
       "nameRef": "Reforge"
     },
     {
+      "description": "จั่วการ์ดของเหล่า Ascended ทุกตัวของคุณทันทีตัวละ 1 ใบ ตลอดทั้งเกม Ascended<br>เลเวล 2 ของคุณจะถูกเลื่อนเป็น<br>เลเวล 3",
+      "name": "ฟื้นฟู Sun Disc",
+      "nameRef": "SunDiscRestore"
+    },
+    {
+      "description": "เลือกการ์ดขึ้นมาหนึ่งใบจาก<br>3 ใบในเด็คของคุณ<br>สับการ์ดแล้ววางการ์ดที่เลือก<br>บนสุดของเด็ค",
+      "name": "พยากรณ์",
+      "nameRef": "Forecast"
+    },
+    {
       "description": "การโจมตีด้วยยูนิตสนับสนุนจะมอบ<br>ความสามารถให้ยูนิตที่อยู่ขวามือ",
       "name": "สนับสนุน",
       "nameRef": "Support"
@@ -44,6 +54,11 @@
       "description": "ความสามารถนี้มีผล<br>เมื่อยูนิตโจมตี",
       "name": "สั่งโจมตี",
       "nameRef": "Attack"
+    },
+    {
+      "description": "แสดงผลเมื่อพันธมิตรสร้าง<br>ความเสียหายด้วยการจู่โจมมากกว่า 5 หน่วย อย่างน้อย 4 ครั้งในเกมนี้",
+      "name": "ชื่อเสียง",
+      "nameRef": "Aftermath"
     },
     {
       "description": "บัฟยูนิตเมื่อพลังโจมตีหรือพลังชีวิตเพิ่มขึ้น หรือได้รับคีย์เวิร์ดใหม่",
@@ -76,9 +91,24 @@
       "nameRef": "Everywhere"
     },
     {
+      "description": "ทำให้แลนด์มาร์คนับถอยหลัง<br>นั้นนับถอยหลังให้มากที่สุด",
+      "name": "เร่งเวลา",
+      "nameRef": "Advance"
+    },
+    {
+      "description": "เริ่มรอบ: ข้าจะนับถอยหลัง 1<br>เมื่อถึง 0 จะทำลายข้า<br>และเปิดเอฟเฟกต์นับถอยหลัง",
+      "name": "นับถอยหลัง",
+      "nameRef": "Buried"
+    },
+    {
       "description": "รับโทเคนโจมตีหากยังไม่มี คุณสามารถโจมตีได้ในรอบนี้",
       "name": "ปลุกระดม",
       "nameRef": "Rally"
+    },
+    {
+      "description": "เมื่อคุณสังหารยูนิตด้วยความ<br>เสียหาย เอฟเฟกต์การสังหาร หรือจู่โจมด้วยพันธมิตร (แต่จะไม่นับการสังหารตัวเอง เช่น จากคีย์เวิร์ดไร้ตัวตน)",
+      "name": "กำจัด",
+      "nameRef": "Slay"
     },
     {
       "description": "ลบล้างคีย์เวิร์ด ความสามารถ และผลจากการ์ดอื่นก่อนหน้านี้ทั้งหมด ไม่ส่งผลต่อความเสียหายหรือประเภทย่อย",
@@ -263,6 +293,11 @@
       "nameRef": "Regeneration"
     },
     {
+      "description": "ไม่สามารถใช้ในระหว่างการ<br>ต่อสู้ หรือตอบโต้เวทได้ จงรีบหาทางแก้ไขทันที",
+      "name": "โฟกัส",
+      "nameRef": "Focus"
+    },
+    {
       "description": "ลบข้อความและคีย์เวิร์ดทั้งหมดออกจากยูนิต",
       "name": "ลบล้างพลัง",
       "nameRef": "Silenced"
@@ -281,6 +316,11 @@
       "description": "ได้โบนัสถ้าการ์ดใบนี้ไม่ใช่ใบแรกที่คุณเล่นในรอบนี้",
       "name": "พลบค่ำ",
       "nameRef": "Nightfall"
+    },
+    {
+      "description": "",
+      "name": "Shurima",
+      "nameRef": "Shurima"
     },
     {
       "description": "คุณรู้แจ้งเมื่อคุณมีมานาเต็ม 10 หน่วย",
@@ -371,49 +411,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/th_th/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/th_th/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/th_th/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/th_th/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/th_th/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/regions/icon-shadowisles.png",
       "name": "Shadow Isles",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/th_th/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
+      "abbreviation": "SH",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/regions/icon-shurima.png",
+      "name": "Shurima",
+      "nameRef": "Shurima"
+    },
+    {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/th_th/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/th_th/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/regions/icon-piltoverzaun.png",
       "name": "Piltover & Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -456,19 +502,24 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/th_th/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/sets/set3.png",
       "name": "Call of the Mountain",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/th_th/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/sets/set1.png",
       "name": "Foundations",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/th_th/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/sets/set2.png",
       "name": "Rising Tides",
       "nameRef": "Set2"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/sets/set4.png",
+      "name": "Empires of the Ascended",
+      "nameRef": "Set4"
     }
   ]
 }

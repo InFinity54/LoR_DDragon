@@ -16,6 +16,16 @@
       "nameRef": "Reforge"
     },
     {
+      "description": "Piochez immédiatement 1 carte pour chaque allié Transfiguré. Pour le reste de la partie, les alliés Transfigurés de niveau 2 sont de niveau 3.",
+      "name": "Restaurez le Disque solaire",
+      "nameRef": "SunDiscRestore"
+    },
+    {
+      "description": "Choisissez une carte parmi trois de votre deck. Mélangez le deck et placez cette carte à son sommet.",
+      "name": "Prédiction",
+      "nameRef": "Forecast"
+    },
+    {
       "description": "En attaquant avec une unité de support, l'unité à sa droite reçoit un buff.",
       "name": "Support",
       "nameRef": "Support"
@@ -44,6 +54,11 @@
       "description": "L'effet se déclenche lorsque l'unité attaque.",
       "name": "Attaque",
       "nameRef": "Attack"
+    },
+    {
+      "description": "S'active si les frappes des alliés ont infligé au moins 5 pts dégâts au moins 4 fois pendant la partie.",
+      "name": "Réputation",
+      "nameRef": "Aftermath"
     },
     {
       "description": "Une unité est renforcée quand sa puissance ou ses PV ont été augmentés ou si elle gagne un nouveau mot-clé.",
@@ -76,9 +91,24 @@
       "nameRef": "Everywhere"
     },
     {
+      "description": "Ôte au Décompte d'un site le nombre indiqué.",
+      "name": "Réduction du décompte",
+      "nameRef": "Advance"
+    },
+    {
+      "description": "Début du round : je réduis le Décompte de 1. À 0, détruisez-moi et activez l'effet du Décompte.",
+      "name": "Décompte",
+      "nameRef": "Buried"
+    },
+    {
       "description": "Si vous n'en avez pas, recevez un jeton d'attaque. Vous pouvez attaquer à ce round.",
       "name": "Ralliement",
       "nameRef": "Rally"
+    },
+    {
+      "description": "Quand vous tuez une unité avec des dégâts, un effet d'élimination ou en la frappant avec un allié. Les effets d'autodestruction, comme Éphémère, ne comptent pas.",
+      "name": "Vaincre",
+      "nameRef": "Slay"
     },
     {
       "description": "Supprimez tous les mots-clés, compétences et effets en cours. N'affecte pas les dégâts ou le sous-type.",
@@ -263,6 +293,11 @@
       "nameRef": "Regeneration"
     },
     {
+      "description": "Les sorts focalisés ne peuvent pas être lancés en cours de combat ou en réponse à un sort. Ils se lancent immédiatement.",
+      "name": "Focalisé",
+      "nameRef": "Focus"
+    },
+    {
       "description": "Supprime l'intégralité du texte et des mots-clés d'une unité.",
       "name": "Réduit au silence",
       "nameRef": "Silenced"
@@ -281,6 +316,11 @@
       "description": "Bonus si cette carte n'est PAS la première que vous jouez pendant un round.",
       "name": "Crépuscule",
       "nameRef": "Nightfall"
+    },
+    {
+      "description": "",
+      "name": "Shurima",
+      "nameRef": "Shurima"
     },
     {
       "description": "Lorsque vous atteignez 10 de mana max, vous atteignez l'Illumination.",
@@ -371,49 +411,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/fr_fr/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/fr_fr/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/fr_fr/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/fr_fr/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/fr_fr/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/fr_fr/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/fr_fr/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/fr_fr/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/fr_fr/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/fr_fr/img/regions/icon-shadowisles.png",
       "name": "Îles obscures",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/fr_fr/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/fr_fr/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
+      "abbreviation": "SH",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/fr_fr/img/regions/icon-shurima.png",
+      "name": "Shurima",
+      "nameRef": "Shurima"
+    },
+    {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/fr_fr/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/fr_fr/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/fr_fr/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/fr_fr/img/regions/icon-piltoverzaun.png",
       "name": "Piltover & Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -456,19 +502,24 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/fr_fr/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/fr_fr/img/sets/set3.png",
       "name": "Appel de la montagne",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/fr_fr/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/fr_fr/img/sets/set1.png",
       "name": "Fondations",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/fr_fr/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/fr_fr/img/sets/set2.png",
       "name": "Marée montante",
       "nameRef": "Set2"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/fr_fr/img/sets/set4.png",
+      "name": "Empires des Transfigurés",
+      "nameRef": "Set4"
     }
   ]
 }

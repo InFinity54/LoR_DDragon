@@ -16,6 +16,16 @@
       "nameRef": "Reforge"
     },
     {
+      "description": "Сразу вытяните из колоды по 1 экз. каждого вознесшегося союзника. До конца матча ваши вознесшиеся союзники 2-го уровня получают 3-й уровень.",
+      "name": "Восстановить Солнечный диск",
+      "nameRef": "SunDiscRestore"
+    },
+    {
+      "description": "Выберите одну из трех карт из вашей колоды. Замешайте остальные две в колоду, а выбранную положите сверху.",
+      "name": "Предсказание",
+      "nameRef": "Forecast"
+    },
+    {
       "description": "Если атакует боец поддержки, боец справа от него получает усиление.",
       "name": "Поддержка",
       "nameRef": "Support"
@@ -44,6 +54,11 @@
       "description": "Этот эффект сработает, когда боец пойдет в атаку.",
       "name": "Атака",
       "nameRef": "Attack"
+    },
+    {
+      "description": "Срабатывает, если союзники нанесли 5+ ед. урона как минимум 4 раза за игру.",
+      "name": "Репутация",
+      "nameRef": "Aftermath"
     },
     {
       "description": "Усиление – это увеличение силы или здоровья либо добавление нового навыка.",
@@ -76,9 +91,24 @@
       "nameRef": "Everywhere"
     },
     {
+      "description": "Счетчик места силы отсчитывает соответствующее количество раундов.",
+      "name": "Продвижение",
+      "nameRef": "Advance"
+    },
+    {
+      "description": "Начало раунда: число на счетчике уменьшается на 1. Когда он достигнет 0, уничтожьте меня и активируйте эффект отсчета.",
+      "name": "Отсчет",
+      "nameRef": "Buried"
+    },
+    {
       "description": "Если у вас нет жетона атаки, получите его. Вы сможете атаковать в этом раунде.",
       "name": "Рвение",
       "nameRef": "Rally"
+    },
+    {
+      "description": "Вы сражаете бойца, если убиваете врага или союзника ударом, смертоносным эффектом или нанося ему смертельный урон. Гибель в силу Эфемерности не учитывается.",
+      "name": "Сразить",
+      "nameRef": "Slay"
     },
     {
       "description": "Удалите все навыки, умения и действующие эффекты. Не влияет на урон и подтип.",
@@ -263,6 +293,11 @@
       "nameRef": "Regeneration"
     },
     {
+      "description": "Нельзя использовать во время боя или в ответ на другое заклинание. Срабатывает мгновенно.",
+      "name": "Мгновенное",
+      "nameRef": "Focus"
+    },
+    {
       "description": "Удалите описание и все навыки бойца.",
       "name": "Безмолвие",
       "nameRef": "Silenced"
@@ -281,6 +316,11 @@
       "description": "Вы получите бонус, если это НЕ первая карта, которую вы сыграли в раунде.",
       "name": "Ночь",
       "nameRef": "Nightfall"
+    },
+    {
+      "description": "",
+      "name": "Шурима",
+      "nameRef": "Shurima"
     },
     {
       "description": "Увеличив максимальный запас маны до 10 ед., вы получаете Просветление.",
@@ -371,49 +411,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/ru_ru/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ru_ru/img/regions/icon-targon.png",
       "name": "Таргон",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/ru_ru/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ru_ru/img/regions/icon-noxus.png",
       "name": "Ноксус",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/ru_ru/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ru_ru/img/regions/icon-demacia.png",
       "name": "Демасия",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/ru_ru/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ru_ru/img/regions/icon-freljord.png",
       "name": "Фрельйорд",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/ru_ru/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ru_ru/img/regions/icon-shadowisles.png",
       "name": "Сумрачные острова",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/ru_ru/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ru_ru/img/regions/icon-ionia.png",
       "name": "Иония",
       "nameRef": "Ionia"
     },
     {
+      "abbreviation": "SH",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ru_ru/img/regions/icon-shurima.png",
+      "name": "Шурима",
+      "nameRef": "Shurima"
+    },
+    {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/ru_ru/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ru_ru/img/regions/icon-bilgewater.png",
       "name": "Билджвотер",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/ru_ru/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ru_ru/img/regions/icon-piltoverzaun.png",
       "name": "Пилтовер и Заун",
       "nameRef": "PiltoverZaun"
     }
@@ -456,19 +502,24 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/ru_ru/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ru_ru/img/sets/set3.png",
       "name": "Зов Горы",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/ru_ru/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ru_ru/img/sets/set1.png",
       "name": "Основы",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_2_0/core/ru_ru/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ru_ru/img/sets/set2.png",
       "name": "Прилив",
       "nameRef": "Set2"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/ru_ru/img/sets/set4.png",
+      "name": "Империи вознесшихся",
+      "nameRef": "Set4"
     }
   ]
 }
