@@ -46,7 +46,7 @@
       "nameRef": "Behold"
     },
     {
-      "description": "ความสามารถนี้มีผลเมื่อจบรอบ",
+      "description": "ความสามารถนี้มีผลเมื่อ<br>จบรอบ",
       "name": "จบรอบ",
       "nameRef": "RoundEnd"
     },
@@ -56,7 +56,7 @@
       "nameRef": "Attack"
     },
     {
-      "description": "แสดงผลเมื่อพันธมิตรสร้าง<br>ความเสียหายด้วยการจู่โจมมากกว่า 5 หน่วย อย่างน้อย 4 ครั้งในเกมนี้",
+      "description": "แสดงผลเมื่อพันธมิตรสร้าง<br>ความเสียหายด้วยการจู่โจม<br>มากกว่า 5 หน่วย อย่างน้อย<br>4 ครั้งในเกมนี้",
       "name": "ชื่อเสียง",
       "nameRef": "Aftermath"
     },
@@ -168,7 +168,7 @@
       "nameRef": "Elusive"
     },
     {
-      "description": "ฮีลเน็กซัสของคุณเท่ากับ<br>ปริมาณความเสียหายสร้าง",
+      "description": "ฮีลเน็กซัสของคุณเท่ากับ<br>ปริมาณความเสียหายที่สร้าง",
       "name": "ดูดพลัง",
       "nameRef": "Drain"
     },
@@ -243,7 +243,7 @@
       "nameRef": "Frostbite"
     },
     {
-      "description": "เวทฉับพลันจะร่ายเสร็จในทันที ศัตรูจะไม่สามารถทำอะไรได้<br>จนกว่าร่ายเสร็จ",
+      "description": "เวทฉับพลันจะถูกร่ายในทันที ศัตรูจะไม่สามารถทำอะไรได้<br>จนกว่าจะร่ายเสร็จ",
       "name": "ฉับพลัน",
       "nameRef": "Burst"
     },
@@ -293,7 +293,7 @@
       "nameRef": "Regeneration"
     },
     {
-      "description": "ไม่สามารถใช้ในระหว่างการ<br>ต่อสู้ หรือตอบโต้เวทได้ จงรีบหาทางแก้ไขทันที",
+      "description": "ไม่สามารถร่ายในระหว่างการต่อสู้หรือในขณะที่เวทอื่นกำลังรอดำเนินการได้ จะร่ายในทันที",
       "name": "โฟกัส",
       "nameRef": "Focus"
     },
@@ -323,7 +323,7 @@
       "nameRef": "Shurima"
     },
     {
-      "description": "คุณรู้แจ้งเมื่อคุณมีมานาเต็ม 10 หน่วย",
+      "description": "คุณรู้แจ้งเมื่อคุณมีมานาเต็ม<br>10 หน่วย",
       "name": "รู้แจ้ง",
       "nameRef": "Enlightened"
     },
@@ -343,7 +343,7 @@
       "nameRef": "Noxus"
     },
     {
-      "description": "เลือกการ์ดสรวงสวรรค์หนึ่งใบจากที่มีให้เลือก 3 ใบเพื่อสร้างการ์ดนั้นในมือ",
+      "description": "เลือกการ์ดสรวงสวรรค์หนึ่งใบจากที่มีให้เลือก 3 ใบ<br>เพื่อสร้างการ์ดนั้นในมือ",
       "name": "อ้อนวอน",
       "nameRef": "Invoke"
     },
@@ -353,7 +353,7 @@
       "nameRef": "Augment"
     },
     {
-      "description": "หากการโจมตีครั้งแรกในแต่ละ<br>รอบมีแต่ยูนิตสอดแนมอย่าง<br>เดียว คุณจะสามารถเตรียมพร้อม<br>การโจมตีครั้งที่สองได้",
+      "description": "หากการโจมตีครั้งแรกในแต่<br>ละรอบมีแต่ยูนิตสอดแนม<br>อย่างเดียว คุณจะสามารถเตรียมพร้อม<br>การโจมตีครั้งที่สองได้",
       "name": "สอดแนม",
       "nameRef": "Scout"
     },
@@ -393,7 +393,7 @@
       "nameRef": "Imbue"
     },
     {
-      "description": "ศัตรูที่มีพลังโจมตี 3 หน่วยขึ้นไปเท่านั้นที่สามารถ<br>บล็อกยูนิตนี้ได้",
+      "description": "ศัตรูที่มีพลังโจมตี<br>3 หน่วยขึ้นไปเท่านั้นที่สามารถ<br>บล็อกยูนิตนี้ได้",
       "name": "น่าสะพรึง",
       "nameRef": "Fearsome"
     },
@@ -411,55 +411,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/th_th/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/th_th/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/th_th/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/th_th/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/th_th/img/regions/icon-shadowisles.png",
       "name": "Shadow Isles",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/th_th/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/th_th/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/th_th/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/th_th/img/regions/icon-piltoverzaun.png",
       "name": "Piltover & Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -502,22 +502,22 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/th_th/img/sets/set3.png",
       "name": "Call of the Mountain",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/th_th/img/sets/set1.png",
       "name": "Foundations",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/th_th/img/sets/set2.png",
       "name": "Rising Tides",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_3_0/core/th_th/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/th_th/img/sets/set4.png",
       "name": "Empires of the Ascended",
       "nameRef": "Set4"
     }
