@@ -6,6 +6,11 @@
       "nameRef": "Allegiance"
     },
     {
+      "description": "剣の修復に必要な残りの「剣の欠片」をランダムに1枚生成する。3種類すべての「剣の欠片」を詠唱すると、「追放者の剣」を生成する。",
+      "name": "再鍛",
+      "nameRef": "Reforge"
+    },
+    {
       "description": "アタック時、右隣の<br>ユニットにバフを与える。",
       "name": "サポート",
       "nameRef": "Support"
@@ -298,6 +303,11 @@
       "nameRef": "Invoke"
     },
     {
+      "description": "あなたが生成されたカードをプレイする時、このユニットに+1|+0を付与する。",
+      "name": "オーグメント",
+      "nameRef": "Augment"
+    },
+    {
       "description": "各ラウンドで初めて<br>「スカウト」を持つユニット<br>のみでアタックする時<br>アタックトークンを得る。",
       "name": "スカウト",
       "nameRef": "Scout"
@@ -356,49 +366,49 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/ja_jp/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_16_0/core/ja_jp/img/regions/icon-targon.png",
       "name": "ターゴン",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/ja_jp/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_16_0/core/ja_jp/img/regions/icon-noxus.png",
       "name": "ノクサス",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/ja_jp/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_16_0/core/ja_jp/img/regions/icon-demacia.png",
       "name": "デマーシア",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/ja_jp/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_16_0/core/ja_jp/img/regions/icon-freljord.png",
       "name": "フレヨルド",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/ja_jp/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_16_0/core/ja_jp/img/regions/icon-shadowisles.png",
       "name": "シャドウアイル",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/ja_jp/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_16_0/core/ja_jp/img/regions/icon-ionia.png",
       "name": "アイオニア",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/ja_jp/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_16_0/core/ja_jp/img/regions/icon-bilgewater.png",
       "name": "ビルジウォーター",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/ja_jp/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_16_0/core/ja_jp/img/regions/icon-piltoverzaun.png",
       "name": "ピルトーヴァー<nobr> & ゾウン</nobr>",
       "nameRef": "PiltoverZaun"
     }
@@ -441,19 +451,19 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/ja_jp/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_16_0/core/ja_jp/img/sets/set3.png",
+      "name": "霊峰の呼び声",
+      "nameRef": "Set3"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_16_0/core/ja_jp/img/sets/set1.png",
       "name": "スターター",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/ja_jp/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_16_0/core/ja_jp/img/sets/set2.png",
       "name": "迫り来る波濤",
       "nameRef": "Set2"
-    },
-    {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/ja_jp/img/sets/set3.png",
-      "name": "霊峰の呼び声",
-      "nameRef": "Set3"
     }
   ]
 }

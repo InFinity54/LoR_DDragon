@@ -6,6 +6,11 @@
       "nameRef": "Allegiance"
     },
     {
+      "description": "검을 완성하기 위해 필요한 무작위 검 파편이 생성됩니다.<br>검 파편을 3개 모두 사용하면<br>추방자의 검이 생성됩니다.",
+      "name": "재련",
+      "nameRef": "Reforge"
+    },
+    {
       "description": "지원 유닛으로 공격 시<br>그 오른쪽에 있는 유닛이<br>이로운 효과를 받습니다.",
       "name": "지원",
       "nameRef": "Support"
@@ -298,6 +303,11 @@
       "nameRef": "Invoke"
     },
     {
+      "description": "생성된 카드를 사용하면 +1|+0을 얻습니다.",
+      "name": "증강",
+      "nameRef": "Augment"
+    },
+    {
       "description": "라운드마다 처음으로<br>정찰 유닛만 공격한 경우<br>다시 공격 토큰을 획득합니다.",
       "name": "정찰",
       "nameRef": "Scout"
@@ -356,49 +366,49 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/ko_kr/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_16_0/core/ko_kr/img/regions/icon-targon.png",
       "name": "타곤",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/ko_kr/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_16_0/core/ko_kr/img/regions/icon-noxus.png",
       "name": "녹서스",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/ko_kr/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_16_0/core/ko_kr/img/regions/icon-demacia.png",
       "name": "데마시아",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/ko_kr/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_16_0/core/ko_kr/img/regions/icon-freljord.png",
       "name": "프렐요드",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/ko_kr/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_16_0/core/ko_kr/img/regions/icon-shadowisles.png",
       "name": "그림자 군도",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/ko_kr/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_16_0/core/ko_kr/img/regions/icon-ionia.png",
       "name": "아이오니아",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/ko_kr/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_16_0/core/ko_kr/img/regions/icon-bilgewater.png",
       "name": "빌지워터",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/ko_kr/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_16_0/core/ko_kr/img/regions/icon-piltoverzaun.png",
       "name": "필트오버 & 자운",
       "nameRef": "PiltoverZaun"
     }
@@ -441,19 +451,19 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/ko_kr/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_16_0/core/ko_kr/img/sets/set3.png",
+      "name": "산의 부름",
+      "nameRef": "Set3"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_16_0/core/ko_kr/img/sets/set1.png",
       "name": "기본",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/ko_kr/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/1_16_0/core/ko_kr/img/sets/set2.png",
       "name": "밀려오는 파도",
       "nameRef": "Set2"
-    },
-    {
-      "iconAbsolutePath": "http://dd.b.pvp.net/1_15_0/core/ko_kr/img/sets/set3.png",
-      "name": "산의 부름",
-      "nameRef": "Set3"
     }
   ]
 }
