@@ -168,6 +168,11 @@
       "nameRef": "Elusive"
     },
     {
+      "description": "Początek rundy: Odliczam 1. Po odliczeniu do 0 zniszcz mnie i aktywuj efekt Odliczenia.",
+      "name": "Odliczanie",
+      "nameRef": "Countdown"
+    },
+    {
       "description": "Ulecz swój Nexus o wartość zadanych obrażeń",
       "name": "Czerpanie",
       "nameRef": "Drain"
@@ -201,6 +206,11 @@
       "description": "",
       "name": "Wyspy Cienia",
       "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "Blocked"
     },
     {
       "description": "Gdy zabiję jednostkę, przyznaj mi +1|+1.",
@@ -296,6 +306,11 @@
       "description": "Nie można rzucić w trakcie walki ani w trakcie oczekiwania na rozstrzygnięcie innego zaklęcia. Od razu wywołuje efekt.",
       "name": "Skupienie",
       "nameRef": "Focus"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "AuraVisualFakeKeyword"
     },
     {
       "description": "Usuwa cały tekst i słowa klucze z jednostki.",
@@ -411,55 +426,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/pl_pl/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/pl_pl/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/pl_pl/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/pl_pl/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/pl_pl/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/pl_pl/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/pl_pl/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/pl_pl/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/pl_pl/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/pl_pl/img/regions/icon-shadowisles.png",
       "name": "Wyspy Cienia",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/pl_pl/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/pl_pl/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/pl_pl/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/pl_pl/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/pl_pl/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/pl_pl/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/pl_pl/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/pl_pl/img/regions/icon-piltoverzaun.png",
       "name": "Piltover i Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -502,22 +517,22 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/pl_pl/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/pl_pl/img/sets/set3.png",
       "name": "Zew Góry",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/pl_pl/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/pl_pl/img/sets/set1.png",
       "name": "Fundamenty",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/pl_pl/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/pl_pl/img/sets/set2.png",
       "name": "Wzbierający Przypływ",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/pl_pl/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/pl_pl/img/sets/set4.png",
       "name": "Imperia Wyniesionych",
       "nameRef": "Set4"
     }

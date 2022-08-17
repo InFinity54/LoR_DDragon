@@ -163,9 +163,14 @@
       "nameRef": "AttackSkillMark"
     },
     {
-      "description": "只能由隱密單位格檔。",
+      "description": "只能由隱密單位格擋。",
       "name": "隱密",
       "nameRef": "Elusive"
+    },
+    {
+      "description": "回合開始：此牌倒數1。倒數至0時，摧毀此牌並發動倒數效果。",
+      "name": "倒數",
+      "nameRef": "Countdown"
     },
     {
       "description": "造成傷害時，我方主堡恢復等同傷害量的生命值",
@@ -201,6 +206,11 @@
       "description": "",
       "name": "闇影島",
       "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "Blocked"
     },
     {
       "description": "此牌每擊殺1個單位，便可獲得+1|+1。",
@@ -268,7 +278,7 @@
       "nameRef": "PlaySkillMark"
     },
     {
-      "description": "攻擊時可搶先格檔卡牌進行打擊。",
+      "description": "攻擊時可搶先格擋卡牌進行打擊。",
       "name": "快速攻擊",
       "nameRef": "QuickStrike"
     },
@@ -296,6 +306,11 @@
       "description": "無法在戰鬥中施放，或用來對應其他法術。立即施放。",
       "name": "專注",
       "nameRef": "Focus"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "AuraVisualFakeKeyword"
     },
     {
       "description": "移除該單位的所有特性與文字效果。",
@@ -383,7 +398,7 @@
       "nameRef": "Nab"
     },
     {
-      "description": "可選擇敵方的格檔單位。",
+      "description": "可選擇敵方的格擋單位。",
       "name": "挑戰者",
       "nameRef": "Challenger"
     },
@@ -393,13 +408,13 @@
       "nameRef": "Imbue"
     },
     {
-      "description": "只能由力量值3點或以上的敵軍格檔。",
+      "description": "只能由力量值3點或以上的敵軍格擋。",
       "name": "威嚇",
       "nameRef": "Fearsome"
     },
     {
       "description": "",
-      "name": "無法進行格檔",
+      "name": "無法進行格擋",
       "nameRef": "CantBlock"
     },
     {
@@ -411,55 +426,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/zh_tw/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/zh_tw/img/regions/icon-targon.png",
       "name": "巨石峰",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/zh_tw/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/zh_tw/img/regions/icon-noxus.png",
       "name": "諾克薩斯",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/zh_tw/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/zh_tw/img/regions/icon-demacia.png",
       "name": "蒂瑪西亞",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/zh_tw/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/zh_tw/img/regions/icon-freljord.png",
       "name": "弗雷爾卓德",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/zh_tw/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/zh_tw/img/regions/icon-shadowisles.png",
       "name": "闇影島",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/zh_tw/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/zh_tw/img/regions/icon-ionia.png",
       "name": "愛歐尼亞",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/zh_tw/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/zh_tw/img/regions/icon-shurima.png",
       "name": "蘇瑞瑪",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/zh_tw/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/zh_tw/img/regions/icon-bilgewater.png",
       "name": "比爾吉沃特",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/zh_tw/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/zh_tw/img/regions/icon-piltoverzaun.png",
       "name": "皮爾托福&佐恩",
       "nameRef": "PiltoverZaun"
     }
@@ -502,22 +517,22 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/zh_tw/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/zh_tw/img/sets/set3.png",
       "name": "巨石峰之喚",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/zh_tw/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/zh_tw/img/sets/set1.png",
       "name": "基礎",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/zh_tw/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/zh_tw/img/sets/set2.png",
       "name": "洶湧怒濤",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_4_0/core/zh_tw/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/zh_tw/img/sets/set4.png",
       "name": "飛昇帝國",
       "nameRef": "Set4"
     }
