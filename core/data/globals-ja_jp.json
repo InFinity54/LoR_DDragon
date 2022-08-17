@@ -1,7 +1,7 @@
 {
   "vocabTerms": [
     {
-      "description": "召喚時、デッキの一番上のカードと地域が同じであれば効果を発動する。",
+      "description": "召喚時、デッキの一番上の<br>カードと地域が同じで<br>あれば効果を発動する。",
       "name": "忠義",
       "nameRef": "Allegiance"
     },
@@ -11,7 +11,7 @@
       "nameRef": "Phase"
     },
     {
-      "description": "剣の修復に必要な残りの「剣の欠片」をランダムに1枚生成する。3種類すべての「剣の欠片」を詠唱すると、「追放者の剣」を<br>生成する。",
+      "description": "剣の修復に必要な残りの「剣の欠片」をランダムに1枚生成する。3種類すべての「剣の欠片」を詠唱<br>すると、「追放者の剣」を<br>生成する。",
       "name": "再鍛",
       "nameRef": "Reforge"
     },
@@ -41,7 +41,7 @@
       "nameRef": "Toss"
     },
     {
-      "description": "自分の場に出ている、または手札に持っている状態を指す。",
+      "description": "自分の場に出ている、<br>または手札に持っている<br>状態を指す。",
       "name": "保持",
       "nameRef": "Behold"
     },
@@ -56,7 +56,7 @@
       "nameRef": "Attack"
     },
     {
-      "description": "このゲーム中に味方が<br>5ダメージ以上のストライクを<br>4回以上行っている場合に効果を<br>発動する。",
+      "description": "このゲーム中に味方が<br>5ダメージ以上のストライクを<br>4回以上行っている場合に<br>効果を発動する。",
       "name": "名声",
       "nameRef": "Aftermath"
     },
@@ -106,7 +106,7 @@
       "nameRef": "Rally"
     },
     {
-      "description": "あなたが与えたダメージ、キル効果、または味方のストライクによってユニットをキルすること。ただし「エフェメラル」などのユニット自身の効果によって力尽きた場合はカウントされない。",
+      "description": "あなたが与えたダメージ、<br>キル効果、または味方の<br>ストライクによって<br>ユニットをキルすること。<br>ただし「エフェメラル」<br>などのユニット自身の<br>効果によって力尽きた<br>場合はカウントされない。",
       "name": "撃破",
       "nameRef": "Slay"
     },
@@ -143,7 +143,7 @@
       "nameRef": "DoubleStrike"
     },
     {
-      "description": "このカードが、ラウンド中にあなたが初めてプレイしたカードである場合に発動する。",
+      "description": "このカードが、ラウンド中に<br>あなたが初めてプレイした<br>カードである場合に<br>発動する。",
       "name": "デイブレイク",
       "nameRef": "Daybreak"
     },
@@ -153,7 +153,7 @@
       "nameRef": "Weakest"
     },
     {
-      "description": "敵はこのユニットを「チャレンジャー」で指定した時のようにブロックさせることができる。",
+      "description": "敵はこのユニットを<br>「チャレンジャー」で指定した<br>時のようにブロックさせることが<br>できる。",
       "name": "無防備",
       "nameRef": "Vulnerable"
     },
@@ -173,7 +173,7 @@
       "nameRef": "Countdown"
     },
     {
-      "description": "与えたダメージと同じ分、ネクサスの体力を回復する。",
+      "description": "与えたダメージと同じ分、<br>ネクサスの体力を回復する。",
       "name": "吸収",
       "nameRef": "Drain"
     },
@@ -183,7 +183,7 @@
       "nameRef": "Stun"
     },
     {
-      "description": "他のカードにくっつき、トラップを仕掛ける。トラップを仕掛けられたカードが引かれると、効果が発動する。",
+      "description": "他のカードにくっつき、<br>トラップを仕掛ける。<br>トラップを仕掛けられた<br>カードが引かれると、<br>効果が発動する。",
       "name": "トラップ",
       "nameRef": "Autoplay"
     },
@@ -213,7 +213,7 @@
       "nameRef": "Blocked"
     },
     {
-      "description": "このユニットがユニットをキルした時、+1|+1を付与する。",
+      "description": "このユニットがユニットを<br>キルした時、+1|+1を<br>付与する。",
       "name": "フューリー",
       "nameRef": "Fury"
     },
@@ -228,7 +228,7 @@
       "nameRef": "Attune"
     },
     {
-      "description": "ユニットと同じように場に配置されるが、アタックおよびブロックはできず、ダメージを受けることもない。",
+      "description": "ユニットと同じように場に<br>配置されるが、アタック<br>およびブロックはできず、<br>ダメージを受けることも<br>ない。",
       "name": "ランドマーク",
       "nameRef": "LandmarkVisualOnly"
     },
@@ -298,7 +298,7 @@
       "nameRef": "Ionia"
     },
     {
-      "description": "各ラウンドの終了時に体力を全回復する。",
+      "description": "各ラウンドの終了時に<br>体力を全回復する。",
       "name": "リジェネレーション",
       "nameRef": "Regeneration"
     },
@@ -318,7 +318,7 @@
       "nameRef": "Silenced"
     },
     {
-      "description": "このユニットが次に受ける敵からのスペルまたはスキルの効果を無効化する。",
+      "description": "このユニットが次に受ける<br>敵からのスペルまたは<br>スキルの効果を<br>無効化する。",
       "name": "スペルシールド",
       "nameRef": "SpellShield"
     },
@@ -363,7 +363,7 @@
       "nameRef": "Invoke"
     },
     {
-      "description": "生成されたカードをプレイする時、このユニットに+1|+0を付与する。",
+      "description": "生成されたカードを<br>プレイする時、このユニットに<br>+1|+0を付与する。",
       "name": "オーグメント",
       "nameRef": "Augment"
     },
@@ -426,55 +426,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/ja_jp/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_6_0/core/ja_jp/img/regions/icon-targon.png",
       "name": "ターゴン",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/ja_jp/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_6_0/core/ja_jp/img/regions/icon-noxus.png",
       "name": "ノクサス",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/ja_jp/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_6_0/core/ja_jp/img/regions/icon-demacia.png",
       "name": "デマーシア",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/ja_jp/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_6_0/core/ja_jp/img/regions/icon-freljord.png",
       "name": "フレヨルド",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/ja_jp/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_6_0/core/ja_jp/img/regions/icon-shadowisles.png",
       "name": "シャドウアイル",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/ja_jp/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_6_0/core/ja_jp/img/regions/icon-ionia.png",
       "name": "アイオニア",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/ja_jp/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_6_0/core/ja_jp/img/regions/icon-shurima.png",
       "name": "シュリーマ",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/ja_jp/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_6_0/core/ja_jp/img/regions/icon-bilgewater.png",
       "name": "ビルジウォーター",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/ja_jp/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_6_0/core/ja_jp/img/regions/icon-piltoverzaun.png",
       "name": "ピルトーヴァー<nobr> & ゾウン</nobr>",
       "nameRef": "PiltoverZaun"
     }
@@ -517,22 +517,22 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/ja_jp/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_6_0/core/ja_jp/img/sets/set3.png",
       "name": "霊峰の呼び声",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/ja_jp/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_6_0/core/ja_jp/img/sets/set1.png",
       "name": "スターター",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/ja_jp/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_6_0/core/ja_jp/img/sets/set2.png",
       "name": "迫り来る波濤",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_5_0/core/ja_jp/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_6_0/core/ja_jp/img/sets/set4.png",
       "name": "超越者の帝国",
       "nameRef": "Set4"
     }
