@@ -128,14 +128,189 @@
   ],
   "keywords": [
     {
+      "description": "Если цели было нанесено больше урона, чем нужно для ее убийства, оставшаяся часть наносится вражескому нексусу.",
+      "name": "Пробивание",
+      "nameRef": "SpellOverwhelm"
+    },
+    {
+      "description": "Взрывные заклинания применяются мгновенно. Противник не может этому помешать.",
+      "name": "Взрывное",
+      "nameRef": "Burst"
+    },
+    {
+      "description": "Начало раунда: число на счетчике уменьшается на 1. Когда он достигнет 0, уничтожьте меня и активируйте эффект отсчета.",
+      "name": "Отсчет",
+      "nameRef": "Countdown"
+    },
+    {
+      "description": "Этот эффект сработает, когда вы сыграете этого бойца из руки.",
+      "name": "Разыграть карту",
+      "nameRef": "PlaySkillMark"
+    },
+    {
+      "description": "Места силы занимают одну ячейку на поле. Они не могут атаковать, блокировать или получать урон.",
+      "name": "Место силы",
+      "nameRef": "LandmarkVisualOnly"
+    },
+    {
+      "description": "Плененная карта удаляется из игры. Она возвращается, когда пленивший ее боец покидает розыгрыш.",
+      "name": "Пленение",
+      "nameRef": "Capture"
+    },
+    {
+      "description": "Этот эффект сработает, когда боец пойдет в атаку.",
+      "name": "Атака",
+      "nameRef": "AttackSkillMark"
+    },
+    {
+      "description": "",
+      "name": "Шурима",
+      "nameRef": "Shurima"
+    },
+    {
+      "description": "",
+      "name": "Ноксус",
+      "nameRef": "Noxus"
+    },
+    {
+      "description": "Карты с навыком \"Мимолетность\" сбрасываются из руки в конце раунда.",
+      "name": "Мимолетность",
+      "nameRef": "Fleeting"
+    },
+    {
+      "description": "Вытяните со дна колоды противника карту, не являющуюся чемпионом.",
+      "name": "Кража",
+      "nameRef": "Nab"
+    },
+    {
+      "description": "Нельзя использовать во время боя и когда в цепочке уже есть другие заклинания. Применяется мгновенно.",
+      "name": "Мгновенное",
+      "nameRef": "Focus"
+    },
+    {
+      "description": "Увеличив максимальный запас маны до 10 ед., вы получаете Просветление.",
+      "name": "Просветление",
+      "nameRef": "Enlightened"
+    },
+    {
+      "description": "Создайте в руке одно из 3 творений небес на выбор.",
+      "name": "Зов",
+      "nameRef": "Invoke"
+    },
+    {
+      "description": "Прикрепляется к другой карте, обездвиживая ее. Когда захваченную карту вытягивают, срабатывает эффект.",
+      "name": "Ловушка",
+      "nameRef": "Autoplay"
+    },
+    {
+      "description": "Восстанавливает вашему нексусу здоровье в размере нанесенного урона.",
+      "name": "Истощение",
+      "nameRef": "Drain"
+    },
+    {
+      "description": "Эти способности начинают действовать после смерти бойца.",
+      "name": "Предсмертный вздох",
+      "nameRef": "LastBreath"
+    },
+    {
+      "description": "",
+      "name": "Демасия",
+      "nameRef": "Demacia"
+    },
+    {
+      "description": "Уровень чемпиона повышается, когда выполняются все условия, даже если он находится в руке или колоде.",
+      "name": "Новый уровень",
+      "nameRef": "LevelUp"
+    },
+    {
+      "description": "Быстрое заклинание можно сыграть в любое время, но у противника будет возможность на него ответить.",
+      "name": "Быстрое",
+      "nameRef": "Fast"
+    },
+    {
+      "description": "",
+      "name": "Билджвотер",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "description": "Возвращает бойца в руку и снимает все наложенные на него эффекты.",
+      "name": "Возвращение",
+      "nameRef": "Recall"
+    },
+    {
+      "description": "Боец с самым низким показателем силы. Если у двух или более бойцов эти показатели равны, сравнивается здоровье, а затем – стоимость.",
+      "name": "Слабейший",
+      "nameRef": "Weakest"
+    },
+    {
+      "description": "Медленные заклинания можно накладывать вне боя и отдельно от других. Враг может ответить.",
+      "name": "Медленное",
+      "nameRef": "Slow"
+    },
+    {
       "description": "Полное удаление из игры. Предсмертный вздох не срабатывает, воскресить невозможно.",
       "name": "Уничтожение",
       "nameRef": "Obliterate"
     },
     {
+      "description": "Эти способности начинают действовать, когда у вас срабатывает заклинание.",
+      "name": "Чары",
+      "nameRef": "Imbue"
+    },
+    {
       "description": "",
       "name": "Таргон",
       "nameRef": "MtTargon"
+    },
+    {
+      "description": "",
+      "name": "Сумрачные острова",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "AuraVisualFakeKeyword"
+    },
+    {
+      "description": "",
+      "name": "Иония",
+      "nameRef": "Ionia"
+    },
+    {
+      "description": "Вы получите бонус, если это НЕ первая карта, которую вы сыграли в раунде.",
+      "name": "Ночь",
+      "nameRef": "Nightfall"
+    },
+    {
+      "description": "",
+      "name": "Пилтовер и Заун",
+      "nameRef": "PiltoverZaun"
+    },
+    {
+      "description": "",
+      "name": "Фрельйорд",
+      "nameRef": "Freljord"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "Blocked"
+    },
+    {
+      "description": "Призвав меня, восполните<br>1 ед. маны заклинаний.",
+      "name": "Эзотерика",
+      "nameRef": "Attune"
+    },
+    {
+      "description": "Вы получите бонус, если это первая карта, которую вы сыграли в раунде.",
+      "name": "День",
+      "nameRef": "Daybreak"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "SilenceIndividualKeyword"
     },
     {
       "description": "Этот эффект похож на заклинание, и противник может на него отреагировать.",
@@ -148,24 +323,9 @@
       "nameRef": "DoubleStrike"
     },
     {
-      "description": "Вы получите бонус, если это первая карта, которую вы сыграли в раунде.",
-      "name": "День",
-      "nameRef": "Daybreak"
-    },
-    {
-      "description": "Боец с самым низким показателем силы. Если у двух или более бойцов эти показатели равны, сравнивается здоровье, а затем – стоимость.",
-      "name": "Слабейший",
-      "nameRef": "Weakest"
-    },
-    {
       "description": "Атакующий враг может выбрать этого бойца, и тому придется блокировать.",
       "name": "Уязвимость",
       "nameRef": "Vulnerable"
-    },
-    {
-      "description": "Этот эффект сработает, когда боец пойдет в атаку.",
-      "name": "Атака",
-      "nameRef": "AttackSkillMark"
     },
     {
       "description": "Можно заблокировать только бойцом с навыком \"Изворотливость\".",
@@ -173,34 +333,9 @@
       "nameRef": "Elusive"
     },
     {
-      "description": "Начало раунда: число на счетчике уменьшается на 1. Когда он достигнет 0, уничтожьте меня и активируйте эффект отсчета.",
-      "name": "Отсчет",
-      "nameRef": "Countdown"
-    },
-    {
-      "description": "Восстанавливает вашему нексусу здоровье в размере нанесенного урона.",
-      "name": "Истощение",
-      "nameRef": "Drain"
-    },
-    {
       "description": "Удаляет бойца из боя. Он не может атаковать или блокировать до конца раунда.",
       "name": "Оглушение",
       "nameRef": "Stun"
-    },
-    {
-      "description": "Прикрепляется к другой карте, обездвиживая ее. Когда захваченную карту вытягивают, срабатывает эффект.",
-      "name": "Ловушка",
-      "nameRef": "Autoplay"
-    },
-    {
-      "description": "",
-      "name": "Пилтовер и Заун",
-      "nameRef": "PiltoverZaun"
-    },
-    {
-      "description": "",
-      "name": "Демасия",
-      "nameRef": "Demacia"
     },
     {
       "description": "Missing Translation",
@@ -208,34 +343,9 @@
       "nameRef": "BlockElusive"
     },
     {
-      "description": "",
-      "name": "Сумрачные острова",
-      "nameRef": "ShadowIsles"
-    },
-    {
-      "description": "Missing Translation",
-      "name": "Missing Translation",
-      "nameRef": "Blocked"
-    },
-    {
       "description": "Когда я убиваю бойца, даруйте мне +1|+1.",
       "name": "Ярость",
       "nameRef": "Fury"
-    },
-    {
-      "description": "Если цели было нанесено больше урона, чем нужно для ее убийства, оставшаяся часть наносится вражескому нексусу.",
-      "name": "Пробивание",
-      "nameRef": "SpellOverwhelm"
-    },
-    {
-      "description": "Призвав меня, восполните<br>1 ед. маны заклинаний.",
-      "name": "Эзотерика",
-      "nameRef": "Attune"
-    },
-    {
-      "description": "Места силы занимают одну ячейку на поле. Они не могут атаковать, блокировать или получать урон.",
-      "name": "Место силы",
-      "nameRef": "LandmarkVisualOnly"
     },
     {
       "description": "Блокирует следующий урон, получаемый целью. Действует до конца раунда.",
@@ -248,39 +358,14 @@
       "nameRef": "Immobile"
     },
     {
-      "description": "Плененная карта удаляется из игры. Она возвращается, когда пленивший ее боец покидает розыгрыш.",
-      "name": "Пленение",
-      "nameRef": "Capture"
-    },
-    {
       "description": "Уменьшите силу бойца до 0 до конца раунда. В дальнейшем параметр можно изменить.",
       "name": "Заморозка",
       "nameRef": "Frostbite"
     },
     {
-      "description": "Взрывные заклинания применяются мгновенно. Противник не может этому помешать.",
-      "name": "Взрывное",
-      "nameRef": "Burst"
-    },
-    {
-      "description": "Карты с навыком \"Мимолетность\" сбрасываются из руки в конце раунда.",
-      "name": "Мимолетность",
-      "nameRef": "Fleeting"
-    },
-    {
-      "description": "Быстрое заклинание можно сыграть в любое время, но у противника будет возможность на него ответить.",
-      "name": "Быстрое",
-      "nameRef": "Fast"
-    },
-    {
       "description": "Весь урон, который я наношу блокирующему меня бойцу сверх его запаса здоровья, переносится на вражеский нексус.",
       "name": "Пробивание",
       "nameRef": "Overwhelm"
-    },
-    {
-      "description": "Этот эффект сработает, когда вы сыграете этого бойца из руки.",
-      "name": "Разыграть карту",
-      "nameRef": "PlaySkillMark"
     },
     {
       "description": "Атакуя, наносит удар прежде блокирующего бойца.",
@@ -293,29 +378,9 @@
       "nameRef": "Tough"
     },
     {
-      "description": "Возвращает бойца в руку и снимает все наложенные на него эффекты.",
-      "name": "Возвращение",
-      "nameRef": "Recall"
-    },
-    {
-      "description": "",
-      "name": "Иония",
-      "nameRef": "Ionia"
-    },
-    {
       "description": "Восстанавливает все недостающее здоровье в конце каждого раунда.",
       "name": "Восстановление",
       "nameRef": "Regeneration"
-    },
-    {
-      "description": "Нельзя использовать во время боя и когда в цепочке уже есть другие заклинания. Применяется мгновенно.",
-      "name": "Мгновенное",
-      "nameRef": "Focus"
-    },
-    {
-      "description": "Missing Translation",
-      "name": "Missing Translation",
-      "nameRef": "AuraVisualFakeKeyword"
     },
     {
       "description": "Удалите описание и все навыки бойца.",
@@ -333,41 +398,6 @@
       "nameRef": "Lifesteal"
     },
     {
-      "description": "Вы получите бонус, если это НЕ первая карта, которую вы сыграли в раунде.",
-      "name": "Ночь",
-      "nameRef": "Nightfall"
-    },
-    {
-      "description": "",
-      "name": "Шурима",
-      "nameRef": "Shurima"
-    },
-    {
-      "description": "Увеличив максимальный запас маны до 10 ед., вы получаете Просветление.",
-      "name": "Просветление",
-      "nameRef": "Enlightened"
-    },
-    {
-      "description": "Уровень чемпиона повышается, когда выполняются все условия, даже если он находится в руке или колоде.",
-      "name": "Новый уровень",
-      "nameRef": "LevelUp"
-    },
-    {
-      "description": "Медленные заклинания можно накладывать вне боя и отдельно от других. Враг может ответить.",
-      "name": "Медленное",
-      "nameRef": "Slow"
-    },
-    {
-      "description": "",
-      "name": "Ноксус",
-      "nameRef": "Noxus"
-    },
-    {
-      "description": "Создайте в руке одно из 3 творений небес на выбор.",
-      "name": "Зов",
-      "nameRef": "Invoke"
-    },
-    {
       "description": "Сыграв созданную карту, даруйте мне +1|+0.",
       "name": "Улучшение",
       "nameRef": "Augment"
@@ -383,34 +413,9 @@
       "nameRef": "Ephemeral"
     },
     {
-      "description": "",
-      "name": "Фрельйорд",
-      "nameRef": "Freljord"
-    },
-    {
-      "description": "Эти способности начинают действовать после смерти бойца.",
-      "name": "Предсмертный вздох",
-      "nameRef": "LastBreath"
-    },
-    {
-      "description": "",
-      "name": "Билджвотер",
-      "nameRef": "Bilgewater"
-    },
-    {
-      "description": "Вытяните со дна колоды противника карту, не являющуюся чемпионом.",
-      "name": "Кража",
-      "nameRef": "Nab"
-    },
-    {
       "description": "Может выбирать, какой вражеский боец блокирует.",
       "name": "Выбор противника",
       "nameRef": "Challenger"
-    },
-    {
-      "description": "Эти способности начинают действовать, когда у вас срабатывает заклинание.",
-      "name": "Чары",
-      "nameRef": "Imbue"
     },
     {
       "description": "Могут блокировать только противники с силой 3 или выше.",
@@ -431,55 +436,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ru_ru/img/regions/icon-targon.png",
       "name": "Таргон",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ru_ru/img/regions/icon-noxus.png",
       "name": "Ноксус",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ru_ru/img/regions/icon-demacia.png",
       "name": "Демасия",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ru_ru/img/regions/icon-freljord.png",
       "name": "Фрельйорд",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ru_ru/img/regions/icon-shadowisles.png",
       "name": "Сумрачные острова",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ru_ru/img/regions/icon-ionia.png",
       "name": "Иония",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ru_ru/img/regions/icon-shurima.png",
       "name": "Шурима",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ru_ru/img/regions/icon-bilgewater.png",
       "name": "Билджвотер",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ru_ru/img/regions/icon-piltoverzaun.png",
       "name": "Пилтовер и Заун",
       "nameRef": "PiltoverZaun"
     }
@@ -522,22 +527,22 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ru_ru/img/sets/set3.png",
       "name": "Зов Горы",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ru_ru/img/sets/set1.png",
       "name": "Основы",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ru_ru/img/sets/set2.png",
       "name": "Прилив",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ru_ru/img/sets/set4.png",
       "name": "Империи вознесшихся",
       "nameRef": "Set4"
     }

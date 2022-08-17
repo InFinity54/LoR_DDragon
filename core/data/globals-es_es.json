@@ -128,14 +128,189 @@
   ],
   "keywords": [
     {
+      "description": "Inflige al nexo enemigo más daño del que mataría a los objetivos.",
+      "name": "Abrumar",
+      "nameRef": "SpellOverwhelm"
+    },
+    {
+      "description": "Las ráfagas de hechizos se lanzan instantáneamente. El enemigo no puede actuar antes de que finalicen.",
+      "name": "Ráfaga",
+      "nameRef": "Burst"
+    },
+    {
+      "description": "Comienzo de ronda: Avanzo 1 en mi cuenta atrás. Cuando llego a 0, muero y activo mi efecto de cuenta atrás.",
+      "name": "Cuenta atrás",
+      "nameRef": "Countdown"
+    },
+    {
+      "description": "Consigue este efecto cuando juegas la unidad desde la mano.",
+      "name": "Jugar",
+      "nameRef": "PlaySkillMark"
+    },
+    {
+      "description": "Los hitos ocupan espacio en el tablero. No pueden atacar, bloquear o recibir daño.",
+      "name": "Hito",
+      "nameRef": "LandmarkVisualOnly"
+    },
+    {
+      "description": "Elimina una carta capturada y la devuelve cuando la unidad captora abandona la partida.",
+      "name": "Capturar",
+      "nameRef": "Capture"
+    },
+    {
+      "description": "Consigue este efecto cuando esta unidad ataca.",
+      "name": "Atacar",
+      "nameRef": "AttackSkillMark"
+    },
+    {
+      "description": "",
+      "name": "Shurima",
+      "nameRef": "Shurima"
+    },
+    {
+      "description": "",
+      "name": "Noxus",
+      "nameRef": "Noxus"
+    },
+    {
+      "description": "Las cartas fugaces se descartan de la mano al final de la ronda.",
+      "name": "Fugaz",
+      "nameRef": "Fleeting"
+    },
+    {
+      "description": "Roba una carta de la parte inferior del mazo enemigo que no sea un campeón.",
+      "name": "Birlar",
+      "nameRef": "Nab"
+    },
+    {
+      "description": "No se puede lanzar en combate ni con otros hechizos pendientes. Se lanza de inmediato.",
+      "name": "Concentración",
+      "nameRef": "Focus"
+    },
+    {
+      "description": "Cuando tienes 10 de maná máximo, cuentas con Iluminación.",
+      "name": "Iluminación",
+      "nameRef": "Enlightened"
+    },
+    {
+      "description": "Elige una carta celestial de entre 3 para crearla en la mano.",
+      "name": "Convocar",
+      "nameRef": "Invoke"
+    },
+    {
+      "description": "Se adhiere a otra carta y la atrapa. Al robar la carta atrapada, activa su efecto.",
+      "name": "Trampa",
+      "nameRef": "Autoplay"
+    },
+    {
+      "description": "Cura a tu nexo la misma cantidad que daño infligido.",
+      "name": "Drenar",
+      "nameRef": "Drain"
+    },
+    {
+      "description": "Estas habilidades surten efecto cuando la unidad muere.",
+      "name": "Último aliento",
+      "nameRef": "LastBreath"
+    },
+    {
+      "description": "",
+      "name": "Demacia",
+      "nameRef": "Demacia"
+    },
+    {
+      "description": "Los campeones suben de nivel cuando se cumple la condición, ya sea en la mano o en el mazo.",
+      "name": "Subir de nivel",
+      "nameRef": "LevelUp"
+    },
+    {
+      "description": "Los hechizos veloces se pueden lanzar en cualquier momento, pero permitirán a tu rival reaccionar.",
+      "name": "Veloz",
+      "nameRef": "Fast"
+    },
+    {
+      "description": "",
+      "name": "Aguas Estancadas",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "description": "La unidad regresa a la mano y todos los efectos que la afectan desaparecen.",
+      "name": "Retirada",
+      "nameRef": "Recall"
+    },
+    {
+      "description": "La unidad con menos poder; si el nivel de poder es el mismo, se tendrá en cuenta la vida más baja y, si no, el coste más bajo.",
+      "name": "Más débil",
+      "nameRef": "Weakest"
+    },
+    {
+      "description": "Puedes lanzar hechizos lentos cuando no estés combatiendo ni lanzando nada, y el enemigo puede responder.",
+      "name": "Lento",
+      "nameRef": "Slow"
+    },
+    {
       "description": "Eliminado por completo de la partida. No activa su Último aliento ni puede revivir.",
       "name": "Destruir",
       "nameRef": "Obliterate"
     },
     {
+      "description": "Estas habilidades se activan al ejecutar un hechizo.",
+      "name": "Infundir",
+      "nameRef": "Imbue"
+    },
+    {
       "description": "",
       "name": "Targon",
       "nameRef": "MtTargon"
+    },
+    {
+      "description": "",
+      "name": "Islas de la Sombra",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "AuraVisualFakeKeyword"
+    },
+    {
+      "description": "",
+      "name": "Jonia",
+      "nameRef": "Ionia"
+    },
+    {
+      "description": "Efecto adicional si NO es la primera carta que juegas en toda la ronda.",
+      "name": "Anochecer",
+      "nameRef": "Nightfall"
+    },
+    {
+      "description": "",
+      "name": "Piltover y Zaun",
+      "nameRef": "PiltoverZaun"
+    },
+    {
+      "description": "",
+      "name": "Freljord",
+      "nameRef": "Freljord"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "Blocked"
+    },
+    {
+      "description": "Cuando se me invoca, recuperas 1 de maná de hechizos.",
+      "name": "Armonía",
+      "nameRef": "Attune"
+    },
+    {
+      "description": "Efecto adicional si es la PRIMERA carta que juegas en toda la ronda.",
+      "name": "Amanecer",
+      "nameRef": "Daybreak"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "SilenceIndividualKeyword"
     },
     {
       "description": "Un efecto parecido a un hechizo de una unidad que permite reaccionar al enemigo.",
@@ -148,24 +323,9 @@
       "nameRef": "DoubleStrike"
     },
     {
-      "description": "Efecto adicional si es la PRIMERA carta que juegas en toda la ronda.",
-      "name": "Amanecer",
-      "nameRef": "Daybreak"
-    },
-    {
-      "description": "La unidad con menos poder; si el nivel de poder es el mismo, se tendrá en cuenta la vida más baja y, si no, el coste más bajo.",
-      "name": "Más débil",
-      "nameRef": "Weakest"
-    },
-    {
       "description": "El enemigo puede desafiar a esta unidad y obligarla a bloquear.",
       "name": "Vulnerable",
       "nameRef": "Vulnerable"
-    },
-    {
-      "description": "Consigue este efecto cuando esta unidad ataca.",
-      "name": "Atacar",
-      "nameRef": "AttackSkillMark"
     },
     {
       "description": "Solo se puede bloquear con una unidad que tenga elusión.",
@@ -173,34 +333,9 @@
       "nameRef": "Elusive"
     },
     {
-      "description": "Comienzo de ronda: Avanzo 1 en mi cuenta atrás. Cuando llego a 0, muero y activo mi efecto de cuenta atrás.",
-      "name": "Cuenta atrás",
-      "nameRef": "Countdown"
-    },
-    {
-      "description": "Cura a tu nexo la misma cantidad que daño infligido.",
-      "name": "Drenar",
-      "nameRef": "Drain"
-    },
-    {
       "description": "Elimina una unidad del combate. No puede atacar ni bloquear durante la ronda.",
       "name": "Aturdir",
       "nameRef": "Stun"
-    },
-    {
-      "description": "Se adhiere a otra carta y la atrapa. Al robar la carta atrapada, activa su efecto.",
-      "name": "Trampa",
-      "nameRef": "Autoplay"
-    },
-    {
-      "description": "",
-      "name": "Piltover y Zaun",
-      "nameRef": "PiltoverZaun"
-    },
-    {
-      "description": "",
-      "name": "Demacia",
-      "nameRef": "Demacia"
     },
     {
       "description": "Missing Translation",
@@ -208,34 +343,9 @@
       "nameRef": "BlockElusive"
     },
     {
-      "description": "",
-      "name": "Islas de la Sombra",
-      "nameRef": "ShadowIsles"
-    },
-    {
-      "description": "Missing Translation",
-      "name": "Missing Translation",
-      "nameRef": "Blocked"
-    },
-    {
       "description": "Cuando mato una unidad, consigo +1|+1.",
       "name": "Furia",
       "nameRef": "Fury"
-    },
-    {
-      "description": "Inflige al nexo enemigo más daño del que mataría a los objetivos.",
-      "name": "Abrumar",
-      "nameRef": "SpellOverwhelm"
-    },
-    {
-      "description": "Cuando se me invoca, recuperas 1 de maná de hechizos.",
-      "name": "Armonía",
-      "nameRef": "Attune"
-    },
-    {
-      "description": "Los hitos ocupan espacio en el tablero. No pueden atacar, bloquear o recibir daño.",
-      "name": "Hito",
-      "nameRef": "LandmarkVisualOnly"
     },
     {
       "description": "Evita la siguiente cantidad de daño que reciba la unidad. Dura una ronda.",
@@ -248,39 +358,14 @@
       "nameRef": "Immobile"
     },
     {
-      "description": "Elimina una carta capturada y la devuelve cuando la unidad captora abandona la partida.",
-      "name": "Capturar",
-      "nameRef": "Capture"
-    },
-    {
       "description": "Reduce el poder de una unidad a 0 durante esta ronda. Puede modificarse más adelante.",
       "name": "Escarchar",
       "nameRef": "Frostbite"
     },
     {
-      "description": "Las ráfagas de hechizos se lanzan instantáneamente. El enemigo no puede actuar antes de que finalicen.",
-      "name": "Ráfaga",
-      "nameRef": "Burst"
-    },
-    {
-      "description": "Las cartas fugaces se descartan de la mano al final de la ronda.",
-      "name": "Fugaz",
-      "nameRef": "Fleeting"
-    },
-    {
-      "description": "Los hechizos veloces se pueden lanzar en cualquier momento, pero permitirán a tu rival reaccionar.",
-      "name": "Veloz",
-      "nameRef": "Fast"
-    },
-    {
       "description": "El daño extra que inflijo al bloqueador lo recibe el nexo enemigo.",
       "name": "Abrumar",
       "nameRef": "Overwhelm"
-    },
-    {
-      "description": "Consigue este efecto cuando juegas la unidad desde la mano.",
-      "name": "Jugar",
-      "nameRef": "PlaySkillMark"
     },
     {
       "description": "A la hora de atacar, golpea antes que su bloqueador.",
@@ -293,29 +378,9 @@
       "nameRef": "Tough"
     },
     {
-      "description": "La unidad regresa a la mano y todos los efectos que la afectan desaparecen.",
-      "name": "Retirada",
-      "nameRef": "Recall"
-    },
-    {
-      "description": "",
-      "name": "Jonia",
-      "nameRef": "Ionia"
-    },
-    {
       "description": "Recupera toda la vida al final de cada ronda.",
       "name": "Regeneración",
       "nameRef": "Regeneration"
-    },
-    {
-      "description": "No se puede lanzar en combate ni con otros hechizos pendientes. Se lanza de inmediato.",
-      "name": "Concentración",
-      "nameRef": "Focus"
-    },
-    {
-      "description": "Missing Translation",
-      "name": "Missing Translation",
-      "nameRef": "AuraVisualFakeKeyword"
     },
     {
       "description": "Elimina el texto y todas las palabras clave de una unidad.",
@@ -333,41 +398,6 @@
       "nameRef": "Lifesteal"
     },
     {
-      "description": "Efecto adicional si NO es la primera carta que juegas en toda la ronda.",
-      "name": "Anochecer",
-      "nameRef": "Nightfall"
-    },
-    {
-      "description": "",
-      "name": "Shurima",
-      "nameRef": "Shurima"
-    },
-    {
-      "description": "Cuando tienes 10 de maná máximo, cuentas con Iluminación.",
-      "name": "Iluminación",
-      "nameRef": "Enlightened"
-    },
-    {
-      "description": "Los campeones suben de nivel cuando se cumple la condición, ya sea en la mano o en el mazo.",
-      "name": "Subir de nivel",
-      "nameRef": "LevelUp"
-    },
-    {
-      "description": "Puedes lanzar hechizos lentos cuando no estés combatiendo ni lanzando nada, y el enemigo puede responder.",
-      "name": "Lento",
-      "nameRef": "Slow"
-    },
-    {
-      "description": "",
-      "name": "Noxus",
-      "nameRef": "Noxus"
-    },
-    {
-      "description": "Elige una carta celestial de entre 3 para crearla en la mano.",
-      "name": "Convocar",
-      "nameRef": "Invoke"
-    },
-    {
       "description": "Cuando juegas una carta creada, obtengo +1|+0.",
       "name": "Mejora",
       "nameRef": "Augment"
@@ -383,34 +413,9 @@
       "nameRef": "Ephemeral"
     },
     {
-      "description": "",
-      "name": "Freljord",
-      "nameRef": "Freljord"
-    },
-    {
-      "description": "Estas habilidades surten efecto cuando la unidad muere.",
-      "name": "Último aliento",
-      "nameRef": "LastBreath"
-    },
-    {
-      "description": "",
-      "name": "Aguas Estancadas",
-      "nameRef": "Bilgewater"
-    },
-    {
-      "description": "Roba una carta de la parte inferior del mazo enemigo que no sea un campeón.",
-      "name": "Birlar",
-      "nameRef": "Nab"
-    },
-    {
       "description": "Puede elegir la unidad enemiga que bloquea.",
       "name": "Contendiente",
       "nameRef": "Challenger"
-    },
-    {
-      "description": "Estas habilidades se activan al ejecutar un hechizo.",
-      "name": "Infundir",
-      "nameRef": "Imbue"
     },
     {
       "description": "Solo se puede bloquear con enemigos de 3 o más de poder.",
@@ -431,55 +436,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/es_es/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/es_es/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/es_es/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/es_es/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/es_es/img/regions/icon-shadowisles.png",
       "name": "Islas de la Sombra",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/es_es/img/regions/icon-ionia.png",
       "name": "Jonia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/es_es/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/es_es/img/regions/icon-bilgewater.png",
       "name": "Aguas Estancadas",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/es_es/img/regions/icon-piltoverzaun.png",
       "name": "Piltover y Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -522,22 +527,22 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/es_es/img/sets/set3.png",
       "name": "La llamada de la montaña",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/es_es/img/sets/set1.png",
       "name": "Cimientos",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/es_es/img/sets/set2.png",
       "name": "Pleamar",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/es_es/img/sets/set4.png",
       "name": "Imperios de los Ascendidos",
       "nameRef": "Set4"
     }

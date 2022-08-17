@@ -128,14 +128,189 @@
   ],
   "keywords": [
     {
+      "description": "Lorsque l'attaque dépasse les PV de son bloqueur, le surplus de dégâts est infligé au Nexus ennemi.",
+      "name": "Surpuissance",
+      "nameRef": "SpellOverwhelm"
+    },
+    {
+      "description": "Les sorts instantanés sont lancés et résolus immédiatement. L'ennemi ne peut pas agir avant leur résolution.",
+      "name": "Instantané",
+      "nameRef": "Burst"
+    },
+    {
+      "description": "Début du round : je réduis le Décompte de 1. À 0, détruisez-moi et activez l'effet du Décompte.",
+      "name": "Décompte",
+      "nameRef": "Countdown"
+    },
+    {
+      "description": "Vous activez cet effet lorsque vous jouez cette unité depuis votre main.",
+      "name": "Immédiat",
+      "nameRef": "PlaySkillMark"
+    },
+    {
+      "description": "Les sites prennent une place sur le plateau. Ils ne peuvent pas attaquer, bloquer ou subir de dégâts.",
+      "name": "Site",
+      "nameRef": "LandmarkVisualOnly"
+    },
+    {
+      "description": "Une carte capturée est retirée de la partie. Elle revient quand l'unité qui l'a capturée quitte le jeu.",
+      "name": "Capture",
+      "nameRef": "Capture"
+    },
+    {
+      "description": "L'effet se déclenche lorsque l'unité attaque.",
+      "name": "Attaque",
+      "nameRef": "AttackSkillMark"
+    },
+    {
+      "description": "",
+      "name": "Shurima",
+      "nameRef": "Shurima"
+    },
+    {
+      "description": "",
+      "name": "Noxus",
+      "nameRef": "Noxus"
+    },
+    {
+      "description": "Les cartes fugaces disparaissent de la main à la fin du round.",
+      "name": "Fugace",
+      "nameRef": "Fleeting"
+    },
+    {
+      "description": "Piochez un non-champion provenant du bas du deck ennemi.",
+      "name": "Dérober",
+      "nameRef": "Nab"
+    },
+    {
+      "description": "Ne peut pas être lancé en cours de combat ou lorsque d'autres sorts attendent d'être résolus. Se lance immédiatement.",
+      "name": "Focalisé",
+      "nameRef": "Focus"
+    },
+    {
+      "description": "Lorsque vous atteignez 10 de mana max, vous atteignez l'Illumination.",
+      "name": "Illumination",
+      "nameRef": "Enlightened"
+    },
+    {
+      "description": "Choisissez une carte céleste parmi 3 pour la créer dans votre main.",
+      "name": "Conjuration",
+      "nameRef": "Invoke"
+    },
+    {
+      "description": "Parasite une autre carte. Lorsque la carte piégée est tirée, l'effet est lancé.",
+      "name": "Piège",
+      "nameRef": "Autoplay"
+    },
+    {
+      "description": "Soigne votre Nexus de la quantité de dégâts infligés.",
+      "name": "Drain",
+      "nameRef": "Drain"
+    },
+    {
+      "description": "Ces compétences prennent effet lorsque l'unité meurt.",
+      "name": "Dernier souffle",
+      "nameRef": "LastBreath"
+    },
+    {
+      "description": "",
+      "name": "Demacia",
+      "nameRef": "Demacia"
+    },
+    {
+      "description": "Un champion gagne un niveau une fois que cette condition est remplie, même en main ou dans le deck.",
+      "name": "Niveau supérieur",
+      "nameRef": "LevelUp"
+    },
+    {
+      "description": "Les sorts rapides peuvent être joués à tout moment, mais l'adversaire peut riposter.",
+      "name": "Rapide",
+      "nameRef": "Fast"
+    },
+    {
+      "description": " ",
+      "name": "Bilgewater",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "description": "Renvoie une unité dans la main et supprime tous les effets qui lui étaient appliqués.",
+      "name": "Rappel",
+      "nameRef": "Recall"
+    },
+    {
+      "description": "Plus faible puissance, départagée par les plus faibles PV, puis par le plus faible coût.",
+      "name": "Plus faible",
+      "nameRef": "Weakest"
+    },
+    {
+      "description": "Les sorts lents peuvent être lancés en dehors du combat et des autres sorts. L'ennemi peut riposter.",
+      "name": "Lent",
+      "nameRef": "Slow"
+    },
+    {
       "description": "L'unité est complètement retirée de la partie. Dernier souffle n'est pas activé et elle ne peut pas être ranimée.",
       "name": "Oblitération",
       "nameRef": "Obliterate"
     },
     {
+      "description": "Ces compétences se déclenchent quand vous résolvez un sort.",
+      "name": "Inspiration",
+      "nameRef": "Imbue"
+    },
+    {
       "description": "",
       "name": "Targon",
       "nameRef": "MtTargon"
+    },
+    {
+      "description": "",
+      "name": "Îles obscures",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "AuraVisualFakeKeyword"
+    },
+    {
+      "description": "",
+      "name": "Ionia",
+      "nameRef": "Ionia"
+    },
+    {
+      "description": "Bonus si cette carte n'est PAS la première que vous jouez pendant un round.",
+      "name": "Crépuscule",
+      "nameRef": "Nightfall"
+    },
+    {
+      "description": "",
+      "name": "Piltover & Zaun",
+      "nameRef": "PiltoverZaun"
+    },
+    {
+      "description": "",
+      "name": "Freljord",
+      "nameRef": "Freljord"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "Blocked"
+    },
+    {
+      "description": "Quand je suis invoqué, regagnez 1 gemme.",
+      "name": "Unisson",
+      "nameRef": "Attune"
+    },
+    {
+      "description": "Bonus si cette carte est la PREMIÈRE que vous jouez pendant un round.",
+      "name": "Aurore",
+      "nameRef": "Daybreak"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "SilenceIndividualKeyword"
     },
     {
       "description": "Effet d'une unité similaire à un sort. L'ennemi peut réagir aux compétences.",
@@ -148,24 +323,9 @@
       "nameRef": "DoubleStrike"
     },
     {
-      "description": "Bonus si cette carte est la PREMIÈRE que vous jouez pendant un round.",
-      "name": "Aurore",
-      "nameRef": "Daybreak"
-    },
-    {
-      "description": "Plus faible puissance, départagée par les plus faibles PV, puis par le plus faible coût.",
-      "name": "Plus faible",
-      "nameRef": "Weakest"
-    },
-    {
       "description": "L'ennemi peut défier cette unité et la forcer à bloquer.",
       "name": "Vulnérabilité",
       "nameRef": "Vulnerable"
-    },
-    {
-      "description": "L'effet se déclenche lorsque l'unité attaque.",
-      "name": "Attaque",
-      "nameRef": "AttackSkillMark"
     },
     {
       "description": "Peut uniquement être bloquée par une unité insaisissable.",
@@ -173,34 +333,9 @@
       "nameRef": "Elusive"
     },
     {
-      "description": "Début du round : je réduis le Décompte de 1. À 0, détruisez-moi et activez l'effet du Décompte.",
-      "name": "Décompte",
-      "nameRef": "Countdown"
-    },
-    {
-      "description": "Soigne votre Nexus de la quantité de dégâts infligés.",
-      "name": "Drain",
-      "nameRef": "Drain"
-    },
-    {
       "description": "Retire une unité du combat. Elle ne peut plus attaquer ou bloquer pendant le reste du round.",
       "name": "Étourdissement",
       "nameRef": "Stun"
-    },
-    {
-      "description": "Parasite une autre carte. Lorsque la carte piégée est tirée, l'effet est lancé.",
-      "name": "Piège",
-      "nameRef": "Autoplay"
-    },
-    {
-      "description": "",
-      "name": "Piltover & Zaun",
-      "nameRef": "PiltoverZaun"
-    },
-    {
-      "description": "",
-      "name": "Demacia",
-      "nameRef": "Demacia"
     },
     {
       "description": "Missing Translation",
@@ -208,34 +343,9 @@
       "nameRef": "BlockElusive"
     },
     {
-      "description": "",
-      "name": "Îles obscures",
-      "nameRef": "ShadowIsles"
-    },
-    {
-      "description": "Missing Translation",
-      "name": "Missing Translation",
-      "nameRef": "Blocked"
-    },
-    {
       "description": "Lorsque j'élimine une unité, octroyez-moi +1|+1.",
       "name": "Fureur",
       "nameRef": "Fury"
-    },
-    {
-      "description": "Lorsque l'attaque dépasse les PV de son bloqueur, le surplus de dégâts est infligé au Nexus ennemi.",
-      "name": "Surpuissance",
-      "nameRef": "SpellOverwhelm"
-    },
-    {
-      "description": "Quand je suis invoqué, regagnez 1 gemme.",
-      "name": "Unisson",
-      "nameRef": "Attune"
-    },
-    {
-      "description": "Les sites prennent une place sur le plateau. Ils ne peuvent pas attaquer, bloquer ou subir de dégâts.",
-      "name": "Site",
-      "nameRef": "LandmarkVisualOnly"
     },
     {
       "description": "Annule les prochains dégâts que l'unité devrait subir. Dure un round.",
@@ -248,39 +358,14 @@
       "nameRef": "Immobile"
     },
     {
-      "description": "Une carte capturée est retirée de la partie. Elle revient quand l'unité qui l'a capturée quitte le jeu.",
-      "name": "Capture",
-      "nameRef": "Capture"
-    },
-    {
       "description": "Réduit la puissance d'une unité à 0 pour le reste du round. Peut être modifiée après.",
       "name": "Gel",
       "nameRef": "Frostbite"
     },
     {
-      "description": "Les sorts instantanés sont lancés et résolus immédiatement. L'ennemi ne peut pas agir avant leur résolution.",
-      "name": "Instantané",
-      "nameRef": "Burst"
-    },
-    {
-      "description": "Les cartes fugaces disparaissent de la main à la fin du round.",
-      "name": "Fugace",
-      "nameRef": "Fleeting"
-    },
-    {
-      "description": "Les sorts rapides peuvent être joués à tout moment, mais l'adversaire peut riposter.",
-      "name": "Rapide",
-      "nameRef": "Fast"
-    },
-    {
       "description": "Le surplus des dégâts infligés à mon bloqueur est redirigé vers le Nexus ennemi.",
       "name": "Surpuissance",
       "nameRef": "Overwhelm"
-    },
-    {
-      "description": "Vous activez cet effet lorsque vous jouez cette unité depuis votre main.",
-      "name": "Immédiat",
-      "nameRef": "PlaySkillMark"
     },
     {
       "description": "Lorsque l'unité attaque, elle frappe avant son bloqueur.",
@@ -293,29 +378,9 @@
       "nameRef": "Tough"
     },
     {
-      "description": "Renvoie une unité dans la main et supprime tous les effets qui lui étaient appliqués.",
-      "name": "Rappel",
-      "nameRef": "Recall"
-    },
-    {
-      "description": "",
-      "name": "Ionia",
-      "nameRef": "Ionia"
-    },
-    {
       "description": "L'unité récupère tous ses PV à la fin de chaque round.",
       "name": "Régénération",
       "nameRef": "Regeneration"
-    },
-    {
-      "description": "Ne peut pas être lancé en cours de combat ou lorsque d'autres sorts attendent d'être résolus. Se lance immédiatement.",
-      "name": "Focalisé",
-      "nameRef": "Focus"
-    },
-    {
-      "description": "Missing Translation",
-      "name": "Missing Translation",
-      "nameRef": "AuraVisualFakeKeyword"
     },
     {
       "description": "Supprime l'intégralité du texte et des mots-clés d'une unité.",
@@ -333,41 +398,6 @@
       "nameRef": "Lifesteal"
     },
     {
-      "description": "Bonus si cette carte n'est PAS la première que vous jouez pendant un round.",
-      "name": "Crépuscule",
-      "nameRef": "Nightfall"
-    },
-    {
-      "description": "",
-      "name": "Shurima",
-      "nameRef": "Shurima"
-    },
-    {
-      "description": "Lorsque vous atteignez 10 de mana max, vous atteignez l'Illumination.",
-      "name": "Illumination",
-      "nameRef": "Enlightened"
-    },
-    {
-      "description": "Un champion gagne un niveau une fois que cette condition est remplie, même en main ou dans le deck.",
-      "name": "Niveau supérieur",
-      "nameRef": "LevelUp"
-    },
-    {
-      "description": "Les sorts lents peuvent être lancés en dehors du combat et des autres sorts. L'ennemi peut riposter.",
-      "name": "Lent",
-      "nameRef": "Slow"
-    },
-    {
-      "description": "",
-      "name": "Noxus",
-      "nameRef": "Noxus"
-    },
-    {
-      "description": "Choisissez une carte céleste parmi 3 pour la créer dans votre main.",
-      "name": "Conjuration",
-      "nameRef": "Invoke"
-    },
-    {
       "description": "Lorsque vous jouez une carte créée, octroyez-moi +1|+0.",
       "name": "Augmentation ",
       "nameRef": "Augment"
@@ -383,34 +413,9 @@
       "nameRef": "Ephemeral"
     },
     {
-      "description": "",
-      "name": "Freljord",
-      "nameRef": "Freljord"
-    },
-    {
-      "description": "Ces compétences prennent effet lorsque l'unité meurt.",
-      "name": "Dernier souffle",
-      "nameRef": "LastBreath"
-    },
-    {
-      "description": " ",
-      "name": "Bilgewater",
-      "nameRef": "Bilgewater"
-    },
-    {
-      "description": "Piochez un non-champion provenant du bas du deck ennemi.",
-      "name": "Dérober",
-      "nameRef": "Nab"
-    },
-    {
       "description": "Peut choisir l'unité ennemie qui va la bloquer.",
       "name": "Challenger",
       "nameRef": "Challenger"
-    },
-    {
-      "description": "Ces compétences se déclenchent quand vous résolvez un sort.",
-      "name": "Inspiration",
-      "nameRef": "Imbue"
     },
     {
       "description": "Peut uniquement être bloquée par des ennemis ayant une puissance de 3 ou plus.",
@@ -431,55 +436,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/fr_fr/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/fr_fr/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/fr_fr/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/fr_fr/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/fr_fr/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/fr_fr/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/fr_fr/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/fr_fr/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/fr_fr/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/fr_fr/img/regions/icon-shadowisles.png",
       "name": "Îles obscures",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/fr_fr/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/fr_fr/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/fr_fr/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/fr_fr/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/fr_fr/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/fr_fr/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/fr_fr/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/fr_fr/img/regions/icon-piltoverzaun.png",
       "name": "Piltover & Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -522,22 +527,22 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/fr_fr/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/fr_fr/img/sets/set3.png",
       "name": "Appel de la montagne",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/fr_fr/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/fr_fr/img/sets/set1.png",
       "name": "Fondations",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/fr_fr/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/fr_fr/img/sets/set2.png",
       "name": "Marée montante",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/fr_fr/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/fr_fr/img/sets/set4.png",
       "name": "Empires des Transfigurés",
       "nameRef": "Set4"
     }

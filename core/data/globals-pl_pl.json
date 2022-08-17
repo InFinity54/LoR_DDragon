@@ -128,14 +128,189 @@
   ],
   "keywords": [
     {
+      "description": "Obrażenia ponad te potrzebne do zabicia celu(-ów) są zadawane wrogiemu Nexusowi.",
+      "name": "Zmiażdżenie",
+      "nameRef": "SpellOverwhelm"
+    },
+    {
+      "description": "Eksplozywne zaklęcia są rzucane natychmiastowo. Przeciwnik nie może działać, dopóki zaklęcie nie zostanie rozstrzygnięte.",
+      "name": "Błyskawiczne",
+      "nameRef": "Burst"
+    },
+    {
+      "description": "Początek rundy: Odliczam 1. Po odliczeniu do 0 zniszcz mnie i aktywuj efekt Odliczenia.",
+      "name": "Odliczanie",
+      "nameRef": "Countdown"
+    },
+    {
+      "description": "Uzyskuje efekt, gdy zagrasz tę jednostkę z ręki.",
+      "name": "Zagraj",
+      "nameRef": "PlaySkillMark"
+    },
+    {
+      "description": "Lokacje zajmują miejsce na planszy. Nie mogą atakować, blokować ani otrzymywać obrażeń.",
+      "name": "Lokacja",
+      "nameRef": "LandmarkVisualOnly"
+    },
+    {
+      "description": "Zniewolona karta jest usuwana z gry. Powraca, kiedy Zniewalająca jednostka opuści grę.",
+      "name": "Zniewolenie",
+      "nameRef": "Capture"
+    },
+    {
+      "description": "Uzyskuje efekt, gdy ta jednostka atakuje.",
+      "name": "Atak",
+      "nameRef": "AttackSkillMark"
+    },
+    {
+      "description": "",
+      "name": "Shurima",
+      "nameRef": "Shurima"
+    },
+    {
+      "description": "",
+      "name": "Noxus",
+      "nameRef": "Noxus"
+    },
+    {
+      "description": "Ulotne karty znikają z ręki wraz z końcem rundy.",
+      "name": "Ulotność",
+      "nameRef": "Fleeting"
+    },
+    {
+      "description": "Dobierz kartę niebędącą bohaterem ze spodu wrogiej talii.",
+      "name": "Zwędzenie",
+      "nameRef": "Nab"
+    },
+    {
+      "description": "Nie można rzucić w trakcie walki ani w trakcie oczekiwania na rozstrzygnięcie innego zaklęcia. Od razu wywołuje efekt.",
+      "name": "Skupienie",
+      "nameRef": "Focus"
+    },
+    {
+      "description": "Oświecenie zyskujesz, kiedy masz 10 maksymalnej many.",
+      "name": "Oświecenie",
+      "nameRef": "Enlightened"
+    },
+    {
+      "description": "Wybierz jedną Astralną kartę spośród trzech, by stworzyć ją w ręce.",
+      "name": "Wezwanie",
+      "nameRef": "Invoke"
+    },
+    {
+      "description": "Przyczepia się do innej karty, więżąc ją. Gdy uwięziona karta zostaje dobrana, efekt się aktywuje.",
+      "name": "Pułapka",
+      "nameRef": "Autoplay"
+    },
+    {
+      "description": "Ulecz swój Nexus o wartość zadanych obrażeń",
+      "name": "Czerpanie",
+      "nameRef": "Drain"
+    },
+    {
+      "description": "Te umiejętności aktywują się, gdy jednostka ginie.",
+      "name": "Ostatnie Tchnienie",
+      "nameRef": "LastBreath"
+    },
+    {
+      "description": "",
+      "name": "Demacia",
+      "nameRef": "Demacia"
+    },
+    {
+      "description": "Bohater awansuje, gdy ten warunek zostanie spełniony, nawet w ręce albo w talii.",
+      "name": "Awans",
+      "nameRef": "LevelUp"
+    },
+    {
+      "description": "Szybkie zaklęcia mogą być zagrane w dowolnym momencie, ale pozwalają przeciwnikowi odpowiedzieć.",
+      "name": "Szybkie",
+      "nameRef": "Fast"
+    },
+    {
+      "description": "",
+      "name": "Bilgewater",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "description": "Przywróć jednostkę do ręki i usuń wszystkie nałożone na nią efekty.",
+      "name": "Wycofanie",
+      "nameRef": "Recall"
+    },
+    {
+      "description": "Najniższa Siła, z remisami rozstrzyganymi przez najniższe Zdrowie, a następnie najniższy Koszt.",
+      "name": "Najsłabsza",
+      "nameRef": "Weakest"
+    },
+    {
+      "description": "Powolne zaklęcia można rzucać poza walką i innym rzucaniem. Przeciwnik może odpowiedzieć.",
+      "name": "Powolne",
+      "nameRef": "Slow"
+    },
+    {
       "description": "Zupełnie usunięta z gry. Nie aktywuje Ostatniego Tchnienia i nie może być wskrzeszona.",
       "name": "Unicestwienie",
       "nameRef": "Obliterate"
     },
     {
+      "description": "Te umiejętności aktywują się, gdy rozstrzygasz zaklęcie.",
+      "name": "Nasycenie",
+      "nameRef": "Imbue"
+    },
+    {
       "description": "",
       "name": "Targon",
       "nameRef": "MtTargon"
+    },
+    {
+      "description": "",
+      "name": "Wyspy Cienia",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "AuraVisualFakeKeyword"
+    },
+    {
+      "description": "",
+      "name": "Ionia",
+      "nameRef": "Ionia"
+    },
+    {
+      "description": "Premia, jeśli to NIE jest pierwsza karta zagrana przez ciebie w rundzie.",
+      "name": "Zmrok",
+      "nameRef": "Nightfall"
+    },
+    {
+      "description": "",
+      "name": "Piltover i Zaun",
+      "nameRef": "PiltoverZaun"
+    },
+    {
+      "description": "",
+      "name": "Freljord",
+      "nameRef": "Freljord"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "Blocked"
+    },
+    {
+      "description": "Gdy mnie przywołasz, odzyskaj 1 many zaklęć.",
+      "name": "Dostrojenie",
+      "nameRef": "Attune"
+    },
+    {
+      "description": "Premia, jeśli to PIERWSZA karta zagrana przez ciebie w rundzie.",
+      "name": "Brzask",
+      "nameRef": "Daybreak"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "SilenceIndividualKeyword"
     },
     {
       "description": "Przypominający zaklęcie efekt jednostki, który pozwala wrogom zareagować.",
@@ -148,24 +323,9 @@
       "nameRef": "DoubleStrike"
     },
     {
-      "description": "Premia, jeśli to PIERWSZA karta zagrana przez ciebie w rundzie.",
-      "name": "Brzask",
-      "nameRef": "Daybreak"
-    },
-    {
-      "description": "Najniższa Siła, z remisami rozstrzyganymi przez najniższe Zdrowie, a następnie najniższy Koszt.",
-      "name": "Najsłabsza",
-      "nameRef": "Weakest"
-    },
-    {
       "description": "Wróg może rzucić wyzwanie tej jednostce, zmuszając ją do blokowania.",
       "name": "Podatność",
       "nameRef": "Vulnerable"
-    },
-    {
-      "description": "Uzyskuje efekt, gdy ta jednostka atakuje.",
-      "name": "Atak",
-      "nameRef": "AttackSkillMark"
     },
     {
       "description": "Tylko inna Nieuchwytna jednostka może ją zablokować.",
@@ -173,34 +333,9 @@
       "nameRef": "Elusive"
     },
     {
-      "description": "Początek rundy: Odliczam 1. Po odliczeniu do 0 zniszcz mnie i aktywuj efekt Odliczenia.",
-      "name": "Odliczanie",
-      "nameRef": "Countdown"
-    },
-    {
-      "description": "Ulecz swój Nexus o wartość zadanych obrażeń",
-      "name": "Czerpanie",
-      "nameRef": "Drain"
-    },
-    {
       "description": "Usuń jednostkę z walki. Nie może atakować ani blokować przez resztę rundy.",
       "name": "Ogłuszenie",
       "nameRef": "Stun"
-    },
-    {
-      "description": "Przyczepia się do innej karty, więżąc ją. Gdy uwięziona karta zostaje dobrana, efekt się aktywuje.",
-      "name": "Pułapka",
-      "nameRef": "Autoplay"
-    },
-    {
-      "description": "",
-      "name": "Piltover i Zaun",
-      "nameRef": "PiltoverZaun"
-    },
-    {
-      "description": "",
-      "name": "Demacia",
-      "nameRef": "Demacia"
     },
     {
       "description": "Missing Translation",
@@ -208,34 +343,9 @@
       "nameRef": "BlockElusive"
     },
     {
-      "description": "",
-      "name": "Wyspy Cienia",
-      "nameRef": "ShadowIsles"
-    },
-    {
-      "description": "Missing Translation",
-      "name": "Missing Translation",
-      "nameRef": "Blocked"
-    },
-    {
       "description": "Gdy zabiję jednostkę, przyznaj mi +1|+1.",
       "name": "Furia",
       "nameRef": "Fury"
-    },
-    {
-      "description": "Obrażenia ponad te potrzebne do zabicia celu(-ów) są zadawane wrogiemu Nexusowi.",
-      "name": "Zmiażdżenie",
-      "nameRef": "SpellOverwhelm"
-    },
-    {
-      "description": "Gdy mnie przywołasz, odzyskaj 1 many zaklęć.",
-      "name": "Dostrojenie",
-      "nameRef": "Attune"
-    },
-    {
-      "description": "Lokacje zajmują miejsce na planszy. Nie mogą atakować, blokować ani otrzymywać obrażeń.",
-      "name": "Lokacja",
-      "nameRef": "LandmarkVisualOnly"
     },
     {
       "description": "Neguje kolejne obrażenia, które otrzymałaby jednostka. Działa jedną rundę.",
@@ -248,39 +358,14 @@
       "nameRef": "Immobile"
     },
     {
-      "description": "Zniewolona karta jest usuwana z gry. Powraca, kiedy Zniewalająca jednostka opuści grę.",
-      "name": "Zniewolenie",
-      "nameRef": "Capture"
-    },
-    {
       "description": "Ustawia Siłę jednostki w tej rundzie na 0. Można to potem zmienić.",
       "name": "Odmrożenie",
       "nameRef": "Frostbite"
     },
     {
-      "description": "Eksplozywne zaklęcia są rzucane natychmiastowo. Przeciwnik nie może działać, dopóki zaklęcie nie zostanie rozstrzygnięte.",
-      "name": "Błyskawiczne",
-      "nameRef": "Burst"
-    },
-    {
-      "description": "Ulotne karty znikają z ręki wraz z końcem rundy.",
-      "name": "Ulotność",
-      "nameRef": "Fleeting"
-    },
-    {
-      "description": "Szybkie zaklęcia mogą być zagrane w dowolnym momencie, ale pozwalają przeciwnikowi odpowiedzieć.",
-      "name": "Szybkie",
-      "nameRef": "Fast"
-    },
-    {
       "description": "Nadwyżka obrażeń, które zadaję mojemu blokującemu, jest zadawana wrogiemu Nexusowi.",
       "name": "Zmiażdżenie",
       "nameRef": "Overwhelm"
-    },
-    {
-      "description": "Uzyskuje efekt, gdy zagrasz tę jednostkę z ręki.",
-      "name": "Zagraj",
-      "nameRef": "PlaySkillMark"
     },
     {
       "description": "Gdy atakuje, uderza przed swoim blokującym.",
@@ -293,29 +378,9 @@
       "nameRef": "Tough"
     },
     {
-      "description": "Przywróć jednostkę do ręki i usuń wszystkie nałożone na nią efekty.",
-      "name": "Wycofanie",
-      "nameRef": "Recall"
-    },
-    {
-      "description": "",
-      "name": "Ionia",
-      "nameRef": "Ionia"
-    },
-    {
       "description": "Leczy się całkowicie pod koniec każdej rundy.",
       "name": "Regeneracja",
       "nameRef": "Regeneration"
-    },
-    {
-      "description": "Nie można rzucić w trakcie walki ani w trakcie oczekiwania na rozstrzygnięcie innego zaklęcia. Od razu wywołuje efekt.",
-      "name": "Skupienie",
-      "nameRef": "Focus"
-    },
-    {
-      "description": "Missing Translation",
-      "name": "Missing Translation",
-      "nameRef": "AuraVisualFakeKeyword"
     },
     {
       "description": "Usuwa cały tekst i słowa klucze z jednostki.",
@@ -333,41 +398,6 @@
       "nameRef": "Lifesteal"
     },
     {
-      "description": "Premia, jeśli to NIE jest pierwsza karta zagrana przez ciebie w rundzie.",
-      "name": "Zmrok",
-      "nameRef": "Nightfall"
-    },
-    {
-      "description": "",
-      "name": "Shurima",
-      "nameRef": "Shurima"
-    },
-    {
-      "description": "Oświecenie zyskujesz, kiedy masz 10 maksymalnej many.",
-      "name": "Oświecenie",
-      "nameRef": "Enlightened"
-    },
-    {
-      "description": "Bohater awansuje, gdy ten warunek zostanie spełniony, nawet w ręce albo w talii.",
-      "name": "Awans",
-      "nameRef": "LevelUp"
-    },
-    {
-      "description": "Powolne zaklęcia można rzucać poza walką i innym rzucaniem. Przeciwnik może odpowiedzieć.",
-      "name": "Powolne",
-      "nameRef": "Slow"
-    },
-    {
-      "description": "",
-      "name": "Noxus",
-      "nameRef": "Noxus"
-    },
-    {
-      "description": "Wybierz jedną Astralną kartę spośród trzech, by stworzyć ją w ręce.",
-      "name": "Wezwanie",
-      "nameRef": "Invoke"
-    },
-    {
       "description": "Kiedy zagrasz stworzoną kartę, przyznaj mi +1|+0.",
       "name": "Ulepszenie",
       "nameRef": "Augment"
@@ -383,34 +413,9 @@
       "nameRef": "Ephemeral"
     },
     {
-      "description": "",
-      "name": "Freljord",
-      "nameRef": "Freljord"
-    },
-    {
-      "description": "Te umiejętności aktywują się, gdy jednostka ginie.",
-      "name": "Ostatnie Tchnienie",
-      "nameRef": "LastBreath"
-    },
-    {
-      "description": "",
-      "name": "Bilgewater",
-      "nameRef": "Bilgewater"
-    },
-    {
-      "description": "Dobierz kartę niebędącą bohaterem ze spodu wrogiej talii.",
-      "name": "Zwędzenie",
-      "nameRef": "Nab"
-    },
-    {
       "description": "Może wybrać, która wroga jednostka będzie blokować.",
       "name": "Wyzwanie",
       "nameRef": "Challenger"
-    },
-    {
-      "description": "Te umiejętności aktywują się, gdy rozstrzygasz zaklęcie.",
-      "name": "Nasycenie",
-      "nameRef": "Imbue"
     },
     {
       "description": "Zablokować mogą tylko wrogowie z Siłą 3 lub wyższą.",
@@ -431,55 +436,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pl_pl/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pl_pl/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pl_pl/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pl_pl/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pl_pl/img/regions/icon-shadowisles.png",
       "name": "Wyspy Cienia",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pl_pl/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pl_pl/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pl_pl/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pl_pl/img/regions/icon-piltoverzaun.png",
       "name": "Piltover i Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -522,22 +527,22 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pl_pl/img/sets/set3.png",
       "name": "Zew Góry",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pl_pl/img/sets/set1.png",
       "name": "Fundamenty",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pl_pl/img/sets/set2.png",
       "name": "Wzbierający Przypływ",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pl_pl/img/sets/set4.png",
       "name": "Imperia Wyniesionych",
       "nameRef": "Set4"
     }

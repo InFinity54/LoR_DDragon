@@ -128,14 +128,189 @@
   ],
   "keywords": [
     {
+      "description": "O dano que exceder o necessário para abater o(s) alvo(s) é causado ao Nexus inimigo.",
+      "name": "Sobrepujar",
+      "nameRef": "SpellOverwhelm"
+    },
+    {
+      "description": "Feitiços Súbitos são conjurados instantaneamente. O inimigo não pode agir até que eles terminem.",
+      "name": "Súbito",
+      "nameRef": "Burst"
+    },
+    {
+      "description": "Início de Rodada: Eu avanço a contagem regressiva em 1. Ao chegar a 0, me destrua e ative o efeito de Contagem.",
+      "name": "Contagem",
+      "nameRef": "Countdown"
+    },
+    {
+      "description": "Este efeito é ativado ao jogar esta unidade da sua mão.",
+      "name": "Jogar",
+      "nameRef": "PlaySkillMark"
+    },
+    {
+      "description": "Monumentos ocupam um espaço do tabuleiro. Eles não podem atacar, bloquear nem sofrer dano.",
+      "name": "Monumento",
+      "nameRef": "LandmarkVisualOnly"
+    },
+    {
+      "description": "Uma carta Capturada é removida da partida e volta quando a unidade que a capturou deixa a partida.",
+      "name": "Capturar",
+      "nameRef": "Capture"
+    },
+    {
+      "description": "Este efeito é ativado quando esta unidade atacar.",
+      "name": "Atacar",
+      "nameRef": "AttackSkillMark"
+    },
+    {
+      "description": "",
+      "name": "Shurima",
+      "nameRef": "Shurima"
+    },
+    {
+      "description": "",
+      "name": "Noxus",
+      "nameRef": "Noxus"
+    },
+    {
+      "description": "Cartas Fugazes são descartadas da mão quando a rodada termina.",
+      "name": "Fugaz",
+      "nameRef": "Fleeting"
+    },
+    {
+      "description": "Compre uma carta de não Campeão do fim do deck inimigo.",
+      "name": "Pilhar",
+      "nameRef": "Nab"
+    },
+    {
+      "description": "Não pode ser conjurado em combate nem enquanto outros feitiços estiverem pendentes. Tem conjuração instantânea.",
+      "name": "Focado",
+      "nameRef": "Focus"
+    },
+    {
+      "description": "Você fica Iluminado quando tem 10 de Mana máximo.",
+      "name": "Iluminado",
+      "nameRef": "Enlightened"
+    },
+    {
+      "description": "Escolha uma carta Celestial entre 3 para criá-la na mão.",
+      "name": "Evocar",
+      "nameRef": "Invoke"
+    },
+    {
+      "description": "Prende-se a outra carta que, quando comprada, ativa um efeito de armadilha.",
+      "name": "Armadilha",
+      "nameRef": "Autoplay"
+    },
+    {
+      "description": "Cura seu Nexus em valor equivalente ao dano causado",
+      "name": "Drenar",
+      "nameRef": "Drain"
+    },
+    {
+      "description": "Essas habilidades fazem efeito quando a unidade morre.",
+      "name": "Suspiro Final",
+      "nameRef": "LastBreath"
+    },
+    {
+      "description": "",
+      "name": "Demacia",
+      "nameRef": "Demacia"
+    },
+    {
+      "description": "O Campeão sobe de nível quando essa condição é cumprida, esteja ele na mão ou no deck.",
+      "name": "Subir de Nível",
+      "nameRef": "LevelUp"
+    },
+    {
+      "description": "Feitiços Rápidos podem ser lançados a qualquer momento, mas o oponente pode reagir.",
+      "name": "Rápido",
+      "nameRef": "Fast"
+    },
+    {
+      "description": "",
+      "name": "Águas de Sentina",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "description": "Devolva a unidade para a mão e remova os efeitos aplicados a ela.",
+      "name": "Retornar",
+      "nameRef": "Recall"
+    },
+    {
+      "description": "Menor Poder, com critério de desempate de menor Vida e depois menor Custo.",
+      "name": "Mais Fraco",
+      "nameRef": "Weakest"
+    },
+    {
+      "description": "Feitiços Lentos podem ser conjurados fora de combate e de outras conjurações. O inimigo pode reagir.",
+      "name": "Lento",
+      "nameRef": "Slow"
+    },
+    {
       "description": "A unidade é completamente removida do jogo. Não ativa Suspiro Final e não pode ser ressuscitada.",
       "name": "Obliterar",
       "nameRef": "Obliterate"
     },
     {
+      "description": "Essas habilidades são acionadas quando você resolve um feitiço.",
+      "name": "Imbuir",
+      "nameRef": "Imbue"
+    },
+    {
       "description": "",
       "name": "Targon",
       "nameRef": "MtTargon"
+    },
+    {
+      "description": "",
+      "name": "Ilhas das Sombras",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "AuraVisualFakeKeyword"
+    },
+    {
+      "description": "",
+      "name": "Ionia",
+      "nameRef": "Ionia"
+    },
+    {
+      "description": "Bônus se esta NÃO for a primeira carta que você joga na rodada.",
+      "name": "Anoitecer",
+      "nameRef": "Nightfall"
+    },
+    {
+      "description": "",
+      "name": "Piltover e Zaun",
+      "nameRef": "PiltoverZaun"
+    },
+    {
+      "description": "",
+      "name": "Freljord",
+      "nameRef": "Freljord"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "Blocked"
+    },
+    {
+      "description": "Ao me invocar, recarregue 1 de Mana de Feitiço.",
+      "name": "Sintonia",
+      "nameRef": "Attune"
+    },
+    {
+      "description": "Bônus se esta for a PRIMEIRA carta que você joga na rodada.",
+      "name": "Amanhecer",
+      "nameRef": "Daybreak"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "SilenceIndividualKeyword"
     },
     {
       "description": "Efeito parecido com o feitiço de uma unidade. Permite reações dos inimigos.",
@@ -148,24 +323,9 @@
       "nameRef": "DoubleStrike"
     },
     {
-      "description": "Bônus se esta for a PRIMEIRA carta que você joga na rodada.",
-      "name": "Amanhecer",
-      "nameRef": "Daybreak"
-    },
-    {
-      "description": "Menor Poder, com critério de desempate de menor Vida e depois menor Custo.",
-      "name": "Mais Fraco",
-      "nameRef": "Weakest"
-    },
-    {
       "description": "O inimigo pode desafiar esta unidade, forçando-a a bloquear.",
       "name": "Vulnerável",
       "nameRef": "Vulnerable"
-    },
-    {
-      "description": "Este efeito é ativado quando esta unidade atacar.",
-      "name": "Atacar",
-      "nameRef": "AttackSkillMark"
     },
     {
       "description": "Só pode ser bloqueada por uma unidade Elusiva.",
@@ -173,34 +333,9 @@
       "nameRef": "Elusive"
     },
     {
-      "description": "Início de Rodada: Eu avanço a contagem regressiva em 1. Ao chegar a 0, me destrua e ative o efeito de Contagem.",
-      "name": "Contagem",
-      "nameRef": "Countdown"
-    },
-    {
-      "description": "Cura seu Nexus em valor equivalente ao dano causado",
-      "name": "Drenar",
-      "nameRef": "Drain"
-    },
-    {
       "description": "Remova uma unidade do combate. Ela não pode atacar nem bloquear pelo restante da rodada.",
       "name": "Atordoar",
       "nameRef": "Stun"
-    },
-    {
-      "description": "Prende-se a outra carta que, quando comprada, ativa um efeito de armadilha.",
-      "name": "Armadilha",
-      "nameRef": "Autoplay"
-    },
-    {
-      "description": "",
-      "name": "Piltover e Zaun",
-      "nameRef": "PiltoverZaun"
-    },
-    {
-      "description": "",
-      "name": "Demacia",
-      "nameRef": "Demacia"
     },
     {
       "description": "Missing Translation",
@@ -208,34 +343,9 @@
       "nameRef": "BlockElusive"
     },
     {
-      "description": "",
-      "name": "Ilhas das Sombras",
-      "nameRef": "ShadowIsles"
-    },
-    {
-      "description": "Missing Translation",
-      "name": "Missing Translation",
-      "nameRef": "Blocked"
-    },
-    {
       "description": "Quando eu abater uma unidade, eu ganho +1|+1.",
       "name": "Fúria",
       "nameRef": "Fury"
-    },
-    {
-      "description": "O dano que exceder o necessário para abater o(s) alvo(s) é causado ao Nexus inimigo.",
-      "name": "Sobrepujar",
-      "nameRef": "SpellOverwhelm"
-    },
-    {
-      "description": "Ao me invocar, recarregue 1 de Mana de Feitiço.",
-      "name": "Sintonia",
-      "nameRef": "Attune"
-    },
-    {
-      "description": "Monumentos ocupam um espaço do tabuleiro. Eles não podem atacar, bloquear nem sofrer dano.",
-      "name": "Monumento",
-      "nameRef": "LandmarkVisualOnly"
     },
     {
       "description": "Invalida o próximo dano que a unidade sofreria. Dura uma rodada.",
@@ -248,39 +358,14 @@
       "nameRef": "Immobile"
     },
     {
-      "description": "Uma carta Capturada é removida da partida e volta quando a unidade que a capturou deixa a partida.",
-      "name": "Capturar",
-      "nameRef": "Capture"
-    },
-    {
       "description": "Deixa o Poder de uma unidade em 0 nesta rodada. Pode ser alterado depois.",
       "name": "Congelar",
       "nameRef": "Frostbite"
     },
     {
-      "description": "Feitiços Súbitos são conjurados instantaneamente. O inimigo não pode agir até que eles terminem.",
-      "name": "Súbito",
-      "nameRef": "Burst"
-    },
-    {
-      "description": "Cartas Fugazes são descartadas da mão quando a rodada termina.",
-      "name": "Fugaz",
-      "nameRef": "Fleeting"
-    },
-    {
-      "description": "Feitiços Rápidos podem ser lançados a qualquer momento, mas o oponente pode reagir.",
-      "name": "Rápido",
-      "nameRef": "Fast"
-    },
-    {
       "description": "O dano excedente que eu causo ao meu bloqueador é repassado ao Nexus inimigo.",
       "name": "Sobrepujar",
       "nameRef": "Overwhelm"
-    },
-    {
-      "description": "Este efeito é ativado ao jogar esta unidade da sua mão.",
-      "name": "Jogar",
-      "nameRef": "PlaySkillMark"
     },
     {
       "description": "Ao atacar, golpeia antes do bloqueador.",
@@ -293,29 +378,9 @@
       "nameRef": "Tough"
     },
     {
-      "description": "Devolva a unidade para a mão e remova os efeitos aplicados a ela.",
-      "name": "Retornar",
-      "nameRef": "Recall"
-    },
-    {
-      "description": "",
-      "name": "Ionia",
-      "nameRef": "Ionia"
-    },
-    {
       "description": "Cura-se completamente no fim de cada rodada.",
       "name": "Regeneração",
       "nameRef": "Regeneration"
-    },
-    {
-      "description": "Não pode ser conjurado em combate nem enquanto outros feitiços estiverem pendentes. Tem conjuração instantânea.",
-      "name": "Focado",
-      "nameRef": "Focus"
-    },
-    {
-      "description": "Missing Translation",
-      "name": "Missing Translation",
-      "nameRef": "AuraVisualFakeKeyword"
     },
     {
       "description": "Remove o texto e as palavras-chave de uma unidade.",
@@ -333,41 +398,6 @@
       "nameRef": "Lifesteal"
     },
     {
-      "description": "Bônus se esta NÃO for a primeira carta que você joga na rodada.",
-      "name": "Anoitecer",
-      "nameRef": "Nightfall"
-    },
-    {
-      "description": "",
-      "name": "Shurima",
-      "nameRef": "Shurima"
-    },
-    {
-      "description": "Você fica Iluminado quando tem 10 de Mana máximo.",
-      "name": "Iluminado",
-      "nameRef": "Enlightened"
-    },
-    {
-      "description": "O Campeão sobe de nível quando essa condição é cumprida, esteja ele na mão ou no deck.",
-      "name": "Subir de Nível",
-      "nameRef": "LevelUp"
-    },
-    {
-      "description": "Feitiços Lentos podem ser conjurados fora de combate e de outras conjurações. O inimigo pode reagir.",
-      "name": "Lento",
-      "nameRef": "Slow"
-    },
-    {
-      "description": "",
-      "name": "Noxus",
-      "nameRef": "Noxus"
-    },
-    {
-      "description": "Escolha uma carta Celestial entre 3 para criá-la na mão.",
-      "name": "Evocar",
-      "nameRef": "Invoke"
-    },
-    {
       "description": "Quando você joga uma carta criada, eu ganho +1|+0.",
       "name": "Aperfeiçoar",
       "nameRef": "Augment"
@@ -383,34 +413,9 @@
       "nameRef": "Ephemeral"
     },
     {
-      "description": "",
-      "name": "Freljord",
-      "nameRef": "Freljord"
-    },
-    {
-      "description": "Essas habilidades fazem efeito quando a unidade morre.",
-      "name": "Suspiro Final",
-      "nameRef": "LastBreath"
-    },
-    {
-      "description": "",
-      "name": "Águas de Sentina",
-      "nameRef": "Bilgewater"
-    },
-    {
-      "description": "Compre uma carta de não Campeão do fim do deck inimigo.",
-      "name": "Pilhar",
-      "nameRef": "Nab"
-    },
-    {
       "description": "Pode escolher a unidade inimiga que vai bloquear.",
       "name": "Desafiador",
       "nameRef": "Challenger"
-    },
-    {
-      "description": "Essas habilidades são acionadas quando você resolve um feitiço.",
-      "name": "Imbuir",
-      "nameRef": "Imbue"
     },
     {
       "description": "Só pode ser bloqueada por inimigos com 3 ou mais de Poder.",
@@ -431,55 +436,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pt_br/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pt_br/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pt_br/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pt_br/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pt_br/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pt_br/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pt_br/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pt_br/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pt_br/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pt_br/img/regions/icon-shadowisles.png",
       "name": "Ilhas das Sombras",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pt_br/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pt_br/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pt_br/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pt_br/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pt_br/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pt_br/img/regions/icon-bilgewater.png",
       "name": "Águas de Sentina",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pt_br/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pt_br/img/regions/icon-piltoverzaun.png",
       "name": "Piltover e Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -522,22 +527,22 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pt_br/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pt_br/img/sets/set3.png",
       "name": "Chamado da Montanha",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pt_br/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pt_br/img/sets/set1.png",
       "name": "Primordiais",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pt_br/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pt_br/img/sets/set2.png",
       "name": "Marés Crescentes",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pt_br/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/pt_br/img/sets/set4.png",
       "name": "Impérios dos Ascendentes",
       "nameRef": "Set4"
     }

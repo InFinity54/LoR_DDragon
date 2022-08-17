@@ -128,14 +128,189 @@
   ],
   "keywords": [
     {
+      "description": "피해량이 대상의 체력보다 높으면 그 차이만큼 적 넥서스에 피해를 입힙니다.",
+      "name": "압도",
+      "nameRef": "SpellOverwhelm"
+    },
+    {
+      "description": "즉발 주문은 즉시 발동합니다. 적은 주문이 발동 완료될 때까지 행동할 수 없습니다.",
+      "name": "즉발",
+      "nameRef": "Burst"
+    },
+    {
+      "description": "라운드 시작: 초읽기가 1 진행됩니다. 0이 되면 파괴되고 초읽기 효과를 발동시킵니다.",
+      "name": "초읽기",
+      "nameRef": "Countdown"
+    },
+    {
+      "description": "이 유닛을 손에서 낼 때<br>효과가 적용됩니다.",
+      "name": "사용",
+      "nameRef": "PlaySkillMark"
+    },
+    {
+      "description": "명소는 전장에서 공간을 차지합니다. 공격 및 방어를<br>할 수 없으며 피해를<br>입지 않습니다.",
+      "name": "명소",
+      "nameRef": "LandmarkVisualOnly"
+    },
+    {
+      "description": "구속된 카드는 게임에서 제거되며 구속하는 유닛이 사라지면 다시 돌아옵니다.",
+      "name": "구속",
+      "nameRef": "Capture"
+    },
+    {
+      "description": "이 유닛이 공격할 때<br>효과가 적용됩니다.",
+      "name": "공격",
+      "nameRef": "AttackSkillMark"
+    },
+    {
+      "description": " ",
+      "name": "슈리마",
+      "nameRef": "Shurima"
+    },
+    {
+      "description": "",
+      "name": "녹서스",
+      "nameRef": "Noxus"
+    },
+    {
+      "description": "일회용 카드는 라운드 종료 시 손에서 버려집니다.",
+      "name": "일회용",
+      "nameRef": "Fleeting"
+    },
+    {
+      "description": "적 덱의 맨 아래에서 챔피언이 아닌 카드 1장을 뽑습니다.",
+      "name": "슬쩍",
+      "nameRef": "Nab"
+    },
+    {
+      "description": "전투 중 또는 주문에 대응해서 사용할 수 없습니다. 즉시 발동합니다.",
+      "name": "몰입",
+      "nameRef": "Focus"
+    },
+    {
+      "description": "최대 마나가 10이 되면 각성합니다.",
+      "name": "각성",
+      "nameRef": "Enlightened"
+    },
+    {
+      "description": "세 가지 천상 카드 중<br>1장을 선택해<br>손에 생성합니다.",
+      "name": "기원",
+      "nameRef": "Invoke"
+    },
+    {
+      "description": "다른 카드에 붙어 함정을 설치합니다. 해당 카드가 뽑히면 효과를 발휘합니다.",
+      "name": "함정",
+      "nameRef": "Autoplay"
+    },
+    {
+      "description": "입힌 피해량만큼 내 넥서스의 체력이 회복됩니다.",
+      "name": "흡수",
+      "nameRef": "Drain"
+    },
+    {
+      "description": "유닛이 사망하면 발동됩니다.",
+      "name": "최후의 숨결",
+      "nameRef": "LastBreath"
+    },
+    {
+      "description": "",
+      "name": "데마시아",
+      "nameRef": "Demacia"
+    },
+    {
+      "description": "이 조건이 충족되면 챔피언이 손이나 덱에 있더라도<br>레벨 업합니다.",
+      "name": "레벨 업",
+      "nameRef": "LevelUp"
+    },
+    {
+      "description": "신속 주문은 언제든지<br>사용할 수 있지만,<br>적이 대응할 수 있습니다.",
+      "name": "신속",
+      "nameRef": "Fast"
+    },
+    {
+      "description": " ",
+      "name": "빌지워터",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "description": "유닛에게 적용된 효과를 모두 제거하고 손으로 돌려보냅니다.",
+      "name": "귀환",
+      "nameRef": "Recall"
+    },
+    {
+      "description": "공격력이 가장 낮은 유닛이며 공격력이 같으면 체력, 비용 순서로 비교해서 결정됩니다.",
+      "name": "최약",
+      "nameRef": "Weakest"
+    },
+    {
+      "description": "집중 주문은 전투 중이 아닐 때 시전할 수 있습니다.<br>적은 집중 주문에<br>대응할 수 있습니다.",
+      "name": "집중",
+      "nameRef": "Slow"
+    },
+    {
       "description": "게임에서 완전히 제거됩니다. 최후의 숨결 효과가 발동되지 않으며<br>부활할 수 없습니다.",
       "name": "소멸",
       "nameRef": "Obliterate"
     },
     {
+      "description": "주문이 발동되면 활성화됩니다.",
+      "name": "주문 부여",
+      "nameRef": "Imbue"
+    },
+    {
       "description": "\n ",
       "name": "타곤",
       "nameRef": "MtTargon"
+    },
+    {
+      "description": "",
+      "name": "그림자 군도",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "AuraVisualFakeKeyword"
+    },
+    {
+      "description": "",
+      "name": "아이오니아",
+      "nameRef": "Ionia"
+    },
+    {
+      "description": "라운드에서 처음 낸 카드가 아닐 경우 추가 효과를 얻습니다.",
+      "name": "어스름",
+      "nameRef": "Nightfall"
+    },
+    {
+      "description": "",
+      "name": "필트오버 & 자운",
+      "nameRef": "PiltoverZaun"
+    },
+    {
+      "description": "",
+      "name": "프렐요드",
+      "nameRef": "Freljord"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "Blocked"
+    },
+    {
+      "description": "소환 시 주문 마나를 1 회복합니다.",
+      "name": "조율",
+      "nameRef": "Attune"
+    },
+    {
+      "description": "라운드에서 처음 낼 경우<br>추가 효과를 얻습니다.",
+      "name": "해오름",
+      "nameRef": "Daybreak"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "SilenceIndividualKeyword"
     },
     {
       "description": "유닛이 가지고 있는<br>주문 같은 효과로,<br>적이 대응할 수 있습니다.",
@@ -148,24 +323,9 @@
       "nameRef": "DoubleStrike"
     },
     {
-      "description": "라운드에서 처음 낼 경우<br>추가 효과를 얻습니다.",
-      "name": "해오름",
-      "nameRef": "Daybreak"
-    },
-    {
-      "description": "공격력이 가장 낮은 유닛이며 공격력이 같으면 체력, 비용 순서로 비교해서 결정됩니다.",
-      "name": "최약",
-      "nameRef": "Weakest"
-    },
-    {
       "description": "적의 도전을 받아 강제로<br>방어하게 됩니다.",
       "name": "약점 노출",
       "nameRef": "Vulnerable"
-    },
-    {
-      "description": "이 유닛이 공격할 때<br>효과가 적용됩니다.",
-      "name": "공격",
-      "nameRef": "AttackSkillMark"
     },
     {
       "description": "포착 불가 유닛으로만<br>방어할 수 있습니다.",
@@ -173,34 +333,9 @@
       "nameRef": "Elusive"
     },
     {
-      "description": "라운드 시작: 초읽기가 1 진행됩니다. 0이 되면 파괴되고 초읽기 효과를 발동시킵니다.",
-      "name": "초읽기",
-      "nameRef": "Countdown"
-    },
-    {
-      "description": "입힌 피해량만큼 내 넥서스의 체력이 회복됩니다.",
-      "name": "흡수",
-      "nameRef": "Drain"
-    },
-    {
       "description": "유닛이 전투에서 제외됩니다. 라운드 종료까지 공격과 방어가 불가능합니다.",
       "name": "기절",
       "nameRef": "Stun"
-    },
-    {
-      "description": "다른 카드에 붙어 함정을 설치합니다. 해당 카드가 뽑히면 효과를 발휘합니다.",
-      "name": "함정",
-      "nameRef": "Autoplay"
-    },
-    {
-      "description": "",
-      "name": "필트오버 & 자운",
-      "nameRef": "PiltoverZaun"
-    },
-    {
-      "description": "",
-      "name": "데마시아",
-      "nameRef": "Demacia"
     },
     {
       "description": "Missing Translation",
@@ -208,34 +343,9 @@
       "nameRef": "BlockElusive"
     },
     {
-      "description": "",
-      "name": "그림자 군도",
-      "nameRef": "ShadowIsles"
-    },
-    {
-      "description": "Missing Translation",
-      "name": "Missing Translation",
-      "nameRef": "Blocked"
-    },
-    {
       "description": "유닛을 처치하면<br>+1|+1을 얻습니다.",
       "name": "분노",
       "nameRef": "Fury"
-    },
-    {
-      "description": "피해량이 대상의 체력보다 높으면 그 차이만큼 적 넥서스에 피해를 입힙니다.",
-      "name": "압도",
-      "nameRef": "SpellOverwhelm"
-    },
-    {
-      "description": "소환 시 주문 마나를 1 회복합니다.",
-      "name": "조율",
-      "nameRef": "Attune"
-    },
-    {
-      "description": "명소는 전장에서 공간을 차지합니다. 공격 및 방어를<br>할 수 없으며 피해를<br>입지 않습니다.",
-      "name": "명소",
-      "nameRef": "LandmarkVisualOnly"
     },
     {
       "description": "유닛이 입는 다음 피해를 무효로 합니다. 한 라운드 동안 지속됩니다.",
@@ -248,39 +358,14 @@
       "nameRef": "Immobile"
     },
     {
-      "description": "구속된 카드는 게임에서 제거되며 구속하는 유닛이 사라지면 다시 돌아옵니다.",
-      "name": "구속",
-      "nameRef": "Capture"
-    },
-    {
       "description": "이 라운드에 유닛 하나의 공격력을 0으로 만듭니다.<br>추후 변경 가능합니다.",
       "name": "동상",
       "nameRef": "Frostbite"
     },
     {
-      "description": "즉발 주문은 즉시 발동합니다. 적은 주문이 발동 완료될 때까지 행동할 수 없습니다.",
-      "name": "즉발",
-      "nameRef": "Burst"
-    },
-    {
-      "description": "일회용 카드는 라운드 종료 시 손에서 버려집니다.",
-      "name": "일회용",
-      "nameRef": "Fleeting"
-    },
-    {
-      "description": "신속 주문은 언제든지<br>사용할 수 있지만,<br>적이 대응할 수 있습니다.",
-      "name": "신속",
-      "nameRef": "Fast"
-    },
-    {
       "description": "이 유닛의 공격력이 방어 유닛의 체력보다 높은 만큼<br>적 넥서스에 피해를 입힙니다.",
       "name": "압도",
       "nameRef": "Overwhelm"
-    },
-    {
-      "description": "이 유닛을 손에서 낼 때<br>효과가 적용됩니다.",
-      "name": "사용",
-      "nameRef": "PlaySkillMark"
     },
     {
       "description": "공격 시 방어 유닛보다<br>먼저 타격합니다.",
@@ -293,29 +378,9 @@
       "nameRef": "Tough"
     },
     {
-      "description": "유닛에게 적용된 효과를 모두 제거하고 손으로 돌려보냅니다.",
-      "name": "귀환",
-      "nameRef": "Recall"
-    },
-    {
-      "description": "",
-      "name": "아이오니아",
-      "nameRef": "Ionia"
-    },
-    {
       "description": "라운드가 끝날 때마다 체력을 전부 회복합니다.",
       "name": "재생",
       "nameRef": "Regeneration"
-    },
-    {
-      "description": "전투 중 혹은 주문에 대응해서 사용할 수 없습니다. 즉시 발동합니다.",
-      "name": "몰입",
-      "nameRef": "Focus"
-    },
-    {
-      "description": "Missing Translation",
-      "name": "Missing Translation",
-      "nameRef": "AuraVisualFakeKeyword"
     },
     {
       "description": "유닛 하나의 모든 설명과 키워드가 제거됩니다.",
@@ -333,41 +398,6 @@
       "nameRef": "Lifesteal"
     },
     {
-      "description": "라운드에서 처음 낸 카드가 아닐 경우 추가 효과를 얻습니다.",
-      "name": "어스름",
-      "nameRef": "Nightfall"
-    },
-    {
-      "description": " ",
-      "name": "슈리마",
-      "nameRef": "Shurima"
-    },
-    {
-      "description": "최대 마나가 10이 되면 각성합니다.",
-      "name": "각성",
-      "nameRef": "Enlightened"
-    },
-    {
-      "description": "이 조건이 충족되면 챔피언이 손이나 덱에 있더라도<br>레벨 업합니다.",
-      "name": "레벨 업",
-      "nameRef": "LevelUp"
-    },
-    {
-      "description": "집중 주문은 전투 중이 아닐 때 시전할 수 있습니다.<br>적은 집중 주문에<br>대응할 수 있습니다.",
-      "name": "집중",
-      "nameRef": "Slow"
-    },
-    {
-      "description": "",
-      "name": "녹서스",
-      "nameRef": "Noxus"
-    },
-    {
-      "description": "세 가지 천상 카드 중<br>1장을 선택해<br>손에 생성합니다.",
-      "name": "기원",
-      "nameRef": "Invoke"
-    },
-    {
       "description": "생성된 카드를 사용하면 +1|+0을 얻습니다.",
       "name": "증강",
       "nameRef": "Augment"
@@ -383,34 +413,9 @@
       "nameRef": "Ephemeral"
     },
     {
-      "description": "",
-      "name": "프렐요드",
-      "nameRef": "Freljord"
-    },
-    {
-      "description": "유닛이 사망하면 발동됩니다.",
-      "name": "최후의 숨결",
-      "nameRef": "LastBreath"
-    },
-    {
-      "description": " ",
-      "name": "빌지워터",
-      "nameRef": "Bilgewater"
-    },
-    {
-      "description": "적 덱의 맨 아래에서 챔피언이 아닌 카드 1장을 뽑습니다.",
-      "name": "슬쩍",
-      "nameRef": "Nab"
-    },
-    {
       "description": "방어할 적 유닛을<br>선택할 수 있습니다.",
       "name": "도전자",
       "nameRef": "Challenger"
-    },
-    {
-      "description": "주문이 발동되면 활성화됩니다.",
-      "name": "주문 부여",
-      "nameRef": "Imbue"
     },
     {
       "description": "공격력이 3 이상인 적만<br>이 유닛을 방어할 수 있습니다.",
@@ -431,55 +436,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ko_kr/img/regions/icon-targon.png",
       "name": "타곤",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ko_kr/img/regions/icon-noxus.png",
       "name": "녹서스",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ko_kr/img/regions/icon-demacia.png",
       "name": "데마시아",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ko_kr/img/regions/icon-freljord.png",
       "name": "프렐요드",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ko_kr/img/regions/icon-shadowisles.png",
       "name": "그림자 군도",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ko_kr/img/regions/icon-ionia.png",
       "name": "아이오니아",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ko_kr/img/regions/icon-shurima.png",
       "name": "슈리마",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ko_kr/img/regions/icon-bilgewater.png",
       "name": "빌지워터",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ko_kr/img/regions/icon-piltoverzaun.png",
       "name": "필트오버 & 자운",
       "nameRef": "PiltoverZaun"
     }
@@ -522,22 +527,22 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ko_kr/img/sets/set3.png",
       "name": "산의 부름",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ko_kr/img/sets/set1.png",
       "name": "기본",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ko_kr/img/sets/set2.png",
       "name": "밀려오는 파도",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/ko_kr/img/sets/set4.png",
       "name": "초월체의 제국",
       "nameRef": "Set4"
     }

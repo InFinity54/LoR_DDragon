@@ -128,14 +128,189 @@
   ],
   "keywords": [
     {
+      "description": "Schaden, der nicht zur Tötung des Ziels/der Ziele benötigt wurde, wird am gegnerischen Nexus verursacht.",
+      "name": "Überwältigen",
+      "nameRef": "SpellOverwhelm"
+    },
+    {
+      "description": "Sofortzauber werden sofort ausgeführt. Der Gegner kann nicht auf sie reagieren.",
+      "name": "Sofort",
+      "nameRef": "Burst"
+    },
+    {
+      "description": "Rundenbeginn: Ich zähle 1 herunter. Bei 0 werde ich zerstört und der Countdown-Effekt wird aktiviert.",
+      "name": "Countdown",
+      "nameRef": "Countdown"
+    },
+    {
+      "description": "Der Effekt wird aktiviert, wenn diese Einheit von der Hand ausgespielt wird.",
+      "name": "Ausspielen",
+      "nameRef": "PlaySkillMark"
+    },
+    {
+      "description": "Wahrzeichen belegen einen Platz auf dem Spielfeld. Sie können nicht angreifen, abwehren oder Schaden erleiden.",
+      "name": "Wahrzeichen",
+      "nameRef": "LandmarkVisualOnly"
+    },
+    {
+      "description": "Eine festgehaltene Karte wird aus dem Spiel entfernt. Sie kehrt zurück, wenn die festhaltende Einheit das Spielfeld verlässt.",
+      "name": "Festhalten",
+      "nameRef": "Capture"
+    },
+    {
+      "description": "Der Effekt wird aktiviert, wenn diese Einheit angreift.",
+      "name": "Angriff",
+      "nameRef": "AttackSkillMark"
+    },
+    {
+      "description": "",
+      "name": "Shurima",
+      "nameRef": "Shurima"
+    },
+    {
+      "description": " ",
+      "name": "Noxus",
+      "nameRef": "Noxus"
+    },
+    {
+      "description": "Flüchtige Karten werden am Ende der Runde von der Hand abgeworfen.",
+      "name": "Flüchtig",
+      "nameRef": "Fleeting"
+    },
+    {
+      "description": "Ziehe die unterste Karte aus dem gegnerischen Deck, die kein Champion ist.",
+      "name": "Klauen",
+      "nameRef": "Nab"
+    },
+    {
+      "description": "Kann nicht im Kampf gewirkt werden oder während andere Zauber ausstehen. Wird sofort ausgeführt.",
+      "name": "Fokus",
+      "nameRef": "Focus"
+    },
+    {
+      "description": "Du bist erleuchtet, wenn du 10 maximale Manasteine erreichst.",
+      "name": "Erleuchtet",
+      "nameRef": "Enlightened"
+    },
+    {
+      "description": "Wähle 1 von 3 himmlischen Karten, die auf der Hand erschaffen werden soll.",
+      "name": "Ersuchen",
+      "nameRef": "Invoke"
+    },
+    {
+      "description": "Hängt sich an eine andere Karte. Wenn die betroffene Karte gezogen wird, wird der Effekt ausgelöst.",
+      "name": "Falle",
+      "nameRef": "Autoplay"
+    },
+    {
+      "description": "Heilt deinen Nexus um den verursachten Schaden.",
+      "name": "Entziehen",
+      "nameRef": "Drain"
+    },
+    {
+      "description": "Diese Fähigkeiten werden wirksam, wenn die Einheit stirbt.",
+      "name": "Letzter Wunsch",
+      "nameRef": "LastBreath"
+    },
+    {
+      "description": " ",
+      "name": "Demacia",
+      "nameRef": "Demacia"
+    },
+    {
+      "description": "Ein Champion steigt auf, sobald diese Bedingung erfüllt ist, sogar auf der Hand oder im Deck.",
+      "name": "Stufenaufstieg",
+      "nameRef": "LevelUp"
+    },
+    {
+      "description": "Schnellzauber können jederzeit gespielt werden, aber dein Gegner kann auf sie reagieren.",
+      "name": "Schnell",
+      "nameRef": "Fast"
+    },
+    {
+      "description": " ",
+      "name": "Bilgewasser",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "description": "Eine Karte kehrt auf die Hand zurück und wird von allen auf sie gewirkten Effekten befreit.",
+      "name": "Zurückrufen",
+      "nameRef": "Recall"
+    },
+    {
+      "description": "Niedrigster Angriffswert, bei gleichen Werten entscheidet das niedrigste Leben, dann die niedrigsten Kosten.",
+      "name": "Schwächste",
+      "nameRef": "Weakest"
+    },
+    {
+      "description": "Langsame Zauber können außerhalb von Kämpfen und anderen Zaubern gewirkt werden. Der Gegner kann auf sie reagieren.",
+      "name": "Langsam",
+      "nameRef": "Slow"
+    },
+    {
       "description": "Wird vollständig aus dem Spiel entfernt. Löst nicht Letzter Wunsch aus und kann nicht wiederbelebt werden.",
       "name": "Vernichten",
       "nameRef": "Obliterate"
     },
     {
+      "description": "Diese Fähigkeiten werden aktiviert, wenn du einen Zauber ausführst.",
+      "name": "Erfüllung",
+      "nameRef": "Imbue"
+    },
+    {
       "description": "",
       "name": "Targon",
       "nameRef": "MtTargon"
+    },
+    {
+      "description": " ",
+      "name": "Schatteninseln",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "AuraVisualFakeKeyword"
+    },
+    {
+      "description": " ",
+      "name": "Ionia",
+      "nameRef": "Ionia"
+    },
+    {
+      "description": "Bonus, wenn es NICHT die erste Karte ist, die du in einer Runde ausspielst.",
+      "name": "Nachteinbruch",
+      "nameRef": "Nightfall"
+    },
+    {
+      "description": " ",
+      "name": "Piltover & Zhaun",
+      "nameRef": "PiltoverZaun"
+    },
+    {
+      "description": " ",
+      "name": "Freljord",
+      "nameRef": "Freljord"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "Blocked"
+    },
+    {
+      "description": "Wenn ich beschworen werde, fülle 1 Zaubermana wieder auf.",
+      "name": "Einstimmen",
+      "nameRef": "Attune"
+    },
+    {
+      "description": "Bonus, wenn es die ERSTE Karte ist, die du in einer Runde ausspielst.",
+      "name": "Tagesanbruch",
+      "nameRef": "Daybreak"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "SilenceIndividualKeyword"
     },
     {
       "description": "Ein zauberähnlicher Effekt einer Einheit, auf den der Gegner reagieren kann.",
@@ -148,24 +323,9 @@
       "nameRef": "DoubleStrike"
     },
     {
-      "description": "Bonus, wenn es die ERSTE Karte ist, die du in einer Runde ausspielst.",
-      "name": "Tagesanbruch",
-      "nameRef": "Daybreak"
-    },
-    {
-      "description": "Niedrigster Angriffswert, bei gleichen Werten entscheidet das niedrigste Leben, dann die niedrigsten Kosten.",
-      "name": "Schwächste",
-      "nameRef": "Weakest"
-    },
-    {
       "description": "Diese Einheit kann herausgefordert und zum Blocken gezwungen werden.",
       "name": "Verletzlich",
       "nameRef": "Vulnerable"
-    },
-    {
-      "description": "Der Effekt wird aktiviert, wenn diese Einheit angreift.",
-      "name": "Angriff",
-      "nameRef": "AttackSkillMark"
     },
     {
       "description": "Kann nur von einer ungreifbaren Einheit abgewehrt werden.",
@@ -173,34 +333,9 @@
       "nameRef": "Elusive"
     },
     {
-      "description": "Rundenbeginn: Ich zähle 1 herunter. Bei 0 werde ich zerstört und der Countdown-Effekt wird aktiviert.",
-      "name": "Countdown",
-      "nameRef": "Countdown"
-    },
-    {
-      "description": "Heilt deinen Nexus um den verursachten Schaden.",
-      "name": "Entziehen",
-      "nameRef": "Drain"
-    },
-    {
       "description": "Entferne eine Einheit aus dem Kampf. Sie kann für den Rest der Runde nicht angreifen oder abwehren.",
       "name": "Betäuben",
       "nameRef": "Stun"
-    },
-    {
-      "description": "Hängt sich an eine andere Karte. Wenn die betroffene Karte gezogen wird, wird der Effekt ausgelöst.",
-      "name": "Falle",
-      "nameRef": "Autoplay"
-    },
-    {
-      "description": " ",
-      "name": "Piltover & Zhaun",
-      "nameRef": "PiltoverZaun"
-    },
-    {
-      "description": " ",
-      "name": "Demacia",
-      "nameRef": "Demacia"
     },
     {
       "description": "Missing Translation",
@@ -208,34 +343,9 @@
       "nameRef": "BlockElusive"
     },
     {
-      "description": " ",
-      "name": "Schatteninseln",
-      "nameRef": "ShadowIsles"
-    },
-    {
-      "description": "Missing Translation",
-      "name": "Missing Translation",
-      "nameRef": "Blocked"
-    },
-    {
       "description": "Wenn ich eine Einheit töte, gewähre mir +1|+1.",
       "name": "Zorn",
       "nameRef": "Fury"
-    },
-    {
-      "description": "Schaden, der nicht zur Tötung des Ziels/der Ziele benötigt wurde, wird am gegnerischen Nexus verursacht.",
-      "name": "Überwältigen",
-      "nameRef": "SpellOverwhelm"
-    },
-    {
-      "description": "Wenn ich beschworen werde, fülle 1 Zaubermana wieder auf.",
-      "name": "Einstimmen",
-      "nameRef": "Attune"
-    },
-    {
-      "description": "Wahrzeichen belegen einen Platz auf dem Spielfeld. Sie können nicht angreifen, abwehren oder Schaden erleiden.",
-      "name": "Wahrzeichen",
-      "nameRef": "LandmarkVisualOnly"
     },
     {
       "description": "Verhindert den nächsten Schaden, den die Einheit erleiden würde. Hält eine Runde an.",
@@ -248,39 +358,14 @@
       "nameRef": "Immobile"
     },
     {
-      "description": "Eine festgehaltene Karte wird aus dem Spiel entfernt. Sie kehrt zurück, wenn die festhaltende Einheit das Spielfeld verlässt.",
-      "name": "Festhalten",
-      "nameRef": "Capture"
-    },
-    {
       "description": "Setzt die Stärke einer Einheit in dieser Runde auf 0. Danach kann sie geändert werden.",
       "name": "Einfrieren",
       "nameRef": "Frostbite"
     },
     {
-      "description": "Sofortzauber werden sofort ausgeführt. Der Gegner kann nicht auf sie reagieren.",
-      "name": "Sofort",
-      "nameRef": "Burst"
-    },
-    {
-      "description": "Flüchtige Karten werden am Ende der Runde von der Hand abgeworfen.",
-      "name": "Flüchtig",
-      "nameRef": "Fleeting"
-    },
-    {
-      "description": "Schnellzauber können jederzeit gespielt werden, aber dein Gegner kann auf sie reagieren.",
-      "name": "Schnell",
-      "nameRef": "Fast"
-    },
-    {
       "description": "Überschüssiger Schaden an der abwehrenden Einheit wird direkt am gegnerischen Nexus verursacht.",
       "name": "Überwältigen",
       "nameRef": "Overwhelm"
-    },
-    {
-      "description": "Der Effekt wird aktiviert, wenn diese Einheit von der Hand ausgespielt wird.",
-      "name": "Ausspielen",
-      "nameRef": "PlaySkillMark"
     },
     {
       "description": "Schlägt beim Angriff vor der Abwehr zu.",
@@ -293,29 +378,9 @@
       "nameRef": "Tough"
     },
     {
-      "description": "Eine Karte kehrt auf die Hand zurück und wird von allen auf sie gewirkten Effekten befreit.",
-      "name": "Zurückrufen",
-      "nameRef": "Recall"
-    },
-    {
-      "description": " ",
-      "name": "Ionia",
-      "nameRef": "Ionia"
-    },
-    {
       "description": "Erhält am Ende jeder Runde das gesamte fehlende Leben zurück.",
       "name": "Erholung",
       "nameRef": "Regeneration"
-    },
-    {
-      "description": "Kann nicht im Kampf gewirkt werden oder während andere Zauber ausstehen. Wird sofort ausgeführt.",
-      "name": "Fokus",
-      "nameRef": "Focus"
-    },
-    {
-      "description": "Missing Translation",
-      "name": "Missing Translation",
-      "nameRef": "AuraVisualFakeKeyword"
     },
     {
       "description": "Entfernt jeglichen Text und die Schlüsselwörter einer Einheit.",
@@ -333,41 +398,6 @@
       "nameRef": "Lifesteal"
     },
     {
-      "description": "Bonus, wenn es NICHT die erste Karte ist, die du in einer Runde ausspielst.",
-      "name": "Nachteinbruch",
-      "nameRef": "Nightfall"
-    },
-    {
-      "description": "",
-      "name": "Shurima",
-      "nameRef": "Shurima"
-    },
-    {
-      "description": "Du bist erleuchtet, wenn du 10 maximale Manasteine erreichst.",
-      "name": "Erleuchtet",
-      "nameRef": "Enlightened"
-    },
-    {
-      "description": "Ein Champion steigt auf, sobald diese Bedingung erfüllt ist, sogar auf der Hand oder im Deck.",
-      "name": "Stufenaufstieg",
-      "nameRef": "LevelUp"
-    },
-    {
-      "description": "Langsame Zauber können außerhalb von Kämpfen und anderen Zaubern gewirkt werden. Der Gegner kann auf sie reagieren.",
-      "name": "Langsam",
-      "nameRef": "Slow"
-    },
-    {
-      "description": " ",
-      "name": "Noxus",
-      "nameRef": "Noxus"
-    },
-    {
-      "description": "Wähle 1 von 3 himmlischen Karten, die auf der Hand erschaffen werden soll.",
-      "name": "Ersuchen",
-      "nameRef": "Invoke"
-    },
-    {
       "description": "Wenn du eine erschaffene Karte ausspielst, gewähre mir +1|+0.",
       "name": "Augmentieren",
       "nameRef": "Augment"
@@ -383,34 +413,9 @@
       "nameRef": "Ephemeral"
     },
     {
-      "description": " ",
-      "name": "Freljord",
-      "nameRef": "Freljord"
-    },
-    {
-      "description": "Diese Fähigkeiten werden wirksam, wenn die Einheit stirbt.",
-      "name": "Letzter Wunsch",
-      "nameRef": "LastBreath"
-    },
-    {
-      "description": " ",
-      "name": "Bilgewasser",
-      "nameRef": "Bilgewater"
-    },
-    {
-      "description": "Ziehe die unterste Karte aus dem gegnerischen Deck, die kein Champion ist.",
-      "name": "Klauen",
-      "nameRef": "Nab"
-    },
-    {
       "description": "Kann wählen, welche gegnerische Einheit abwehrt.",
       "name": "Herausforderer",
       "nameRef": "Challenger"
-    },
-    {
-      "description": "Diese Fähigkeiten werden aktiviert, wenn du einen Zauber ausführst.",
-      "name": "Erfüllung",
-      "nameRef": "Imbue"
     },
     {
       "description": "Kann nur von Gegnern mit mindestens Stärke 3 abgewehrt werden.",
@@ -431,55 +436,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/de_de/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/de_de/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/de_de/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/de_de/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/de_de/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/de_de/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/de_de/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/de_de/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/de_de/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/de_de/img/regions/icon-shadowisles.png",
       "name": "Schatteninseln",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/de_de/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/de_de/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/de_de/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/de_de/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/de_de/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/de_de/img/regions/icon-bilgewater.png",
       "name": "Bilgewasser",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/de_de/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/de_de/img/regions/icon-piltoverzaun.png",
       "name": "Piltover & Zhaun",
       "nameRef": "PiltoverZaun"
     }
@@ -522,22 +527,22 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/de_de/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/de_de/img/sets/set3.png",
       "name": "Ruf des Berges",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/de_de/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/de_de/img/sets/set1.png",
       "name": "Anfänge",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/de_de/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/de_de/img/sets/set2.png",
       "name": "Steigende Flut",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/de_de/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/de_de/img/sets/set4.png",
       "name": "Imperien der Aufgestiegenen",
       "nameRef": "Set4"
     }

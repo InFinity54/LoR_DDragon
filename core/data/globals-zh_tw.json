@@ -128,14 +128,189 @@
   ],
   "keywords": [
     {
+      "description": "若有高於敵方格擋卡牌生命值的超額傷害，則加諸敵方主堡。",
+      "name": "蠻力",
+      "nameRef": "SpellOverwhelm"
+    },
+    {
+      "description": "疾速法術會立即施放，效果結束後，敵方才可行動。",
+      "name": "疾速",
+      "nameRef": "Burst"
+    },
+    {
+      "description": "回合開始：此牌倒數1。倒數至0時，摧毀此牌並發動倒數效果。",
+      "name": "倒數",
+      "nameRef": "Countdown"
+    },
+    {
+      "description": "從手牌中打出此單位將觸發此效果。",
+      "name": "出牌",
+      "nameRef": "PlaySkillMark"
+    },
+    {
+      "description": "地標會佔去盤面上的一個位置，且無法攻擊與格擋，也不會受到傷害。",
+      "name": "地標",
+      "nameRef": "LandmarkVisualOnly"
+    },
+    {
+      "description": "遭到俘虜的卡牌將被從牌局移除，並在俘虜其的單位離場後返回。",
+      "name": "俘虜",
+      "nameRef": "Capture"
+    },
+    {
+      "description": "此單位攻擊時將觸發此<br>效果。",
+      "name": "攻擊",
+      "nameRef": "AttackSkillMark"
+    },
+    {
+      "description": "",
+      "name": "蘇瑞瑪",
+      "nameRef": "Shurima"
+    },
+    {
+      "description": "",
+      "name": "諾克薩斯",
+      "nameRef": "Noxus"
+    },
+    {
+      "description": "回合結束時，飛逝卡牌將從手牌中消失。",
+      "name": "飛逝",
+      "nameRef": "Fleeting"
+    },
+    {
+      "description": "從敵方牌組底部抽1張非英雄牌",
+      "name": "奪取",
+      "nameRef": "Nab"
+    },
+    {
+      "description": "無法在戰鬥中施放，或用來對應其他法術。立即施放。",
+      "name": "專注",
+      "nameRef": "Focus"
+    },
+    {
+      "description": "達到10點魔力上限時，即可進入「開悟」狀態。",
+      "name": "開悟",
+      "nameRef": "Enlightened"
+    },
+    {
+      "description": "從3張天界卡牌中挑選1張在手牌生成。",
+      "name": "祈願",
+      "nameRef": "Invoke"
+    },
+    {
+      "description": "附在另一張卡牌上並設置陷阱。抽到附有陷阱的卡牌時執行效果。",
+      "name": "陷阱",
+      "nameRef": "Autoplay"
+    },
+    {
+      "description": "造成傷害時，我方主堡恢復等同傷害量的生命值",
+      "name": "汲取",
+      "nameRef": "Drain"
+    },
+    {
+      "description": "此單位陣亡時能力便會生效。",
+      "name": "遺願",
+      "nameRef": "LastBreath"
+    },
+    {
+      "description": "",
+      "name": "蒂瑪西亞",
+      "nameRef": "Demacia"
+    },
+    {
+      "description": "無論在手牌或牌組中，達成條件時英雄便會升級。",
+      "name": "升級",
+      "nameRef": "LevelUp"
+    },
+    {
+      "description": "快速法術可以隨時施放，但對手將有機會對應。",
+      "name": "快速",
+      "nameRef": "Fast"
+    },
+    {
+      "description": "",
+      "name": "比爾吉沃特",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "description": "使該單位重返手牌，並移除其身上所有效果。",
+      "name": "召回",
+      "nameRef": "Recall"
+    },
+    {
+      "description": "指力量值最低的單位。若出現平手狀況，則按生命值，接著是魔耗值決定。",
+      "name": "最弱",
+      "nameRef": "Weakest"
+    },
+    {
+      "description": "慢速法術可在戰鬥外以及未有其他法術時施放，敵方可以對應。",
+      "name": "慢速",
+      "nameRef": "Slow"
+    },
+    {
       "description": "將單位完全從牌局移除。<br>不會觸發遺願，<br>且無法復甦。",
       "name": "泯滅",
       "nameRef": "Obliterate"
     },
     {
+      "description": "結算法術時觸發此能力。",
+      "name": "灌輸",
+      "nameRef": "Imbue"
+    },
+    {
       "description": "",
       "name": "巨石峰",
       "nameRef": "MtTargon"
+    },
+    {
+      "description": "",
+      "name": "闇影島",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "AuraVisualFakeKeyword"
+    },
+    {
+      "description": "",
+      "name": "愛歐尼亞",
+      "nameRef": "Ionia"
+    },
+    {
+      "description": "若此牌「不是」我方在一回合中打出的第一張卡牌，即可觸發效果。",
+      "name": "夜臨",
+      "nameRef": "Nightfall"
+    },
+    {
+      "description": "",
+      "name": "皮爾托福&佐恩",
+      "nameRef": "PiltoverZaun"
+    },
+    {
+      "description": "",
+      "name": "弗雷爾卓德",
+      "nameRef": "Freljord"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "Blocked"
+    },
+    {
+      "description": "召喚此牌時，恢復1點法術魔力。",
+      "name": "調節",
+      "nameRef": "Attune"
+    },
+    {
+      "description": "若此牌是我方在回合中打出的「第一張」卡牌，即可觸發此效果。",
+      "name": "破曉",
+      "nameRef": "Daybreak"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "SilenceIndividualKeyword"
     },
     {
       "description": "可產生類似法術的效果，由卡牌單位生成，對手可以進行對應。",
@@ -148,24 +323,9 @@
       "nameRef": "DoubleStrike"
     },
     {
-      "description": "若此牌是我方在回合中打出的「第一張」卡牌，即可觸發此效果。",
-      "name": "破曉",
-      "nameRef": "Daybreak"
-    },
-    {
-      "description": "指力量值最低的單位。若出現平手狀況，則按生命值，接著是魔耗值決定。",
-      "name": "最弱",
-      "nameRef": "Weakest"
-    },
-    {
       "description": "敵軍單位可挑戰此單位，強迫其進行格擋。",
       "name": "弱勢",
       "nameRef": "Vulnerable"
-    },
-    {
-      "description": "此單位攻擊時將觸發此<br>效果。",
-      "name": "攻擊",
-      "nameRef": "AttackSkillMark"
     },
     {
       "description": "只能由隱密單位格擋。",
@@ -173,34 +333,9 @@
       "nameRef": "Elusive"
     },
     {
-      "description": "回合開始：此牌倒數1。倒數至0時，摧毀此牌並發動倒數效果。",
-      "name": "倒數",
-      "nameRef": "Countdown"
-    },
-    {
-      "description": "造成傷害時，我方主堡恢復等同傷害量的生命值",
-      "name": "汲取",
-      "nameRef": "Drain"
-    },
-    {
       "description": "從戰鬥中移除單位，該單位無法進行攻擊或格擋，直到回合結束。",
       "name": "擊暈",
       "nameRef": "Stun"
-    },
-    {
-      "description": "附在另一張卡牌上並設置陷阱。抽到附有陷阱的卡牌時執行效果。",
-      "name": "陷阱",
-      "nameRef": "Autoplay"
-    },
-    {
-      "description": "",
-      "name": "皮爾托福&佐恩",
-      "nameRef": "PiltoverZaun"
-    },
-    {
-      "description": "",
-      "name": "蒂瑪西亞",
-      "nameRef": "Demacia"
     },
     {
       "description": "Missing Translation",
@@ -208,34 +343,9 @@
       "nameRef": "BlockElusive"
     },
     {
-      "description": "",
-      "name": "闇影島",
-      "nameRef": "ShadowIsles"
-    },
-    {
-      "description": "Missing Translation",
-      "name": "Missing Translation",
-      "nameRef": "Blocked"
-    },
-    {
       "description": "此牌每擊殺1個單位，便可獲得+1|+1。",
       "name": "血怒",
       "nameRef": "Fury"
-    },
-    {
-      "description": "若有高於敵方格擋卡牌生命值的超額傷害，則加諸敵方主堡。",
-      "name": "蠻力",
-      "nameRef": "SpellOverwhelm"
-    },
-    {
-      "description": "召喚此牌時，恢復1點法術魔力。",
-      "name": "調節",
-      "nameRef": "Attune"
-    },
-    {
-      "description": "地標會佔去盤面上的一個位置，且無法攻擊與格擋，也不會受到傷害。",
-      "name": "地標",
-      "nameRef": "LandmarkVisualOnly"
     },
     {
       "description": "此單位下次所受之傷害無效，持續一回合。",
@@ -248,39 +358,14 @@
       "nameRef": "Immobile"
     },
     {
-      "description": "遭到俘虜的卡牌將被從牌局移除，並在俘虜其的單位離場後返回。",
-      "name": "俘虜",
-      "nameRef": "Capture"
-    },
-    {
       "description": "使單位力量值本回合歸零，但可受其他效果影響而變動。",
       "name": "凍傷",
       "nameRef": "Frostbite"
     },
     {
-      "description": "疾速法術會立即施放，效果結束後，敵方才可行動。",
-      "name": "疾速",
-      "nameRef": "Burst"
-    },
-    {
-      "description": "回合結束時，飛逝卡牌將從手牌中消失。",
-      "name": "飛逝",
-      "nameRef": "Fleeting"
-    },
-    {
-      "description": "快速法術可以隨時施放，但對手將有機會對應。",
-      "name": "快速",
-      "nameRef": "Fast"
-    },
-    {
       "description": "若有高於敵方格擋卡牌生命值的超額傷害，則加諸敵方主堡。",
       "name": "蠻力",
       "nameRef": "Overwhelm"
-    },
-    {
-      "description": "從手牌中打出此單位將觸發此效果。",
-      "name": "出牌",
-      "nameRef": "PlaySkillMark"
     },
     {
       "description": "攻擊時可搶先格擋卡牌進行打擊。",
@@ -293,29 +378,9 @@
       "nameRef": "Tough"
     },
     {
-      "description": "使該單位重返手牌，並移除其身上所有效果。",
-      "name": "召回",
-      "nameRef": "Recall"
-    },
-    {
-      "description": "",
-      "name": "愛歐尼亞",
-      "nameRef": "Ionia"
-    },
-    {
       "description": "每回合結束時，生命值將完全恢復。",
       "name": "再生",
       "nameRef": "Regeneration"
-    },
-    {
-      "description": "無法在戰鬥中施放，或用來對應其他法術。立即施放。",
-      "name": "專注",
-      "nameRef": "Focus"
-    },
-    {
-      "description": "Missing Translation",
-      "name": "Missing Translation",
-      "nameRef": "AuraVisualFakeKeyword"
     },
     {
       "description": "移除該單位的所有特性與文字效果。",
@@ -333,41 +398,6 @@
       "nameRef": "Lifesteal"
     },
     {
-      "description": "若此牌「不是」我方在一回合中打出的第一張卡牌，即可觸發效果。",
-      "name": "夜臨",
-      "nameRef": "Nightfall"
-    },
-    {
-      "description": "",
-      "name": "蘇瑞瑪",
-      "nameRef": "Shurima"
-    },
-    {
-      "description": "達到10點魔力上限時，即可進入「開悟」狀態。",
-      "name": "開悟",
-      "nameRef": "Enlightened"
-    },
-    {
-      "description": "無論在手牌或牌組中，達成條件時英雄便會升級。",
-      "name": "升級",
-      "nameRef": "LevelUp"
-    },
-    {
-      "description": "慢速法術可在戰鬥外以及未有其他法術時施放，敵方可以對應。",
-      "name": "慢速",
-      "nameRef": "Slow"
-    },
-    {
-      "description": "",
-      "name": "諾克薩斯",
-      "nameRef": "Noxus"
-    },
-    {
-      "description": "從3張天界卡牌中挑選1張在手牌生成。",
-      "name": "祈願",
-      "nameRef": "Invoke"
-    },
-    {
       "description": "每當我方打出1張生成的卡牌，賦予此牌+1|+0。",
       "name": "擴增",
       "nameRef": "Augment"
@@ -383,37 +413,12 @@
       "nameRef": "Ephemeral"
     },
     {
-      "description": "",
-      "name": "弗雷爾卓德",
-      "nameRef": "Freljord"
-    },
-    {
-      "description": "此單位陣亡時能力便會生效。",
-      "name": "遺願",
-      "nameRef": "LastBreath"
-    },
-    {
-      "description": "",
-      "name": "比爾吉沃特",
-      "nameRef": "Bilgewater"
-    },
-    {
-      "description": "從敵方牌組底部抽1張非英雄牌",
-      "name": "奪取",
-      "nameRef": "Nab"
-    },
-    {
       "description": "可挑選敵方的格擋單位。",
       "name": "挑戰者",
       "nameRef": "Challenger"
     },
     {
-      "description": "結算法術時觸發此能力。",
-      "name": "灌輸",
-      "nameRef": "Imbue"
-    },
-    {
-      "description": "只能由力量值3點以上的敵軍格擋。",
+      "description": "只能由力量值為3以上的敵軍格擋。",
       "name": "威嚇",
       "nameRef": "Fearsome"
     },
@@ -431,55 +436,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/zh_tw/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/zh_tw/img/regions/icon-targon.png",
       "name": "巨石峰",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/zh_tw/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/zh_tw/img/regions/icon-noxus.png",
       "name": "諾克薩斯",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/zh_tw/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/zh_tw/img/regions/icon-demacia.png",
       "name": "蒂瑪西亞",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/zh_tw/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/zh_tw/img/regions/icon-freljord.png",
       "name": "弗雷爾卓德",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/zh_tw/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/zh_tw/img/regions/icon-shadowisles.png",
       "name": "闇影島",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/zh_tw/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/zh_tw/img/regions/icon-ionia.png",
       "name": "愛歐尼亞",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/zh_tw/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/zh_tw/img/regions/icon-shurima.png",
       "name": "蘇瑞瑪",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/zh_tw/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/zh_tw/img/regions/icon-bilgewater.png",
       "name": "比爾吉沃特",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/zh_tw/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/zh_tw/img/regions/icon-piltoverzaun.png",
       "name": "皮爾托福&佐恩",
       "nameRef": "PiltoverZaun"
     }
@@ -522,22 +527,22 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/zh_tw/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/zh_tw/img/sets/set3.png",
       "name": "巨石峰之喚",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/zh_tw/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/zh_tw/img/sets/set1.png",
       "name": "基礎",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/zh_tw/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/zh_tw/img/sets/set2.png",
       "name": "洶湧怒濤",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/zh_tw/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/zh_tw/img/sets/set4.png",
       "name": "飛昇帝國",
       "nameRef": "Set4"
     }

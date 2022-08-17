@@ -128,14 +128,189 @@
   ],
   "keywords": [
     {
+      "description": "Düşmanı/düşmanları öldürdükten sonra kalan hasarı Nexus'a verir.",
+      "name": "Aban",
+      "nameRef": "SpellOverwhelm"
+    },
+    {
+      "description": "Anlık büyüler hemen yapılır. Bu büyüler bitmeden düşman eyleme geçemez.",
+      "name": "Anlık",
+      "nameRef": "Burst"
+    },
+    {
+      "description": "Tur Başı: Geri Sayım'ı 1 azaltırım. 0'a geldiğinde yok olurum ve Geri Sayım etkisi çalışır.",
+      "name": "Geri Sayım",
+      "nameRef": "Countdown"
+    },
+    {
+      "description": "Bu birimi elinden oynadığında bu etki gerçekleşir.",
+      "name": "Oyna",
+      "nameRef": "PlaySkillMark"
+    },
+    {
+      "description": "Yer kartları oyun tahtasında bir kartlık alan kaplar. Saldıramazlar, karşılayamazlar ve hasar almazlar.",
+      "name": "Yer",
+      "nameRef": "LandmarkVisualOnly"
+    },
+    {
+      "description": "Zapt Edilmiş bir kart oyundan çıkar. Zapt Eden birim oyundan ayrıldığında bu kart geri döner.",
+      "name": "Zapt Etme",
+      "nameRef": "Capture"
+    },
+    {
+      "description": "Bu birim saldırdığında bu etkiyi alırsın.",
+      "name": "Saldır",
+      "nameRef": "AttackSkillMark"
+    },
+    {
+      "description": "",
+      "name": "Shurima",
+      "nameRef": "Shurima"
+    },
+    {
+      "description": " ",
+      "name": "Noxus",
+      "nameRef": "Noxus"
+    },
+    {
+      "description": "Geçici kartlar tur bittiğinde elinden atılır.",
+      "name": "Geçici",
+      "nameRef": "Fleeting"
+    },
+    {
+      "description": "Rakibin destesinin en altından şampiyon olmayan bir kart çekersin.",
+      "name": "Aşır",
+      "nameRef": "Nab"
+    },
+    {
+      "description": "Çatışma sırasında veya sırasını bekleyen başka büyüler varken yapılamaz. Hemen devreye girer.",
+      "name": "Odaklama",
+      "nameRef": "Focus"
+    },
+    {
+      "description": "10 azami manaya ulaştığında Aydınlanmış olursun.",
+      "name": "Aydınlanmış",
+      "nameRef": "Enlightened"
+    },
+    {
+      "description": "3 Semavi kart arasından birini seçersin, bu kart elinde oluşur.",
+      "name": "Yakar",
+      "nameRef": "Invoke"
+    },
+    {
+      "description": "Bir başka karta eklenip onu tuzağa düşürür. Tuzağa düşen kart çekildiğinde etki gerçekleşir.",
+      "name": "Tuzak",
+      "nameRef": "Autoplay"
+    },
+    {
+      "description": "Nexus'unu verilen hasar kadar iyileştirirsin.",
+      "name": "Sömürü",
+      "nameRef": "Drain"
+    },
+    {
+      "description": "Bu yetenekler, birim öldüğünde etki gösterir.",
+      "name": "Son Nefes",
+      "nameRef": "LastBreath"
+    },
+    {
+      "description": "",
+      "name": "Demacia",
+      "nameRef": "Demacia"
+    },
+    {
+      "description": "Bir şampiyon elinde ya da destende olsa bile bu koşul yerine geldiğinde seviye atlar.",
+      "name": "Seviye Atla",
+      "nameRef": "LevelUp"
+    },
+    {
+      "description": "Hızlı büyüler her zaman oynanabilir ama rakibin karşılık vermesine de fırsat tanır.",
+      "name": "Hızlı",
+      "nameRef": "Fast"
+    },
+    {
+      "description": "",
+      "name": "Bilgewater",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "description": "Bir birimi ve ona uygulanmış bütün etkileri eline geri gönderir.",
+      "name": "Geri Gönder",
+      "nameRef": "Recall"
+    },
+    {
+      "description": "En düşük Güç değeri (Berabere kalındığında önce en düşük Can, sonra en düşük Bedel değerine bakılır).",
+      "name": "En Güçsüz",
+      "nameRef": "Weakest"
+    },
+    {
+      "description": "Yavaş büyüler çatışma ve diğer kullanımlar dışında yapılabilir. Düşman buna yanıt verebilir.",
+      "name": "Yavaş",
+      "nameRef": "Slow"
+    },
+    {
       "description": "Oyundan tamamen çıkarılır. Son Nefes tesiri devreye girmez ve diriltilemez.",
       "name": "Kökünü Kazıma",
       "nameRef": "Obliterate"
     },
     {
+      "description": "Bu yetenekler, bir büyü sonuçlandırdığında tetiklenir.",
+      "name": "Efsunla",
+      "nameRef": "Imbue"
+    },
+    {
       "description": "",
       "name": "Targon",
       "nameRef": "MtTargon"
+    },
+    {
+      "description": " ",
+      "name": "Gölge Adalar",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "AuraVisualFakeKeyword"
+    },
+    {
+      "description": " ",
+      "name": "Ionia",
+      "nameRef": "Ionia"
+    },
+    {
+      "description": "O tur oynadığın ilk kart bu DEĞİLSE bonus alırsın.",
+      "name": "Akşam",
+      "nameRef": "Nightfall"
+    },
+    {
+      "description": " ",
+      "name": "Piltover ve Zaun",
+      "nameRef": "PiltoverZaun"
+    },
+    {
+      "description": " ",
+      "name": "Freljord",
+      "nameRef": "Freljord"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "Blocked"
+    },
+    {
+      "description": "Çağrıldığımda 1 büyü manan dolar.",
+      "name": "Uyumlanma",
+      "nameRef": "Attune"
+    },
+    {
+      "description": "Bir turda oynadığın İLK kart buysa bonus alırsın.",
+      "name": "Şafak",
+      "nameRef": "Daybreak"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "SilenceIndividualKeyword"
     },
     {
       "description": "Bir birimin, düşmanların karşılık verebileceği büyü benzeri etkisi.",
@@ -148,24 +323,9 @@
       "nameRef": "DoubleStrike"
     },
     {
-      "description": "Bir turda oynadığın İLK kart buysa bonus alırsın.",
-      "name": "Şafak",
-      "nameRef": "Daybreak"
-    },
-    {
-      "description": "En düşük Güç değeri (Berabere kalındığında önce en düşük Can, sonra en düşük Bedel değerine bakılır).",
-      "name": "En Güçsüz",
-      "nameRef": "Weakest"
-    },
-    {
       "description": "Düşmanlar bu birimi çekerek karşılamaya zorlayabilir.",
       "name": "Kırılgan",
       "nameRef": "Vulnerable"
-    },
-    {
-      "description": "Bu birim saldırdığında bu etkiyi alırsın.",
-      "name": "Saldır",
-      "nameRef": "AttackSkillMark"
     },
     {
       "description": "Sadece Sıyrılgan birimler karşılayabilir.",
@@ -173,34 +333,9 @@
       "nameRef": "Elusive"
     },
     {
-      "description": "Tur Başı: Geri Sayım'ı 1 azaltırım. 0'a geldiğinde yok olurum ve Geri Sayım etkisi çalışır.",
-      "name": "Geri Sayım",
-      "nameRef": "Countdown"
-    },
-    {
-      "description": "Nexus'unu verilen hasar kadar iyileştirirsin.",
-      "name": "Sömürü",
-      "nameRef": "Drain"
-    },
-    {
       "description": "Bir birimi çatışmadan çıkarır. Bu birim turun kalanında ne saldırabilir ne de karşılayabilir.",
       "name": "Sersemlet",
       "nameRef": "Stun"
-    },
-    {
-      "description": "Bir başka karta eklenip onu tuzağa düşürür. Tuzağa düşen kart çekildiğinde etki gerçekleşir.",
-      "name": "Tuzak",
-      "nameRef": "Autoplay"
-    },
-    {
-      "description": " ",
-      "name": "Piltover ve Zaun",
-      "nameRef": "PiltoverZaun"
-    },
-    {
-      "description": "",
-      "name": "Demacia",
-      "nameRef": "Demacia"
     },
     {
       "description": "Missing Translation",
@@ -208,34 +343,9 @@
       "nameRef": "BlockElusive"
     },
     {
-      "description": " ",
-      "name": "Gölge Adalar",
-      "nameRef": "ShadowIsles"
-    },
-    {
-      "description": "Missing Translation",
-      "name": "Missing Translation",
-      "nameRef": "Blocked"
-    },
-    {
       "description": "Bir birim öldürdüğümde +1|+1 kazanırım.",
       "name": "Hiddet",
       "nameRef": "Fury"
-    },
-    {
-      "description": "Düşmanı/düşmanları öldürdükten sonra kalan hasarı Nexus'a verir.",
-      "name": "Aban",
-      "nameRef": "SpellOverwhelm"
-    },
-    {
-      "description": "Çağrıldığımda 1 büyü manan dolar.",
-      "name": "Uyumlanma",
-      "nameRef": "Attune"
-    },
-    {
-      "description": "Yer kartları oyun tahtasında bir kartlık alan kaplar. Saldıramazlar, karşılayamazlar ve hasar almazlar.",
-      "name": "Yer",
-      "nameRef": "LandmarkVisualOnly"
     },
     {
       "description": "Birimin alacağı bir sonraki hasarı iptal eder. Bir tur sürer.",
@@ -248,39 +358,14 @@
       "nameRef": "Immobile"
     },
     {
-      "description": "Zapt Edilmiş bir kart oyundan çıkar. Zapt Eden birim oyundan ayrıldığında bu kart geri döner.",
-      "name": "Zapt Etme",
-      "nameRef": "Capture"
-    },
-    {
       "description": "Bu tur bir birimin Güç değerini 0 yapar. Sonradan değiştirilebilir.",
       "name": "Buz Tutturma",
       "nameRef": "Frostbite"
     },
     {
-      "description": "Anlık büyüler hemen yapılır. Bu büyüler bitmeden düşman eyleme geçemez.",
-      "name": "Anlık",
-      "nameRef": "Burst"
-    },
-    {
-      "description": "Geçici kartlar tur bittiğinde elinden atılır.",
-      "name": "Geçici",
-      "nameRef": "Fleeting"
-    },
-    {
-      "description": "Hızlı büyüler her zaman oynanabilir ama rakibin karşılık vermesine de fırsat tanır.",
-      "name": "Hızlı",
-      "nameRef": "Fast"
-    },
-    {
       "description": "Kendisini karşılayan karta verdiği hasarın artakalanını rakibin Nexus'una verir.",
       "name": "Aban",
       "nameRef": "Overwhelm"
-    },
-    {
-      "description": "Bu birimi elinden oynadığında bu etki gerçekleşir.",
-      "name": "Oyna",
-      "nameRef": "PlaySkillMark"
     },
     {
       "description": "Saldırdığı zaman kendisini karşılayan karttan önce vurur.",
@@ -293,29 +378,9 @@
       "nameRef": "Tough"
     },
     {
-      "description": "Bir birimi ve ona uygulanmış bütün etkileri eline geri gönderir.",
-      "name": "Geri Gönder",
-      "nameRef": "Recall"
-    },
-    {
-      "description": " ",
-      "name": "Ionia",
-      "nameRef": "Ionia"
-    },
-    {
       "description": "Her turun sonunda tamamen iyileşir.",
       "name": "Yenilenme",
       "nameRef": "Regeneration"
-    },
-    {
-      "description": "Çatışma sırasında veya sırasını bekleyen başka büyüler varken yapılamaz. Hemen devreye girer.",
-      "name": "Odaklama",
-      "nameRef": "Focus"
-    },
-    {
-      "description": "Missing Translation",
-      "name": "Missing Translation",
-      "nameRef": "AuraVisualFakeKeyword"
     },
     {
       "description": "Bir birimin üstündeki tüm yazıları ve tesirleri kaldırır.",
@@ -333,41 +398,6 @@
       "nameRef": "Lifesteal"
     },
     {
-      "description": "O tur oynadığın ilk kart bu DEĞİLSE bonus alırsın.",
-      "name": "Akşam",
-      "nameRef": "Nightfall"
-    },
-    {
-      "description": "",
-      "name": "Shurima",
-      "nameRef": "Shurima"
-    },
-    {
-      "description": "10 azami manaya ulaştığında Aydınlanmış olursun.",
-      "name": "Aydınlanmış",
-      "nameRef": "Enlightened"
-    },
-    {
-      "description": "Bir şampiyon elinde ya da destende olsa bile bu koşul yerine geldiğinde seviye atlar.",
-      "name": "Seviye Atla",
-      "nameRef": "LevelUp"
-    },
-    {
-      "description": "Yavaş büyüler çatışma ve diğer kullanımlar dışında yapılabilir. Düşman buna yanıt verebilir.",
-      "name": "Yavaş",
-      "nameRef": "Slow"
-    },
-    {
-      "description": " ",
-      "name": "Noxus",
-      "nameRef": "Noxus"
-    },
-    {
-      "description": "3 Semavi kart arasından birini seçersin, bu kart elinde oluşur.",
-      "name": "Yakar",
-      "nameRef": "Invoke"
-    },
-    {
       "description": "Oluşturulmuş bir kart oynadığında +1|+0 kazanırım.",
       "name": "Eklenti",
       "nameRef": "Augment"
@@ -383,34 +413,9 @@
       "nameRef": "Ephemeral"
     },
     {
-      "description": " ",
-      "name": "Freljord",
-      "nameRef": "Freljord"
-    },
-    {
-      "description": "Bu yetenekler, birim öldüğünde etki gösterir.",
-      "name": "Son Nefes",
-      "nameRef": "LastBreath"
-    },
-    {
-      "description": "",
-      "name": "Bilgewater",
-      "nameRef": "Bilgewater"
-    },
-    {
-      "description": "Rakibin destesinin en altından şampiyon olmayan bir kart çekersin.",
-      "name": "Aşır",
-      "nameRef": "Nab"
-    },
-    {
       "description": "Karşılayacak düşman birimi seçebilir.",
       "name": "Rakipçeker",
       "nameRef": "Challenger"
-    },
-    {
-      "description": "Bu yetenekler, bir büyü sonuçlandırdığında tetiklenir.",
-      "name": "Efsunla",
-      "nameRef": "Imbue"
     },
     {
       "description": "Sadece Güç değeri 3 ya da daha fazla olan düşmanlar tarafından karşılanabilir.",
@@ -431,55 +436,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/tr_tr/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/tr_tr/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/tr_tr/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/tr_tr/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/tr_tr/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/tr_tr/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/tr_tr/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/tr_tr/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/tr_tr/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/tr_tr/img/regions/icon-shadowisles.png",
       "name": "Gölge Adalar",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/tr_tr/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/tr_tr/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/tr_tr/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/tr_tr/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/tr_tr/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/tr_tr/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/tr_tr/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/tr_tr/img/regions/icon-piltoverzaun.png",
       "name": "Piltover ve Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -522,22 +527,22 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/tr_tr/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/tr_tr/img/sets/set3.png",
       "name": "Dağın Çağrısı",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/tr_tr/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/tr_tr/img/sets/set1.png",
       "name": "Temeller",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/tr_tr/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/tr_tr/img/sets/set2.png",
       "name": "Yükselen Dalgalar",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/tr_tr/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/tr_tr/img/sets/set4.png",
       "name": "Yükselmişlerin İmparatorlukları",
       "nameRef": "Set4"
     }

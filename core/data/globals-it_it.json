@@ -128,14 +128,189 @@
   ],
   "keywords": [
     {
+      "description": "Infliggi al Nexus nemico i danni in eccesso all'uccisione del bersaglio o dei bersagli.",
+      "name": "Sopraffare",
+      "nameRef": "SpellOverwhelm"
+    },
+    {
+      "description": "Gli incantesimi con Raffica si lanciano all'istante. Il nemico non può agire prima della loro fine.",
+      "name": "Raffica",
+      "nameRef": "Burst"
+    },
+    {
+      "description": "Inizio del turno: comincio il Conto alla rovescia di 1 ogni volta. Arrivato a 0, distruggimi e attiva l'effetto del Conto alla rovescia.",
+      "name": "Conto alla rovescia",
+      "nameRef": "Countdown"
+    },
+    {
+      "description": "Ottieni questo effetto quando giochi questa unità dalla tua mano.",
+      "name": "Gioca",
+      "nameRef": "PlaySkillMark"
+    },
+    {
+      "description": "I Monumenti occupano una posizione sulla plancia. Non possono attaccare, bloccare o subire danni.",
+      "name": "Monumento",
+      "nameRef": "LandmarkVisualOnly"
+    },
+    {
+      "description": "Una carta catturata viene rimossa dal gioco. Torna quando l'unità che sequestra lascia il gioco.",
+      "name": "Catturare",
+      "nameRef": "Capture"
+    },
+    {
+      "description": "Ottieni l'effetto quando questa unità attacca.",
+      "name": "Attacca",
+      "nameRef": "AttackSkillMark"
+    },
+    {
+      "description": "",
+      "name": "Shurima",
+      "nameRef": "Shurima"
+    },
+    {
+      "description": "",
+      "name": "Noxus",
+      "nameRef": "Noxus"
+    },
+    {
+      "description": "Le carte Fugaci vengono scartate quando il turno finisce.",
+      "name": "Fugace",
+      "nameRef": "Fleeting"
+    },
+    {
+      "description": "Pesca 1 carta non campione dal fondo del mazzo nemico.",
+      "name": "Sottrarre",
+      "nameRef": "Nab"
+    },
+    {
+      "description": "Non si può lanciare in combattimento o mentre ci sono incantesimi in corso. Si lancia all'istante.",
+      "name": "Concentrazione",
+      "nameRef": "Focus"
+    },
+    {
+      "description": "Sei Illuminato quando possiedi 10 di mana massimo.",
+      "name": "Illuminato",
+      "nameRef": "Enlightened"
+    },
+    {
+      "description": "Scegli una carta Celestiale tra 3 e creala nella tua mano.",
+      "name": "Invoca",
+      "nameRef": "Invoke"
+    },
+    {
+      "description": "Si lega a un'altra carta, piazzando una trappola. Quando la carta in trappola viene pescata, esegui l'effetto.",
+      "name": "Trappola",
+      "nameRef": "Autoplay"
+    },
+    {
+      "description": "Cura il tuo Nexus per la quantità di danni inflitti.",
+      "name": "Assorbimento",
+      "nameRef": "Drain"
+    },
+    {
+      "description": "Queste abilità hanno effetto quando l'unità muore.",
+      "name": "Ultimo respiro",
+      "nameRef": "LastBreath"
+    },
+    {
+      "description": "",
+      "name": "Demacia",
+      "nameRef": "Demacia"
+    },
+    {
+      "description": "Un campione sale di livello quando vengono soddisfatti i requisiti, anche se è in mano o nel mazzo.",
+      "name": "Aumento di livello",
+      "nameRef": "LevelUp"
+    },
+    {
+      "description": "Gli incantesimi Veloci possono essere giocati in qualunque momento, ma danno all'avversario la possibilità di rispondere.",
+      "name": "Veloce",
+      "nameRef": "Fast"
+    },
+    {
+      "description": "",
+      "name": "Bilgewater",
+      "nameRef": "Bilgewater"
+    },
+    {
+      "description": "Riporta in mano un'unità e rimuove gli effetti applicati ad essa.",
+      "name": "Richiamo",
+      "nameRef": "Recall"
+    },
+    {
+      "description": "Potere più basso, spareggio con la Salute più bassa e poi con il Costo più basso.",
+      "name": "Più debole",
+      "nameRef": "Weakest"
+    },
+    {
+      "description": "Gli incantesimi Lenti possono essere lanciati fuori dai combattimenti e dagli altri lanci. Il nemico può rispondere.",
+      "name": "Lento",
+      "nameRef": "Slow"
+    },
+    {
       "description": "Rimossa completamente dal gioco. Non provoca Ultimo respiro e non può essere rianimata.",
       "name": "Annientare",
       "nameRef": "Obliterate"
     },
     {
+      "description": "Queste abilità si attivano quando risolvi un incantesimo.",
+      "name": "Ispirazione",
+      "nameRef": "Imbue"
+    },
+    {
       "description": "",
       "name": "Targon",
       "nameRef": "MtTargon"
+    },
+    {
+      "description": "",
+      "name": "Isole Ombra",
+      "nameRef": "ShadowIsles"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "AuraVisualFakeKeyword"
+    },
+    {
+      "description": "",
+      "name": "Ionia",
+      "nameRef": "Ionia"
+    },
+    {
+      "description": "Bonus se questa NON è la prima carta che giochi in un round.",
+      "name": "Crepuscolo",
+      "nameRef": "Nightfall"
+    },
+    {
+      "description": "",
+      "name": "Piltover e Zaun",
+      "nameRef": "PiltoverZaun"
+    },
+    {
+      "description": "",
+      "name": "Freljord",
+      "nameRef": "Freljord"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "Blocked"
+    },
+    {
+      "description": "Quando vengo evocato, ripristina 1 mana incantesimo.",
+      "name": "Armonia",
+      "nameRef": "Attune"
+    },
+    {
+      "description": "Bonus se questa è la PRIMA carta che giochi in un round.",
+      "name": "Alba",
+      "nameRef": "Daybreak"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "SilenceIndividualKeyword"
     },
     {
       "description": "Un effetto simile a un incantesimo che permette al nemico di reagire.",
@@ -148,24 +323,9 @@
       "nameRef": "DoubleStrike"
     },
     {
-      "description": "Bonus se questa è la PRIMA carta che giochi in un round.",
-      "name": "Alba",
-      "nameRef": "Daybreak"
-    },
-    {
-      "description": "Potere più basso, spareggio con la Salute più bassa e poi con il Costo più basso.",
-      "name": "Più debole",
-      "nameRef": "Weakest"
-    },
-    {
       "description": "Il nemico può sfidare questa unità, obbligandola a bloccare.",
       "name": "Vulnerabile",
       "nameRef": "Vulnerable"
-    },
-    {
-      "description": "Ottieni l'effetto quando questa unità attacca.",
-      "name": "Attacca",
-      "nameRef": "AttackSkillMark"
     },
     {
       "description": "Può essere bloccata solo da un'altra unità Elusiva.",
@@ -173,34 +333,9 @@
       "nameRef": "Elusive"
     },
     {
-      "description": "Inizio del turno: comincio il Conto alla rovescia di 1 ogni volta. Arrivato a 0, distruggimi e attiva l'effetto del Conto alla rovescia.",
-      "name": "Conto alla rovescia",
-      "nameRef": "Countdown"
-    },
-    {
-      "description": "Cura il tuo Nexus per la quantità di danni inflitti.",
-      "name": "Assorbimento",
-      "nameRef": "Drain"
-    },
-    {
       "description": "Rimuovi un'unità dal combattimento. Non può attaccare o bloccare per il resto del turno.",
       "name": "Stordimento",
       "nameRef": "Stun"
-    },
-    {
-      "description": "Si lega a un'altra carta, piazzando una trappola. Quando la carta in trappola viene pescata, esegui l'effetto.",
-      "name": "Trappola",
-      "nameRef": "Autoplay"
-    },
-    {
-      "description": "",
-      "name": "Piltover e Zaun",
-      "nameRef": "PiltoverZaun"
-    },
-    {
-      "description": "",
-      "name": "Demacia",
-      "nameRef": "Demacia"
     },
     {
       "description": "Missing Translation",
@@ -208,34 +343,9 @@
       "nameRef": "BlockElusive"
     },
     {
-      "description": "",
-      "name": "Isole Ombra",
-      "nameRef": "ShadowIsles"
-    },
-    {
-      "description": "Missing Translation",
-      "name": "Missing Translation",
-      "nameRef": "Blocked"
-    },
-    {
       "description": "Quando uccido un'unità, conferiscimi +1|+1.",
       "name": "Furia",
       "nameRef": "Fury"
-    },
-    {
-      "description": "Infliggi al Nexus nemico i danni in eccesso all'uccisione del bersaglio o dei bersagli.",
-      "name": "Sopraffare",
-      "nameRef": "SpellOverwhelm"
-    },
-    {
-      "description": "Quando vengo evocato, ripristina 1 mana incantesimo.",
-      "name": "Armonia",
-      "nameRef": "Attune"
-    },
-    {
-      "description": "I Monumenti occupano una posizione sulla plancia. Non possono attaccare, bloccare o subire danni.",
-      "name": "Monumento",
-      "nameRef": "LandmarkVisualOnly"
     },
     {
       "description": "Nega i danni successivi che l'unità subirebbe. Dura un turno.",
@@ -248,39 +358,14 @@
       "nameRef": "Immobile"
     },
     {
-      "description": "Una carta catturata viene rimossa dal gioco. Torna quando l'unità che sequestra lascia il gioco.",
-      "name": "Catturare",
-      "nameRef": "Capture"
-    },
-    {
       "description": "Imposta il Potere di un'unità a 0 per questo turno. Può essere cambiato in seguito.",
       "name": "Congelamento",
       "nameRef": "Frostbite"
     },
     {
-      "description": "Gli incantesimi con Raffica si lanciano all'istante. Il nemico non può agire prima della loro fine.",
-      "name": "Raffica",
-      "nameRef": "Burst"
-    },
-    {
-      "description": "Le carte Fugaci vengono scartate quando il turno finisce.",
-      "name": "Fugace",
-      "nameRef": "Fleeting"
-    },
-    {
-      "description": "Gli incantesimi Veloci possono essere giocati in qualunque momento, ma danno all'avversario la possibilità di rispondere.",
-      "name": "Veloce",
-      "nameRef": "Fast"
-    },
-    {
       "description": "I danni in eccesso inflitti al mio bloccante vengono inflitti al Nexus nemico.",
       "name": "Sopraffare",
       "nameRef": "Overwhelm"
-    },
-    {
-      "description": "Ottieni questo effetto quando giochi questa unità dalla tua mano.",
-      "name": "Gioca",
-      "nameRef": "PlaySkillMark"
     },
     {
       "description": "Durante gli attacchi, colpisce prima del suo bloccante.",
@@ -293,29 +378,9 @@
       "nameRef": "Tough"
     },
     {
-      "description": "Riporta in mano un'unità e rimuove gli effetti applicati ad essa.",
-      "name": "Richiamo",
-      "nameRef": "Recall"
-    },
-    {
-      "description": "",
-      "name": "Ionia",
-      "nameRef": "Ionia"
-    },
-    {
       "description": "Guarisce completamente alla fine di ogni turno.",
       "name": "Rigenerazione",
       "nameRef": "Regeneration"
-    },
-    {
-      "description": "Non si può lanciare in combattimento o mentre ci sono incantesimi in corso. Si lancia all'istante.",
-      "name": "Concentrazione",
-      "nameRef": "Focus"
-    },
-    {
-      "description": "Missing Translation",
-      "name": "Missing Translation",
-      "nameRef": "AuraVisualFakeKeyword"
     },
     {
       "description": "Rimuovi il testo e le parole chiave da un'unità.",
@@ -333,41 +398,6 @@
       "nameRef": "Lifesteal"
     },
     {
-      "description": "Bonus se questa NON è la prima carta che giochi in un round.",
-      "name": "Crepuscolo",
-      "nameRef": "Nightfall"
-    },
-    {
-      "description": "",
-      "name": "Shurima",
-      "nameRef": "Shurima"
-    },
-    {
-      "description": "Sei Illuminato quando possiedi 10 di mana massimo.",
-      "name": "Illuminato",
-      "nameRef": "Enlightened"
-    },
-    {
-      "description": "Un campione sale di livello quando vengono soddisfatti i requisiti, anche se è in mano o nel mazzo.",
-      "name": "Aumento di livello",
-      "nameRef": "LevelUp"
-    },
-    {
-      "description": "Gli incantesimi Lenti possono essere lanciati fuori dai combattimenti e dagli altri lanci. Il nemico può rispondere.",
-      "name": "Lento",
-      "nameRef": "Slow"
-    },
-    {
-      "description": "",
-      "name": "Noxus",
-      "nameRef": "Noxus"
-    },
-    {
-      "description": "Scegli una carta Celestiale tra 3 e creala nella tua mano.",
-      "name": "Invoca",
-      "nameRef": "Invoke"
-    },
-    {
       "description": "Quando giochi una carta creata, conferiscimi +1|+0.",
       "name": "Potenziamento",
       "nameRef": "Augment"
@@ -383,34 +413,9 @@
       "nameRef": "Ephemeral"
     },
     {
-      "description": "",
-      "name": "Freljord",
-      "nameRef": "Freljord"
-    },
-    {
-      "description": "Queste abilità hanno effetto quando l'unità muore.",
-      "name": "Ultimo respiro",
-      "nameRef": "LastBreath"
-    },
-    {
-      "description": "",
-      "name": "Bilgewater",
-      "nameRef": "Bilgewater"
-    },
-    {
-      "description": "Pesca 1 carta non campione dal fondo del mazzo nemico.",
-      "name": "Sottrarre",
-      "nameRef": "Nab"
-    },
-    {
       "description": "Puoi scegliere quale unità nemica bloccherà.",
       "name": "Sfidante",
       "nameRef": "Challenger"
-    },
-    {
-      "description": "Queste abilità si attivano quando risolvi un incantesimo.",
-      "name": "Ispirazione",
-      "nameRef": "Imbue"
     },
     {
       "description": "Può essere bloccata solo dai nemici con 3 o più Potere.",
@@ -431,55 +436,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/it_it/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/it_it/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/it_it/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/it_it/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/it_it/img/regions/icon-shadowisles.png",
       "name": "Isole Ombra",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/it_it/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/it_it/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/it_it/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/it_it/img/regions/icon-piltoverzaun.png",
       "name": "Piltover e Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -522,22 +527,22 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/it_it/img/sets/set3.png",
       "name": "La chiamata della montagna",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/it_it/img/sets/set1.png",
       "name": "Fondamenta",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/it_it/img/sets/set2.png",
       "name": "Alte maree",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_9_0/core/it_it/img/sets/set4.png",
       "name": "Gli imperi degli Ascesi",
       "nameRef": "Set4"
     }
