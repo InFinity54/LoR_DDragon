@@ -21,11 +21,6 @@
       "nameRef": "SunDiscRestore"
     },
     {
-      "description": "Elige una carta de entre 3 de tu mazo. Baraja el mazo y ponla en la parte superior.",
-      "name": "Predicción",
-      "nameRef": "Forecast"
-    },
-    {
       "description": "Al atacar con una unidad de apoyo, se potencia la unidad a su derecha.",
       "name": "Apoyo",
       "nameRef": "Support"
@@ -61,11 +56,6 @@
       "nameRef": "Attack"
     },
     {
-      "description": "Se activa si los aliados al golpear han infligido 5 o más de daño en al menos 4 ocasiones en esta partida.",
-      "name": "Reputación",
-      "nameRef": "Aftermath"
-    },
-    {
       "description": "Una unidad cuenta con una mejora cuando se ha aumentado su vida o su poder, o se le ha otorgado una palabra clave nueva.",
       "name": "Mejorada",
       "nameRef": "Buffed"
@@ -79,6 +69,11 @@
       "description": "Surte efecto cuando una unidad golpea el nexo enemigo.",
       "name": "Golpe al nexo",
       "nameRef": "NexusStrike"
+    },
+    {
+      "description": "Se activa si los aliados han infligido 5 o más de daño en al menos 4 ocasiones en esta partida.",
+      "name": "Reputación",
+      "nameRef": "Reputation"
     },
     {
       "description": "Consigue este efecto cuando comienza la ronda.",
@@ -124,6 +119,11 @@
       "description": "Una carta activa su palabra clave de Asalto al jugarla si has infligido daño al nexo enemigo esta ronda.",
       "name": "Asalto",
       "nameRef": "Plunder"
+    },
+    {
+      "description": "Elige una carta de entre 3 de tu mazo. Baraja el mazo y ponla en la parte superior.",
+      "name": "Predicción",
+      "nameRef": "Predict"
     }
   ],
   "keywords": [
@@ -431,55 +431,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/es_es/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/es_es/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/es_es/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/es_es/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/es_es/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/regions/icon-shadowisles.png",
       "name": "Islas de la Sombra",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/es_es/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/regions/icon-ionia.png",
       "name": "Jonia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/es_es/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/es_es/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/regions/icon-bilgewater.png",
       "name": "Aguas Estancadas",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/es_es/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/regions/icon-piltoverzaun.png",
       "name": "Piltover y Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -522,22 +522,22 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/es_es/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/sets/set3.png",
       "name": "La llamada de la montaña",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/es_es/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/sets/set1.png",
       "name": "Cimientos",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/es_es/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/sets/set2.png",
       "name": "Pleamar",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/es_es/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/es_es/img/sets/set4.png",
       "name": "Imperios de los Ascendidos",
       "nameRef": "Set4"
     }

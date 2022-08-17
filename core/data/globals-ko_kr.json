@@ -21,11 +21,6 @@
       "nameRef": "SunDiscRestore"
     },
     {
-      "description": "내 덱의 카드 셋 중 하나를 선택합니다. 그리고 덱을<br>섞은 다음 선택한 카드를<br>맨 위에 놓습니다.",
-      "name": "예언",
-      "nameRef": "Forecast"
-    },
-    {
       "description": "지원 유닛으로 공격 시<br>그 오른쪽에 있는 유닛이<br>이로운 효과를 받습니다.",
       "name": "지원",
       "nameRef": "Support"
@@ -41,7 +36,7 @@
       "nameRef": "Toss"
     },
     {
-      "description": "소환된 칼날로<br>자유 공격을 시작하세요.",
+      "description": "해당 개수만큼 칼날을 소환해 자유 공격을 시작합니다.",
       "name": "검무",
       "nameRef": "BladeDance"
     },
@@ -61,11 +56,6 @@
       "nameRef": "Attack"
     },
     {
-      "description": "이 게임에서 아군이 5 이상의 피해를 4번 입히면 발동합니다.",
-      "name": "명성",
-      "nameRef": "Aftermath"
-    },
-    {
       "description": "공격력이나 체력이 증가하거나 새로운 키워드를 얻었을 경우 이로운 효과를 받은 상태가 됩니다.",
       "name": "이로운 효과를 받음",
       "nameRef": "Buffed"
@@ -79,6 +69,11 @@
       "description": "유닛이 적 넥서스를 타격할 때 발동되는 효과입니다.",
       "name": "넥서스 타격",
       "nameRef": "NexusStrike"
+    },
+    {
+      "description": "이 게임에서 아군이 5 이상의 피해를 4번 입히면 발동합니다.",
+      "name": "명성",
+      "nameRef": "Reputation"
     },
     {
       "description": "라운드 시작 시<br>이 효과를 얻습니다.",
@@ -124,6 +119,11 @@
       "description": "이 라운드에 적 넥서스에 피해를 입히면 카드를 사용할 때 약탈 스킬이 발동합니다.",
       "name": "약탈",
       "nameRef": "Plunder"
+    },
+    {
+      "description": "내 덱의 카드 셋 중 하나를 선택합니다. 그리고 덱을 섞은 다음 선택한 카드를 맨 위에 놓습니다.",
+      "name": "예언",
+      "nameRef": "Predict"
     }
   ],
   "keywords": [
@@ -431,55 +431,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ko_kr/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/regions/icon-targon.png",
       "name": "타곤",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ko_kr/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/regions/icon-noxus.png",
       "name": "녹서스",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ko_kr/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/regions/icon-demacia.png",
       "name": "데마시아",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ko_kr/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/regions/icon-freljord.png",
       "name": "프렐요드",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ko_kr/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/regions/icon-shadowisles.png",
       "name": "그림자 군도",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ko_kr/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/regions/icon-ionia.png",
       "name": "아이오니아",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ko_kr/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/regions/icon-shurima.png",
       "name": "슈리마",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ko_kr/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/regions/icon-bilgewater.png",
       "name": "빌지워터",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ko_kr/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/regions/icon-piltoverzaun.png",
       "name": "필트오버 & 자운",
       "nameRef": "PiltoverZaun"
     }
@@ -522,22 +522,22 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ko_kr/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/sets/set3.png",
       "name": "산의 부름",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ko_kr/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/sets/set1.png",
       "name": "기본",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ko_kr/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/sets/set2.png",
       "name": "밀려오는 파도",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ko_kr/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ko_kr/img/sets/set4.png",
       "name": "초월체의 제국",
       "nameRef": "Set4"
     }

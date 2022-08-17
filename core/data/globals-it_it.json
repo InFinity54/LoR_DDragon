@@ -21,11 +21,6 @@
       "nameRef": "SunDiscRestore"
     },
     {
-      "description": "Scegli una tra 3 carte del tuo mazzo. Mescola il mazzo e metti quella carta in cima.",
-      "name": "Prevedi",
-      "nameRef": "Forecast"
-    },
-    {
       "description": "L'attacco con un'unità di supporto conferisce un buff all'unità alla sua destra.",
       "name": "Supporto",
       "nameRef": "Support"
@@ -61,11 +56,6 @@
       "nameRef": "Attack"
     },
     {
-      "description": "Si attiva se gli alleati hanno colpito per 5+ danni almeno 4 volte in questa partita.",
-      "name": "Reputazione",
-      "nameRef": "Aftermath"
-    },
-    {
       "description": "Un'unità riceve un buff quando aumenta il suo Potere, la sua Salute o riceve una nuova parola chiave.",
       "name": "Buff",
       "nameRef": "Buffed"
@@ -79,6 +69,11 @@
       "description": "L'effetto si attiva quando l'unità colpisce il Nexus nemico.",
       "name": "Colpisci il Nexus",
       "nameRef": "NexusStrike"
+    },
+    {
+      "description": "Si attiva se gli alleati hanno colpito per 5+ danni almeno 4 volte in questa partita.",
+      "name": "Reputazione",
+      "nameRef": "Reputation"
     },
     {
       "description": "Ottieni questo effetto quando inizia il turno.",
@@ -124,6 +119,11 @@
       "description": "Una carta attiva la sua abilità Saccheggio quando viene giocata se hai danneggiato il Nexus nemico durante il turno.",
       "name": "Saccheggio",
       "nameRef": "Plunder"
+    },
+    {
+      "description": "Scegli una carta tra 3 nel tuo mazzo. Mescola il mazzo e metti quella carta in cima.",
+      "name": "Prevedi",
+      "nameRef": "Predict"
     }
   ],
   "keywords": [
@@ -188,7 +188,7 @@
       "nameRef": "Stun"
     },
     {
-      "description": "Si lega a un'altra carta, piazzando una trappola. Quando la carta con la trappola viene pescata, esegui l'effetto.",
+      "description": "Si lega a un'altra carta, piazzando una trappola. Quando la carta in trappola viene pescata, esegui l'effetto.",
       "name": "Trappola",
       "nameRef": "Autoplay"
     },
@@ -431,55 +431,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/it_it/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/it_it/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/it_it/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/it_it/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/it_it/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/regions/icon-shadowisles.png",
       "name": "Isole Ombra",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/it_it/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/it_it/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/it_it/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/it_it/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/regions/icon-piltoverzaun.png",
       "name": "Piltover e Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -522,22 +522,22 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/it_it/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/sets/set3.png",
       "name": "La chiamata della montagna",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/it_it/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/sets/set1.png",
       "name": "Fondamenta",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/it_it/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/sets/set2.png",
       "name": "Alte maree",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/it_it/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/it_it/img/sets/set4.png",
       "name": "Gli imperi degli Ascesi",
       "nameRef": "Set4"
     }

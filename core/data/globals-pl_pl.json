@@ -21,11 +21,6 @@
       "nameRef": "SunDiscRestore"
     },
     {
-      "description": "Wybierz kartę spośród 3 kart ze swojej talii. Przetasuj talię i umieść wybraną kartę na wierzchu talii.",
-      "name": "Spojrzenie w Przyszłość",
-      "nameRef": "Forecast"
-    },
-    {
       "description": "Atakowanie jednostką Wsparcia wzmocni jednostkę po jej prawej.",
       "name": "Wsparcie",
       "nameRef": "Support"
@@ -61,11 +56,6 @@
       "nameRef": "Attack"
     },
     {
-      "description": "Aktywuje się, jeżeli sojusznicy Uderzyli za 5+ pkt. obrażeń co najmniej 4 razy w tej grze.",
-      "name": "Reputacja",
-      "nameRef": "Aftermath"
-    },
-    {
       "description": "Jednostka jest wzmocniona, kiedy zwiększono jej Siłę lub Zdrowie albo gdy zyskuje nowe słowo kluczowe.",
       "name": "Wzmocnienie",
       "nameRef": "Buffed"
@@ -79,6 +69,11 @@
       "description": "Uzyskuje efekt, gdy jednostka uderza we wrogi Nexus.",
       "name": "Uderzenie w Nexus",
       "nameRef": "NexusStrike"
+    },
+    {
+      "description": "Aktywuje się, jeżeli sojusznicy Uderzyli za 5+ pkt. obrażeń co najmniej 4 razy w tej grze.",
+      "name": "Reputacja",
+      "nameRef": "Reputation"
     },
     {
       "description": "Uzyskuje efekt, gdy runda się rozpoczyna.",
@@ -124,6 +119,11 @@
       "description": "Karta aktywuje swoją umiejętność Grabieży, gdy zostaje zagrana, jeśli w tej rundzie udało ci się zadać obrażenia wrogiemu Nexusowi.",
       "name": "Grabież",
       "nameRef": "Plunder"
+    },
+    {
+      "description": "Wybierz kartę spośród 3 kart ze swojej talii. Przetasuj talię i umieść wybraną kartę na wierzchu talii.",
+      "name": "Spojrzenie w Przyszłość",
+      "nameRef": "Predict"
     }
   ],
   "keywords": [
@@ -431,55 +431,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/pl_pl/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/pl_pl/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/pl_pl/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/pl_pl/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/pl_pl/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/regions/icon-shadowisles.png",
       "name": "Wyspy Cienia",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/pl_pl/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/pl_pl/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/pl_pl/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/pl_pl/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/regions/icon-piltoverzaun.png",
       "name": "Piltover i Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -522,22 +522,22 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/pl_pl/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/sets/set3.png",
       "name": "Zew Góry",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/pl_pl/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/sets/set1.png",
       "name": "Fundamenty",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/pl_pl/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/sets/set2.png",
       "name": "Wzbierający Przypływ",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/pl_pl/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/pl_pl/img/sets/set4.png",
       "name": "Imperia Wyniesionych",
       "nameRef": "Set4"
     }

@@ -21,11 +21,6 @@
       "nameRef": "SunDiscRestore"
     },
     {
-      "description": "Выберите одну из трех карт из вашей колоды. Замешайте остальные две в колоду, а выбранную положите сверху.",
-      "name": "Предсказание",
-      "nameRef": "Forecast"
-    },
-    {
       "description": "Если атакует боец поддержки, боец справа от него получает усиление.",
       "name": "Поддержка",
       "nameRef": "Support"
@@ -41,7 +36,7 @@
       "nameRef": "Toss"
     },
     {
-      "description": "Отправить бойца в самостоятельную атаку с обозначенным количеством Клинков.",
+      "description": "Отправляет обозначенное количество Клинков в самостоятельную атаку.",
       "name": "Танец с клинками",
       "nameRef": "BladeDance"
     },
@@ -61,11 +56,6 @@
       "nameRef": "Attack"
     },
     {
-      "description": "Срабатывает, если союзники нанесли 5+ ед. урона как минимум 4 раза за игру.",
-      "name": "Репутация",
-      "nameRef": "Aftermath"
-    },
-    {
       "description": "Усиление – это увеличение силы или здоровья либо добавление нового навыка.",
       "name": "Усилено",
       "nameRef": "Buffed"
@@ -79,6 +69,11 @@
       "description": "Срабатывает, когда боец наносит удар по вражескому нексусу.",
       "name": "Удар по нексусу",
       "nameRef": "NexusStrike"
+    },
+    {
+      "description": "Срабатывает, если союзники нанесли 5+ ед. урона как минимум 4 раза за игру.",
+      "name": "Репутация",
+      "nameRef": "Reputation"
     },
     {
       "description": "Этот эффект сработает, когда начнется раунд.",
@@ -124,6 +119,11 @@
       "description": "Если вы нанесли урон вражескому нексусу в этом раунде и разыгрываете карту с навыком \"Разграбление\", эта способность сработает.",
       "name": "Разграбление",
       "nameRef": "Plunder"
+    },
+    {
+      "description": "Выберите одну из трех карт из вашей колоды. Замешайте остальные две в колоду, а выбранную положите сверху.",
+      "name": "Предсказание",
+      "nameRef": "Predict"
     }
   ],
   "keywords": [
@@ -431,55 +431,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ru_ru/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/regions/icon-targon.png",
       "name": "Таргон",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ru_ru/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/regions/icon-noxus.png",
       "name": "Ноксус",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ru_ru/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/regions/icon-demacia.png",
       "name": "Демасия",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ru_ru/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/regions/icon-freljord.png",
       "name": "Фрельйорд",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ru_ru/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/regions/icon-shadowisles.png",
       "name": "Сумрачные острова",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ru_ru/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/regions/icon-ionia.png",
       "name": "Иония",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ru_ru/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/regions/icon-shurima.png",
       "name": "Шурима",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ru_ru/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/regions/icon-bilgewater.png",
       "name": "Билджвотер",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ru_ru/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/regions/icon-piltoverzaun.png",
       "name": "Пилтовер и Заун",
       "nameRef": "PiltoverZaun"
     }
@@ -522,22 +522,22 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ru_ru/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/sets/set3.png",
       "name": "Зов Горы",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ru_ru/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/sets/set1.png",
       "name": "Основы",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ru_ru/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/sets/set2.png",
       "name": "Прилив",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_7_0/core/ru_ru/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_8_0/core/ru_ru/img/sets/set4.png",
       "name": "Империи вознесшихся",
       "nameRef": "Set4"
     }
