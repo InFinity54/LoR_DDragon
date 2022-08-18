@@ -98,7 +98,7 @@
     {
       "description": "Inicio de la ronda: Tengo Cuenta regresiva 1. Al llegar a 0, me destruyo y activo el efecto de Cuenta regresiva.",
       "name": "Cuenta regresiva",
-      "nameRef": "Buried"
+      "nameRef": "Countdown"
     },
     {
       "description": "Si no la tienes, obtén la ficha de ataque; puedes atacar en esta ronda.",
@@ -441,55 +441,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/es_mx/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/regions/icon-targon.png",
       "name": "Targón",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/es_mx/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/es_mx/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/es_mx/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/regions/icon-freljord.png",
       "name": "El Fréljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/es_mx/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/regions/icon-shadowisles.png",
       "name": "Islas de la Sombra",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/es_mx/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/regions/icon-ionia.png",
       "name": "Jonia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/es_mx/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/es_mx/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/regions/icon-bilgewater.png",
       "name": "Aguasturbias",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/es_mx/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/regions/icon-piltoverzaun.png",
       "name": "Piltóver y Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -532,27 +532,27 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/es_mx/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/sets/set3.png",
       "name": "El Llamado de la Montaña",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/es_mx/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/sets/set1.png",
       "name": "Fundamentos",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/es_mx/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/sets/set2.png",
       "name": "Marea Creciente",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/es_mx/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/sets/set4.png",
       "name": "Ascenso de los Inframundos",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/es_mx/img/sets/setevent.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/sets/setevent.png",
       "name": "Eventos",
       "nameRef": "SetEvent"
     }

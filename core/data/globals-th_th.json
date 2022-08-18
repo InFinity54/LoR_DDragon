@@ -96,9 +96,9 @@
       "nameRef": "Advance"
     },
     {
-      "description": "เริ่มรอบ: ข้าจะนับถอยหลัง 1<br>เมื่อถึง 0 จะทำลายข้า<br>และเปิดเอฟเฟกต์นับถอยหลัง",
+      "description": "เริ่มรอบ: การ์ดใบนี้จะนับถอยหลัง 1 เมื่อนับถึง 0 จะทำลายการ์ดใบนี้ และเอฟเฟกต์นับถอยหลังจะทำงาน",
       "name": "นับถอยหลัง",
-      "nameRef": "Buried"
+      "nameRef": "Countdown"
     },
     {
       "description": "รับโทเคนโจมตีหากยังไม่มี คุณสามารถโจมตีได้ในรอบนี้",
@@ -112,7 +112,7 @@
     },
     {
       "description": "ลบล้างคีย์เวิร์ด ความสามารถ และผลจากการ์ดอื่นก่อนหน้านี้ทั้งหมด ไม่ส่งผลต่อความเสียหายหรือประเภทย่อย",
-      "name": "ลบล้างพลัง",
+      "name": "ใบ้",
       "nameRef": "Silence"
     },
     {
@@ -138,7 +138,7 @@
       "nameRef": "Burst"
     },
     {
-      "description": "เริ่มรอบ: ข้าจะนับถอยหลัง 1<br>เมื่อถึง 0 จะทำลายข้า<br>และเปิดเอฟเฟกต์นับถอยหลัง",
+      "description": "เริ่มรอบ: การ์ดใบนี้จะนับถอยหลัง 1 เมื่อนับถึง 0 จะทำลายการ์ดใบนี้ และเอฟเฟกต์นับถอยหลังจะทำงาน",
       "name": "นับถอยหลัง",
       "nameRef": "Countdown"
     },
@@ -384,7 +384,7 @@
     },
     {
       "description": "ลบข้อความและคีย์เวิร์ดทั้งหมดออกจากยูนิต",
-      "name": "ลบล้างพลัง",
+      "name": "ใบ้",
       "nameRef": "Silenced"
     },
     {
@@ -441,55 +441,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/th_th/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/th_th/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/th_th/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/th_th/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/th_th/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/regions/icon-shadowisles.png",
       "name": "Shadow Isles",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/th_th/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/th_th/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/th_th/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/th_th/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/regions/icon-piltoverzaun.png",
       "name": "Piltover & Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -532,27 +532,27 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/th_th/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/sets/set3.png",
       "name": "Call of the Mountain",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/th_th/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/sets/set1.png",
       "name": "Foundations",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/th_th/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/sets/set2.png",
       "name": "Rising Tides",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/th_th/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/sets/set4.png",
       "name": "Rise of the Underworlds",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_12_0/core/th_th/img/sets/setevent.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/sets/setevent.png",
       "name": "อีเวนต์",
       "nameRef": "SetEvent"
     }
