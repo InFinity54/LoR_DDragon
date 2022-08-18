@@ -413,6 +413,11 @@
       "nameRef": "Ephemeral"
     },
     {
+      "description": "เมื่อคุณโจมตีขณะที่การ์ดใบนี้<br>อยู่บนสุดของเด็ค<br>การ์ดใบนี้จะดักซุ่ม มอบ +1|+0<br>ให้แก่การ์ดพันธมิตรผู้ดักซุ่ม<br>ทุกหนแห่ง<br>ทำงานสูงสุดหนึ่งครั้งต่อรอบ",
+      "name": "ดักซุ่ม",
+      "nameRef": "Lurker"
+    },
+    {
       "description": "สามารถเลือกได้ว่าจะให้ยูนิตศัตรู<br>ตัวใดบล็อกตัวนี้",
       "name": "ผู้ท้าชิง",
       "nameRef": "Challenger"
@@ -436,55 +441,55 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_10_0/core/th_th/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_11_0/core/th_th/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_10_0/core/th_th/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_11_0/core/th_th/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_10_0/core/th_th/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_11_0/core/th_th/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_10_0/core/th_th/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_11_0/core/th_th/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_10_0/core/th_th/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_11_0/core/th_th/img/regions/icon-shadowisles.png",
       "name": "Shadow Isles",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_10_0/core/th_th/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_11_0/core/th_th/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_10_0/core/th_th/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_11_0/core/th_th/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_10_0/core/th_th/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_11_0/core/th_th/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_10_0/core/th_th/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_11_0/core/th_th/img/regions/icon-piltoverzaun.png",
       "name": "Piltover & Zaun",
       "nameRef": "PiltoverZaun"
     }
@@ -527,23 +532,23 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_10_0/core/th_th/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_11_0/core/th_th/img/sets/set3.png",
       "name": "Call of the Mountain",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_10_0/core/th_th/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_11_0/core/th_th/img/sets/set1.png",
       "name": "Foundations",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_10_0/core/th_th/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_11_0/core/th_th/img/sets/set2.png",
       "name": "Rising Tides",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_10_0/core/th_th/img/sets/set4.png",
-      "name": "Empires of the Ascended",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_11_0/core/th_th/img/sets/set4.png",
+      "name": "Rise of the Underworlds",
       "nameRef": "Set4"
     }
   ]
