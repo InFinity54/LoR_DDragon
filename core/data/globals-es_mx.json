@@ -96,7 +96,7 @@
       "nameRef": "Advance"
     },
     {
-      "description": "Inicio de la ronda: Tengo Cuenta regresiva 1. Al llegar a 0, me destruyo y activo el efecto de Cuenta regresiva.",
+      "description": "Inicio de la ronda: Cuento hasta 1. Al llegar a 0, activo el efecto de Cuenta regresiva y luego me destruyo.",
       "name": "Cuenta regresiva",
       "nameRef": "Countdown"
     },
@@ -114,6 +114,11 @@
       "description": "Elimina todas las palabras clave, habilidades y efectos activos. No afecta el daño ni el subtipo.",
       "name": "Silenciar",
       "nameRef": "Silence"
+    },
+    {
+      "description": "Creo 1 de 3 cartas seleccionadas de manera aleatoria en la mano .",
+      "name": "Manifestar",
+      "nameRef": "Manifest"
     },
     {
       "description": "Una carta activa su habilidad de Pillaje si se juega después de que hayas infligido daño al nexo enemigo en esta ronda.",
@@ -138,7 +143,7 @@
       "nameRef": "Burst"
     },
     {
-      "description": "Inicio de la ronda: Tengo Cuenta regresiva 1. Al llegar a 0, me destruyo y activo el efecto de Cuenta regresiva.",
+      "description": "Inicio de la ronda: Cuento hasta 1. Al llegar a 0, activo el efecto de Cuenta regresiva y luego me destruyo.",
       "name": "Cuenta regresiva",
       "nameRef": "Countdown"
     },
@@ -221,6 +226,11 @@
       "description": "Un campeón sube de nivel cuando se cumple la condición, aunque esté en la mano o en el mazo.",
       "name": "Subo de nivel",
       "nameRef": "LevelUp"
+    },
+    {
+      "description": " ¡Yordles!",
+      "name": "Ciudad de Bandle",
+      "nameRef": "BandleCity"
     },
     {
       "description": "Los hechizos Rápidos se pueden usar en cualquier momento, pero permiten al enemigo responder.",
@@ -403,6 +413,11 @@
       "nameRef": "Augment"
     },
     {
+      "description": "Si esto golpea mientras atacas, inflige 1 de daño al nexo enemigo. Esta palabra clave se puede acumular.",
+      "name": "Impacto",
+      "nameRef": "Impact"
+    },
+    {
       "description": "En cada ronda, la primera vez que ataquen únicamente unidades con Explorar, prepara tu ataque.",
       "name": "Explorar",
       "nameRef": "Scout"
@@ -441,57 +456,63 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/es_mx/img/regions/icon-targon.png",
       "name": "Targón",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/es_mx/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/es_mx/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/es_mx/img/regions/icon-freljord.png",
       "name": "El Fréljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/es_mx/img/regions/icon-shadowisles.png",
       "name": "Islas de la Sombra",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/es_mx/img/regions/icon-ionia.png",
       "name": "Jonia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/es_mx/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/es_mx/img/regions/icon-bilgewater.png",
       "name": "Aguasturbias",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/es_mx/img/regions/icon-piltoverzaun.png",
       "name": "Piltóver y Zaun",
       "nameRef": "PiltoverZaun"
+    },
+    {
+      "abbreviation": "BC",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/es_mx/img/regions/icon-bandlecity.png",
+      "name": "Ciudad de Bandle",
+      "nameRef": "BandleCity"
     }
   ],
   "spellSpeeds": [
@@ -532,27 +553,32 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/es_mx/img/sets/set3.png",
       "name": "El Llamado de la Montaña",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/es_mx/img/sets/set1.png",
       "name": "Fundamentos",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/es_mx/img/sets/set2.png",
       "name": "Marea Creciente",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/sets/set4.png",
-      "name": "Ascenso de los Inframundos",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/es_mx/img/sets/set4.png",
+      "name": "Imperios de los Ascendidos",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/es_mx/img/sets/setevent.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/es_mx/img/sets/set5.png",
+      "name": "Más Allá del Bandlebosque",
+      "nameRef": "Set5"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/es_mx/img/sets/setevent.png",
       "name": "Eventos",
       "nameRef": "SetEvent"
     }

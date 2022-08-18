@@ -96,7 +96,7 @@
       "nameRef": "Advance"
     },
     {
-      "description": "라운드 시작: 초읽기가 1 진행됩니다. 0이 되면 파괴되고 초읽기 효과를 발동시킵니다.",
+      "description": "라운드 시작: 초읽기가 1 진행됩니다. 0이 되면 초읽기 효과를 발동시키고 파괴됩니다.",
       "name": "초읽기",
       "nameRef": "Countdown"
     },
@@ -114,6 +114,11 @@
       "description": "모든 키워드, 스킬, 활성화된 효과를 제거합니다.<br>피해량이나 카드 종류에<br>영향을 미치지 않습니다.",
       "name": "침묵",
       "nameRef": "Silence"
+    },
+    {
+      "description": "무작위로 선택된 카드 3장 중 1장을 손에 생성합니다.",
+      "name": "시현",
+      "nameRef": "Manifest"
     },
     {
       "description": "이 라운드에 적 넥서스에 피해를 입히면 카드를 사용할 때 약탈 스킬이 발동합니다.",
@@ -138,7 +143,7 @@
       "nameRef": "Burst"
     },
     {
-      "description": "라운드 시작: 초읽기가 1 진행됩니다. 0이 되면 파괴되고 초읽기 효과를 발동시킵니다.",
+      "description": "라운드 시작: 초읽기가 1 진행됩니다. 0이 되면 초읽기 효과를 발동시키고 파괴됩니다.",
       "name": "초읽기",
       "nameRef": "Countdown"
     },
@@ -221,6 +226,11 @@
       "description": "이 조건이 충족되면 챔피언이 손이나 덱에 있더라도<br>레벨 업합니다.",
       "name": "레벨 업",
       "nameRef": "LevelUp"
+    },
+    {
+      "description": "요들!",
+      "name": "밴들 시티",
+      "nameRef": "BandleCity"
     },
     {
       "description": "신속 주문은 언제든지<br>사용할 수 있지만,<br>적이 대응할 수 있습니다.",
@@ -403,6 +413,11 @@
       "nameRef": "Augment"
     },
     {
+      "description": "이 유닛이 공격 중 타격하면 적 넥서스에 피해를 1 입힙니다. 이 효과는 중첩 가능합니다.",
+      "name": "여파",
+      "nameRef": "Impact"
+    },
+    {
       "description": "라운드마다 처음으로<br>정찰 유닛만 공격한 경우<br>다시 공격 토큰을 획득합니다.",
       "name": "정찰",
       "nameRef": "Scout"
@@ -441,57 +456,63 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/ko_kr/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/ko_kr/img/regions/icon-targon.png",
       "name": "타곤",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/ko_kr/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/ko_kr/img/regions/icon-noxus.png",
       "name": "녹서스",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/ko_kr/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/ko_kr/img/regions/icon-demacia.png",
       "name": "데마시아",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/ko_kr/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/ko_kr/img/regions/icon-freljord.png",
       "name": "프렐요드",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/ko_kr/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/ko_kr/img/regions/icon-shadowisles.png",
       "name": "그림자 군도",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/ko_kr/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/ko_kr/img/regions/icon-ionia.png",
       "name": "아이오니아",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/ko_kr/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/ko_kr/img/regions/icon-shurima.png",
       "name": "슈리마",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/ko_kr/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/ko_kr/img/regions/icon-bilgewater.png",
       "name": "빌지워터",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/ko_kr/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/ko_kr/img/regions/icon-piltoverzaun.png",
       "name": "필트오버 & 자운",
       "nameRef": "PiltoverZaun"
+    },
+    {
+      "abbreviation": "BC",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/ko_kr/img/regions/icon-bandlecity.png",
+      "name": "밴들 시티",
+      "nameRef": "BandleCity"
     }
   ],
   "spellSpeeds": [
@@ -532,27 +553,32 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/ko_kr/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/ko_kr/img/sets/set3.png",
       "name": "산의 부름",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/ko_kr/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/ko_kr/img/sets/set1.png",
       "name": "기본",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/ko_kr/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/ko_kr/img/sets/set2.png",
       "name": "밀려오는 파도",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/ko_kr/img/sets/set4.png",
-      "name": "지하 세계의 격동",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/ko_kr/img/sets/set4.png",
+      "name": "초월체의 제국",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/ko_kr/img/sets/setevent.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/ko_kr/img/sets/set5.png",
+      "name": "밴들숲 너머",
+      "nameRef": "Set5"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/ko_kr/img/sets/setevent.png",
       "name": "이벤트",
       "nameRef": "SetEvent"
     }

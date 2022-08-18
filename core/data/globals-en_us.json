@@ -96,7 +96,7 @@
       "nameRef": "Advance"
     },
     {
-      "description": "Round Start: I count down 1. At 0, destroy me and activate the Countdown effect.",
+      "description": "Round Start: I count down 1. At 0, activate the Countdown effect, then destroy me.",
       "name": "Countdown",
       "nameRef": "Countdown"
     },
@@ -114,6 +114,11 @@
       "description": "Remove all keywords, abilities, and ongoing effects. Doesn't affect damage or subtype.",
       "name": "Silence",
       "nameRef": "Silence"
+    },
+    {
+      "description": "Create in hand 1 of 3 randomly selected cards.",
+      "name": "Manifest",
+      "nameRef": "Manifest"
     },
     {
       "description": "A card triggers its plunder ability when played if you damaged the enemy Nexus this round.",
@@ -138,7 +143,7 @@
       "nameRef": "Burst"
     },
     {
-      "description": "Round Start: I count down 1. At 0, destroy me and activate the Countdown effect.",
+      "description": "Round Start: I count down 1. At 0, activate the Countdown effect, then destroy me.",
       "name": "Countdown",
       "nameRef": "Countdown"
     },
@@ -221,6 +226,11 @@
       "description": "A champion levels up once this condition is met, even in hand or deck.",
       "name": "Level Up",
       "nameRef": "LevelUp"
+    },
+    {
+      "description": " Yordles!",
+      "name": "Bandle City",
+      "nameRef": "BandleCity"
     },
     {
       "description": "Fast spells can be played at any time, but allow the opponent to respond.",
@@ -403,6 +413,11 @@
       "nameRef": "Augment"
     },
     {
+      "description": "When this strikes while attacking, it deals 1 to the enemy Nexus. This keyword can stack.",
+      "name": "Impact",
+      "nameRef": "Impact"
+    },
+    {
       "description": "The first time only Scout units attack each round, ready your attack.",
       "name": "Scout",
       "nameRef": "Scout"
@@ -441,57 +456,63 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/en_us/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/en_us/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/en_us/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/en_us/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/en_us/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/en_us/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/en_us/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/en_us/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/en_us/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/en_us/img/regions/icon-shadowisles.png",
       "name": "Shadow Isles",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/en_us/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/en_us/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/en_us/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/en_us/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/en_us/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/en_us/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/en_us/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/en_us/img/regions/icon-piltoverzaun.png",
       "name": "Piltover & Zaun",
       "nameRef": "PiltoverZaun"
+    },
+    {
+      "abbreviation": "BC",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/en_us/img/regions/icon-bandlecity.png",
+      "name": "Bandle City",
+      "nameRef": "BandleCity"
     }
   ],
   "spellSpeeds": [
@@ -532,27 +553,32 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/en_us/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/en_us/img/sets/set3.png",
       "name": "Call of the Mountain",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/en_us/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/en_us/img/sets/set1.png",
       "name": "Foundations",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/en_us/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/en_us/img/sets/set2.png",
       "name": "Rising Tides",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/en_us/img/sets/set4.png",
-      "name": "Rise of the Underworlds",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/en_us/img/sets/set4.png",
+      "name": "Empires of the Ascended",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/en_us/img/sets/setevent.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/en_us/img/sets/set5.png",
+      "name": "Beyond the Bandlewood",
+      "nameRef": "Set5"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/en_us/img/sets/setevent.png",
       "name": "Events",
       "nameRef": "SetEvent"
     }

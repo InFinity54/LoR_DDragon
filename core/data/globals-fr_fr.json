@@ -96,7 +96,7 @@
       "nameRef": "Advance"
     },
     {
-      "description": "Début du round : je réduis le Décompte de 1. À 0, détruisez-moi et activez l'effet du Décompte.",
+      "description": "Début du round : je réduis le Décompte de 1. À 0, activez l'effet du Décompte, puis détruisez-moi.",
       "name": "Décompte",
       "nameRef": "Countdown"
     },
@@ -114,6 +114,11 @@
       "description": "Supprimez tous les mots-clés, compétences et effets en cours. N'affecte pas les dégâts ou le sous-type.",
       "name": "Silence",
       "nameRef": "Silence"
+    },
+    {
+      "description": "Créez dans votre main 1 carte parmi 3 sélectionnées aléatoirement.",
+      "name": "Matérialiser",
+      "nameRef": "Manifest"
     },
     {
       "description": "Une carte déclenche sa compétence de Pillage quand elle est jouée, si vous avez endommagé le Nexus ennemi pendant ce round.",
@@ -138,7 +143,7 @@
       "nameRef": "Burst"
     },
     {
-      "description": "Début du round : je réduis le Décompte de 1. À 0, détruisez-moi et activez l'effet du Décompte.",
+      "description": "Début du round : je réduis le Décompte de 1. À 0, activez l'effet du Décompte, puis détruisez-moi.",
       "name": "Décompte",
       "nameRef": "Countdown"
     },
@@ -221,6 +226,11 @@
       "description": "Un champion gagne un niveau une fois que cette condition est remplie, même en main ou dans le deck.",
       "name": "Niveau supérieur",
       "nameRef": "LevelUp"
+    },
+    {
+      "description": " Yordles !",
+      "name": "Bandle",
+      "nameRef": "BandleCity"
     },
     {
       "description": "Les sorts rapides peuvent être joués à tout moment, mais l'adversaire peut riposter.",
@@ -403,6 +413,11 @@
       "nameRef": "Augment"
     },
     {
+      "description": "Quand cette unité frappe en attaquant, elle inflige 1 pt de dégâts au Nexus ennemi. Ce mot-clé est cumulable.",
+      "name": "Impact",
+      "nameRef": "Impact"
+    },
+    {
       "description": "La première fois que les éclaireurs attaquent seuls à chaque round, préparez votre attaque.",
       "name": "Éclaireur",
       "nameRef": "Scout"
@@ -441,57 +456,63 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/fr_fr/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/fr_fr/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/fr_fr/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/fr_fr/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/fr_fr/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/fr_fr/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/fr_fr/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/fr_fr/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/fr_fr/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/fr_fr/img/regions/icon-shadowisles.png",
       "name": "Îles obscures",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/fr_fr/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/fr_fr/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/fr_fr/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/fr_fr/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/fr_fr/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/fr_fr/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/fr_fr/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/fr_fr/img/regions/icon-piltoverzaun.png",
       "name": "Piltover & Zaun",
       "nameRef": "PiltoverZaun"
+    },
+    {
+      "abbreviation": "BC",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/fr_fr/img/regions/icon-bandlecity.png",
+      "name": "Bandle",
+      "nameRef": "BandleCity"
     }
   ],
   "spellSpeeds": [
@@ -532,27 +553,32 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/fr_fr/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/fr_fr/img/sets/set3.png",
       "name": "Appel de la montagne",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/fr_fr/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/fr_fr/img/sets/set1.png",
       "name": "Fondations",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/fr_fr/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/fr_fr/img/sets/set2.png",
       "name": "Marée montante",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/fr_fr/img/sets/set4.png",
-      "name": "Sous la surface",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/fr_fr/img/sets/set4.png",
+      "name": "Empires des Transfigurés",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/fr_fr/img/sets/setevent.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/fr_fr/img/sets/set5.png",
+      "name": "Par-delà Bandle",
+      "nameRef": "Set5"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/fr_fr/img/sets/setevent.png",
       "name": "Événements",
       "nameRef": "SetEvent"
     }

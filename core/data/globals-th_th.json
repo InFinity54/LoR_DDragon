@@ -96,7 +96,7 @@
       "nameRef": "Advance"
     },
     {
-      "description": "เริ่มรอบ: การ์ดใบนี้จะนับถอยหลัง 1 เมื่อนับถึง 0 จะทำลายการ์ดใบนี้ และเอฟเฟกต์นับถอยหลังจะทำงาน",
+      "description": "เริ่มรอบ: การ์ดใบนี้จะนับถอยหลัง 1 เมื่อนับถึง 0 เอฟเฟกต์นับถอยหลังจะทำงาน แล้วทำลายการ์ดใบนี้",
       "name": "นับถอยหลัง",
       "nameRef": "Countdown"
     },
@@ -114,6 +114,11 @@
       "description": "ลบล้างคีย์เวิร์ด ความสามารถ และผลจากการ์ดอื่นก่อนหน้านี้ทั้งหมด ไม่ส่งผลต่อความเสียหายหรือประเภทย่อย",
       "name": "ใบ้",
       "nameRef": "Silence"
+    },
+    {
+      "description": "เลือกสร้างการ์ด 1 ใบ<br>ในมือจากการ์ดที่สุ่มให้เลือก<br>3 ใบ",
+      "name": "ก่อกำเนิด",
+      "nameRef": "Manifest"
     },
     {
       "description": "ความสามารถปล้นของการ์ดจะ<br>ทำงานเมื่อคุณเล่นหลังจาก<br>ที่คุณสร้างความเสียหายแก่<br>เน็กซัสของศัตรูในรอบนี้",
@@ -138,7 +143,7 @@
       "nameRef": "Burst"
     },
     {
-      "description": "เริ่มรอบ: การ์ดใบนี้จะนับถอยหลัง 1 เมื่อนับถึง 0 จะทำลายการ์ดใบนี้ และเอฟเฟกต์นับถอยหลังจะทำงาน",
+      "description": "เริ่มรอบ: การ์ดใบนี้จะนับถอยหลัง 1 เมื่อนับถึง 0 เอฟเฟกต์นับถอยหลังจะทำงาน แล้วทำลายการ์ดใบนี้",
       "name": "นับถอยหลัง",
       "nameRef": "Countdown"
     },
@@ -221,6 +226,11 @@
       "description": "แชมเปี้ยนจะเลเวลอัปเมื่อ<br>ทำตามเงื่อนไขที่กำหนด แม้แชมเปี้ยนจะอยู่ในมือหรือ<br>ในเด็คก็ตาม",
       "name": "เลเวลอัป",
       "nameRef": "LevelUp"
+    },
+    {
+      "description": " ยอร์เดิล!",
+      "name": "Bandle City",
+      "nameRef": "BandleCity"
     },
     {
       "description": "คุณสามารถเล่นเวทเร็วตอน<br>ไหนก็ได้ แต่ศัตรูสามารถโต้ตอบได้",
@@ -403,6 +413,11 @@
       "nameRef": "Augment"
     },
     {
+      "description": "เมื่อการ์ดใบนี้ได้จู่โจมขณะโจมตี มันจะสร้างความเสียหาย<br>1 หน่วยแก่เน็กซัสของศัตรู<br>คีย์เวิร์ดนี้สามารถซ้อนกัน<br>ได้หลายครั้ง",
+      "name": "สะเทือน",
+      "nameRef": "Impact"
+    },
+    {
       "description": "หากการโจมตีครั้งแรกในแต่<br>ละรอบมีแต่ยูนิตสอดแนม<br>อย่างเดียว คุณจะสามารถเตรียมพร้อม<br>การโจมตีครั้งที่สองได้",
       "name": "สอดแนม",
       "nameRef": "Scout"
@@ -441,57 +456,63 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/th_th/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/th_th/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/th_th/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/th_th/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/th_th/img/regions/icon-shadowisles.png",
       "name": "Shadow Isles",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/th_th/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/th_th/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/th_th/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/th_th/img/regions/icon-piltoverzaun.png",
       "name": "Piltover & Zaun",
       "nameRef": "PiltoverZaun"
+    },
+    {
+      "abbreviation": "BC",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/th_th/img/regions/icon-bandlecity.png",
+      "name": "Bandle City",
+      "nameRef": "BandleCity"
     }
   ],
   "spellSpeeds": [
@@ -532,27 +553,32 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/th_th/img/sets/set3.png",
       "name": "Call of the Mountain",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/th_th/img/sets/set1.png",
       "name": "Foundations",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/th_th/img/sets/set2.png",
       "name": "Rising Tides",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/sets/set4.png",
-      "name": "Rise of the Underworlds",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/th_th/img/sets/set4.png",
+      "name": "Empires of the Ascended",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/th_th/img/sets/setevent.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/th_th/img/sets/set5.png",
+      "name": "Beyond the Bandlewood",
+      "nameRef": "Set5"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/th_th/img/sets/setevent.png",
       "name": "อีเวนต์",
       "nameRef": "SetEvent"
     }

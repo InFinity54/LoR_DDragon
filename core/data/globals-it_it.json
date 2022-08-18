@@ -96,7 +96,7 @@
       "nameRef": "Advance"
     },
     {
-      "description": "Inizio del turno: conto 1 al Conto alla rovescia. Arrivato a 0, distruggimi e attiva l'effetto del Conto alla rovescia.",
+      "description": "Inizio del turno: conto 1 al Conto alla rovescia. Arrivato a 0, attiva l'effetto del Conto alla rovescia, poi distruggimi.",
       "name": "Conto alla rovescia",
       "nameRef": "Countdown"
     },
@@ -114,6 +114,11 @@
       "description": "Rimuove tutte le parole chiave, le abilità e gli effetti in corso. Non influisce su danni e sottotipi.",
       "name": "Silenzio",
       "nameRef": "Silence"
+    },
+    {
+      "description": "Crea nella mano 1 carta fra 3 selezionate casualmente.",
+      "name": "Manifestare",
+      "nameRef": "Manifest"
     },
     {
       "description": "Una carta attiva la sua abilità Saccheggio quando viene giocata se hai danneggiato il Nexus nemico durante il turno.",
@@ -138,7 +143,7 @@
       "nameRef": "Burst"
     },
     {
-      "description": "Inizio del turno: conto 1 al Conto alla rovescia. Arrivato a 0, distruggimi e attiva l'effetto del Conto alla rovescia.",
+      "description": "Inizio del turno: conto 1 al Conto alla rovescia. Arrivato a 0, attiva l'effetto del Conto alla rovescia, poi distruggimi.",
       "name": "Conto alla rovescia",
       "nameRef": "Countdown"
     },
@@ -221,6 +226,11 @@
       "description": "Un campione sale di livello quando vengono soddisfatti i requisiti, anche se è in mano o nel mazzo.",
       "name": "Aumento di livello",
       "nameRef": "LevelUp"
+    },
+    {
+      "description": " Yordle!",
+      "name": "Bandle City",
+      "nameRef": "BandleCity"
     },
     {
       "description": "Gli incantesimi Veloci possono essere giocati in qualunque momento, ma danno all'avversario la possibilità di rispondere.",
@@ -403,6 +413,11 @@
       "nameRef": "Augment"
     },
     {
+      "description": "Quando colpisce durante un attacco, infligge 1 al Nexus nemico. Questa parola chiave è cumulabile.",
+      "name": "Impatto",
+      "nameRef": "Impact"
+    },
+    {
       "description": "La prima volta che le unità Esploratore attaccano in ogni turno, prepara il tuo attacco.",
       "name": "Esploratore",
       "nameRef": "Scout"
@@ -441,57 +456,63 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/it_it/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/it_it/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/it_it/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/it_it/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/it_it/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/it_it/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/it_it/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/it_it/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/it_it/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/it_it/img/regions/icon-shadowisles.png",
       "name": "Isole Ombra",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/it_it/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/it_it/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/it_it/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/it_it/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/it_it/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/it_it/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/it_it/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/it_it/img/regions/icon-piltoverzaun.png",
       "name": "Piltover e Zaun",
       "nameRef": "PiltoverZaun"
+    },
+    {
+      "abbreviation": "BC",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/it_it/img/regions/icon-bandlecity.png",
+      "name": "Bandle City",
+      "nameRef": "BandleCity"
     }
   ],
   "spellSpeeds": [
@@ -532,27 +553,32 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/it_it/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/it_it/img/sets/set3.png",
       "name": "La chiamata della montagna",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/it_it/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/it_it/img/sets/set1.png",
       "name": "Fondamenta",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/it_it/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/it_it/img/sets/set2.png",
       "name": "Alte maree",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/it_it/img/sets/set4.png",
-      "name": "L'Ascesa dell'Abisso",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/it_it/img/sets/set4.png",
+      "name": "Gli imperi degli Ascesi",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/it_it/img/sets/setevent.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/it_it/img/sets/set5.png",
+      "name": "Oltre la foresta di Bandle",
+      "nameRef": "Set5"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/it_it/img/sets/setevent.png",
       "name": "Eventi",
       "nameRef": "SetEvent"
     }

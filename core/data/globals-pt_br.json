@@ -61,7 +61,7 @@
       "nameRef": "Buffed"
     },
     {
-      "description": "Este efeito é ativado quando uma unidade tentar causar dano usando o Poder dela no fim da rodada ou com feitiços. Unidades com 0 de Poder não podem golpear.",
+      "description": "Este efeito é ativado quando uma unidade tentar causar dano usando o Poder dela no fim da batalha ou com feitiços. Unidades com 0 de Poder não podem golpear.",
       "name": "Golpear",
       "nameRef": "Strike"
     },
@@ -96,7 +96,7 @@
       "nameRef": "Advance"
     },
     {
-      "description": "Início de Rodada: Eu avanço a contagem regressiva em 1. Ao chegar a 0, me destrua e ative o efeito de Contagem.",
+      "description": "Início de Rodada: Eu avanço a contagem regressiva em 1. Ao chegar a 0, ative o efeito de Contagem e me destrua.",
       "name": "Contagem",
       "nameRef": "Countdown"
     },
@@ -114,6 +114,11 @@
       "description": "Todas as palavras-chave, habilidades e efeitos ativos são removidos. Não afeta o dano nem o subtipo.",
       "name": "Silenciar",
       "nameRef": "Silence"
+    },
+    {
+      "description": "Crie 1 de 3 cartas selecionadas aleatoriamente na mão.",
+      "name": "Manifestar",
+      "nameRef": "Manifest"
     },
     {
       "description": "Uma carta aciona sua habilidade de Saquear ao ser jogada se você tiver causado dano ao Nexus inimigo nesta rodada.",
@@ -138,7 +143,7 @@
       "nameRef": "Burst"
     },
     {
-      "description": "Início de Rodada: Eu avanço a contagem regressiva em 1. Ao chegar a 0, me destrua e ative o efeito de Contagem.",
+      "description": "Início de Rodada: Eu avanço a contagem regressiva em 1. Ao chegar a 0, ative o efeito de Contagem e me destrua.",
       "name": "Contagem",
       "nameRef": "Countdown"
     },
@@ -221,6 +226,11 @@
       "description": "O Campeão sobe de nível quando essa condição é cumprida, esteja ele na mão ou no deck.",
       "name": "Subir de Nível",
       "nameRef": "LevelUp"
+    },
+    {
+      "description": " Yordles!",
+      "name": "Bandópolis",
+      "nameRef": "BandleCity"
     },
     {
       "description": "Feitiços Rápidos podem ser lançados a qualquer momento, mas o oponente pode reagir.",
@@ -403,6 +413,11 @@
       "nameRef": "Augment"
     },
     {
+      "description": "Ao golpear em meio a um ataque, causa 1 de dano ao Nexus inimigo. Essa palavra-chave pode acumular.",
+      "name": "Impacto",
+      "nameRef": "Impact"
+    },
+    {
       "description": "A cada rodada, na primeira vez que apenas unidades Patrulheiras atacarem, prepare seu ataque.",
       "name": "Patrulheiro",
       "nameRef": "Scout"
@@ -441,57 +456,63 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/pt_br/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/pt_br/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/pt_br/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/pt_br/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/pt_br/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/pt_br/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/pt_br/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/pt_br/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/pt_br/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/pt_br/img/regions/icon-shadowisles.png",
       "name": "Ilhas das Sombras",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/pt_br/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/pt_br/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/pt_br/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/pt_br/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/pt_br/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/pt_br/img/regions/icon-bilgewater.png",
       "name": "Águas de Sentina",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/pt_br/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/pt_br/img/regions/icon-piltoverzaun.png",
       "name": "Piltover e Zaun",
       "nameRef": "PiltoverZaun"
+    },
+    {
+      "abbreviation": "BC",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/pt_br/img/regions/icon-bandlecity.png",
+      "name": "Bandópolis",
+      "nameRef": "BandleCity"
     }
   ],
   "spellSpeeds": [
@@ -532,27 +553,32 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/pt_br/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/pt_br/img/sets/set3.png",
       "name": "Chamado da Montanha",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/pt_br/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/pt_br/img/sets/set1.png",
       "name": "Primordiais",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/pt_br/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/pt_br/img/sets/set2.png",
       "name": "Marés Crescentes",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/pt_br/img/sets/set4.png",
-      "name": "Ascensão do Submundo",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/pt_br/img/sets/set4.png",
+      "name": "Impérios dos Ascendentes",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_13_0/core/pt_br/img/sets/setevent.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/pt_br/img/sets/set5.png",
+      "name": "Além do Bandobosque",
+      "nameRef": "Set5"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_14_0/core/pt_br/img/sets/setevent.png",
       "name": "Eventos",
       "nameRef": "SetEvent"
     }
