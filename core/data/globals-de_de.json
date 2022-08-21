@@ -491,61 +491,61 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_3_0/core/de_de/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/de_de/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_3_0/core/de_de/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/de_de/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_3_0/core/de_de/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/de_de/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_3_0/core/de_de/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/de_de/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_3_0/core/de_de/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/de_de/img/regions/icon-shadowisles.png",
       "name": "Schatteninseln",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_3_0/core/de_de/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/de_de/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_3_0/core/de_de/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/de_de/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_3_0/core/de_de/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/de_de/img/regions/icon-bilgewater.png",
       "name": "Bilgewasser",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_3_0/core/de_de/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/de_de/img/regions/icon-piltoverzaun.png",
       "name": "Piltover & Zhaun",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_3_0/core/de_de/img/regions/icon-bandlecity.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/de_de/img/regions/icon-bandlecity.png",
       "name": "Bandle",
       "nameRef": "BandleCity"
     }
@@ -588,32 +588,32 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_3_0/core/de_de/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/de_de/img/sets/set3.png",
       "name": "Ruf des Berges",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_3_0/core/de_de/img/sets/set5.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/de_de/img/sets/set5.png",
       "name": "Jenseits des Bandlewalds",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_3_0/core/de_de/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/de_de/img/sets/set1.png",
       "name": "Anfänge",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_3_0/core/de_de/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/de_de/img/sets/set2.png",
       "name": "Steigende Flut",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_3_0/core/de_de/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/de_de/img/sets/set4.png",
       "name": "Imperien der Aufgestiegenen",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_3_0/core/de_de/img/sets/setevent.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/de_de/img/sets/setevent.png",
       "name": "Events",
       "nameRef": "SetEvent"
     }
