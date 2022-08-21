@@ -198,6 +198,11 @@
       "nameRef": "Shurima"
     },
     {
+      "description": "Conecte-me a um aliado e conceda meus atributos e palavras-chave a ele enquanto eu estiver Conectada. Quando o aliado deixa a partida, me Retorne.",
+      "name": "Conectar",
+      "nameRef": "Attach"
+    },
+    {
       "description": "",
       "name": "Noxus",
       "nameRef": "Noxus"
@@ -458,6 +463,11 @@
       "nameRef": "Lurker"
     },
     {
+      "description": "Eu ataco com minha Vida em vez do meu Poder.",
+      "name": "Formidável",
+      "nameRef": "Formidable"
+    },
+    {
       "description": "Pode escolher a unidade inimiga que vai bloquear.",
       "name": "Desafiador",
       "nameRef": "Challenger"
@@ -481,61 +491,61 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/pt_br/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/pt_br/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/pt_br/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/pt_br/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/pt_br/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/pt_br/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/pt_br/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/pt_br/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/pt_br/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/pt_br/img/regions/icon-shadowisles.png",
       "name": "Ilhas das Sombras",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/pt_br/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/pt_br/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/pt_br/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/pt_br/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/pt_br/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/pt_br/img/regions/icon-bilgewater.png",
       "name": "Águas de Sentina",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/pt_br/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/pt_br/img/regions/icon-piltoverzaun.png",
       "name": "Piltover e Zaun",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/pt_br/img/regions/icon-bandlecity.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/pt_br/img/regions/icon-bandlecity.png",
       "name": "Bandópolis",
       "nameRef": "BandleCity"
     }
@@ -578,32 +588,32 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/pt_br/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/pt_br/img/sets/set3.png",
       "name": "Chamado da Montanha",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/pt_br/img/sets/set5.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/pt_br/img/sets/set5.png",
       "name": "Além do Bandobosque",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/pt_br/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/pt_br/img/sets/set1.png",
       "name": "Primordiais",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/pt_br/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/pt_br/img/sets/set2.png",
       "name": "Marés Crescentes",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/pt_br/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/pt_br/img/sets/set4.png",
       "name": "Impérios dos Ascendentes",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/pt_br/img/sets/setevent.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/pt_br/img/sets/setevent.png",
       "name": "Eventos",
       "nameRef": "SetEvent"
     }

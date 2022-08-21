@@ -2,107 +2,107 @@
   "vocabTerms": [
     {
       "description": "เมื่อคุณอัญเชิญการ์ดใบนี้ มันจะได้รับโบนัสภักดีหากการ์ด<br>ใบบนสุดในเด็คของคุณมาจาก<br>ภูมิภาคเดียวกัน",
-      "name": "ภัก<zwsp>ดี",
+      "name": "ภักดี",
       "nameRef": "Allegiance"
     },
     {
       "description": "เลือกการ์ดอาวุธจันทราถัดไป<br>ให้ Aphelios",
-      "name": "ประ<zwsp>สาน",
+      "name": "ประสาน",
       "nameRef": "Phase"
     },
     {
       "description": "สุ่มสร้าง Blade Fragment ที่ยังจำเป็นต่อการฟื้นสภาพ<br>ใบดาบ เมื่อคุณร่ายครบแล้ว<br>3 ครั้ง จะสร้าง<br>Blade of the Exile",
-      "name": "หล่อ<zwsp>หลอม",
+      "name": "หล่อหลอม",
       "nameRef": "Reforge"
     },
     {
       "description": "จั่วการ์ดของเหล่า Ascended ทุกตัวของคุณทันทีตัวละ 1 ใบ ตลอดทั้งเกม Ascended<br>เลเวล 2 ของคุณจะถูกเลื่อนเป็น<br>เลเวล 3",
-      "name": "ฟื้น<zwsp>ฟู <zwsp>Sun Disc",
+      "name": "ฟื้นฟู Sun Disc",
       "nameRef": "SunDiscRestore"
     },
     {
       "description": "การโจมตีด้วยยูนิตสนับสนุนจะมอบ<br>ความสามารถให้ยูนิตที่อยู่ขวามือ",
-      "name": "สนับ<zwsp>สนุน",
+      "name": "สนับสนุน",
       "nameRef": "Support"
     },
     {
-      "description": "เอฟ<zwsp>เฟกต์<zwsp>จะ<zwsp>เกิด<zwsp>ผล<zwsp>เมื่อ<zwsp>ยู<zwsp>นิต<zwsp>ทำ<zwsp>การ<zwsp>จู่<zwsp>โจม<zwsp>จาก<zwsp>การ<zwsp>โจม<zwsp>ตี",
-      "name": "โจม<zwsp>ตี<zwsp>จู่<zwsp>โจม",
+      "description": "เอฟเฟกต์จะเกิดผลเมื่อยูนิตทำการจู่โจมจากการโจมตี",
+      "name": "โจมตีจู่โจม",
       "nameRef": "AttackStrike"
     },
     {
-      "description": "ยู<zwsp>นิต<zwsp>ที่<zwsp>มี<zwsp>พลัง<zwsp>โจม<zwsp>ตี<zwsp>สูง<zwsp>สุด <zwsp>หาก<zwsp>มี<zwsp>การ<zwsp>เสมอ<zwsp>กัน <zwsp>ให้<zwsp>ดู<zwsp>พลัง<zwsp>ชี<zwsp>วิต<zwsp>สูง<zwsp>สุด <zwsp>แล้ว<zwsp>ตาม<zwsp>ด้วย<zwsp>ค่า<zwsp>ร่าย<zwsp>สูง<zwsp>สุด",
-      "name": "แข็ง<zwsp>แกร่ง<zwsp>ที่<zwsp>สุด",
+      "description": "ยูนิตที่มีพลังโจมตีสูงสุด หากมีการเสมอกัน ให้ดูพลังชีวิตสูงสุด แล้วตามด้วยค่าร่ายสูงสุด",
+      "name": "แข็งแกร่งที่สุด",
       "nameRef": "Strongest"
     },
     {
       "description": "ทำลายล้างการ์ดที่ไม่ใช่<br>แชมเปี้ยน X ใบ จากด้านล่างสุดของเด็ค<br>ของคุณ",
-      "name": "หย่อน<zwsp>ทิ้ง",
+      "name": "หย่อนทิ้ง",
       "nameRef": "Toss"
     },
     {
-      "description": "เริ่ม<zwsp>การ<zwsp>โจม<zwsp>ตี<zwsp>ฟรี<zwsp>ด้วย<zwsp>บรร<zwsp>ดา<zwsp> Blade ที่<zwsp>อัญ<zwsp>เชิญ<zwsp>ออก<zwsp>มา",
-      "name": "ระ<zwsp>บำ<zwsp>ดาบ",
+      "description": "เริ่มการโจมตีฟรีด้วยบรรดา Blade ที่อัญเชิญออกมา",
+      "name": "ระบำดาบ",
       "nameRef": "BladeDance"
     },
     {
       "description": "คุณจะประจักษ์อะไรบางอย่าง<br>หากมีการ์ดดังกล่าวอยู่ใน<br>การเล่นหรือในมือ",
-      "name": "ประ<zwsp>จักษ์",
+      "name": "ประจักษ์",
       "nameRef": "Behold"
     },
     {
       "description": "นี่คือจำนวนมานาที่คุณต้องใช้<br>ในการเล่นการ์ดใบนี้",
-      "name": "ค่า<zwsp>ร่าย",
+      "name": "ค่าร่าย",
       "nameRef": "Cost"
     },
     {
       "description": "ความสามารถนี้มีผลเมื่อ<br>จบรอบ",
-      "name": "จบ<zwsp>รอบ",
+      "name": "จบรอบ",
       "nameRef": "RoundEnd"
     },
     {
       "description": "นี่คือจำนวนความเสียหายที่<br>ยูนิตสามารถรับได้<br>หากเหลือศูนย์ ยูนิตจะถูกสังหาร",
-      "name": "พลัง<zwsp>ชี<zwsp>วิต",
+      "name": "พลังชีวิต",
       "nameRef": "Health"
     },
     {
       "description": "นี่คือความเสียหายที่ยูนิตจะ<br>สร้างเมื่อทำการจู่โจม",
-      "name": "พลัง<zwsp>โจม<zwsp>ตี",
+      "name": "พลังโจมตี",
       "nameRef": "Power"
     },
     {
       "description": "ความสามารถนี้มีผล<br>เมื่อยูนิตโจมตี",
-      "name": "สั่ง<zwsp>โจม<zwsp>ตี",
+      "name": "สั่งโจมตี",
       "nameRef": "Attack"
     },
     {
-      "description": "บัฟ<zwsp>ยู<zwsp>นิต<zwsp>เมื่อ<zwsp>พลัง<zwsp>โจม<zwsp>ตี<zwsp>หรือ<zwsp>พลัง<zwsp>ชี<zwsp>วิต<zwsp>เพิ่ม<zwsp>ขึ้น <zwsp>หรือ<zwsp>ได้<zwsp>รับ<zwsp>คีย์<zwsp>เวิร์ด<zwsp>ใหม่",
+      "description": "บัฟยูนิตเมื่อพลังโจมตีหรือพลังชีวิตเพิ่มขึ้น หรือได้รับคีย์เวิร์ดใหม่",
       "name": "บัฟ",
       "nameRef": "Buffed"
     },
     {
       "description": "ได้รับความสามารถนี้เมื่อยูนิต<br>พยายามสร้างความเสียหาย<br>โดยใช้พลังโจมตีของตน <br>ไม่ว่าจะเป็นตอนจบการต่อสู้<br>หรือการใช้เวทมนตร์ก็ตาม<br>ยูนิตที่มีพลังโจมตี<br>0 หน่วยไม่สามารถจู่โจมได้",
-      "name": "จู่<zwsp>โจม",
+      "name": "จู่โจม",
       "nameRef": "Strike"
     },
     {
       "description": "มีผลเมื่อยูนิตจู่โจมเน็กซัส<br>ของศัตรู",
-      "name": "จู่<zwsp>โจม<zwsp>เน็ก<zwsp>ซัส",
+      "name": "จู่โจมเน็กซัส",
       "nameRef": "NexusStrike"
     },
     {
       "description": "แสดงผลเมื่อพันธมิตรสร้าง<br>ความเสียหายด้วยการจู่โจม<br>5 หน่วยขึ้นไป อย่างน้อย<br>4 ครั้งในเกมนี้",
-      "name": "ชื่อ<zwsp>เสียง",
+      "name": "ชื่อเสียง",
       "nameRef": "Reputation"
     },
     {
       "description": "ความสามารถนี้มีผลเมื่อ<br>เริ่มรอบ",
-      "name": "เริ่ม<zwsp>รอบ",
+      "name": "เริ่มรอบ",
       "nameRef": "RoundStart"
     },
     {
-      "description": "ศัตรู<zwsp>ใน<zwsp> The Path of Champions",
-      "name": "คู่<zwsp>ต่อ<zwsp>สู้",
+      "description": "ศัตรูใน The Path of Champions",
+      "name": "คู่ต่อสู้",
       "nameRef": "Foe"
     },
     {
@@ -112,37 +112,37 @@
     },
     {
       "description": "บนกระดาน ในมือ ในเด็ค ในกองทิ้งการ์ด หรือแม้แต่เมื่อถูก<br>สร้าง/อัญเชิญในภายหลัง",
-      "name": "ทุก<zwsp>หน<zwsp>แห่ง<zwsp>\t",
+      "name": "ทุกหนแห่ง\t",
       "nameRef": "Everywhere"
     },
     {
       "description": "ทำให้แลนด์มาร์คนับถอยหลัง<br>นั้นนับถอยหลังให้มากที่สุด",
-      "name": "เร่ง<zwsp>เว<zwsp>ลา",
+      "name": "เร่งเวลา",
       "nameRef": "Advance"
     },
     {
-      "description": "เริ่ม<zwsp>รอบ<zwsp>: <zwsp>การ์ด<zwsp>ใบ<zwsp>นี้<zwsp>จะ<zwsp>นับ<zwsp>ถอย<zwsp>หลัง<zwsp> 1 <zwsp>เมื่อ<zwsp>นับ<zwsp>ถึง<zwsp> 0 <zwsp>เอฟ<zwsp>เฟกต์<zwsp>นับ<zwsp>ถอย<zwsp>หลัง<zwsp>จะ<zwsp>ทำ<zwsp>งาน <zwsp>แล้ว<zwsp>ทำ<zwsp>ลาย<zwsp>การ์ด<zwsp>ใบ<zwsp>นี้",
-      "name": "นับ<zwsp>ถอย<zwsp>หลัง",
+      "description": "เริ่มรอบ: การ์ดใบนี้จะนับถอยหลัง 1 เมื่อนับถึง 0 เอฟเฟกต์นับถอยหลังจะทำงาน แล้วทำลายการ์ดใบนี้",
+      "name": "นับถอยหลัง",
       "nameRef": "Countdown"
     },
     {
-      "description": "รับ<zwsp>โท<zwsp>เคน<zwsp>โจม<zwsp>ตี<zwsp>หาก<zwsp>ยัง<zwsp>ไม่<zwsp>มี <zwsp>คุณ<zwsp>สา<zwsp>มารถ<zwsp>โจม<zwsp>ตี<zwsp>ได้<zwsp>ใน<zwsp>รอบ<zwsp>นี้",
-      "name": "ปลุก<zwsp>ระ<zwsp>ดม",
+      "description": "รับโทเคนโจมตีหากยังไม่มี คุณสามารถโจมตีได้ในรอบนี้",
+      "name": "ปลุกระดม",
       "nameRef": "Rally"
     },
     {
       "description": "เมื่อคุณสังหารยูนิตด้วยความ<br>เสียหาย เอฟเฟกต์การสังหาร หรือจู่โจมด้วยพันธมิตร (แต่จะไม่นับการสังหารตัวเอง เช่น จากคีย์เวิร์ดไร้ตัวตน)",
-      "name": "กำ<zwsp>จัด",
+      "name": "กำจัด",
       "nameRef": "Slay"
     },
     {
-      "description": "ลบ<zwsp>ล้าง<zwsp>คีย์<zwsp>เวิร์ด <zwsp>ความ<zwsp>สา<zwsp>มารถ <zwsp>และ<zwsp>ผล<zwsp>จาก<zwsp>การ์ด<zwsp>อื่น<zwsp>ก่อน<zwsp>หน้า<zwsp>นี้<zwsp>ทั้ง<zwsp>หมด <zwsp>ไม่<zwsp>ส่ง<zwsp>ผล<zwsp>ต่อ<zwsp>ความ<zwsp>เสีย<zwsp>หาย<zwsp>หรือ<zwsp>ประ<zwsp>เภท<zwsp>ย่อย",
+      "description": "ลบล้างคีย์เวิร์ด ความสามารถ และผลจากการ์ดอื่นก่อนหน้านี้ทั้งหมด ไม่ส่งผลต่อความเสียหายหรือประเภทย่อย",
       "name": "ใบ้",
       "nameRef": "Silence"
     },
     {
       "description": "เลือกสร้างการ์ด 1 ใบ<br>ในมือจากการ์ดที่สุ่มให้เลือก<br>3 ใบ",
-      "name": "ก่อ<zwsp>กำ<zwsp>เนิด",
+      "name": "ก่อกำเนิด",
       "nameRef": "Manifest"
     },
     {
@@ -152,24 +152,24 @@
     },
     {
       "description": "เลือกการ์ดขึ้นมาหนึ่งใบจาก<br>3 ใบในเด็คของคุณ สับการ์ดแล้ววางการ์ดที่เลือก<br>ไว้บนสุดของเด็ค",
-      "name": "พยา<zwsp>กรณ์",
+      "name": "พยากรณ์",
       "nameRef": "Predict"
     }
   ],
   "keywords": [
     {
-      "description": "ความ<zwsp>เสีย<zwsp>หาย<zwsp>ที่<zwsp>เกิน<zwsp>จาก<zwsp>พลัง<zwsp>ชี<zwsp>วิต<zwsp>ของ<zwsp>เป้า<zwsp>หมาย<zwsp>จะ<zwsp>ถูก<zwsp>ส่ง<zwsp>ต่อ<zwsp>ไป<zwsp>ที่<zwsp>เน็ก<zwsp>ซัส<zwsp>ของ<zwsp>ศัตรู",
-      "name": "ทะ<zwsp>ลวง",
+      "description": "ความเสียหายที่เกินจากพลังชีวิตของเป้าหมายจะถูกส่งต่อไปที่เน็กซัสของศัตรู",
+      "name": "ทะลวง",
       "nameRef": "SpellOverwhelm"
     },
     {
       "description": "เวทฉับพลันจะถูกร่ายในทันที ศัตรูจะไม่สามารถทำอะไรได้<br>จนกว่าจะร่ายเสร็จ",
-      "name": "ฉับ<zwsp>พลัน",
+      "name": "ฉับพลัน",
       "nameRef": "Burst"
     },
     {
-      "description": "เริ่ม<zwsp>รอบ<zwsp>: <zwsp>การ์ด<zwsp>ใบ<zwsp>นี้<zwsp>จะ<zwsp>นับ<zwsp>ถอย<zwsp>หลัง<zwsp> 1 <zwsp>เมื่อ<zwsp>นับ<zwsp>ถึง<zwsp> 0 <zwsp>เอฟ<zwsp>เฟกต์<zwsp>นับ<zwsp>ถอย<zwsp>หลัง<zwsp>จะ<zwsp>ทำ<zwsp>งาน <zwsp>แล้ว<zwsp>ทำ<zwsp>ลาย<zwsp>การ์ด<zwsp>ใบ<zwsp>นี้",
-      "name": "นับ<zwsp>ถอย<zwsp>หลัง",
+      "description": "เริ่มรอบ: การ์ดใบนี้จะนับถอยหลัง 1 เมื่อนับถึง 0 เอฟเฟกต์นับถอยหลังจะทำงาน แล้วทำลายการ์ดใบนี้",
+      "name": "นับถอยหลัง",
       "nameRef": "Countdown"
     },
     {
@@ -179,82 +179,87 @@
     },
     {
       "description": "แลนด์มาร์คจะกินพื้นที่<br>บนกระดาน<br>พวกมันไม่สามารถทำการโจมตี บล็อก หรือรับความเสียหายได้",
-      "name": "แลนด์<zwsp>มาร์ค",
+      "name": "แลนด์มาร์ค",
       "nameRef": "LandmarkVisualOnly"
     },
     {
       "description": "การ์ดที่ถูกจับกุมจะถูกนำ<br>ออกจากเกมจนกว่ายูนิต<br>ผู้จับกุมจะออกจากกระดาน",
-      "name": "จับ<zwsp>กุม",
+      "name": "จับกุม",
       "nameRef": "Capture"
     },
     {
       "description": "ความสามารถนี้มีผล<br>เมื่อยูนิตโจมตี",
-      "name": "สั่ง<zwsp>โจม<zwsp>ตี",
+      "name": "สั่งโจมตี",
       "nameRef": "AttackSkillMark"
     },
     {
       "description": "",
-      "name": "Shurima",
+      "name": "ชู<zwsp>ริ<zwsp>ม่า",
       "nameRef": "Shurima"
     },
     {
+      "description": "เล่น<zwsp>การ์ด<zwsp>ใบ<zwsp>นี้<zwsp>บน<zwsp>พันธ<zwsp>มิตร<zwsp>หนึ่ง<zwsp>ใบ<zwsp>เพื่อ<zwsp>มอบ<zwsp>ค่า<zwsp>พลัง<zwsp>และ<zwsp>คีย์<zwsp>เวิร์ด<zwsp>ของ<zwsp>การ์ด<zwsp>ใบ<zwsp>นี้<zwsp>ให้<zwsp>กับ<zwsp>พันธ<zwsp>มิตร<zwsp>ใบ<zwsp>นั้น<zwsp>ตราบ<zwsp>ใด<zwsp>ที่<zwsp>การ์ด<zwsp>ใบ<zwsp>นี้<zwsp>ยัง<zwsp>เกาะ<zwsp>ติด<zwsp>อยู่ <zwsp>เมื่อ<zwsp>พันธ<zwsp>มิตร<zwsp>ใบ<zwsp>นั้น<zwsp>ออก<zwsp>จาก<zwsp>สนาม<zwsp> เรียกกลับการ์ด<zwsp>ใบ<zwsp>นี้",
+      "name": "เกาะ<zwsp>ติด",
+      "nameRef": "Attach"
+    },
+    {
       "description": "",
-      "name": "Noxus",
+      "name": "น็อก<zwsp>ซัส",
       "nameRef": "Noxus"
     },
     {
       "description": "การ์ดชั่วคราวจะหายไปจากมือ<br>เมื่อจบรอบ",
-      "name": "ชั่ว<zwsp>คราว",
+      "name": "ชั่วคราว",
       "nameRef": "Fleeting"
     },
     {
       "description": "จั่ว<zwsp>การ์ด<zwsp>ที่<zwsp>ไม่<zwsp>ใช่<zwsp>แชม<zwsp>เปี้ยน<zwsp>จาก<zwsp>ล่าง<zwsp>เด็ค<zwsp>ของ<zwsp>ศัตรู",
-      "name": "ฉก<zwsp>ฉวย",
+      "name": "ฉกฉวย",
       "nameRef": "Nab"
     },
     {
       "description": "ไม่สามารถร่ายในระหว่างการ<br>ต่อสู้หรือในขณะที่เวทอื่นกำลัง<br>รอดำเนินการได้ จะร่ายในทันที",
-      "name": "โฟ<zwsp>กัส",
+      "name": "โฟกัส",
       "nameRef": "Focus"
     },
     {
       "description": "คุณรู้แจ้งเมื่อคุณมีมานาเต็ม<br>10 หน่วย",
-      "name": "รู้<zwsp>แจ้ง",
+      "name": "รู้แจ้ง",
       "nameRef": "Enlightened"
     },
     {
       "description": "เลือกการ์ดสรวงสวรรค์หนึ่งใบจากที่มีให้เลือก 3 ใบ<br>เพื่อสร้างการ์ดนั้นในมือ",
-      "name": "อ้อน<zwsp>วอน",
+      "name": "อ้อนวอน",
       "nameRef": "Invoke"
     },
     {
       "description": "ติดการ์ดนี้ไปกับการ์ดอื่นเป็น<br>กับดัก เมื่อจั่วการ์ดที่ติดกับดัก ความสามารถจะเกิดผล",
-      "name": "กับ<zwsp>ดัก",
+      "name": "กับดัก",
       "nameRef": "Autoplay"
     },
     {
       "description": "ฮีลเน็กซัสของคุณเท่ากับ<br>ปริมาณความเสียหายที่สร้าง",
-      "name": "ดูด<zwsp>พลัง",
+      "name": "ดูดพลัง",
       "nameRef": "Drain"
     },
     {
       "description": "ความสามารถเหล่านี้มีผลเมื่อ<br>ยูนิตตาย",
-      "name": "สิ้น<zwsp>ลม",
+      "name": "สิ้นลม",
       "nameRef": "LastBreath"
     },
     {
       "description": "",
-      "name": "Demacia",
+      "name": "เด<zwsp>มา<zwsp>เซีย",
       "nameRef": "Demacia"
     },
     {
       "description": "แชมเปี้ยนจะเลเวลอัปเมื่อ<br>ทำตามเงื่อนไขที่กำหนด แม้แชมเปี้ยนจะอยู่ในมือหรือ<br>ในเด็คก็ตาม",
-      "name": "เล<zwsp>เวล<zwsp>อัป",
+      "name": "เลเวลอัป",
       "nameRef": "LevelUp"
     },
     {
-      "description": " ยอร์<zwsp>เดิล!",
-      "name": "Bandle City",
+      "description": " ยอร์เดิล!",
+      "name": "แบน<zwsp>เดิล<zwsp>ซิ<zwsp>ตี้",
       "nameRef": "BandleCity"
     },
     {
@@ -264,17 +269,17 @@
     },
     {
       "description": "",
-      "name": "Bilgewater",
+      "name": "บิลจ์<zwsp>วอ<zwsp>เตอร์",
       "nameRef": "Bilgewater"
     },
     {
       "description": "เรียกยูนิตหนึ่งใบกลับขึ้นมือ และลบผลทุกอย่างที่มีผล<br>กับยูนิตนั้น",
-      "name": "เรียก<zwsp>กลับ",
+      "name": "เรียกกลับ",
       "nameRef": "Recall"
     },
     {
-      "description": "ยู<zwsp>นิต<zwsp>ที่<zwsp>มี<zwsp>พลัง<zwsp>โจม<zwsp>ตี<zwsp>ต่ำ<zwsp>สุด <zwsp>หาก<zwsp>มี<zwsp>การ<zwsp>เสมอ<zwsp>กัน <zwsp>ให้<zwsp>ดู<zwsp>พลัง<zwsp>ชี<zwsp>วิต<zwsp>ต่ำ<zwsp>สุด <zwsp>แล้ว<zwsp>ตาม<zwsp>ด้วย<zwsp>ค่า<zwsp>ร่าย<zwsp>ต่ำ<zwsp>สุด",
-      "name": "อ่อน<zwsp>แอ<zwsp>ที่<zwsp>สุด",
+      "description": "ยูนิตที่มีพลังโจมตีต่ำสุด หากมีการเสมอกัน ให้ดูพลังชีวิตต่ำสุด แล้วตามด้วยค่าร่ายต่ำสุด",
+      "name": "อ่อนแอที่สุด",
       "nameRef": "Weakest"
     },
     {
@@ -284,22 +289,22 @@
     },
     {
       "description": "การ์ดที่ถูกนำออกจากเกมโดย<br>สมบูรณ์ สิ้นลม จะไม่ทำงาน และไม่สามารถคืนชีพได้",
-      "name": "ทำ<zwsp>ลาย<zwsp>ล้าง",
+      "name": "ทำลายล้าง",
       "nameRef": "Obliterate"
     },
     {
-      "description": "ความ<zwsp>สา<zwsp>มารถ<zwsp>เหล่า<zwsp>นี้<zwsp>มี<zwsp>ผล<zwsp>เมื่อ<zwsp>คุณ<zwsp>ร่าย<zwsp>เวท<zwsp>สำ<zwsp>เร็จ",
-      "name": "กระ<zwsp>ตุ้น",
+      "description": "ความสามารถเหล่านี้มีผลเมื่อคุณร่ายเวทสำเร็จ",
+      "name": "กระตุ้น",
       "nameRef": "Imbue"
     },
     {
       "description": "",
-      "name": "Targon",
+      "name": "ทาร์<zwsp>กอน",
       "nameRef": "MtTargon"
     },
     {
       "description": "",
-      "name": "Shadow Isles",
+      "name": "เกาะ<zwsp>แห่ง<zwsp>เงา",
       "nameRef": "ShadowIsles"
     },
     {
@@ -309,32 +314,32 @@
     },
     {
       "description": "",
-      "name": "Ionia",
+      "name": "ไอ<zwsp>โอ<zwsp>เนีย",
       "nameRef": "Ionia"
     },
     {
-      "description": "ได้<zwsp>โบ<zwsp>นัส<zwsp>ถ้า<zwsp>การ์ด<zwsp>ใบ<zwsp>นี้<zwsp>ไม่<zwsp>ใช่<zwsp>ใบ<zwsp>แรก<zwsp>ที่<zwsp>คุณ<zwsp>เล่น<zwsp>ใน<zwsp>รอบ<zwsp>นี้",
-      "name": "พลบ<zwsp>ค่ำ",
+      "description": "ได้โบนัสถ้าการ์ดใบนี้ไม่ใช่ใบแรกที่คุณเล่นในรอบนี้",
+      "name": "พลบค่ำ",
       "nameRef": "Nightfall"
     },
     {
       "description": "",
-      "name": "Piltover & Zaun",
+      "name": "พิล<zwsp>โท<zwsp>เวอร์ <zwsp>& <zwsp>ซอน",
       "nameRef": "PiltoverZaun"
     },
     {
       "description": "",
-      "name": "Freljord",
+      "name": "เฟรล<zwsp>ยอร์ด",
       "nameRef": "Freljord"
     },
     {
-      "description": "เมื่อ<zwsp>การ์ด<zwsp>ใบ<zwsp>นี้<zwsp>ถูก<zwsp>อัญ<zwsp>เชิญ <zwsp>ฟื้น<zwsp>ฟู<zwsp>มา<zwsp>นา<zwsp>เวท <zwsp>1 <zwsp>หน่วย",
-      "name": "ชำ<zwsp>นาญ<zwsp>เวท",
+      "description": "เมื่อการ์ดใบนี้ถูกอัญเชิญ ฟื้นฟูมานาเวท 1 หน่วย",
+      "name": "ชำนาญเวท",
       "nameRef": "Attune"
     },
     {
-      "description": "ได้<zwsp>โบ<zwsp>นัส<zwsp>ถ้า<zwsp>การ์ด<zwsp>ใบ<zwsp>นี้<zwsp>เป็น<zwsp>ใบ<zwsp>แรก<zwsp>ที่<zwsp>คุณ<zwsp>เล่น<zwsp>ใน<zwsp>รอบ<zwsp>นี้",
-      "name": "รุ่ง<zwsp>อรุณ",
+      "description": "ได้โบนัสถ้าการ์ดใบนี้เป็นใบแรกที่คุณเล่นในรอบนี้",
+      "name": "รุ่งอรุณ",
       "nameRef": "Daybreak"
     },
     {
@@ -348,18 +353,18 @@
       "nameRef": "Skill"
     },
     {
-      "description": "เมื่อ<zwsp>โจม<zwsp>ตี <zwsp>มัน<zwsp>จะ<zwsp>จู่<zwsp>โจม<zwsp>ก่อน <zwsp>แล้ว<zwsp>จู่<zwsp>โจม<zwsp>พร้อม<zwsp>กับ<zwsp>ผู้<zwsp>ป้อง<zwsp>กัน<zwsp>อีก<zwsp>ครั้ง",
-      "name": "โจม<zwsp>ตี<zwsp>สอง<zwsp>ครั้ง",
+      "description": "เมื่อโจมตี มันจะจู่โจมก่อน แล้วจู่โจมพร้อมกับผู้ป้องกันอีกครั้ง",
+      "name": "โจมตีสองครั้ง",
       "nameRef": "DoubleStrike"
     },
     {
       "description": "ศัตรูสามารถท้าชิงยูนิตนี้ได้และ<br>บังคับให้ต้องบล็อก",
-      "name": "เปราะ<zwsp>บาง",
+      "name": "เปราะบาง",
       "nameRef": "Vulnerable"
     },
     {
       "description": "ยูนิตว่องไวเท่านั้นที่สามารถ<br>บล็อกยูนิตนี้ได้",
-      "name": "ว่อง<zwsp>ไว",
+      "name": "ว่องไว",
       "nameRef": "Elusive"
     },
     {
@@ -369,174 +374,179 @@
     },
     {
       "description": "ครั้งแรกที่การ์ดพันธมิตรเล็ง<br>เป้าหมายการ์ดใบนี้ในทุกรอบ มอบ +1|+1 แก่การ์ดใบนี้",
-      "name": "โชค<zwsp>ชะ<zwsp>ตา",
+      "name": "โชคชะตา",
       "nameRef": "Fated"
     },
     {
       "description": "Missing Translation",
-      "name": "สา<zwsp>มารถ<zwsp>บล็อค Elusives <zwsp>ได้",
+      "name": "สามารถบล็อค Elusives ได้",
       "nameRef": "BlockElusive"
     },
     {
-      "description": "เมื่อ<zwsp>การ์ด<zwsp>ใบ<zwsp>นี้<zwsp>สัง<zwsp>หาร<zwsp>ยู<zwsp>นิต<zwsp>ได้<zwsp> มอบ +1|+1 ให้<zwsp>มัน",
+      "description": "เมื่อการ์ดใบนี้สังหารยูนิตได้ มอบ +1|+1 ให้มัน",
       "name": "โทสะ",
       "nameRef": "Fury"
     },
     {
       "description": "ลบล้างความเสียหายต่อไปที่<br>ยูนิตจะได้รับ มีผลหนึ่งรอบ",
-      "name": "บา<zwsp>เรีย",
+      "name": "บาเรีย",
       "nameRef": "Barrier"
     },
     {
       "description": "ไม่สามารถสั่งโจมตีหรือ<br>สั่งบล็อกได้",
-      "name": "เคลื่อน<zwsp>ไหว<zwsp>ไม่<zwsp>ได้",
+      "name": "เคลื่อนไหวไม่ได้",
       "nameRef": "Immobile"
     },
     {
       "description": "เปลี่ยนให้พลังโจมตีของยูนิต<br>หนึ่งใบเป็น 0 ในรอบนี้ สามารถเปลี่ยนต่อได้หลังจากนี้",
-      "name": "แช่<zwsp>แข็ง",
+      "name": "แช่แข็ง",
       "nameRef": "Frostbite"
     },
     {
       "description": "ความเสียหายส่วนที่เกินจาก<br>พลังชีวิตของผู้ป้องกันจะนำไป<br>สร้างความเสียหายแก่เน็กซัส<zwsp>ของศัตรู",
-      "name": "ทะ<zwsp>ลวง",
+      "name": "ทะลวง",
       "nameRef": "Overwhelm"
     },
     {
-      "description": "เมื่อ<zwsp>โจม<zwsp>ตี <zwsp>มัน<zwsp>จะ<zwsp>จู่<zwsp>โจม<zwsp>ก่อน<zwsp>ผู้<zwsp>ป้อง<zwsp>กัน",
-      "name": "โจม<zwsp>ตี<zwsp>ก่อน",
+      "description": "เมื่อโจมตี มันจะจู่โจมก่อนผู้ป้องกัน",
+      "name": "โจมตีก่อน",
       "nameRef": "QuickStrike"
     },
     {
       "description": "ได้รับความเสียหายทุกอย่าง<br>น้อยลง 1 หน่วย",
-      "name": "ทน<zwsp>ทาน",
+      "name": "ทนทาน",
       "nameRef": "Tough"
     },
     {
-      "description": "ฮีล<zwsp>จน<zwsp>เต็ม<zwsp>เมื่อ<zwsp>แต่<zwsp>ละ<zwsp>รอบ<zwsp>สิ้น<zwsp>สุด",
-      "name": "ฟื้น<zwsp>ฟู",
+      "description": "ฮีลจนเต็มเมื่อแต่ละรอบสิ้นสุด",
+      "name": "ฟื้นฟู",
       "nameRef": "Regeneration"
     },
     {
-      "description": "ลบ<zwsp>ข้อ<zwsp>ความ<zwsp>และ<zwsp>คีย์<zwsp>เวิร์ด<zwsp>ทั้ง<zwsp>หมด<zwsp>ออก<zwsp>จาก<zwsp>ยู<zwsp>นิต",
+      "description": "ลบข้อความและคีย์เวิร์ดทั้งหมดออกจากยูนิต",
       "name": "ใบ้",
       "nameRef": "Silenced"
     },
     {
       "description": "ลบล้างเวทหรือสกิลถัดไป<br>ของศัตรูที่อาจจะส่งผลกับ<br>การ์ดใบนี้",
-      "name": "โล่<zwsp>เวท",
+      "name": "โล่เวท",
       "nameRef": "SpellShield"
     },
     {
       "description": "ฟื้นพลังแก่เน็กซัสตามปริมาณ<br>ความเสียหายที่ยูนิตนี้ทำได้",
-      "name": "ดูด<zwsp>เลือด",
+      "name": "ดูดเลือด",
       "nameRef": "Lifesteal"
     },
     {
-      "description": "เมื่อ<zwsp>คุณ<zwsp>เล่น<zwsp>การ์ด<zwsp>ที่<zwsp>ถูก<zwsp>สร้าง<zwsp> มอบ +1|+0 แก่<zwsp>การ์ด<zwsp>ใบ<zwsp>นี้",
-      "name": "แต่ง<zwsp>เติม",
+      "description": "เมื่อคุณเล่นการ์ดที่ถูกสร้าง มอบ +1|+0 แก่การ์ดใบนี้",
+      "name": "แต่งเติม",
       "nameRef": "Augment"
     },
     {
       "description": "เมื่อการ์ดใบนี้ได้จู่โจมขณะโจมตี มันจะสร้างความเสียหาย<br>1 หน่วยแก่เน็กซัสของศัตรู<br>คีย์เวิร์ดนี้สามารถซ้อนกัน<br>ได้หลายครั้ง",
-      "name": "สะ<zwsp>เทือน",
+      "name": "สะเทือน",
       "nameRef": "Impact"
     },
     {
       "description": "หากการโจมตีครั้งแรกในแต่<br>ละรอบมีแต่ยูนิตสอดแนม<br>อย่างเดียว คุณจะสามารถเตรียมพร้อม<br>การโจมตีครั้งที่สองได้",
-      "name": "สอด<zwsp>แนม",
+      "name": "สอดแนม",
       "nameRef": "Scout"
     },
     {
       "description": "ยูนิตนี้ตายเมื่อมันจู่โจมหรือ<br>เมื่อจบรอบ",
-      "name": "ไร้<zwsp>ตัว<zwsp>ตน",
+      "name": "ไร้ตัวตน",
       "nameRef": "Ephemeral"
     },
     {
       "description": "เมื่อคุณโจมตีขณะที่การ์ดใบนี้<br>อยู่บนสุดของเด็ค<br>การ์ดใบนี้จะดักซุ่ม มอบ +1|+0<br>ให้แก่การ์ดพันธมิตรผู้ดักซุ่ม<br>ทุกหนแห่ง<br>ทำงานสูงสุดหนึ่งครั้งต่อรอบ",
-      "name": "ดัก<zwsp>ซุ่ม",
+      "name": "ดักซุ่ม",
       "nameRef": "Lurker"
     },
     {
+      "description": "การ์ด<zwsp>ใบ<zwsp>นี้<zwsp>จู่<zwsp>โจม<zwsp>ด้วย<zwsp>พลัง<zwsp>ชี<zwsp>วิต<zwsp>แทน<zwsp>พลัง<zwsp>โจม<zwsp>ตี",
+      "name": "น่า<zwsp>เกรง<zwsp>ขาม",
+      "nameRef": "Formidable"
+    },
+    {
       "description": "สามารถเลือกได้ว่าจะให้ยูนิตศัตรู<br>ตัวใดบล็อกตัวนี้",
-      "name": "ผู้<zwsp>ท้า<zwsp>ชิง",
+      "name": "ผู้ท้าชิง",
       "nameRef": "Challenger"
     },
     {
       "description": "ศัตรูที่มีพลังโจมตี<br>3 หน่วยขึ้นไปเท่านั้นที่สามารถ<br>บล็อกยูนิตนี้ได้",
-      "name": "น่า<zwsp>สะ<zwsp>พรึง",
+      "name": "น่าสะพรึง",
       "nameRef": "Fearsome"
     },
     {
       "description": "",
-      "name": "สั่ง<zwsp>บล็อก<zwsp>ไม่<zwsp>ได้",
+      "name": "สั่งบล็อกไม่ได้",
       "nameRef": "CantBlock"
     },
     {
       "description": "",
-      "name": "ดำ<zwsp>ดิ่ง",
+      "name": "ดำดิ่ง",
       "nameRef": "Deep"
     }
   ],
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/th_th/img/regions/icon-targon.png",
-      "name": "Targon",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/th_th/img/regions/icon-targon.png",
+      "name": "ทาร์<zwsp>กอน",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/th_th/img/regions/icon-noxus.png",
-      "name": "Noxus",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/th_th/img/regions/icon-noxus.png",
+      "name": "น็อก<zwsp>ซัส",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/th_th/img/regions/icon-demacia.png",
-      "name": "Demacia",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/th_th/img/regions/icon-demacia.png",
+      "name": "เด<zwsp>มา<zwsp>เซีย",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/th_th/img/regions/icon-freljord.png",
-      "name": "Freljord",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/th_th/img/regions/icon-freljord.png",
+      "name": "เฟรล<zwsp>ยอร์ด",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/th_th/img/regions/icon-shadowisles.png",
-      "name": "Shadow Isles",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/th_th/img/regions/icon-shadowisles.png",
+      "name": "เกาะ<zwsp>แห่ง<zwsp>เงา",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/th_th/img/regions/icon-ionia.png",
-      "name": "Ionia",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/th_th/img/regions/icon-ionia.png",
+      "name": "ไอ<zwsp>โอ<zwsp>เนีย",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/th_th/img/regions/icon-shurima.png",
-      "name": "Shurima",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/th_th/img/regions/icon-shurima.png",
+      "name": "ชู<zwsp>ริ<zwsp>ม่า",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/th_th/img/regions/icon-bilgewater.png",
-      "name": "Bilgewater",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/th_th/img/regions/icon-bilgewater.png",
+      "name": "บิลจ์<zwsp>วอ<zwsp>เตอร์",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/th_th/img/regions/icon-piltoverzaun.png",
-      "name": "Piltover & Zaun",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/th_th/img/regions/icon-piltoverzaun.png",
+      "name": "พิล<zwsp>โท<zwsp>เวอร์ <zwsp>& <zwsp>ซอน",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/th_th/img/regions/icon-bandlecity.png",
-      "name": "Bandle City",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/th_th/img/regions/icon-bandlecity.png",
+      "name": "แบน<zwsp>เดิล<zwsp>ซิ<zwsp>ตี้",
       "nameRef": "BandleCity"
     }
   ],
@@ -546,7 +556,7 @@
       "nameRef": "Slow"
     },
     {
-      "name": "ฉับ<zwsp>พลัน",
+      "name": "ฉับพลัน",
       "nameRef": "Burst"
     },
     {
@@ -556,7 +566,7 @@
   ],
   "rarities": [
     {
-      "name": "คอม<zwsp>มอน",
+      "name": "คอมมอน",
       "nameRef": "Common"
     },
     {
@@ -564,47 +574,47 @@
       "nameRef": "Rare"
     },
     {
-      "name": "อี<zwsp>ปิค",
+      "name": "อีปิค",
       "nameRef": "Epic"
     },
     {
-      "name": "แชม<zwsp>เปี้ยน",
+      "name": "แชมเปี้ยน",
       "nameRef": "Champion"
     },
     {
-      "name": "ไม่<zwsp>มี",
+      "name": "ไม่มี",
       "nameRef": "None"
     }
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/th_th/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/th_th/img/sets/set3.png",
       "name": "Call of the Mountain",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/th_th/img/sets/set5.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/th_th/img/sets/set5.png",
       "name": "Beyond the Bandlewood",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/th_th/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/th_th/img/sets/set1.png",
       "name": "Foundations",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/th_th/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/th_th/img/sets/set2.png",
       "name": "Rising Tides",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/th_th/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/th_th/img/sets/set4.png",
       "name": "Empires of the Ascended",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_1_0/core/th_th/img/sets/setevent.png",
-      "name": "อี<zwsp>เวนต์",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_2_0/core/th_th/img/sets/setevent.png",
+      "name": "อีเวนต์",
       "nameRef": "SetEvent"
     }
   ]
