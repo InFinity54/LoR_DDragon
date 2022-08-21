@@ -6,6 +6,29 @@ This document list all patchs from previous major versions added to this reposit
 ## List of all patchs added from previous major versions
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs included in this repository so far (current season excluded) :
 
+- (August 21th, 2022) 2.21.0
+- (August 21th, 2022) 2.20.0
+- (August 20th, 2022) 2.19.0
+- (August 20th, 2022) 2.18.0
+- (August 20th, 2022) 2.17.0
+- (August 20th, 2022) 2.16.0
+- (August 19th, 2022) 2.15.0
+- (August 18th, 2022) 2.14.0
+- (August 18th, 2022) 2.13.0
+- (August 18th, 2022) 2.12.0
+- (August 18th, 2022) 2.11.0
+- (August 17th, 2022) 2.10.0
+- (August 17th, 2022) 2.9.0
+- (August 17th, 2022) 2.8.0
+- (August 17th, 2022) 2.7.0
+- (August 17th, 2022) 2.6.0
+- (August 17th, 2022) 2.5.0
+- (August 16th, 2022) 2.4.0
+- (August 16th, 2022) 2.3.0
+- (August 16th, 2022) 2.2.0
+- (August 16th, 2022) 2.1.0
+- (August 16th, 2022) 2.0.0
+
 - (August 16th, 2022) 1.16.0
 - (August 15th, 2022) 1.15.0
 - (August 15th, 2022) 1.14.0
