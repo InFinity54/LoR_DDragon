@@ -26,6 +26,11 @@
       "nameRef": "Support"
     },
     {
+      "description": "L'effetto si attiva quando l'unità colpisce con un attacco",
+      "name": "Attacco a segno",
+      "nameRef": "AttackStrike"
+    },
+    {
       "description": "Potere più alto, spareggio con la Salute più alta e poi con il Costo più alto.",
       "name": "Più forte",
       "nameRef": "Strongest"
@@ -363,6 +368,11 @@
       "nameRef": "Stun"
     },
     {
+      "description": "La prima volta che una carta alleata mi bersaglia in un turno, conferiscimi +1|+1.",
+      "name": "Destino",
+      "nameRef": "Fated"
+    },
+    {
       "description": "Missing Translation",
       "name": "Può bloccare le unità con Elusione",
       "nameRef": "BlockElusive"
@@ -471,61 +481,61 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_20_0/core/it_it/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_21_0/core/it_it/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_20_0/core/it_it/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_21_0/core/it_it/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_20_0/core/it_it/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_21_0/core/it_it/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_20_0/core/it_it/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_21_0/core/it_it/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_20_0/core/it_it/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_21_0/core/it_it/img/regions/icon-shadowisles.png",
       "name": "Isole Ombra",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_20_0/core/it_it/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_21_0/core/it_it/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_20_0/core/it_it/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_21_0/core/it_it/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_20_0/core/it_it/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_21_0/core/it_it/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_20_0/core/it_it/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_21_0/core/it_it/img/regions/icon-piltoverzaun.png",
       "name": "Piltover e Zaun",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_20_0/core/it_it/img/regions/icon-bandlecity.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_21_0/core/it_it/img/regions/icon-bandlecity.png",
       "name": "Bandle City",
       "nameRef": "BandleCity"
     }
@@ -568,32 +578,32 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_20_0/core/it_it/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_21_0/core/it_it/img/sets/set3.png",
       "name": "La chiamata della montagna",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_20_0/core/it_it/img/sets/set1.png",
-      "name": "Fondamenta",
-      "nameRef": "Set1"
-    },
-    {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_20_0/core/it_it/img/sets/set2.png",
-      "name": "Alte maree",
-      "nameRef": "Set2"
-    },
-    {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_20_0/core/it_it/img/sets/set4.png",
-      "name": "Gli imperi degli Ascesi",
-      "nameRef": "Set4"
-    },
-    {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_20_0/core/it_it/img/sets/set5.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_21_0/core/it_it/img/sets/set5.png",
       "name": "Oltre la foresta di Bandle",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/2_20_0/core/it_it/img/sets/setevent.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_21_0/core/it_it/img/sets/set1.png",
+      "name": "Fondamenta",
+      "nameRef": "Set1"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_21_0/core/it_it/img/sets/set2.png",
+      "name": "Alte maree",
+      "nameRef": "Set2"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_21_0/core/it_it/img/sets/set4.png",
+      "name": "Gli imperi degli Ascesi",
+      "nameRef": "Set4"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/2_21_0/core/it_it/img/sets/setevent.png",
       "name": "Eventi",
       "nameRef": "SetEvent"
     }
