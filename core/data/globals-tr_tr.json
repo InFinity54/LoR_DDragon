@@ -6,12 +6,12 @@
       "nameRef": "Allegiance"
     },
     {
-      "description": "Aphelios'un bir sonraki ay silahını seçersin.",
+      "description": "Aphelios'un bir sonraki Ay Silahı'nı seçersin.",
       "name": "Geçiş Yap",
       "nameRef": "Phase"
     },
     {
-      "description": "Kılıcı tamir etmek için halen gereken rasgele bir Kılıç Kırığı oluşturursun. 3 kırığı da oluşturduğunda Sürgün Kılıcı ortaya çıkar.",
+      "description": "Kılıcı tamir etmek için halen gereken rasgele bir Kılıç Kırığı oluşturursun. 3 kırığı da oynadığında Sürgün Kılıcı ortaya çıkar.",
       "name": "Yeniden Döv",
       "nameRef": "Reforge"
     },
@@ -163,7 +163,7 @@
       "nameRef": "SpellOverwhelm"
     },
     {
-      "description": "Anlık büyüler hemen yapılır. Bu büyüler bitmeden düşman eyleme geçemez.",
+      "description": "Hamle yapabildiğin her durumda oynanabilir. Anlık olarak gerçekleşir ve başka kartlar oynamaya devam edebilirsin.",
       "name": "Anlık",
       "nameRef": "Burst"
     },
@@ -218,7 +218,7 @@
       "nameRef": "Nab"
     },
     {
-      "description": "Çatışma sırasında veya sırasını bekleyen başka büyüler varken yapılamaz. Hemen devreye girer.",
+      "description": "Çatışma dışında veya sırasını bekleyen başka bir büyü ya da yetenek yokken oynanabilir. Anlık olarak gerçekleşir ve başka kartlar oynamaya devam edebilirsin.",
       "name": "Odaklama",
       "nameRef": "Focus"
     },
@@ -263,7 +263,7 @@
       "nameRef": "BandleCity"
     },
     {
-      "description": "Hızlı büyüler her zaman oynanabilir ama rakibin karşılık vermesine de fırsat tanır.",
+      "description": "Hamle yapabildiğin her durumda oynanabilir. Rakibine karşılık verme şansı sunduktan sonra gerçekleşir.",
       "name": "Hızlı",
       "nameRef": "Fast"
     },
@@ -283,7 +283,7 @@
       "nameRef": "Weakest"
     },
     {
-      "description": "Yavaş büyüler çatışma ve diğer kullanımlar dışında yapılabilir. Düşman buna yanıt verebilir.",
+      "description": "Çatışma dışında, sırasını bekleyen başka bir büyü ya da yetenek yokken oynanabilir. Rakibine karşılık verme şansı sunduktan sonra gerçekleşir.",
       "name": "Yavaş",
       "nameRef": "Slow"
     },
@@ -491,61 +491,61 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/tr_tr/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/tr_tr/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/tr_tr/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/tr_tr/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/tr_tr/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/tr_tr/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/tr_tr/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/tr_tr/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/tr_tr/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/tr_tr/img/regions/icon-shadowisles.png",
       "name": "Gölge Adalar",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/tr_tr/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/tr_tr/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/tr_tr/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/tr_tr/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/tr_tr/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/tr_tr/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/tr_tr/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/tr_tr/img/regions/icon-piltoverzaun.png",
       "name": "Piltover ve Zaun",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/tr_tr/img/regions/icon-bandlecity.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/tr_tr/img/regions/icon-bandlecity.png",
       "name": "Bandle Şehri",
       "nameRef": "BandleCity"
     }
@@ -588,32 +588,32 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/tr_tr/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/tr_tr/img/sets/set3.png",
       "name": "Dağın Çağrısı",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/tr_tr/img/sets/set5.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/tr_tr/img/sets/set5.png",
       "name": "Bandle Ormanı'nın Ötesi",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/tr_tr/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/tr_tr/img/sets/set1.png",
       "name": "Temeller",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/tr_tr/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/tr_tr/img/sets/set2.png",
       "name": "Yükselen Dalgalar",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/tr_tr/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/tr_tr/img/sets/set4.png",
       "name": "Yükselmişlerin İmparatorlukları",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/tr_tr/img/sets/setevent.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/tr_tr/img/sets/setevent.png",
       "name": "Etkinlikler",
       "nameRef": "SetEvent"
     }

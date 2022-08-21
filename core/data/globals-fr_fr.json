@@ -11,7 +11,7 @@
       "nameRef": "Phase"
     },
     {
-      "description": "Créez 1 fragment de lame aléatoire parmi ceux manquants pour la restauration de la lame. Une fois que les 3 fragments ont été lancés, créez la Lame de l'exilée.",
+      "description": "Créez 1 Fragment de lame aléatoire parmi ceux manquants pour la restauration de la lame. Une fois que les 3 fragments ont été lancés, créez la Lame de l'exilée.",
       "name": "Reforger",
       "nameRef": "Reforge"
     },
@@ -163,7 +163,7 @@
       "nameRef": "SpellOverwhelm"
     },
     {
-      "description": "Les sorts instantanés sont lancés et résolus immédiatement. L'ennemi ne peut pas agir avant leur résolution.",
+      "description": "Peut-être lancé à n'importe quel moment où vous pouvez agir. Se résout instantanément et vous permet de continuer à jouer des cartes.",
       "name": "Instantané",
       "nameRef": "Burst"
     },
@@ -218,7 +218,7 @@
       "nameRef": "Nab"
     },
     {
-      "description": "Ne peut pas être lancé en cours de combat ou lorsque d'autres sorts attendent d'être résolus. Se lance immédiatement.",
+      "description": "Peut être lancé en dehors des combats ou quand aucun sort ou compétence n'est en cours de résolution. Se résout instantanément et vous permet de continuer à jouer des cartes.",
       "name": "Focalisé",
       "nameRef": "Focus"
     },
@@ -263,7 +263,7 @@
       "nameRef": "BandleCity"
     },
     {
-      "description": "Les sorts rapides peuvent être joués à tout moment, mais l'adversaire peut riposter.",
+      "description": "Peut-être lancé à n'importe quel moment où vous pouvez agir. Votre adversaire a une chance de réagir avant la résolution.",
       "name": "Rapide",
       "nameRef": "Fast"
     },
@@ -283,7 +283,7 @@
       "nameRef": "Weakest"
     },
     {
-      "description": "Les sorts lents peuvent être lancés en dehors du combat et des autres sorts. L'ennemi peut riposter.",
+      "description": "Peut être lancé en dehors des combats quand aucun sort ou compétence n'est en cours de résolution. Votre adversaire a une chance de réagir avant la résolution.",
       "name": "Lent",
       "nameRef": "Slow"
     },
@@ -491,61 +491,61 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/fr_fr/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/fr_fr/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/fr_fr/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/fr_fr/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/fr_fr/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/fr_fr/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/fr_fr/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/fr_fr/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/fr_fr/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/fr_fr/img/regions/icon-shadowisles.png",
       "name": "Îles obscures",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/fr_fr/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/fr_fr/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/fr_fr/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/fr_fr/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/fr_fr/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/fr_fr/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/fr_fr/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/fr_fr/img/regions/icon-piltoverzaun.png",
       "name": "Piltover & Zaun",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/fr_fr/img/regions/icon-bandlecity.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/fr_fr/img/regions/icon-bandlecity.png",
       "name": "Bandle",
       "nameRef": "BandleCity"
     }
@@ -588,32 +588,32 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/fr_fr/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/fr_fr/img/sets/set3.png",
       "name": "Appel de la montagne",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/fr_fr/img/sets/set5.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/fr_fr/img/sets/set5.png",
       "name": "Par-delà Bandle",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/fr_fr/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/fr_fr/img/sets/set1.png",
       "name": "Fondations",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/fr_fr/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/fr_fr/img/sets/set2.png",
       "name": "Marée montante",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/fr_fr/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/fr_fr/img/sets/set4.png",
       "name": "Empires des Transfigurés",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/fr_fr/img/sets/setevent.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/fr_fr/img/sets/setevent.png",
       "name": "Événements",
       "nameRef": "SetEvent"
     }

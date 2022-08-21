@@ -11,7 +11,7 @@
       "nameRef": "Phase"
     },
     {
-      "description": "Crie um Fragmento de Lâmina aleatório que ainda falta para restaurar a lâmina. Depois de conjurar os 3, crie a Lâmina do Exílio.",
+      "description": "Crie um Fragmento de Lâmina aleatório que ainda falte para restaurar a lâmina. Depois de jogar os 3, crie a Lâmina do Exílio.",
       "name": "Reforjar",
       "nameRef": "Reforge"
     },
@@ -163,7 +163,7 @@
       "nameRef": "SpellOverwhelm"
     },
     {
-      "description": "Feitiços Súbitos são conjurados instantaneamente. O inimigo não pode agir até que eles terminem.",
+      "description": "Pode ser jogada quando você puder agir. Acontece instantaneamente e permite que você continue jogando outras cartas.",
       "name": "Súbito",
       "nameRef": "Burst"
     },
@@ -218,7 +218,7 @@
       "nameRef": "Nab"
     },
     {
-      "description": "Não pode ser conjurado em combate nem enquanto outros feitiços estiverem pendentes. Tem conjuração instantânea.",
+      "description": "Pode ser jogada fora de combate ou quando não houver feitiços ou habilidades pendentes. Acontece instantaneamente e permite que você continue jogando outras cartas.",
       "name": "Focado",
       "nameRef": "Focus"
     },
@@ -263,7 +263,7 @@
       "nameRef": "BandleCity"
     },
     {
-      "description": "Feitiços Rápidos podem ser lançados a qualquer momento, mas o oponente pode reagir.",
+      "description": "Pode ser jogada quando você puder agir. Acontece depois que seu adversário tiver uma chance de reagir.",
       "name": "Rápido",
       "nameRef": "Fast"
     },
@@ -283,7 +283,7 @@
       "nameRef": "Weakest"
     },
     {
-      "description": "Feitiços Lentos podem ser conjurados fora de combate e de outras conjurações. O inimigo pode reagir.",
+      "description": "Pode ser jogada fora de combate ou quando não houver feitiços ou habilidades pendentes. Acontece depois que seu adversário tiver uma chance de reagir.",
       "name": "Lento",
       "nameRef": "Slow"
     },
@@ -491,61 +491,61 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/pt_br/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/pt_br/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/pt_br/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/pt_br/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/pt_br/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/pt_br/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/pt_br/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/pt_br/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/pt_br/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/pt_br/img/regions/icon-shadowisles.png",
       "name": "Ilhas das Sombras",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/pt_br/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/pt_br/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/pt_br/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/pt_br/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/pt_br/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/pt_br/img/regions/icon-bilgewater.png",
       "name": "Águas de Sentina",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/pt_br/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/pt_br/img/regions/icon-piltoverzaun.png",
       "name": "Piltover e Zaun",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/pt_br/img/regions/icon-bandlecity.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/pt_br/img/regions/icon-bandlecity.png",
       "name": "Bandópolis",
       "nameRef": "BandleCity"
     }
@@ -588,32 +588,32 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/pt_br/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/pt_br/img/sets/set3.png",
       "name": "Chamado da Montanha",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/pt_br/img/sets/set5.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/pt_br/img/sets/set5.png",
       "name": "Além do Bandobosque",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/pt_br/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/pt_br/img/sets/set1.png",
       "name": "Primordiais",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/pt_br/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/pt_br/img/sets/set2.png",
       "name": "Marés Crescentes",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/pt_br/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/pt_br/img/sets/set4.png",
       "name": "Impérios dos Ascendentes",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/pt_br/img/sets/setevent.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/pt_br/img/sets/setevent.png",
       "name": "Eventos",
       "nameRef": "SetEvent"
     }

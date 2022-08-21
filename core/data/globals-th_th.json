@@ -11,7 +11,7 @@
       "nameRef": "Phase"
     },
     {
-      "description": "สุ่มสร้าง Blade Fragment ที่ยังจำเป็นต่อการฟื้นสภาพ<br>ใบดาบ เมื่อคุณร่ายครบแล้ว<br>3 ครั้ง จะสร้าง<br>Blade of the Exile",
+      "description": "สร้าง Blade Fragment ที่จำเป็นต่อการฟื้นสภาพดาบ<zwsp>แบบสุ่มหนึ่งใบ เมื่อคุณเล่นครบทั้ง 3 ใบ สร้าง Blade of the Exile หนึ่งใบ",
       "name": "หล่อหลอม",
       "nameRef": "Reforge"
     },
@@ -163,7 +163,7 @@
       "nameRef": "SpellOverwhelm"
     },
     {
-      "description": "เวทฉับพลันจะถูกร่ายในทันที ศัตรูจะไม่สามารถทำอะไรได้<br>จนกว่าจะร่ายเสร็จ",
+      "description": "สามารถเล่นตอนไหนก็ได้ที่เป็นรอบของคุณ แสดงผลทันทีและยังทำให้คุณเล่นการ์ดอื่น ๆ ต่อได้",
       "name": "ฉับพลัน",
       "nameRef": "Burst"
     },
@@ -218,7 +218,7 @@
       "nameRef": "Nab"
     },
     {
-      "description": "ไม่สามารถร่ายในระหว่างการ<br>ต่อสู้หรือในขณะที่เวทอื่นกำลัง<br>รอดำเนินการได้ จะร่ายในทันที",
+      "description": "สามารถเล่นได้นอกเหนือจาก<zwsp>การต่อสู้และไม่มีเวทหรือสกิล<br>ใด ๆ ที่รอแสดงผลอยู่ แสดงผลทันทีและยังทำให้คุณ<zwsp>เล่นการ์ดอื่น ๆ ต่อได้",
       "name": "โฟกัส",
       "nameRef": "Focus"
     },
@@ -263,7 +263,7 @@
       "nameRef": "BandleCity"
     },
     {
-      "description": "คุณสามารถเล่นเวทเร็วตอน<br>ไหนก็ได้ แต่ศัตรูสามารถโต้ตอบได้",
+      "description": "สามารถเล่นตอนไหนก็ได้ที่เป็น<zwsp>รอบของคุณ แสดงผลหลังจากที่มอบโอกาส<zwsp>ในการตอบสนองให้กับคู่ต่อสู้<zwsp>ของคุณแล้ว",
       "name": "เร็ว",
       "nameRef": "Fast"
     },
@@ -283,7 +283,7 @@
       "nameRef": "Weakest"
     },
     {
-      "description": "เวทช้าสามารถร่ายได้นอกการ<br>ต่อสู้และนอกการร่ายเวทอื่น ศัตรูสามารถโต้ตอบได้",
+      "description": "สามารถเล่นได้นอกเหนือจาก<zwsp>การต่อสู้และไม่มีเวทหรือสกิลใด ๆ ที่รอแสดงผลอยู่ แสดงผลหลังจากที่มอบโอกาส<zwsp>ในการตอบสนองให้กับคู่ต่อสู้<zwsp>ของคุณแล้ว",
       "name": "ช้า",
       "nameRef": "Slow"
     },
@@ -491,61 +491,61 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/th_th/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/th_th/img/regions/icon-targon.png",
       "name": "ทาร์<zwsp>กอน",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/th_th/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/th_th/img/regions/icon-noxus.png",
       "name": "น็อก<zwsp>ซัส",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/th_th/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/th_th/img/regions/icon-demacia.png",
       "name": "เด<zwsp>มา<zwsp>เซีย",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/th_th/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/th_th/img/regions/icon-freljord.png",
       "name": "เฟรล<zwsp>ยอร์ด",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/th_th/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/th_th/img/regions/icon-shadowisles.png",
       "name": "เกาะ<zwsp>แห่ง<zwsp>เงา",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/th_th/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/th_th/img/regions/icon-ionia.png",
       "name": "ไอ<zwsp>โอ<zwsp>เนีย",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/th_th/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/th_th/img/regions/icon-shurima.png",
       "name": "ชู<zwsp>ริ<zwsp>ม่า",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/th_th/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/th_th/img/regions/icon-bilgewater.png",
       "name": "บิลจ์<zwsp>วอ<zwsp>เตอร์",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/th_th/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/th_th/img/regions/icon-piltoverzaun.png",
       "name": "พิล<zwsp>โท<zwsp>เวอร์ <zwsp>& <zwsp>ซอน",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/th_th/img/regions/icon-bandlecity.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/th_th/img/regions/icon-bandlecity.png",
       "name": "แบน<zwsp>เดิล<zwsp>ซิ<zwsp>ตี้",
       "nameRef": "BandleCity"
     }
@@ -588,32 +588,32 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/th_th/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/th_th/img/sets/set3.png",
       "name": "Call of the Mountain",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/th_th/img/sets/set5.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/th_th/img/sets/set5.png",
       "name": "Beyond the Bandlewood",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/th_th/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/th_th/img/sets/set1.png",
       "name": "Foundations",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/th_th/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/th_th/img/sets/set2.png",
       "name": "Rising Tides",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/th_th/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/th_th/img/sets/set4.png",
       "name": "Empires of the Ascended",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/th_th/img/sets/setevent.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/th_th/img/sets/setevent.png",
       "name": "อีเวนต์",
       "nameRef": "SetEvent"
     }

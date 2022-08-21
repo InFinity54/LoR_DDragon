@@ -11,7 +11,7 @@
       "nameRef": "Phase"
     },
     {
-      "description": "隨機生成1張復原刀刃所需的刀刃碎片，生成3張後，即可生成放逐之刃。",
+      "description": "隨機生成1張復原刀刃所需的刀刃碎片，打出全部3張後，即可生成放逐之刃。",
       "name": "重鑄",
       "nameRef": "Reforge"
     },
@@ -163,7 +163,7 @@
       "nameRef": "SpellOverwhelm"
     },
     {
-      "description": "疾速法術會立即施放，效果結束後，敵方才可行動。",
+      "description": "只要你可行動便可打出。會立即結算，且之後能繼續打出其他卡牌。",
       "name": "疾速",
       "nameRef": "Burst"
     },
@@ -218,7 +218,7 @@
       "nameRef": "Nab"
     },
     {
-      "description": "無法在戰鬥中施放，或用來對應其他法術。立即施放。",
+      "description": "可在戰鬥外或沒有其他法術和技能正在等待結算時打出。會立即結算，且之後能繼續打出其他卡牌。",
       "name": "專注",
       "nameRef": "Focus"
     },
@@ -263,7 +263,7 @@
       "nameRef": "BandleCity"
     },
     {
-      "description": "快速法術可以隨時施放，但對手將有機會對應。",
+      "description": "只要你可行動便可打出。在結算前，對手有機會可以反制。",
       "name": "快速",
       "nameRef": "Fast"
     },
@@ -283,7 +283,7 @@
       "nameRef": "Weakest"
     },
     {
-      "description": "慢速法術可在戰鬥外以及未有其他法術時施放，敵方可以對應。",
+      "description": "可在戰鬥外或沒有其他法術和技能正在等待結算時打出。在結算前，對手有機會可以反制。",
       "name": "慢速",
       "nameRef": "Slow"
     },
@@ -491,61 +491,61 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/zh_tw/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/zh_tw/img/regions/icon-targon.png",
       "name": "巨石峰",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/zh_tw/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/zh_tw/img/regions/icon-noxus.png",
       "name": "諾克薩斯",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/zh_tw/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/zh_tw/img/regions/icon-demacia.png",
       "name": "蒂瑪西亞",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/zh_tw/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/zh_tw/img/regions/icon-freljord.png",
       "name": "弗雷爾卓德",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/zh_tw/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/zh_tw/img/regions/icon-shadowisles.png",
       "name": "闇影島",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/zh_tw/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/zh_tw/img/regions/icon-ionia.png",
       "name": "愛歐尼亞",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/zh_tw/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/zh_tw/img/regions/icon-shurima.png",
       "name": "蘇瑞瑪",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/zh_tw/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/zh_tw/img/regions/icon-bilgewater.png",
       "name": "比爾吉沃特",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/zh_tw/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/zh_tw/img/regions/icon-piltoverzaun.png",
       "name": "皮爾托福&佐恩",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/zh_tw/img/regions/icon-bandlecity.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/zh_tw/img/regions/icon-bandlecity.png",
       "name": "班德爾城",
       "nameRef": "BandleCity"
     }
@@ -588,32 +588,32 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/zh_tw/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/zh_tw/img/sets/set3.png",
       "name": "巨石峰之喚",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/zh_tw/img/sets/set5.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/zh_tw/img/sets/set5.png",
       "name": "班德爾森之外",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/zh_tw/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/zh_tw/img/sets/set1.png",
       "name": "基礎",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/zh_tw/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/zh_tw/img/sets/set2.png",
       "name": "洶湧怒濤",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/zh_tw/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/zh_tw/img/sets/set4.png",
       "name": "飛昇帝國",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/zh_tw/img/sets/setevent.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/zh_tw/img/sets/setevent.png",
       "name": "活動",
       "nameRef": "SetEvent"
     }

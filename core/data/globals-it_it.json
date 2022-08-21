@@ -11,7 +11,7 @@
       "nameRef": "Phase"
     },
     {
-      "description": "Crea un Frammento di Lama a caso tra quelli necessari per ripristinare la Lama. Dopo averli lanciati tutti e 3, crea la Lama dell'esiliato.",
+      "description": "Crea un Frammento di Lama tra quelli necessari per ripristinare la Lama. Dopo averli giocati tutti e 3, crea la Lama dell'esiliato.",
       "name": "Riforgia",
       "nameRef": "Reforge"
     },
@@ -163,7 +163,7 @@
       "nameRef": "SpellOverwhelm"
     },
     {
-      "description": "Gli incantesimi con Raffica si lanciano all'istante. Il nemico non può agire prima della loro fine.",
+      "description": "Può essere giocato quando puoi agire. Si verifica all'istante e ti permette di continuare a giocare altre carte.",
       "name": "Raffica",
       "nameRef": "Burst"
     },
@@ -218,7 +218,7 @@
       "nameRef": "Nab"
     },
     {
-      "description": "Non si può lanciare in combattimento o mentre ci sono incantesimi in corso. Si lancia all'istante.",
+      "description": "Può essere giocato fuori dai combattimenti e quando non ci sono incantesimi o abilità in coda. Si verifica all'istante e ti permette di continuare a giocare altre carte.",
       "name": "Concentrazione",
       "nameRef": "Focus"
     },
@@ -263,7 +263,7 @@
       "nameRef": "BandleCity"
     },
     {
-      "description": "Gli incantesimi Veloci possono essere giocati in qualunque momento, ma danno all'avversario la possibilità di rispondere.",
+      "description": "Può essere giocato quando puoi agire. Si verifica dopo che il tuo avversario ha avuto la possibilità di reagire.",
       "name": "Veloce",
       "nameRef": "Fast"
     },
@@ -283,7 +283,7 @@
       "nameRef": "Weakest"
     },
     {
-      "description": "Gli incantesimi Lenti possono essere lanciati fuori dai combattimenti e dagli altri lanci. Il nemico può rispondere.",
+      "description": "Può essere giocato fuori dai combattimenti e quando non ci sono incantesimi o abilità in coda. Si verifica dopo che il tuo avversario ha avuto la possibilità di reagire.",
       "name": "Lento",
       "nameRef": "Slow"
     },
@@ -333,7 +333,7 @@
       "nameRef": "Freljord"
     },
     {
-      "description": "Quando vengo evocato, ripristina 1 mana incantesimo.",
+      "description": "Quando mi evochi, ripristina 1 mana incantesimo.",
       "name": "Armonia",
       "nameRef": "Attune"
     },
@@ -448,7 +448,7 @@
       "nameRef": "Impact"
     },
     {
-      "description": "La prima volta che le unità Esploratore attaccano in ogni turno, prepara il tuo attacco.",
+      "description": "La prima volta che le unità Esploratore attaccano da sole in ogni turno, prepara l'attacco.",
       "name": "Esploratore",
       "nameRef": "Scout"
     },
@@ -491,61 +491,61 @@
   "regions": [
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/it_it/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/it_it/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/it_it/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/it_it/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/it_it/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/it_it/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/it_it/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/it_it/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/it_it/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/it_it/img/regions/icon-shadowisles.png",
       "name": "Isole Ombra",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/it_it/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/it_it/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/it_it/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/it_it/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/it_it/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/it_it/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/it_it/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/it_it/img/regions/icon-piltoverzaun.png",
       "name": "Piltover e Zaun",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/it_it/img/regions/icon-bandlecity.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/it_it/img/regions/icon-bandlecity.png",
       "name": "Bandle City",
       "nameRef": "BandleCity"
     }
@@ -588,32 +588,32 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/it_it/img/sets/set3.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/it_it/img/sets/set3.png",
       "name": "La chiamata della montagna",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/it_it/img/sets/set5.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/it_it/img/sets/set5.png",
       "name": "Oltre la foresta di Bandle",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/it_it/img/sets/set1.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/it_it/img/sets/set1.png",
       "name": "Fondamenta",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/it_it/img/sets/set2.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/it_it/img/sets/set2.png",
       "name": "Alte maree",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/it_it/img/sets/set4.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/it_it/img/sets/set4.png",
       "name": "Gli imperi degli Ascesi",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_4_0/core/it_it/img/sets/setevent.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_6_0/core/it_it/img/sets/setevent.png",
       "name": "Eventi",
       "nameRef": "SetEvent"
     }
