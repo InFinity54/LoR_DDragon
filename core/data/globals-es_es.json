@@ -31,6 +31,11 @@
       "nameRef": "AttackStrike"
     },
     {
+      "description": "Invoca 1 Tentáculo 1|1. Si ya tienes uno, se le concede +1|+1 por cada engendro.",
+      "name": "Engendrar",
+      "nameRef": "Spawn"
+    },
+    {
       "description": "La unidad con mayor poder; si el nivel de poder es el mismo, se tendrá en cuenta la vida más alta y, si no, el coste más alto.",
       "name": "Más fuerte",
       "nameRef": "Strongest"
@@ -79,6 +84,11 @@
       "description": "Una unidad cuenta con una mejora cuando se ha aumentado su vida o su poder, o se le ha otorgado una palabra clave nueva.",
       "name": "Mejorada",
       "nameRef": "Buffed"
+    },
+    {
+      "description": "Este campeón cuenta como una de las regiones de tu mazo. Durante la creación de mazos, puedes añadir las cartas indicadas a tu mazo independientemente de su región. Es posible que los orígenes también contengan un efecto que se active al comienzo de la partida.",
+      "name": "Origen",
+      "nameRef": "Origin"
     },
     {
       "description": "Consigue este efecto cuando una unidad intenta infligir daño con su poder, ya sea al final del combate o con hechizos. Las unidades con 0 de poder no pueden golpear.",
@@ -233,7 +243,12 @@
       "nameRef": "Invoke"
     },
     {
-      "description": "Se adhiere a otra carta y la atrapa. Al robar la carta atrapada, activa su efecto.",
+      "description": "Se adhiere a otra carta en un mazo. Al robar esa carta, el efecto se activa.",
+      "name": "Bendición",
+      "nameRef": "Boon"
+    },
+    {
+      "description": "Se adhiere a otra carta en un mazo. Al robar esa carta, el efecto se activa.",
       "name": "Trampa",
       "nameRef": "Autoplay"
     },
@@ -271,6 +286,11 @@
       "description": "",
       "name": "Aguas Estancadas",
       "nameRef": "Bilgewater"
+    },
+    {
+      "description": "",
+      "name": "Runaterra",
+      "nameRef": "Runeterra"
     },
     {
       "description": "La unidad regresa a la mano y todos los efectos que la afectan desaparecen.",
@@ -490,62 +510,80 @@
   ],
   "regions": [
     {
-      "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/es_es/img/regions/icon-targon.png",
-      "name": "Targon",
-      "nameRef": "Targon"
-    },
-    {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/es_es/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/es_es/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/es_es/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/es_es/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
+      "abbreviation": "Jhin",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/es_es/img/regions/icon-jhin.png",
+      "name": "Jhin",
+      "nameRef": "Jhin"
+    },
+    {
+      "abbreviation": "Bard",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/es_es/img/regions/icon-bard.png",
+      "name": "Bardo",
+      "nameRef": "Bard"
+    },
+    {
+      "abbreviation": "RU",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/es_es/img/regions/icon-runeterra.png",
+      "name": "Runaterra",
+      "nameRef": "Runeterra"
+    },
+    {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/es_es/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/es_es/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/es_es/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/es_es/img/regions/icon-shadowisles.png",
       "name": "Islas de la Sombra",
       "nameRef": "ShadowIsles"
     },
     {
+      "abbreviation": "MT",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/es_es/img/regions/icon-targon.png",
+      "name": "Targon",
+      "nameRef": "Targon"
+    },
+    {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/es_es/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/es_es/img/regions/icon-ionia.png",
       "name": "Jonia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/es_es/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/es_es/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/es_es/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/es_es/img/regions/icon-bilgewater.png",
       "name": "Aguas Estancadas",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/es_es/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/es_es/img/regions/icon-piltoverzaun.png",
       "name": "Piltover y Zaun",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/es_es/img/regions/icon-bandlecity.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/es_es/img/regions/icon-bandlecity.png",
       "name": "Ciudad de Bandle",
       "nameRef": "BandleCity"
     }
@@ -588,32 +626,37 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/es_es/img/sets/set3_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/es_es/img/sets/set3_crispmip.png",
       "name": "La llamada de la montaña",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/es_es/img/sets/set5_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/es_es/img/sets/set5_crispmip.png",
       "name": "Más allá del bosque de Bandle",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/es_es/img/sets/set1_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/es_es/img/sets/set1_crispmip.png",
       "name": "Cimientos",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/es_es/img/sets/set2_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/es_es/img/sets/set2_crispmip.png",
       "name": "Pleamar",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/es_es/img/sets/set4_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/es_es/img/sets/set4_crispmip.png",
       "name": "Imperios de los Ascendidos",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/es_es/img/sets/setevent_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/es_es/img/sets/set6ab_crispmip.png",
+      "name": "Caminante de mundos",
+      "nameRef": "Set6"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/es_es/img/sets/setevent_crispmip.png",
       "name": "Eventos",
       "nameRef": "SetEvent"
     }

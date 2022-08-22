@@ -31,6 +31,11 @@
       "nameRef": "AttackStrike"
     },
     {
+      "description": "1|1の「触手」を1体<br>召喚する。すでに場に<br>出ている場合、<br>「スポーン」のカウント<br>1つにつきそれに<br>+1|+1を付与する。",
+      "name": "スポーン",
+      "nameRef": "Spawn"
+    },
+    {
       "description": "最も攻撃力が高い<br>ユニットを指す。攻撃力が<br>同じ場合は体力<br>次にコストの高さで<br>決定される。",
       "name": "最も強い",
       "nameRef": "Strongest"
@@ -79,6 +84,11 @@
       "description": "攻撃力か体力が上昇した、または新しいキーワードを獲得したユニットは「バフを受けた」状態となる。",
       "name": "バフを受けた",
       "nameRef": "Buffed"
+    },
+    {
+      "description": "このチャンピオンはデッキ<br>構築の際にひとつの地域<br>としてカウントされる。<br>記載された条件に見合う<br>カードであれば、地域に<br>関係なくデッキに入れる<br>ことが可能となる。<br>また、一部の「オリジン」は<br>ゲーム開始時に発動する<br>効果を持つ。",
+      "name": "オリジン",
+      "nameRef": "Origin"
     },
     {
       "description": "戦闘またはスペルの<br>効果によって、ユニットが<br>自身の攻撃力でダメージを<br>与えようとした際に<br>効果が発動する。<br>攻撃力が0のユニットは<br>ストライクできない。",
@@ -233,7 +243,12 @@
       "nameRef": "Invoke"
     },
     {
-      "description": "他のカードにくっつき、<br>トラップを仕掛ける。<br>トラップを仕掛けられた<br>カードが引かれると、<br>効果が発動する。",
+      "description": "他のカードにくっつき、<br>そのカードが引かれると<br>効果が発動する。",
+      "name": "加護",
+      "nameRef": "Boon"
+    },
+    {
+      "description": "他のカードにくっつき、<br>そのカードが引かれると<br>効果が発動する。",
       "name": "トラップ",
       "nameRef": "Autoplay"
     },
@@ -271,6 +286,11 @@
       "description": " ",
       "name": "ビルジウォーター",
       "nameRef": "Bilgewater"
+    },
+    {
+      "description": "",
+      "name": "ルーンテラ",
+      "nameRef": "Runeterra"
     },
     {
       "description": "ユニットを1体手札に戻し<br>そのユニットに適用されて<br>いた効果をすべて取り除く。",
@@ -490,62 +510,80 @@
   ],
   "regions": [
     {
-      "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/ja_jp/img/regions/icon-targon.png",
-      "name": "ターゴン",
-      "nameRef": "Targon"
-    },
-    {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/ja_jp/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/ja_jp/img/regions/icon-noxus.png",
       "name": "ノクサス",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/ja_jp/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/ja_jp/img/regions/icon-demacia.png",
       "name": "デマーシア",
       "nameRef": "Demacia"
     },
     {
+      "abbreviation": "Jhin",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/ja_jp/img/regions/icon-jhin.png",
+      "name": "ジン",
+      "nameRef": "Jhin"
+    },
+    {
+      "abbreviation": "Bard",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/ja_jp/img/regions/icon-bard.png",
+      "name": "バード",
+      "nameRef": "Bard"
+    },
+    {
+      "abbreviation": "RU",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/ja_jp/img/regions/icon-runeterra.png",
+      "name": "ルーンテラ",
+      "nameRef": "Runeterra"
+    },
+    {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/ja_jp/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/ja_jp/img/regions/icon-freljord.png",
       "name": "フレヨルド",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/ja_jp/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/ja_jp/img/regions/icon-shadowisles.png",
       "name": "シャドウアイル",
       "nameRef": "ShadowIsles"
     },
     {
+      "abbreviation": "MT",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/ja_jp/img/regions/icon-targon.png",
+      "name": "ターゴン",
+      "nameRef": "Targon"
+    },
+    {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/ja_jp/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/ja_jp/img/regions/icon-ionia.png",
       "name": "アイオニア",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/ja_jp/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/ja_jp/img/regions/icon-shurima.png",
       "name": "シュリーマ",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/ja_jp/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/ja_jp/img/regions/icon-bilgewater.png",
       "name": "ビルジウォーター",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/ja_jp/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/ja_jp/img/regions/icon-piltoverzaun.png",
       "name": "ピルトーヴァー<nobr> & ゾウン</nobr>",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/ja_jp/img/regions/icon-bandlecity.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/ja_jp/img/regions/icon-bandlecity.png",
       "name": "バンドルシティ",
       "nameRef": "BandleCity"
     }
@@ -588,32 +626,37 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/ja_jp/img/sets/set3_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/ja_jp/img/sets/set3_crispmip.png",
       "name": "霊峰の呼び声",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/ja_jp/img/sets/set5_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/ja_jp/img/sets/set5_crispmip.png",
       "name": "バンドルウッドの向こう",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/ja_jp/img/sets/set1_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/ja_jp/img/sets/set1_crispmip.png",
       "name": "スターター",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/ja_jp/img/sets/set2_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/ja_jp/img/sets/set2_crispmip.png",
       "name": "迫り来る波濤",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/ja_jp/img/sets/set4_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/ja_jp/img/sets/set4_crispmip.png",
       "name": "超越者の帝国",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_7_0/core/ja_jp/img/sets/setevent_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/ja_jp/img/sets/set6ab_crispmip.png",
+      "name": "世界を巡る者",
+      "nameRef": "Set6"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/ja_jp/img/sets/setevent_crispmip.png",
       "name": "イベント",
       "nameRef": "SetEvent"
     }

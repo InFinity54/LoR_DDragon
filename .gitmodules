@@ -13,3 +13,6 @@
 [submodule "set5"]
 	path = set5
 	url = https://github.com/InFinity54/LoR_DDragon_Set5
+[submodule "set6"]
+	path = set6
+	url = https://github.com/InFinity54/LoR_DDragon_Set6
