@@ -31,7 +31,7 @@
       "nameRef": "AttackStrike"
     },
     {
-      "description": "อัญเชิญ Tentacle 1|1 หนึ่งใบ หรือหากคุณมีอยู่แล้ว มอบ +1|+1 ให้กับมันตามจำนวนครั้งที่คุณ<br>เรียกพลังเทพีไป",
+      "description": "ตามจำนวนครั้งการเรียก<br>พลังเทพี:<br>อัญเชิญ Tentacle ค่าพลัง 1|1 หนึ่งใบ หรือหากคุณมีอยู่แล้ว มอบ +1|+1 ให้กับ Tentacle ที่แข็งแกร่งที่สุดของคุณแทน",
       "name": "เรียกพลังเทพี",
       "nameRef": "Spawn"
     },
@@ -511,79 +511,79 @@
   "regions": [
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/th_th/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_9_0/core/th_th/img/regions/icon-noxus.png",
       "name": "น็อก<zwsp>ซัส",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/th_th/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_9_0/core/th_th/img/regions/icon-demacia.png",
       "name": "เด<zwsp>มา<zwsp>เซีย",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "Jhin",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/th_th/img/regions/icon-jhin.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_9_0/core/th_th/img/regions/icon-jhin.png",
       "name": "Jhin",
       "nameRef": "Jhin"
     },
     {
       "abbreviation": "Bard",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/th_th/img/regions/icon-bard.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_9_0/core/th_th/img/regions/icon-bard.png",
       "name": "Bard",
       "nameRef": "Bard"
     },
     {
       "abbreviation": "RU",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/th_th/img/regions/icon-runeterra.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_9_0/core/th_th/img/regions/icon-runeterra.png",
       "name": "รูนเทอร์รา",
       "nameRef": "Runeterra"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/th_th/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_9_0/core/th_th/img/regions/icon-freljord.png",
       "name": "เฟรล<zwsp>ยอร์ด",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/th_th/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_9_0/core/th_th/img/regions/icon-shadowisles.png",
       "name": "เกาะ<zwsp>แห่ง<zwsp>เงา",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/th_th/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_9_0/core/th_th/img/regions/icon-targon.png",
       "name": "ทาร์<zwsp>กอน",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/th_th/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_9_0/core/th_th/img/regions/icon-ionia.png",
       "name": "ไอ<zwsp>โอ<zwsp>เนีย",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/th_th/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_9_0/core/th_th/img/regions/icon-shurima.png",
       "name": "ชู<zwsp>ริ<zwsp>ม่า",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/th_th/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_9_0/core/th_th/img/regions/icon-bilgewater.png",
       "name": "บิลจ์<zwsp>วอ<zwsp>เตอร์",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/th_th/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_9_0/core/th_th/img/regions/icon-piltoverzaun.png",
       "name": "พิล<zwsp>โท<zwsp>เวอร์ <zwsp>& <zwsp>ซอน",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/th_th/img/regions/icon-bandlecity.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_9_0/core/th_th/img/regions/icon-bandlecity.png",
       "name": "แบน<zwsp>เดิล<zwsp>ซิ<zwsp>ตี้",
       "nameRef": "BandleCity"
     }
@@ -626,37 +626,37 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/th_th/img/sets/set3_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_9_0/core/th_th/img/sets/set3_crispmip.png",
       "name": "Call of the Mountain",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/th_th/img/sets/set5_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_9_0/core/th_th/img/sets/set5_crispmip.png",
       "name": "Beyond the Bandlewood",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/th_th/img/sets/set1_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_9_0/core/th_th/img/sets/set1_crispmip.png",
       "name": "Foundations",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/th_th/img/sets/set2_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_9_0/core/th_th/img/sets/set2_crispmip.png",
       "name": "Rising Tides",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/th_th/img/sets/set4_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_9_0/core/th_th/img/sets/set4_crispmip.png",
       "name": "Empires of the Ascended",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/th_th/img/sets/set6ab_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_9_0/core/th_th/img/sets/set6ab_crispmip.png",
       "name": "Worldwalker",
       "nameRef": "Set6"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_8_0/core/th_th/img/sets/setevent_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_9_0/core/th_th/img/sets/setevent_crispmip.png",
       "name": "อีเวนต์",
       "nameRef": "SetEvent"
     }
