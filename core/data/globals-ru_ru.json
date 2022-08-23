@@ -363,8 +363,8 @@
       "nameRef": "Daybreak"
     },
     {
-      "description": "Missing Translation",
-      "name": "Может блокировать изворотливых бойцов",
+      "description": "Может блокировать изворотливых бойцов",
+      "name": "Блокирование изворотливости",
       "nameRef": "BlocksElusive"
     },
     {
@@ -526,85 +526,85 @@
   "regions": [
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_12_0/core/ru_ru/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ru_ru/img/regions/icon-noxus.png",
       "name": "Ноксус",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_12_0/core/ru_ru/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ru_ru/img/regions/icon-demacia.png",
       "name": "Демасия",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "Jhin",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_12_0/core/ru_ru/img/regions/icon-jhin.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ru_ru/img/regions/icon-jhin.png",
       "name": "Джин",
       "nameRef": "Jhin"
     },
     {
       "abbreviation": "Evelynn",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_12_0/core/ru_ru/img/regions/icon-evelynn.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ru_ru/img/regions/icon-evelynn.png",
       "name": "Эвелинн",
       "nameRef": "Evelynn"
     },
     {
       "abbreviation": "Bard",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_12_0/core/ru_ru/img/regions/icon-bard.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ru_ru/img/regions/icon-bard.png",
       "name": "Бард",
       "nameRef": "Bard"
     },
     {
       "abbreviation": "RU",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_12_0/core/ru_ru/img/regions/icon-runeterra.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ru_ru/img/regions/icon-runeterra.png",
       "name": "Рунтерра",
       "nameRef": "Runeterra"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_12_0/core/ru_ru/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ru_ru/img/regions/icon-freljord.png",
       "name": "Фрельйорд",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_12_0/core/ru_ru/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ru_ru/img/regions/icon-shadowisles.png",
       "name": "Сумрачные острова",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_12_0/core/ru_ru/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ru_ru/img/regions/icon-targon.png",
       "name": "Таргон",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_12_0/core/ru_ru/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ru_ru/img/regions/icon-ionia.png",
       "name": "Иония",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_12_0/core/ru_ru/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ru_ru/img/regions/icon-shurima.png",
       "name": "Шурима",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_12_0/core/ru_ru/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ru_ru/img/regions/icon-bilgewater.png",
       "name": "Билджвотер",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_12_0/core/ru_ru/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ru_ru/img/regions/icon-piltoverzaun.png",
       "name": "Пилтовер и Заун",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_12_0/core/ru_ru/img/regions/icon-bandlecity.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ru_ru/img/regions/icon-bandlecity.png",
       "name": "Бандл Сити",
       "nameRef": "BandleCity"
     }
@@ -647,37 +647,37 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_12_0/core/ru_ru/img/sets/set3_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ru_ru/img/sets/set3_crispmip.png",
       "name": "Зов Горы",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_12_0/core/ru_ru/img/sets/set5_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ru_ru/img/sets/set5_crispmip.png",
       "name": "Гости из бандлового леса",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_12_0/core/ru_ru/img/sets/set1_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ru_ru/img/sets/set1_crispmip.png",
       "name": "Основы",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_12_0/core/ru_ru/img/sets/set2_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ru_ru/img/sets/set2_crispmip.png",
       "name": "Прилив",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_12_0/core/ru_ru/img/sets/set4_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ru_ru/img/sets/set4_crispmip.png",
       "name": "Империи вознесшихся",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_12_0/core/ru_ru/img/sets/set6ab_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ru_ru/img/sets/set6ab_crispmip.png",
       "name": "Странники",
       "nameRef": "Set6"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_12_0/core/ru_ru/img/sets/setevent_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ru_ru/img/sets/setevent_crispmip.png",
       "name": "События",
       "nameRef": "SetEvent"
     }
