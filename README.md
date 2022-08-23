@@ -36,6 +36,7 @@ This list contains patchs from actual major version. For all previous patchs of 
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs of current seasons included in this repository :
 
+- (August 22th, 2022) 3.11.0
 - (August 22th, 2022) 3.10.0
 - (August 22th, 2022) 3.9.0
 - (August 22th, 2022) 3.8.0

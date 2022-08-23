@@ -198,7 +198,7 @@
       "nameRef": "Shurima"
     },
     {
-      "description": "아군에게 사용하여 밀착한 동안 해당 아군에게 이 카드의 능력치와 키워드를 부여합니다. 해당 아군이 전장에서 사라지면 귀환합니다.",
+      "description": "아군 하나에게 밀착한 후 밀착한 동안 해당 아군에게<br>이 카드의 능력치와 키워드를 부여합니다. 해당 아군이 전장에서 사라지면 귀환합니다.",
       "name": "밀착",
       "nameRef": "Attach"
     },
@@ -211,6 +211,11 @@
       "description": "일회용 카드는 라운드 종료 시 손에서 버려집니다.",
       "name": "일회용",
       "nameRef": "Fleeting"
+    },
+    {
+      "description": "Missing Translation",
+      "name": "Missing Translation",
+      "nameRef": "ClobberNoEmptySlotRequirement"
     },
     {
       "description": "적 덱의 맨 아래에서 챔피언이 아닌 카드 1장을 뽑습니다.",
@@ -418,6 +423,16 @@
       "nameRef": "Immobile"
     },
     {
+      "description": "사망 후 게임 종료까지 아군이 공격할 때마다 해당 라운드의 첫 번째 공격 유닛에게 +1|+0을 일시 부여합니다.",
+      "name": "신성",
+      "nameRef": "Hallowed"
+    },
+    {
+      "description": "이 게임에서 부여한 이로운 키워드 또는 소환한 아군들이 보유했던 이로운 키워드가 6종류 이상이 되면 이 유닛이 +2|+2를 가집니다.",
+      "name": "진화",
+      "nameRef": "Evolve"
+    },
+    {
       "description": "이 라운드에 유닛 하나의 공격력을 0으로 만듭니다.<br>추후 변경 가능합니다.",
       "name": "동상",
       "nameRef": "Frostbite"
@@ -511,79 +526,85 @@
   "regions": [
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_10_0/core/ko_kr/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_11_0/core/ko_kr/img/regions/icon-noxus.png",
       "name": "녹서스",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_10_0/core/ko_kr/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_11_0/core/ko_kr/img/regions/icon-demacia.png",
       "name": "데마시아",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "Jhin",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_10_0/core/ko_kr/img/regions/icon-jhin.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_11_0/core/ko_kr/img/regions/icon-jhin.png",
       "name": "진",
       "nameRef": "Jhin"
     },
     {
+      "abbreviation": "Evelynn",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_11_0/core/ko_kr/img/regions/icon-evelynn.png",
+      "name": "이블린",
+      "nameRef": "Evelynn"
+    },
+    {
       "abbreviation": "Bard",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_10_0/core/ko_kr/img/regions/icon-bard.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_11_0/core/ko_kr/img/regions/icon-bard.png",
       "name": "바드",
       "nameRef": "Bard"
     },
     {
       "abbreviation": "RU",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_10_0/core/ko_kr/img/regions/icon-runeterra.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_11_0/core/ko_kr/img/regions/icon-runeterra.png",
       "name": "룬테라",
       "nameRef": "Runeterra"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_10_0/core/ko_kr/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_11_0/core/ko_kr/img/regions/icon-freljord.png",
       "name": "프렐요드",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_10_0/core/ko_kr/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_11_0/core/ko_kr/img/regions/icon-shadowisles.png",
       "name": "그림자 군도",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_10_0/core/ko_kr/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_11_0/core/ko_kr/img/regions/icon-targon.png",
       "name": "타곤",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_10_0/core/ko_kr/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_11_0/core/ko_kr/img/regions/icon-ionia.png",
       "name": "아이오니아",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_10_0/core/ko_kr/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_11_0/core/ko_kr/img/regions/icon-shurima.png",
       "name": "슈리마",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_10_0/core/ko_kr/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_11_0/core/ko_kr/img/regions/icon-bilgewater.png",
       "name": "빌지워터",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_10_0/core/ko_kr/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_11_0/core/ko_kr/img/regions/icon-piltoverzaun.png",
       "name": "필트오버 & 자운",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_10_0/core/ko_kr/img/regions/icon-bandlecity.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_11_0/core/ko_kr/img/regions/icon-bandlecity.png",
       "name": "밴들 시티",
       "nameRef": "BandleCity"
     }
@@ -626,37 +647,37 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_10_0/core/ko_kr/img/sets/set3_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_11_0/core/ko_kr/img/sets/set3_crispmip.png",
       "name": "산의 부름",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_10_0/core/ko_kr/img/sets/set5_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_11_0/core/ko_kr/img/sets/set5_crispmip.png",
       "name": "밴들숲 너머",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_10_0/core/ko_kr/img/sets/set1_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_11_0/core/ko_kr/img/sets/set1_crispmip.png",
       "name": "기본",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_10_0/core/ko_kr/img/sets/set2_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_11_0/core/ko_kr/img/sets/set2_crispmip.png",
       "name": "밀려오는 파도",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_10_0/core/ko_kr/img/sets/set4_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_11_0/core/ko_kr/img/sets/set4_crispmip.png",
       "name": "초월체의 제국",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_10_0/core/ko_kr/img/sets/set6ab_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_11_0/core/ko_kr/img/sets/set6ab_crispmip.png",
       "name": "세계를 걷는 자",
       "nameRef": "Set6"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_10_0/core/ko_kr/img/sets/setevent_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_11_0/core/ko_kr/img/sets/setevent_crispmip.png",
       "name": "이벤트",
       "nameRef": "SetEvent"
     }
