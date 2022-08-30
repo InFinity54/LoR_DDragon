@@ -6,6 +6,11 @@
       "nameRef": "Allegiance"
     },
     {
+      "description": "召喚此牌時，從手牌或場上自動裝備此道具，若手牌和場上皆無該道具，則生成並裝備之。",
+      "name": "自動裝備",
+      "nameRef": "AutoEquip"
+    },
+    {
       "description": "為亞菲利歐挑選下一個月之武器。",
       "name": "變取",
       "nameRef": "Phase"
@@ -66,9 +71,19 @@
       "nameRef": "Health"
     },
     {
+      "description": "從2個隨機裝備中選擇1個，裝備到友軍單位上。若該友軍單位並非從手牌打出，則改為隨機裝備1個道具。裝備無法重複打造。",
+      "name": "應變",
+      "nameRef": "Improvise"
+    },
+    {
       "description": "這是該單位打擊時所能造成的傷害量。",
       "name": "力量值",
       "nameRef": "Power"
+    },
+    {
+      "description": "若上回合我方打出2次以上的法術或技能，則回合開始時卡牌會發動川流效果。",
+      "name": "川流",
+      "nameRef": "Flow"
     },
     {
       "description": "此單位攻擊時將觸發此<br>效果。",
@@ -101,6 +116,11 @@
       "nameRef": "Reputation"
     },
     {
+      "description": "為單位裝備道具，賦予其相應的增益效果。若該單位離場，道具則會回到我方手牌。每個道具每回合最多能夠打出1次。",
+      "name": "裝備",
+      "nameRef": "Equip"
+    },
+    {
       "description": "回合開始時將觸發此<br>效果。",
       "name": "回合開始",
       "nameRef": "RoundStart"
@@ -109,6 +129,11 @@
       "description": "英雄之路裡的對手。",
       "name": "仇敵",
       "nameRef": "Foe"
+    },
+    {
+      "description": "賦予1個友軍單位+1|+1。若該友軍單位已裝備道具，則改為賦予其道具+1|+1。",
+      "name": "鑄煉",
+      "nameRef": "Forge"
     },
     {
       "description": "從手牌中打出此單位將觸發此效果。",
@@ -238,6 +263,11 @@
       "nameRef": "Invoke"
     },
     {
+      "description": "若上回合我方打出2次以上的法術或技能，則回合開始時卡牌會發動川流效果。",
+      "name": "川流",
+      "nameRef": "Flow"
+    },
+    {
       "description": "附在牌組裡另一張卡牌上。抽到該卡牌時發動效果。",
       "name": "祝福",
       "nameRef": "Boon"
@@ -331,6 +361,11 @@
       "description": "Missing Translation",
       "name": "Missing Translation",
       "nameRef": "AuraVisualFakeKeyword"
+    },
+    {
+      "description": "將裝備打在單位上，賦予其相應的增益效果。若該單位離場，裝備則會回到我方手牌。每個裝備每回合最多能夠打出1次。",
+      "name": "裝備",
+      "nameRef": "Equipment"
     },
     {
       "description": "",
@@ -526,85 +561,97 @@
   "regions": [
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/zh_tw/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/regions/icon-noxus.png",
       "name": "諾克薩斯",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/zh_tw/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/regions/icon-demacia.png",
       "name": "蒂瑪西亞",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "Jhin",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/zh_tw/img/regions/icon-jhin.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/regions/icon-jhin.png",
       "name": "燼",
       "nameRef": "Jhin"
     },
     {
+      "abbreviation": "Jax",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/regions/icon-jax.png",
+      "name": "賈克斯",
+      "nameRef": "Jax"
+    },
+    {
+      "abbreviation": "Kayn",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/regions/icon-kayn.png",
+      "name": "慨影",
+      "nameRef": "Kayn"
+    },
+    {
       "abbreviation": "Evelynn",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/zh_tw/img/regions/icon-evelynn.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/regions/icon-evelynn.png",
       "name": "伊芙琳",
       "nameRef": "Evelynn"
     },
     {
       "abbreviation": "Bard",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/zh_tw/img/regions/icon-bard.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/regions/icon-bard.png",
       "name": "巴德",
       "nameRef": "Bard"
     },
     {
       "abbreviation": "RU",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/zh_tw/img/regions/icon-runeterra.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/regions/icon-runeterra.png",
       "name": "符文大地",
       "nameRef": "Runeterra"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/zh_tw/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/regions/icon-freljord.png",
       "name": "弗雷爾卓德",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/zh_tw/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/regions/icon-shadowisles.png",
       "name": "闇影島",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/zh_tw/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/regions/icon-targon.png",
       "name": "巨石峰",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/zh_tw/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/regions/icon-ionia.png",
       "name": "愛歐尼亞",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/zh_tw/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/regions/icon-shurima.png",
       "name": "蘇瑞瑪",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/zh_tw/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/regions/icon-bilgewater.png",
       "name": "比爾吉沃特",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/zh_tw/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/regions/icon-piltoverzaun.png",
       "name": "皮爾托福&佐恩",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/zh_tw/img/regions/icon-bandlecity.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/regions/icon-bandlecity.png",
       "name": "班德爾城",
       "nameRef": "BandleCity"
     }
@@ -647,39 +694,44 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/zh_tw/img/sets/set3_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/sets/set3_crispmip.png",
       "name": "巨石峰之喚",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/zh_tw/img/sets/set5_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/sets/set5_crispmip.png",
       "name": "班德爾森之外",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/zh_tw/img/sets/set1_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/sets/set1_crispmip.png",
       "name": "基礎",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/zh_tw/img/sets/set2_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/sets/set2_crispmip.png",
       "name": "洶湧怒濤",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/zh_tw/img/sets/set4_crispmip.png",
-      "name": "飛昇帝國",
-      "nameRef": "Set4"
-    },
-    {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/zh_tw/img/sets/set6ab_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/sets/set6ab_crispmip.png",
       "name": "世界行者",
       "nameRef": "Set6"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/zh_tw/img/sets/setevent_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/sets/set4_crispmip.png",
+      "name": "飛昇帝國",
+      "nameRef": "Set4"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/sets/setevent_crispmip.png",
       "name": "活動",
       "nameRef": "SetEvent"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/zh_tw/img/sets/set6cde_crispmip.png",
+      "name": "冥血傳奇",
+      "nameRef": "Set6cde"
     }
   ]
 }

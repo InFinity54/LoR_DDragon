@@ -6,6 +6,11 @@
       "nameRef": "Allegiance"
     },
     {
+      "description": "召喚時に、記載された<br>武具を手札または場から<br>自動的に装備する。<br>どちらにもない場合は<br>その武具を生成してから<br>装備する。",
+      "name": "自動装備",
+      "nameRef": "AutoEquip"
+    },
+    {
       "description": "次の「月授の武器」を用意する。",
       "name": "フェーズ",
       "nameRef": "Phase"
@@ -66,9 +71,19 @@
       "nameRef": "Health"
     },
     {
+      "description": "武具が2つランダムに提示<br>され、そのうち1つを指定<br>してユニットに装備させる。<br>ユニットが手札からプレイ<br>されていない場合、<br>代わりにランダムな武具を<br>1つ装備させる。<br>一度指定した武具は<br>次から提示されなくなる。",
+      "name": "即席製作",
+      "nameRef": "Improvise"
+    },
+    {
       "description": "ユニットがストライクする際に与えるダメージ。",
       "name": "攻撃力",
       "nameRef": "Power"
+    },
+    {
+      "description": "前のラウンドでスペルまたはスキルを2つ以上プレイしている場合、ラウンド開始時に効果が発動する。",
+      "name": "フロウ",
+      "nameRef": "Flow"
     },
     {
       "description": "このユニットが<br>アタックする時<br>効果を発動する。",
@@ -101,6 +116,11 @@
       "nameRef": "Reputation"
     },
     {
+      "description": "武具を装備したカードは、<br>その武具に記載された<br>効果を得る。ユニットが<br>場から離れる場合、装備中<br>の武具は手札に戻る。<br>同じ武具は1ラウンドにつき<br>1回しかプレイできない。",
+      "name": "装備",
+      "nameRef": "Equip"
+    },
+    {
       "description": "ラウンド開始時に<br>効果が発動する。",
       "name": "ラウンド開始時",
       "nameRef": "RoundStart"
@@ -109,6 +129,11 @@
       "description": "「それぞれの旅路」における対戦相手を指す。",
       "name": "エネミー",
       "nameRef": "Foe"
+    },
+    {
+      "description": "味方1体に+1|+1を付与<br>する。味方が武具を装備<br>している場合、代わりに<br>そのアイテムに付与する。",
+      "name": "鍛錬",
+      "nameRef": "Forge"
     },
     {
       "description": "このユニットを<br>手札から場に出す時<br>効果を発動する。",
@@ -238,6 +263,11 @@
       "nameRef": "Invoke"
     },
     {
+      "description": "前のラウンドでスペルまたはスキルを2つ以上プレイしている場合、ラウンド開始時に効果が発動する。",
+      "name": "フロウ",
+      "nameRef": "Flow"
+    },
+    {
       "description": "他のカードにくっつき、<br>そのカードが引かれると<br>効果が発動する。",
       "name": "加護",
       "nameRef": "Boon"
@@ -331,6 +361,11 @@
       "description": "Missing Translation",
       "name": "Missing Translation",
       "nameRef": "AuraVisualFakeKeyword"
+    },
+    {
+      "description": "ユニットに装備させることで、<br>記載された効果を与える。<br>装備中のユニットが<br>場から離れる場合、<br>その武具は手札に戻る。<br>同じ武具は1ラウンドにつき<br>1回のみプレイできる。",
+      "name": "武具",
+      "nameRef": "Equipment"
     },
     {
       "description": " ",
@@ -526,85 +561,97 @@
   "regions": [
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ja_jp/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/regions/icon-noxus.png",
       "name": "ノクサス",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ja_jp/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/regions/icon-demacia.png",
       "name": "デマーシア",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "Jhin",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ja_jp/img/regions/icon-jhin.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/regions/icon-jhin.png",
       "name": "ジン",
       "nameRef": "Jhin"
     },
     {
+      "abbreviation": "Jax",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/regions/icon-jax.png",
+      "name": "ジャックス",
+      "nameRef": "Jax"
+    },
+    {
+      "abbreviation": "Kayn",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/regions/icon-kayn.png",
+      "name": "ケイン",
+      "nameRef": "Kayn"
+    },
+    {
       "abbreviation": "Evelynn",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ja_jp/img/regions/icon-evelynn.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/regions/icon-evelynn.png",
       "name": "イブリン",
       "nameRef": "Evelynn"
     },
     {
       "abbreviation": "Bard",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ja_jp/img/regions/icon-bard.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/regions/icon-bard.png",
       "name": "バード",
       "nameRef": "Bard"
     },
     {
       "abbreviation": "RU",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ja_jp/img/regions/icon-runeterra.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/regions/icon-runeterra.png",
       "name": "ルーンテラ",
       "nameRef": "Runeterra"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ja_jp/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/regions/icon-freljord.png",
       "name": "フレヨルド",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ja_jp/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/regions/icon-shadowisles.png",
       "name": "シャドウ<nobr>アイル</nobr>",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ja_jp/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/regions/icon-targon.png",
       "name": "ターゴン",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ja_jp/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/regions/icon-ionia.png",
       "name": "アイオニア",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ja_jp/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/regions/icon-shurima.png",
       "name": "シュリーマ",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ja_jp/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/regions/icon-bilgewater.png",
       "name": "ビルジウォーター",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ja_jp/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/regions/icon-piltoverzaun.png",
       "name": "ピルトーヴァー<nobr> & ゾウン</nobr>",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ja_jp/img/regions/icon-bandlecity.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/regions/icon-bandlecity.png",
       "name": "バンドルシティ",
       "nameRef": "BandleCity"
     }
@@ -647,39 +694,44 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ja_jp/img/sets/set3_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/sets/set3_crispmip.png",
       "name": "霊峰の呼び声",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ja_jp/img/sets/set5_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/sets/set5_crispmip.png",
       "name": "バンドルウッドの向こう",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ja_jp/img/sets/set1_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/sets/set1_crispmip.png",
       "name": "スターター",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ja_jp/img/sets/set2_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/sets/set2_crispmip.png",
       "name": "迫り来る波濤",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ja_jp/img/sets/set4_crispmip.png",
-      "name": "超越者の帝国",
-      "nameRef": "Set4"
-    },
-    {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ja_jp/img/sets/set6ab_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/sets/set6ab_crispmip.png",
       "name": "世界を巡る者",
       "nameRef": "Set6"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ja_jp/img/sets/setevent_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/sets/set4_crispmip.png",
+      "name": "超越者の帝国",
+      "nameRef": "Set4"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/sets/setevent_crispmip.png",
       "name": "イベント",
       "nameRef": "SetEvent"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ja_jp/img/sets/set6cde_crispmip.png",
+      "name": "ダーキン戦記",
+      "nameRef": "Set6cde"
     }
   ]
 }

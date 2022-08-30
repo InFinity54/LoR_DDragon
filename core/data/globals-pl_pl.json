@@ -6,6 +6,11 @@
       "nameRef": "Allegiance"
     },
     {
+      "description": "Automatycznie Wyposaża ten przedmiot z ręki lub zagrywa przy przywołaniu, wcześniej go tworząc, jeśli zajdzie taka potrzeba.",
+      "name": "Automatyczne Wyposażenie",
+      "nameRef": "AutoEquip"
+    },
+    {
       "description": "Wybierz następną księżycową broń dla Apheliosa.",
       "name": "Faza",
       "nameRef": "Phase"
@@ -66,9 +71,19 @@
       "nameRef": "Health"
     },
     {
+      "description": "Wybierz jedną z dwóch losowych opcji z wyczerpującej się puli Wyposażenia i wręcz wybrane Wyposażenie sojusznikowi. Jeśli wybrany sojusznik nie był zagrany z ręki, zamiast tego otrzymuje losowy element Wyposażenia.",
+      "name": "Improwizacja",
+      "nameRef": "Improvise"
+    },
+    {
       "description": "Tyle obrażeń dana jednostka zadaje przy uderzeniu.",
       "name": "Siła",
       "nameRef": "Power"
+    },
+    {
+      "description": "Karta aktywuje swoją umiejętność Przypływu na początku rundy, jeśli udało ci się zagrać 2+ zaklęcia lub umiejętności w ostatniej rundzie.",
+      "name": "Przypływ",
+      "nameRef": "Flow"
     },
     {
       "description": "Uzyskuje efekt, gdy ta jednostka atakuje.",
@@ -101,6 +116,11 @@
       "nameRef": "Reputation"
     },
     {
+      "description": "Wyposażenie jednostki w przedmiot przyznaje jej wymienione premie. Jeśli jednostka opuści grę, przedmiot wróci do twojej ręki. Możesz zagrać każdy z przedmiotów maksymalnie jeden raz w ciągu rundy.",
+      "name": "Wyposaż",
+      "nameRef": "Equip"
+    },
+    {
       "description": "Uzyskuje efekt, gdy runda się rozpoczyna.",
       "name": "Początek rundy",
       "nameRef": "RoundStart"
@@ -109,6 +129,11 @@
       "description": "Przeciwnik na Ścieżce Bohaterów.",
       "name": "Przeciwnik",
       "nameRef": "Foe"
+    },
+    {
+      "description": "Przyznaj sojusznikowi +1|+1. Jeśli sojusznik ma Wyposażenie, przyznaj tę premię przedmiotowi tego sojusznika.",
+      "name": "Wykucie",
+      "nameRef": "Forge"
     },
     {
       "description": "Uzyskuje efekt, gdy zagrasz tę jednostkę z ręki.",
@@ -238,6 +263,11 @@
       "nameRef": "Invoke"
     },
     {
+      "description": "Karta aktywuje swoją umiejętność Przypływu na początku rundy, jeśli udało ci się zagrać 2+ zaklęcia lub umiejętności w ostatniej rundzie.",
+      "name": "Przypływ",
+      "nameRef": "Flow"
+    },
+    {
       "description": "Przyczepia się do innej karty w talii. Gdy ta karta zostaje dobrana, efekt się aktywuje.",
       "name": "Dar",
       "nameRef": "Boon"
@@ -331,6 +361,11 @@
       "description": "Missing Translation",
       "name": "Missing Translation",
       "nameRef": "AuraVisualFakeKeyword"
+    },
+    {
+      "description": "Wyposaż jednostkę, aby przyznać jej wymienione premie. Jeśli jednostka opuści grę, Wyposażenie wróci do twojej ręki. Możesz zagrać każdy z elementów Wyposażenia maksymalnie jeden raz w ciągu rundy.",
+      "name": "Wyposażenie",
+      "nameRef": "Equipment"
     },
     {
       "description": "",
@@ -526,85 +561,97 @@
   "regions": [
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/pl_pl/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/pl_pl/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "Jhin",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/pl_pl/img/regions/icon-jhin.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/regions/icon-jhin.png",
       "name": "Jhin",
       "nameRef": "Jhin"
     },
     {
+      "abbreviation": "Jax",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/regions/icon-jax.png",
+      "name": "Jax",
+      "nameRef": "Jax"
+    },
+    {
+      "abbreviation": "Kayn",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/regions/icon-kayn.png",
+      "name": "Kayn",
+      "nameRef": "Kayn"
+    },
+    {
       "abbreviation": "Evelynn",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/pl_pl/img/regions/icon-evelynn.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/regions/icon-evelynn.png",
       "name": "Evelynn",
       "nameRef": "Evelynn"
     },
     {
       "abbreviation": "Bard",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/pl_pl/img/regions/icon-bard.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/regions/icon-bard.png",
       "name": "Bard",
       "nameRef": "Bard"
     },
     {
       "abbreviation": "RU",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/pl_pl/img/regions/icon-runeterra.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/regions/icon-runeterra.png",
       "name": "Runeterra",
       "nameRef": "Runeterra"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/pl_pl/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/pl_pl/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/regions/icon-shadowisles.png",
       "name": "Wyspy Cienia",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/pl_pl/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/pl_pl/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/pl_pl/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/pl_pl/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/pl_pl/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/regions/icon-piltoverzaun.png",
       "name": "Piltover i Zaun",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/pl_pl/img/regions/icon-bandlecity.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/regions/icon-bandlecity.png",
       "name": "Bandle City",
       "nameRef": "BandleCity"
     }
@@ -647,39 +694,44 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/pl_pl/img/sets/set3_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/sets/set3_crispmip.png",
       "name": "Zew Góry",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/pl_pl/img/sets/set5_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/sets/set5_crispmip.png",
       "name": "Po Drugiej Stronie Lasu Bandle",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/pl_pl/img/sets/set1_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/sets/set1_crispmip.png",
       "name": "Fundamenty",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/pl_pl/img/sets/set2_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/sets/set2_crispmip.png",
       "name": "Wzbierający Przypływ",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/pl_pl/img/sets/set4_crispmip.png",
-      "name": "Imperia Wyniesionych",
-      "nameRef": "Set4"
-    },
-    {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/pl_pl/img/sets/set6ab_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/sets/set6ab_crispmip.png",
       "name": "Wędrowcy Świata",
       "nameRef": "Set6"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/pl_pl/img/sets/setevent_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/sets/set4_crispmip.png",
+      "name": "Imperia Wyniesionych",
+      "nameRef": "Set4"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/sets/setevent_crispmip.png",
       "name": "Wydarzenia",
       "nameRef": "SetEvent"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/pl_pl/img/sets/set6cde_crispmip.png",
+      "name": "Saga Darkinów",
+      "nameRef": "Set6cde"
     }
   ]
 }

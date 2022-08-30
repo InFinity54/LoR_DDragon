@@ -6,6 +6,11 @@
       "nameRef": "Allegiance"
     },
     {
+      "description": "소환 시 손이나 전장으로부터 이 아이템을 자동으로 장착합니다. 필요 시 아이템이 생성됩니다.",
+      "name": "자동 장착",
+      "nameRef": "AutoEquip"
+    },
+    {
       "description": "아펠리오스의 다음 달 무기를 선택합니다.",
       "name": "위상 변화",
       "nameRef": "Phase"
@@ -66,9 +71,19 @@
       "nameRef": "Health"
     },
     {
+      "description": "사용할 때마다 줄어드는 장비 목록에서 무작위로 선택된<br>두 가지 중 하나를 선택하고<br>이 아군에게 장착합니다.<br>해당 아군이 손에서 사용되지 않은 경우 무작위 장비 하나를 대신 장착합니다.",
+      "name": "급조",
+      "nameRef": "Improvise"
+    },
+    {
       "description": "유닛이 타격 시 입히는 피해량을 나타냅니다.",
       "name": "공격력",
       "nameRef": "Power"
+    },
+    {
+      "description": "지난 라운드에 주문이나 스킬을 2번 이상 사용했으면<br>라운드 시작 시 카드의<br>흐름 효과가 활성화됩니다.",
+      "name": "흐름",
+      "nameRef": "Flow"
     },
     {
       "description": "이 유닛이 공격할 때<br>효과가 적용됩니다.",
@@ -101,6 +116,11 @@
       "nameRef": "Reputation"
     },
     {
+      "description": "유닛에게 아이템을 장착하여 명시된 추가 효과를 부여합니다. 해당 유닛이 전장에서 사라지면 해당 아이템은 손으로 복귀합니다. 각 아이템은 라운드당 한 번만 사용할 수 있습니다.",
+      "name": "장착",
+      "nameRef": "Equip"
+    },
+    {
       "description": "라운드 시작 시<br>이 효과를 얻습니다.",
       "name": "라운드 시작",
       "nameRef": "RoundStart"
@@ -109,6 +129,11 @@
       "description": "챔피언의 길에 있는 상대입니다.",
       "name": "적",
       "nameRef": "Foe"
+    },
+    {
+      "description": "아군 유닛 하나에게 +1|+1을 부여합니다. 해당 아군이 아이템을 장착한 상태인 경우 위 능력치를 아이템에 대신 부여합니다.",
+      "name": "단련",
+      "nameRef": "Forge"
     },
     {
       "description": "이 유닛을 손에서 낼 때<br>효과가 적용됩니다.",
@@ -238,6 +263,11 @@
       "nameRef": "Invoke"
     },
     {
+      "description": "지난 라운드에 주문이나 스킬을 2번 이상 사용했으면<br>라운드 시작 시 카드의<br>흐름 효과가 활성화됩니다.",
+      "name": "흐름",
+      "nameRef": "Flow"
+    },
+    {
       "description": "덱에 있는 다른 카드에 설치됩니다. 해당 카드를 뽑으면 효과가 활성화됩니다.",
       "name": "은혜",
       "nameRef": "Boon"
@@ -331,6 +361,11 @@
       "description": "Missing Translation",
       "name": "Missing Translation",
       "nameRef": "AuraVisualFakeKeyword"
+    },
+    {
+      "description": "유닛 하나에 장착하여 명시된 추가 효과를 부여합니다.<br>해당 유닛이 전장에서 사라지면 해당 장비는 손으로 복귀합니다.<br>각 장비는 라운드당 한 번만 사용할 수 있습니다.",
+      "name": "장비",
+      "nameRef": "Equipment"
     },
     {
       "description": "",
@@ -526,85 +561,97 @@
   "regions": [
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ko_kr/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/regions/icon-noxus.png",
       "name": "녹서스",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ko_kr/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/regions/icon-demacia.png",
       "name": "데마시아",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "Jhin",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ko_kr/img/regions/icon-jhin.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/regions/icon-jhin.png",
       "name": "진",
       "nameRef": "Jhin"
     },
     {
+      "abbreviation": "Jax",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/regions/icon-jax.png",
+      "name": "잭스",
+      "nameRef": "Jax"
+    },
+    {
+      "abbreviation": "Kayn",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/regions/icon-kayn.png",
+      "name": "케인",
+      "nameRef": "Kayn"
+    },
+    {
       "abbreviation": "Evelynn",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ko_kr/img/regions/icon-evelynn.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/regions/icon-evelynn.png",
       "name": "이블린",
       "nameRef": "Evelynn"
     },
     {
       "abbreviation": "Bard",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ko_kr/img/regions/icon-bard.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/regions/icon-bard.png",
       "name": "바드",
       "nameRef": "Bard"
     },
     {
       "abbreviation": "RU",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ko_kr/img/regions/icon-runeterra.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/regions/icon-runeterra.png",
       "name": "룬테라",
       "nameRef": "Runeterra"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ko_kr/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/regions/icon-freljord.png",
       "name": "프렐요드",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ko_kr/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/regions/icon-shadowisles.png",
       "name": "그림자 군도",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ko_kr/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/regions/icon-targon.png",
       "name": "타곤",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ko_kr/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/regions/icon-ionia.png",
       "name": "아이오니아",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ko_kr/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/regions/icon-shurima.png",
       "name": "슈리마",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ko_kr/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/regions/icon-bilgewater.png",
       "name": "빌지워터",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ko_kr/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/regions/icon-piltoverzaun.png",
       "name": "필트오버 & 자운",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ko_kr/img/regions/icon-bandlecity.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/regions/icon-bandlecity.png",
       "name": "밴들 시티",
       "nameRef": "BandleCity"
     }
@@ -647,39 +694,44 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ko_kr/img/sets/set3_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/sets/set3_crispmip.png",
       "name": "산의 부름",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ko_kr/img/sets/set5_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/sets/set5_crispmip.png",
       "name": "밴들숲 너머",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ko_kr/img/sets/set1_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/sets/set1_crispmip.png",
       "name": "기본",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ko_kr/img/sets/set2_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/sets/set2_crispmip.png",
       "name": "밀려오는 파도",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ko_kr/img/sets/set4_crispmip.png",
-      "name": "초월체의 제국",
-      "nameRef": "Set4"
-    },
-    {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ko_kr/img/sets/set6ab_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/sets/set6ab_crispmip.png",
       "name": "세계를 걷는 자",
       "nameRef": "Set6"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_13_0/core/ko_kr/img/sets/setevent_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/sets/set4_crispmip.png",
+      "name": "초월체의 제국",
+      "nameRef": "Set4"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/sets/setevent_crispmip.png",
       "name": "이벤트",
       "nameRef": "SetEvent"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_14_0/core/ko_kr/img/sets/set6cde_crispmip.png",
+      "name": "다르킨 이야기",
+      "nameRef": "Set6cde"
     }
   ]
 }
