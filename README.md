@@ -17,6 +17,7 @@ Note that it is recommanded to clone the main repository, and not the childs one
 * Set 4: https://github.com/InFinity54/LoR_DDragon_Set4
 * Set 5: https://github.com/InFinity54/LoR_DDragon_Set5
 * Set 6: https://github.com/InFinity54/LoR_DDragon_Set6
+* Set 6CDE : https://github.com/InFinity54/LoR_DDragon_Set6CDE
 
 Warning : Cloning the entire repository can result in an error from Git because of the size of the repository. In that case, you'll need to clone the repository commit after commit until you're up-to-date.
 
