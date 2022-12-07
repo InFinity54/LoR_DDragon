@@ -111,6 +111,11 @@
       "nameRef": "NexusStrike"
     },
     {
+      "description": "Une unité reçoit son bonus d'Amplification quand sa puissance est au moins égale au nombre indiqué.",
+      "name": "Amplification",
+      "nameRef": "Empowered"
+    },
+    {
       "description": "S'active si les frappes des alliés ont infligé au moins 5 pts de dégâts au moins 4 fois pendant la partie.",
       "name": "Réputation",
       "nameRef": "Reputation"
@@ -174,6 +179,11 @@
       "description": "Créez dans votre main 1 carte parmi 3 sélectionnées aléatoirement.",
       "name": "Matérialiser",
       "nameRef": "Manifest"
+    },
+    {
+      "description": "Transformez les alliés équipés d'équipements darkin en la forme d'unité de ces équipements. S'il s'agit d'un champion, il passe au niveau supérieur.",
+      "name": "Assimilation",
+      "nameRef": "Assimilate"
     },
     {
       "description": "Choisissez une carte parmi trois de votre deck. Mélangez le deck et placez cette carte à son sommet.",
@@ -561,103 +571,115 @@
   "regions": [
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
-      "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/regions/icon-demacia.png",
-      "name": "Demacia",
-      "nameRef": "Demacia"
+      "abbreviation": "RYZE",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/regions/icon-ryze.png",
+      "name": "Ryze",
+      "nameRef": "Ryze"
     },
     {
       "abbreviation": "Jhin",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/regions/icon-jhin.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/regions/icon-jhin.png",
       "name": "Jhin",
       "nameRef": "Jhin"
     },
     {
       "abbreviation": "Varus",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/regions/icon-varus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/regions/icon-varus.png",
       "name": "Varus",
       "nameRef": "Varus"
     },
     {
+      "abbreviation": "Aatrox",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/regions/icon-aatrox.png",
+      "name": "Aatrox",
+      "nameRef": "Aatrox"
+    },
+    {
       "abbreviation": "Jax",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/regions/icon-jax.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/regions/icon-jax.png",
       "name": "Jax",
       "nameRef": "Jax"
     },
     {
       "abbreviation": "Kayn",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/regions/icon-kayn.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/regions/icon-kayn.png",
       "name": "Kayn",
       "nameRef": "Kayn"
     },
     {
       "abbreviation": "Evelynn",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/regions/icon-evelynn.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/regions/icon-evelynn.png",
       "name": "Evelynn",
       "nameRef": "Evelynn"
     },
     {
       "abbreviation": "Bard",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/regions/icon-bard.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/regions/icon-bard.png",
       "name": "Bard",
       "nameRef": "Bard"
     },
     {
+      "abbreviation": "DE",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/regions/icon-demacia.png",
+      "name": "Demacia",
+      "nameRef": "Demacia"
+    },
+    {
       "abbreviation": "RU",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/regions/icon-runeterra.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/regions/icon-runeterra.png",
       "name": "Runeterra",
       "nameRef": "Runeterra"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/regions/icon-shadowisles.png",
       "name": "Îles obscures",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/regions/icon-piltoverzaun.png",
       "name": "Piltover & Zaun",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/regions/icon-bandlecity.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/regions/icon-bandlecity.png",
       "name": "Bandle",
       "nameRef": "BandleCity"
     }
@@ -700,42 +722,42 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/sets/set3_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/sets/set3_crispmip.png",
       "name": "Appel de la montagne",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/sets/set5_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/sets/set5_crispmip.png",
       "name": "Par-delà Bandle",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/sets/set1_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/sets/set1_crispmip.png",
       "name": "Fondations",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/sets/set2_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/sets/set2_crispmip.png",
       "name": "Marée montante",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/sets/set6ab_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/sets/set6ab_crispmip.png",
       "name": "De par Runeterra",
       "nameRef": "Set6"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/sets/set4_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/sets/set4_crispmip.png",
       "name": "Empires des Transfigurés",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/sets/setevent_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/sets/setevent_crispmip.png",
       "name": "Événements",
       "nameRef": "SetEvent"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/3_20_0/core/fr_fr/img/sets/set6cde_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/3_21_0/core/fr_fr/img/sets/set6cde_crispmip.png",
       "name": "Saga des Darkin",
       "nameRef": "Set6cde"
     }
