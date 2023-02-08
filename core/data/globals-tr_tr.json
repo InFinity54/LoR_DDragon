@@ -66,6 +66,11 @@
       "nameRef": "RoundEnd"
     },
     {
+      "description": "Oyundan tamamen çıkarılır. Son Nefes tesiri devreye girmez ve diriltilemez.",
+      "name": "Kökünü Kazı",
+      "nameRef": "Obliterate"
+    },
+    {
       "description": "Bu birim bu kadar hasar almaya dayanabilir. Değer 0'a inerse birim ölür.",
       "name": "Can",
       "nameRef": "Health"
@@ -348,11 +353,6 @@
       "nameRef": "Slow"
     },
     {
-      "description": "Oyundan tamamen çıkarılır. Son Nefes tesiri devreye girmez ve diriltilemez.",
-      "name": "Kökünü Kazı",
-      "nameRef": "Obliterate"
-    },
-    {
       "description": "Bu yetenekler, bir büyü sonuçlandırdığında tetiklenir.",
       "name": "Efsunla",
       "nameRef": "Imbue"
@@ -571,115 +571,115 @@
   "regions": [
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "RYZE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/regions/icon-ryze.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/regions/icon-ryze.png",
       "name": "Ryze",
       "nameRef": "Ryze"
     },
     {
       "abbreviation": "Jhin",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/regions/icon-jhin.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/regions/icon-jhin.png",
       "name": "Jhin",
       "nameRef": "Jhin"
     },
     {
       "abbreviation": "Varus",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/regions/icon-varus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/regions/icon-varus.png",
       "name": "Varus",
       "nameRef": "Varus"
     },
     {
       "abbreviation": "Aatrox",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/regions/icon-aatrox.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/regions/icon-aatrox.png",
       "name": "Aatrox",
       "nameRef": "Aatrox"
     },
     {
       "abbreviation": "Jax",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/regions/icon-jax.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/regions/icon-jax.png",
       "name": "Jax",
       "nameRef": "Jax"
     },
     {
       "abbreviation": "Kayn",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/regions/icon-kayn.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/regions/icon-kayn.png",
       "name": "Kayn",
       "nameRef": "Kayn"
     },
     {
       "abbreviation": "Evelynn",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/regions/icon-evelynn.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/regions/icon-evelynn.png",
       "name": "Evelynn",
       "nameRef": "Evelynn"
     },
     {
       "abbreviation": "Bard",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/regions/icon-bard.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/regions/icon-bard.png",
       "name": "Bard",
       "nameRef": "Bard"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "RU",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/regions/icon-runeterra.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/regions/icon-runeterra.png",
       "name": "Runeterra",
       "nameRef": "Runeterra"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/regions/icon-shadowisles.png",
       "name": "Gölge Adalar",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/regions/icon-piltoverzaun.png",
       "name": "Piltover ve Zaun",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/regions/icon-bandlecity.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/regions/icon-bandlecity.png",
       "name": "Bandle Şehri",
       "nameRef": "BandleCity"
     }
@@ -722,44 +722,56 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/sets/set3_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/sets/set3_crispmip.png",
       "name": "Dağın Çağrısı",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/sets/set5_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/sets/set5_crispmip.png",
       "name": "Bandle Ormanı'nın Ötesi",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/sets/set1_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/sets/set1_crispmip.png",
       "name": "Temeller",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/sets/set2_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/sets/set2_crispmip.png",
       "name": "Yükselen Dalgalar",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/sets/set6ab_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/sets/set6ab_crispmip.png",
       "name": "Mekân Gezgini",
       "nameRef": "Set6"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/sets/set4_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/sets/set4_crispmip.png",
       "name": "Yükselmişlerin İmparatorlukları",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/sets/setevent_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/sets/setevent_crispmip.png",
       "name": "Etkinlikler",
       "nameRef": "SetEvent"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/tr_tr/img/sets/set6cde_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/tr_tr/img/sets/set6cde_crispmip.png",
       "name": "Darkin Destanı",
       "nameRef": "Set6cde"
+    }
+  ],
+  "formats": [
+    {
+      "iconAbsolutePath": null,
+      "name": "Sadece Yaygın",
+      "nameRef": "client_Formats_CommonsOnly_name"
+    },
+    {
+      "iconAbsolutePath": null,
+      "name": "Çift Sayılı Kartlar",
+      "nameRef": "client_Formats_EvenCostCards_name"
     }
   ]
 }

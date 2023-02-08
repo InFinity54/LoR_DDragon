@@ -66,6 +66,11 @@
       "nameRef": "RoundEnd"
     },
     {
+      "description": "Eliminado por completo de la partida. No activa su Último aliento ni puede revivir.",
+      "name": "Destruir",
+      "nameRef": "Obliterate"
+    },
+    {
       "description": "Esta es la cantidad de daño que la unidad puede soportar. Si llega a cero, morirá.",
       "name": "Vida",
       "nameRef": "Health"
@@ -348,11 +353,6 @@
       "nameRef": "Slow"
     },
     {
-      "description": "Eliminado por completo de la partida. No activa su Último aliento ni puede revivir.",
-      "name": "Destruir",
-      "nameRef": "Obliterate"
-    },
-    {
       "description": "Estas habilidades se activan al ejecutar un hechizo.",
       "name": "Infundir",
       "nameRef": "Imbue"
@@ -571,115 +571,115 @@
   "regions": [
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "RYZE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/regions/icon-ryze.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/regions/icon-ryze.png",
       "name": "Ryze",
       "nameRef": "Ryze"
     },
     {
       "abbreviation": "Jhin",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/regions/icon-jhin.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/regions/icon-jhin.png",
       "name": "Jhin",
       "nameRef": "Jhin"
     },
     {
       "abbreviation": "Varus",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/regions/icon-varus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/regions/icon-varus.png",
       "name": "Varus",
       "nameRef": "Varus"
     },
     {
       "abbreviation": "Aatrox",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/regions/icon-aatrox.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/regions/icon-aatrox.png",
       "name": "Aatrox",
       "nameRef": "Aatrox"
     },
     {
       "abbreviation": "Jax",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/regions/icon-jax.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/regions/icon-jax.png",
       "name": "Jax",
       "nameRef": "Jax"
     },
     {
       "abbreviation": "Kayn",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/regions/icon-kayn.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/regions/icon-kayn.png",
       "name": "Kayn",
       "nameRef": "Kayn"
     },
     {
       "abbreviation": "Evelynn",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/regions/icon-evelynn.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/regions/icon-evelynn.png",
       "name": "Evelynn",
       "nameRef": "Evelynn"
     },
     {
       "abbreviation": "Bard",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/regions/icon-bard.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/regions/icon-bard.png",
       "name": "Bardo",
       "nameRef": "Bard"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "RU",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/regions/icon-runeterra.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/regions/icon-runeterra.png",
       "name": "Runaterra",
       "nameRef": "Runeterra"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/regions/icon-shadowisles.png",
       "name": "Islas de la Sombra",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/regions/icon-ionia.png",
       "name": "Jonia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/regions/icon-bilgewater.png",
       "name": "Aguas Estancadas",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/regions/icon-piltoverzaun.png",
       "name": "Piltover y Zaun",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/regions/icon-bandlecity.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/regions/icon-bandlecity.png",
       "name": "Ciudad de Bandle",
       "nameRef": "BandleCity"
     }
@@ -722,44 +722,56 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/sets/set3_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/sets/set3_crispmip.png",
       "name": "La llamada de la montaña",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/sets/set5_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/sets/set5_crispmip.png",
       "name": "Más allá del bosque de Bandle",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/sets/set1_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/sets/set1_crispmip.png",
       "name": "Cimientos",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/sets/set2_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/sets/set2_crispmip.png",
       "name": "Pleamar",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/sets/set6ab_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/sets/set6ab_crispmip.png",
       "name": "Caminantes de mundos",
       "nameRef": "Set6"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/sets/set4_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/sets/set4_crispmip.png",
       "name": "Imperios de los Ascendidos",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/sets/setevent_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/sets/setevent_crispmip.png",
       "name": "Eventos",
       "nameRef": "SetEvent"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/4_0_0/core/es_es/img/sets/set6cde_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/4_1_0/core/es_es/img/sets/set6cde_crispmip.png",
       "name": "La saga de los Oscuros",
       "nameRef": "Set6cde"
+    }
+  ],
+  "formats": [
+    {
+      "iconAbsolutePath": null,
+      "name": "Solo comunes",
+      "nameRef": "client_Formats_CommonsOnly_name"
+    },
+    {
+      "iconAbsolutePath": null,
+      "name": "Cartas de coste par",
+      "nameRef": "client_Formats_EvenCostCards_name"
     }
   ]
 }
