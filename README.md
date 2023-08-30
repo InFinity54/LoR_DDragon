@@ -20,8 +20,9 @@ Note that it is recommanded to clone the main repository, and not the childs one
 * Set 6CDE : https://github.com/InFinity54/LoR_DDragon_Set6CDE
 * Set 7 : https://github.com/InFinity54/LoR_DDragon_Set7
 * Set 7B : https://github.com/InFinity54/LoR_DDragon_Set7B
+* Set 8 : https://github.com/InFinity54/LoR_DDragon_Set8
 
-Warning : Cloning the entire repository can result in an error from Git because of the size of the repository. In that case, you'll need to clone the repository commit after commit until you're up-to-date.
+Warning : The full repository (this repo + all of the above) are very heavy. This can take a few hours to clone it.
 
 ## Introduction
 _Data Dragon_ is a package of files you can use for your projects about [_Legends of Runeterra_](https://playruneterra.com), distributed by Riot Games. A new version of Data Dragon is released some days after each new set release. This repository allows you to update automatically all files more easily.
@@ -39,6 +40,8 @@ This list contains patchs from actual major version. For all previous patchs of 
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs of current seasons included in this repository :
 
+- (August 30th, 2023) 4.8.0 [set 8 data and tag for this version will be added with set 8 data release from Riot]
+- (July 20th, 2023) 4.7.0
 - (June 27th, 2023) 4.6.0
 - (May 24th, 2023) 4.5.0
 - (April 26th, 2023) 4.4.0
