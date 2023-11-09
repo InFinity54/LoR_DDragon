@@ -10,7 +10,8 @@ The `git clone` command is a bit different for LoR_DDragon, because of the use o
 git clone --recursive https://github.com/InFinity54/LoR_DDragon LoR_DDragon
 ```
 
-Note that it is recommanded to clone the main repository, and not the childs one. If you just need a part of the _Legends of Runeterra_'s Data Dragon repository, and if you know what you are doing, you can clone one of the sets dedicated repository:
+Please note that it is recommanded to clone the main repository, and not the childs one. If you just need a part of the _Legends of Runeterra_'s Data Dragon repository, and if you know what you are doing, you can clone one of the sets dedicated repository:
+* Content of _Path of Champions_ game mode: https://github.com/InFinity54/LoR_DDragon_Adventure
 * Set 1: https://github.com/InFinity54/LoR_DDragon_Set1
 * Set 2: https://github.com/InFinity54/LoR_DDragon_Set2
 * Set 3: https://github.com/InFinity54/LoR_DDragon_Set3
@@ -40,6 +41,7 @@ This list contains patchs from actual major version. For all previous patchs of 
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs of current seasons included in this repository :
 
+- (November 9th, 2023) 4.11.0
 - (October 11th, 2023) 4.10.0
 - (September 13th, 2023) 4.9.0
 - (August 30th, 2023) 4.8.0

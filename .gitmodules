@@ -28,3 +28,6 @@
 [submodule "set8"]
 	path = set8
 	url = https://github.com/InFinity54/LoR_DDragon_Set8
+[submodule "adventure"]
+	path = adventure
+	url = https://github.com/InFinity54/LoR_DDragon_Adventure.git
