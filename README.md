@@ -41,16 +41,4 @@ This list contains patchs from actual major version. For all previous patchs of 
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs of current seasons included in this repository :
 
-- (December 6th, 2023) 4.12.0
-- (November 9th, 2023) 4.11.0
-- (October 11th, 2023) 4.10.0
-- (September 13th, 2023) 4.9.0
-- (August 30th, 2023) 4.8.0
-- (July 20th, 2023) 4.7.0
-- (June 27th, 2023) 4.6.0
-- (May 24th, 2023) 4.5.0
-- (April 26th, 2023) 4.4.0
-- (March 30th, 2023) 4.3.0
-- (March 1st, 2023) 4.2.0
-- (February 8th, 2023) 4.1.0
-- (January 7th, 2023) 4.0.0
+- (January 4th, 2024) 5.0.0
