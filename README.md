@@ -1,6 +1,6 @@
 # _Legends of Runeterra_ - Data Dragon
 
-Do you want to use DDragon for an another game from _Riot Games_? Check the [_Data Dragon_ repository for _League of Legends_](https://github.com/InFinity54/LoL_DDragon), [for _Teamfight Tactics_](https://github.com/InFinity54/TFT_DDragon) or the [_Valorant_ one](https://github.com/InFinity54/Valorant_DDragon).
+Do you want to use DDragon for an another game from _Riot Games_? Check the _Data Dragon_ repository for [_2XKO_](https://github.com/InFinity54/2XKO_DDragon), [_League of Legends_](https://github.com/InFinity54/LoL_DDragon), or [_Valorant_](https://github.com/InFinity54/Valorant_DDragon). _Teamfight Tactics_ data is now included in LoL's _Data Dragon_ repository.
 
 ## Cloning the repository
 
