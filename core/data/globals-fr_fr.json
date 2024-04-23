@@ -81,6 +81,11 @@
       "nameRef": "Obliterate"
     },
     {
+      "description": "Oblitérez une unité et rappelez toutes les cartes qui lui sont liées ou équipées pour contenir sa copie exacte dans un site pendant un round.",
+      "name": "Sommeil",
+      "nameRef": "Sleep"
+    },
+    {
       "description": "Mélangez une carte dans votre deck et réduisez son coût de 1.",
       "name": "Souffle",
       "nameRef": "Updraft"
@@ -114,6 +119,11 @@
       "description": "Une unité est renforcée quand sa puissance ou ses PV ont été augmentés ou si elle gagne un nouveau mot-clé.",
       "name": "Renforcé",
       "nameRef": "Buffed"
+    },
+    {
+      "description": "Augmentez le nombre d'effets des mots-clés cumulables positifs pour les alliés ou négatifs pour les ennemis.",
+      "name": "Développement",
+      "nameRef": "Boost"
     },
     {
       "description": "Ce champion compte comme l'une des régions de votre deck. Pendant la construction de deck, vous pouvez ajouter les cartes spécifiées à votre deck, quelle que soit leur région. Les origines peuvent aussi avoir un effet en Début de partie.",
@@ -233,7 +243,7 @@
       "nameRef": "SpellOverwhelm"
     },
     {
-      "description": "Peut-être lancé à n'importe quel moment où vous pouvez agir. Se résout instantanément et vous permet de continuer à jouer des cartes.",
+      "description": "Peut être lancé à n'importe quel moment où vous pouvez agir. Se résout instantanément et vous permet de continuer à jouer des cartes.",
       "name": "Instantané",
       "nameRef": "Burst"
     },
@@ -263,6 +273,11 @@
       "nameRef": "AttackSkillMark"
     },
     {
+      "description": "Ne peut s'activer qu'une fois par round. À l'activation, lancez la compétence de l'acte en cours à vitesse lente, puis transformez-moi en l'acte suivant.",
+      "name": "Histoire : lente",
+      "nameRef": "Story:Slow"
+    },
+    {
       "description": "",
       "name": "Shurima",
       "nameRef": "Shurima"
@@ -271,6 +286,11 @@
       "description": "Liez-moi à un allié pour lui donner mes stats et mots-clés tant que je lui suis lié. Quand cet allié quitte le jeu, rappelez-moi.",
       "name": "Lien",
       "nameRef": "Attach"
+    },
+    {
+      "description": "Ne peut s'activer qu'une fois par round. À l'activation, lancez la compétence de l'acte en cours à vitesse focalisée, puis transformez-moi en l'acte suivant.",
+      "name": "Histoire : focalisée",
+      "nameRef": "Story:Focus"
     },
     {
       "description": "",
@@ -353,7 +373,7 @@
       "nameRef": "BandleCity"
     },
     {
-      "description": "Peut-être lancé à n'importe quel moment où vous pouvez agir. Votre adversaire a une chance de réagir avant la résolution.",
+      "description": "Peut être lancé à n'importe quel moment où vous pouvez agir. Votre adversaire a une chance de réagir avant la résolution.",
       "name": "Rapide",
       "nameRef": "Fast"
     },
@@ -533,6 +553,11 @@
       "nameRef": "QuickStrike"
     },
     {
+      "description": "Cette unité a +1|+1. Ce mot-clé est cumulable.",
+      "name": "Volonté",
+      "nameRef": "Spirit"
+    },
+    {
       "description": "Subit 1 point de dégâts de moins de toutes les sources.",
       "name": "Robuste",
       "nameRef": "Tough"
@@ -556,6 +581,11 @@
       "description": "Lorsque cette unité inflige des dégâts, elle soigne son Nexus d'autant de points.",
       "name": "Vol de vie",
       "nameRef": "Lifesteal"
+    },
+    {
+      "description": "Cette unité a -1|-1. Ce mot-clé est cumulable.",
+      "name": "Désespoir",
+      "nameRef": "Gloom"
     },
     {
       "description": "Lorsque vous jouez une carte créée, octroyez-moi +1|+0.",
@@ -621,133 +651,133 @@
   "regions": [
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "ELD",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/regions/icon-elderdragon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/regions/icon-elderdragon.png",
       "name": "Dragon ancestral",
       "nameRef": "ElderDragon"
     },
     {
       "abbreviation": "RYZE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/regions/icon-ryze.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/regions/icon-ryze.png",
       "name": "Ryze",
       "nameRef": "Ryze"
     },
     {
       "abbreviation": "Jhin",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/regions/icon-jhin.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/regions/icon-jhin.png",
       "name": "Jhin",
       "nameRef": "Jhin"
     },
     {
       "abbreviation": "Varus",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/regions/icon-varus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/regions/icon-varus.png",
       "name": "Varus",
       "nameRef": "Varus"
     },
     {
       "abbreviation": "Aatrox",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/regions/icon-aatrox.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/regions/icon-aatrox.png",
       "name": "Aatrox",
       "nameRef": "Aatrox"
     },
     {
       "abbreviation": "Neeko",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/regions/icon-neeko.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/regions/icon-neeko.png",
       "name": "Neeko",
       "nameRef": "Neeko"
     },
     {
       "abbreviation": "Jax",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/regions/icon-jax.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/regions/icon-jax.png",
       "name": "Jax",
       "nameRef": "Jax"
     },
     {
       "abbreviation": "Kayn",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/regions/icon-kayn.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/regions/icon-kayn.png",
       "name": "Kayn",
       "nameRef": "Kayn"
     },
     {
       "abbreviation": "POROKING",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/regions/icon-poroking.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/regions/icon-poroking.png",
       "name": "Roi des Poros",
       "nameRef": "PoroKing"
     },
     {
       "abbreviation": "Evelynn",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/regions/icon-evelynn.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/regions/icon-evelynn.png",
       "name": "Evelynn",
       "nameRef": "Evelynn"
     },
     {
       "abbreviation": "Bard",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/regions/icon-bard.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/regions/icon-bard.png",
       "name": "Bard",
       "nameRef": "Bard"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "RU",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/regions/icon-runeterra.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/regions/icon-runeterra.png",
       "name": "Runeterra",
       "nameRef": "Runeterra"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/regions/icon-shadowisles.png",
       "name": "Îles obscures",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/regions/icon-piltoverzaun.png",
       "name": "Piltover & Zaun",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/regions/icon-bandlecity.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/regions/icon-bandlecity.png",
       "name": "Bandle",
       "nameRef": "BandleCity"
     }
@@ -790,64 +820,69 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/sets/set3_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/sets/set3_crispmip.png",
       "name": "Appel de la montagne",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/sets/set5_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/sets/set5_crispmip.png",
       "name": "Par-delà Bandle",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/sets/set1_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/sets/set1_crispmip.png",
       "name": "Fondations",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/sets/set2_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/sets/set2_crispmip.png",
       "name": "Marée montante",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/sets/set6ab_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/sets/set6ab_crispmip.png",
       "name": "De par Runeterra",
       "nameRef": "Set6"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/sets/set4_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/sets/set4_crispmip.png",
       "name": "Empires des Transfigurés",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/sets/set7_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/sets/set9_crispmip.png",
+      "name": "Rêves de lumière",
+      "nameRef": "Set9"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/sets/set7_crispmip.png",
       "name": "Gloire à Navori",
       "nameRef": "Set7"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/sets/set8_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/sets/set8_crispmip.png",
       "name": "Voyage du destin",
       "nameRef": "Set8"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/sets/set7b_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/sets/set7b_crispmip.png",
       "name": "Cœur de la chasseresse",
       "nameRef": "Set7b"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/sets/setevent_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/sets/setevent_crispmip.png",
       "name": "Événements",
       "nameRef": "SetEvent"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/sets/set6cde_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/sets/set6cde_crispmip.png",
       "name": "Saga des Darkin",
       "nameRef": "Set6cde"
     }
   ],
   "formats": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/formats/queue_select_standard_toggle_active.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/formats/queue_select_standard_toggle_active.png",
       "name": "Classique",
       "nameRef": "client_Formats_Standard_name"
     },
@@ -857,7 +892,7 @@
       "nameRef": "client_Deckbuilder_RulesFilters_Singleton"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/fr_fr/img/formats/queue_select_eternal_toggle_active.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/fr_fr/img/formats/queue_select_eternal_toggle_active.png",
       "name": "Éternel",
       "nameRef": "client_Formats_Eternal_name"
     },

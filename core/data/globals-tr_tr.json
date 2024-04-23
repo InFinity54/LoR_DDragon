@@ -41,7 +41,7 @@
       "nameRef": "Spawn"
     },
     {
-      "description": "En yüksek Güç değeri (Berabere kalındığında önce en yüksek Can, sonra en yüksek Bedel değerine bakılır).",
+      "description": "En yüksek Güç değeri. (Berabere kalındığında önce en yüksek Can, sonra en yüksek Bedel değerine bakılır.)",
       "name": "En Güçlü",
       "nameRef": "Strongest"
     },
@@ -81,6 +81,11 @@
       "nameRef": "Obliterate"
     },
     {
+      "description": "Bir birimin Kökünü Kazıyıp ilavelerini Geri Göndererek birimin birebir kopyasını bir turluğuna bir Yer kartına koyarsın.",
+      "name": "Uyku",
+      "nameRef": "Sleep"
+    },
+    {
       "description": "Bir kart destene karışır ve bedeli 1 azalır.",
       "name": "Savur",
       "nameRef": "Updraft"
@@ -114,6 +119,11 @@
       "description": "Bir birimin Güç ya da Can değeri arttığında veya birim yeni bir tesir kazandığında Güçlendirilmiş olur.",
       "name": "Güçlendirildi",
       "nameRef": "Buffed"
+    },
+    {
+      "description": "Dost birimlerin birikebilir faydalı tesirlerini veya düşmanların birikebilir zararlı tesirlerini arttırırsın.",
+      "name": "Körükleme",
+      "nameRef": "Boost"
     },
     {
       "description": "Bu şampiyon, destenin bölgelerinden biri olarak sayılır. Desteni kurarken belirtilen kartları bölgeden bağımsız olarak destene ekleyebilirsin. Kökenler ayrıca oyun başlangıcında devreye giren etkilere de sahip olabilir.",
@@ -196,7 +206,7 @@
       "nameRef": "Rally"
     },
     {
-      "description": "Bir birimi hasar vererek, öldürme etkisiyle ya da bir dost birimle vurarak öldürdüğünde geçerli olur (Hayali gibi tesirler yüzünden kendi kendine ölen kartlar sayılmaz).",
+      "description": "Bir birimi hasar vererek, öldürme etkisiyle ya da bir dost birimle vurarak öldürdüğünde geçerli olur. (Hayali gibi tesirler yüzünden kendi kendine ölen kartlar sayılmaz.)",
       "name": "Katlet",
       "nameRef": "Slay"
     },
@@ -263,6 +273,11 @@
       "nameRef": "AttackSkillMark"
     },
     {
+      "description": "Bir turda en fazla bir kere etkinleşir. Beni etkinleştirdiğinde mevcut bölümün yeteneğini Yavaş hızda oynarım, ardından sonraki bölüme dönüşürüm.",
+      "name": "Hikâye: Yavaş",
+      "nameRef": "Story:Slow"
+    },
+    {
       "description": "",
       "name": "Shurima",
       "nameRef": "Shurima"
@@ -271,6 +286,11 @@
       "description": "Beni bir dost birime Yapıştırırsın ve ben Yapışık haldeyken niteliklerimi ve tesirlerimi ona verirsin. Dost birim oyundan ayrıldığında beni Geri Gönderirsin.",
       "name": "Yapış",
       "nameRef": "Attach"
+    },
+    {
+      "description": "Bir turda en fazla bir kere etkinleşir. Beni etkinleştirdiğinde mevcut bölümün yeteneğini Odaklama hızında oynarım, ardından sonraki bölüme dönüşürüm.",
+      "name": "Hikâye: Odaklama",
+      "nameRef": "Story:Focus"
     },
     {
       "description": " ",
@@ -373,7 +393,7 @@
       "nameRef": "Recall"
     },
     {
-      "description": "En düşük Güç değeri (Berabere kalındığında önce en düşük Can, sonra en düşük Bedel değerine bakılır).",
+      "description": "En düşük Güç değeri. (Berabere kalındığında önce en düşük Can, sonra en düşük Bedel değerine bakılır.)",
       "name": "En Güçsüz",
       "nameRef": "Weakest"
     },
@@ -533,6 +553,11 @@
       "nameRef": "QuickStrike"
     },
     {
+      "description": "Bu birim +1|+1 alır. Bu tesir birikebilir.",
+      "name": "Cesaret",
+      "nameRef": "Spirit"
+    },
+    {
       "description": "Tüm kaynaklardan 1 az hasar alır.",
       "name": "Dayanıklı",
       "nameRef": "Tough"
@@ -556,6 +581,11 @@
       "description": "Bu birimin verdiği hasar, Nexus'u verilen hasar kadar iyileştirir.",
       "name": "Can Çalma",
       "nameRef": "Lifesteal"
+    },
+    {
+      "description": "Bu birim -1|-1 alır. Bu tesir birikebilir.",
+      "name": "Kasvet",
+      "nameRef": "Gloom"
     },
     {
       "description": "Oluşturulmuş bir kart oynadığında +1|+0 kazanırım.",
@@ -621,133 +651,133 @@
   "regions": [
     {
       "abbreviation": "NX",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/regions/icon-noxus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/regions/icon-noxus.png",
       "name": "Noxus",
       "nameRef": "Noxus"
     },
     {
       "abbreviation": "ELD",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/regions/icon-elderdragon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/regions/icon-elderdragon.png",
       "name": "Kadim Ejderha",
       "nameRef": "ElderDragon"
     },
     {
       "abbreviation": "RYZE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/regions/icon-ryze.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/regions/icon-ryze.png",
       "name": "Ryze",
       "nameRef": "Ryze"
     },
     {
       "abbreviation": "Jhin",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/regions/icon-jhin.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/regions/icon-jhin.png",
       "name": "Jhin",
       "nameRef": "Jhin"
     },
     {
       "abbreviation": "Varus",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/regions/icon-varus.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/regions/icon-varus.png",
       "name": "Varus",
       "nameRef": "Varus"
     },
     {
       "abbreviation": "Aatrox",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/regions/icon-aatrox.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/regions/icon-aatrox.png",
       "name": "Aatrox",
       "nameRef": "Aatrox"
     },
     {
       "abbreviation": "Neeko",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/regions/icon-neeko.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/regions/icon-neeko.png",
       "name": "Neeko",
       "nameRef": "Neeko"
     },
     {
       "abbreviation": "Jax",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/regions/icon-jax.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/regions/icon-jax.png",
       "name": "Jax",
       "nameRef": "Jax"
     },
     {
       "abbreviation": "Kayn",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/regions/icon-kayn.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/regions/icon-kayn.png",
       "name": "Kayn",
       "nameRef": "Kayn"
     },
     {
       "abbreviation": "POROKING",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/regions/icon-poroking.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/regions/icon-poroking.png",
       "name": "Poro Kralı",
       "nameRef": "PoroKing"
     },
     {
       "abbreviation": "Evelynn",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/regions/icon-evelynn.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/regions/icon-evelynn.png",
       "name": "Evelynn",
       "nameRef": "Evelynn"
     },
     {
       "abbreviation": "Bard",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/regions/icon-bard.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/regions/icon-bard.png",
       "name": "Bard",
       "nameRef": "Bard"
     },
     {
       "abbreviation": "DE",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/regions/icon-demacia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/regions/icon-demacia.png",
       "name": "Demacia",
       "nameRef": "Demacia"
     },
     {
       "abbreviation": "RU",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/regions/icon-runeterra.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/regions/icon-runeterra.png",
       "name": "Runeterra",
       "nameRef": "Runeterra"
     },
     {
       "abbreviation": "FR",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/regions/icon-freljord.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/regions/icon-freljord.png",
       "name": "Freljord",
       "nameRef": "Freljord"
     },
     {
       "abbreviation": "SI",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/regions/icon-shadowisles.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/regions/icon-shadowisles.png",
       "name": "Gölge Adalar",
       "nameRef": "ShadowIsles"
     },
     {
       "abbreviation": "MT",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/regions/icon-targon.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/regions/icon-targon.png",
       "name": "Targon",
       "nameRef": "Targon"
     },
     {
       "abbreviation": "IO",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/regions/icon-ionia.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/regions/icon-ionia.png",
       "name": "Ionia",
       "nameRef": "Ionia"
     },
     {
       "abbreviation": "SH",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/regions/icon-shurima.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/regions/icon-shurima.png",
       "name": "Shurima",
       "nameRef": "Shurima"
     },
     {
       "abbreviation": "BW",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/regions/icon-bilgewater.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/regions/icon-bilgewater.png",
       "name": "Bilgewater",
       "nameRef": "Bilgewater"
     },
     {
       "abbreviation": "PZ",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/regions/icon-piltoverzaun.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/regions/icon-piltoverzaun.png",
       "name": "Piltover ve Zaun",
       "nameRef": "PiltoverZaun"
     },
     {
       "abbreviation": "BC",
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/regions/icon-bandlecity.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/regions/icon-bandlecity.png",
       "name": "Bandle Şehri",
       "nameRef": "BandleCity"
     }
@@ -790,64 +820,69 @@
   ],
   "sets": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/sets/set3_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/sets/set3_crispmip.png",
       "name": "Dağın Çağrısı",
       "nameRef": "Set3"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/sets/set5_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/sets/set5_crispmip.png",
       "name": "Bandle Ormanı'nın Ötesi",
       "nameRef": "Set5"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/sets/set1_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/sets/set1_crispmip.png",
       "name": "Temeller",
       "nameRef": "Set1"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/sets/set2_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/sets/set2_crispmip.png",
       "name": "Yükselen Dalgalar",
       "nameRef": "Set2"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/sets/set6ab_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/sets/set6ab_crispmip.png",
       "name": "Mekân Gezgini",
       "nameRef": "Set6"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/sets/set4_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/sets/set4_crispmip.png",
       "name": "Yükselmişlerin İmparatorlukları",
       "nameRef": "Set4"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/sets/set7_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/sets/set9_crispmip.png",
+      "name": "Düşlü Yollar",
+      "nameRef": "Set9"
+    },
+    {
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/sets/set7_crispmip.png",
       "name": "Navori'nin Görkemi",
       "nameRef": "Set7"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/sets/set8_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/sets/set8_crispmip.png",
       "name": "Yazgının Seyri",
       "nameRef": "Set8"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/sets/set7b_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/sets/set7b_crispmip.png",
       "name": "Avcının Yüreği",
       "nameRef": "Set7b"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/sets/setevent_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/sets/setevent_crispmip.png",
       "name": "Etkinlikler",
       "nameRef": "SetEvent"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/sets/set6cde_crispmip.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/sets/set6cde_crispmip.png",
       "name": "Darkin Destanı",
       "nameRef": "Set6cde"
     }
   ],
   "formats": [
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/formats/queue_select_standard_toggle_active.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/formats/queue_select_standard_toggle_active.png",
       "name": "Standart",
       "nameRef": "client_Formats_Standard_name"
     },
@@ -857,7 +892,7 @@
       "nameRef": "client_Deckbuilder_RulesFilters_Singleton"
     },
     {
-      "iconAbsolutePath": "http://dd.b.pvp.net/5_3_0/core/tr_tr/img/formats/queue_select_eternal_toggle_active.png",
+      "iconAbsolutePath": "http://dd.b.pvp.net/5_4_0/core/tr_tr/img/formats/queue_select_eternal_toggle_active.png",
       "name": "Ebedi",
       "nameRef": "client_Formats_Eternal_name"
     },
