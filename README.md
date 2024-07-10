@@ -22,6 +22,7 @@ Please note that it is recommanded to clone the main repository, and not the chi
 * Set 7 : https://github.com/InFinity54/LoR_DDragon_Set7
 * Set 7B : https://github.com/InFinity54/LoR_DDragon_Set7B
 * Set 8 : https://github.com/InFinity54/LoR_DDragon_Set8
+* Set 9 : https://github.com/InFinity54/LoR_DDragon_Set9
 
 Warning : The full repository (this repo + all of the above) are very heavy. This can take a few hours to clone it.
 
