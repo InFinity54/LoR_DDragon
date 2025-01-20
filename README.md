@@ -42,19 +42,4 @@ This list contains patchs from actual major version. For all previous patchs of 
 
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs of current seasons included in this repository :
 
-- (December 5th, 2024) 5.12.0
-- (November 5th, 2024) 5.11.0
-- (October 8th, 2024) 5.10.0
-- (September 10th, 2024) 5.9.0
-- (August 22nd, 2024) 5.8.1*
-- (August 14th, 2024) 5.8.0
-- (July 16th, 2024) 5.7.0
-- (June 18th, 2024) 5.6.0
-- (May 22nd, 2024) 5.5.0
-- (April 23rd, 2024) 5.4.0
-- (March 26th, 2024) 5.3.0
-- (March 4th, 2024) 5.2.0
-- (February 7th, 2024) 5.1.0
-- (January 4th, 2024) 5.0.0
-
-*5.8.1 wasn't release by Riot. This is a custom number used to add Path of Champions splashs and avatars for playable champions into [gamemode repository](https://github.com/InFinity54/LoR_DDragon_Adventure) and this global one.
+- (January 20th, 2024) 6.1.0

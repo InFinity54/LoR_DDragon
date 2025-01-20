@@ -6,6 +6,21 @@ This document list all patchs from previous major versions added to this reposit
 ## List of all patchs added from previous major versions
 The date in front of each patch represents the date when the patch was pushed to this repository, not the date when it was released by Riot Games. Here's a list of all patchs included in this repository so far (current season excluded) :
 
+- (December 5th, 2024) 5.12.0
+- (November 5th, 2024) 5.11.0
+- (October 8th, 2024) 5.10.0
+- (September 10th, 2024) 5.9.0
+- (August 22nd, 2024) 5.8.1*
+- (August 14th, 2024) 5.8.0
+- (July 16th, 2024) 5.7.0
+- (June 18th, 2024) 5.6.0
+- (May 22nd, 2024) 5.5.0
+- (April 23rd, 2024) 5.4.0
+- (March 26th, 2024) 5.3.0
+- (March 4th, 2024) 5.2.0
+- (February 7th, 2024) 5.1.0
+- (January 4th, 2024) 5.0.0
+
 - (December 6th, 2023) 4.12.0
 - (November 9th, 2023) 4.11.0
 - (October 11th, 2023) 4.10.0
@@ -35,7 +50,7 @@ The date in front of each patch represents the date when the patch was pushed to
 - (August 23rd, 2022) 3.9.0
 - (August 22nd, 2022) 3.8.0
 - (August 22nd, 2022) 3.7.0
-- (August 21st, 2022) 3.6.0 [there was no _Data Dragon_ from _Riot Games_ for patch 3.5.0]
+- (August 21st, 2022) 3.6.0
 - (August 21st, 2022) 3.4.0
 - (August 21st, 2022) 3.3.0
 - (August 21st, 2022) 3.2.0
@@ -71,7 +86,7 @@ The date in front of each patch represents the date when the patch was pushed to
 - (August 15th, 2022) 1.13.0
 - (August 14th, 2022) 1.12.0
 - (August 14th, 2022) 1.11.0
-- (August 14th, 2022) 1.10.0 [there wasn't a 10.9 patch for the game]
+- (August 14th, 2022) 1.10.0
 - (August 13th, 2022) 1.8.0
 - (August 13th, 2022) 1.7.0
 - (August 13th, 2022) 1.6.0
@@ -81,3 +96,15 @@ The date in front of each patch represents the date when the patch was pushed to
 - (August 12th, 2022) 1.2.0
 - (August 10th, 2022) 1.1.0
 - (August 6th, 2022) 1.0.0
+
+*5.8.1 wasn't release by Riot. This is a custom number used to add Path of Champions splashs and avatars for playable champions into [gamemode repository](https://github.com/InFinity54/LoR_DDragon_Adventure) and this global one.
+
+### Missing patchs
+Some patchs wasn't added to this repository for various reasons :
+
+- 13.2 : this patch was replaced by a hotfix (13.1B) after Riot's hack, and don't exist at all
+- 13.1B : _Data Dragon_ never released by Riot Games for this patch
+- 3.5.0 : _Data Dragon_ never released by Riot Games for this patch
+- 1.9.0 : this patch wasn't released by Riot Games
+
+Some patchs wasn't released by Riot Games for the oldest versions of League of Legends, for all hotfixes releases for the game. This is the case, for example, for patchs 3.6.1 to 3.6.13. Some others (old) patchs were also handled that way by Riot.
