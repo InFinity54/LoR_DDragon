@@ -2,6 +2,10 @@
 
 Do you want to use DDragon for an another game from _Riot Games_? Check the _Data Dragon_ repository for [_2XKO_](https://github.com/InFinity54/2XKO_DDragon), [_League of Legends_](https://github.com/InFinity54/LoL_DDragon), or [_Valorant_](https://github.com/InFinity54/Valorant_DDragon). _Teamfight Tactics_ data is now included in LoL's _Data Dragon_ repository.
 
+## Missing champions in PoC
+
+If you find that a champion from _Path of Champions_ is missing here, you can create an issue about that in the sub-repository for this gamemode [with a dedicated issue template](https://github.com/InFinity54/LoR_DDragon_Adventure/issues/new?template=poc--missing-champion.md).
+
 ## Cloning the repository
 
 The `git clone` command is a bit different for LoR_DDragon, because of the use of Git's submodules. In order to clone the repository, you will need to add an `--recursive` option in the command.
