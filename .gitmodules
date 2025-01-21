@@ -34,3 +34,6 @@
 [submodule "set9"]
 	path = set9
 	url = https://github.com/InFinity54/LoR_DDragon_Set9.git
+[submodule "tpoc"]
+	path = tpoc
+	url = https://github.com/InFinity54/LoR_DDragon_TPOC.git
